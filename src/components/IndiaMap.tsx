@@ -1,7 +1,7 @@
 import IndiaSVG from "../assets/india.svg?react";
 
 type Props = {
-  onStateClick: (stateId: string) => void;
+  onStateClick: (stateId: string, title: string) => void;
 };
 
 export default function IndiaMap({ onStateClick }: Props) {
@@ -14,9 +14,7 @@ export default function IndiaMap({ onStateClick }: Props) {
       const stateTitle = clickedPath.getAttribute("title") || stateId;
 
       if (stateId.startsWith("IN-")) {
-        onStateClick(stateTitle);
-        console.log("ID:", stateId);
-        console.log("Title:", stateTitle);
+        onStateClick(stateId, stateTitle);
       }
     }
   };
