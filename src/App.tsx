@@ -26,7 +26,7 @@ function App() {
         title={selectedStateTitle || ''}
         onClose={() => {
           setSelectedStateId(null);
-          setSelectedStateTitle(null);
+          setSelectedStateTitle(null)
         }}
       >
         <p className="text-gray-700 text-center">
