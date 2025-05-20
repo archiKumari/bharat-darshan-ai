@@ -1,14 +1,16 @@
 import { useState } from "react";
 import IndiaMap from "./components/IndiaMap";
-import Modal from "./components/Modal";
+import StateModal from "./components/StateModal";
 
 function App() {
   const [selectedStateId, setSelectedStateId] = useState<string | null>(null);
   const [selectedStateTitle, setSelectedStateTitle] = useState<string | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleStateClick = (id: string, title: string) => {
     setSelectedStateId(id);
     setSelectedStateTitle(title);
+    setIsModalOpen(true);
   };
 
   return (
@@ -17,22 +19,11 @@ function App() {
         Bharat Darshan AI
       </h1>
 
-      <div className="w-full max-w-3xl mx-auto h-[80vh] overflow-hidden">
+      <div className="w-full max-w-3xl mx-auto h-[85vh] overflow-hidden">
         <IndiaMap onStateClick={(id, title) => handleStateClick(id, title)} />
       </div>
 
-      <Modal
-        isOpen={!!selectedStateId}
-        title={selectedStateTitle || ''}
-        onClose={() => {
-          setSelectedStateId(null);
-          setSelectedStateTitle(null)
-        }}
-      >
-        <p className="text-gray-700 text-center">
-          You clicked on: <strong>{selectedStateId}</strong>
-        </p>
-      </Modal>
+      <StateModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </div>
   );
 }
