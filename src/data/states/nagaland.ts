@@ -1,0 +1,264 @@
+import type { StateData } from "../types";
+
+export const nagaland: StateData = {
+  id: "IN-NL",
+  name: "Nagaland",
+  capital: "Kohima",
+  categories: {
+    touristPlaces: [
+      {
+        title: "Kohima",
+        description:
+          "The capital city known for the Kohima War Cemetery (WWII memorial), State Museum, and scenic landscapes.",
+      },
+      {
+        title: "Hornbill Festival Grounds (Kisama Heritage Village)",
+        description:
+          "Site of the grand cultural festival showcasing all 17 tribes of Nagaland.",
+      },
+      {
+        title: "Dzukou Valley",
+        description:
+          "A pristine valley known for seasonal flowers, trekking, and its surreal, misty beauty.",
+      },
+      {
+        title: "Mokokchung",
+        description:
+          "Cultural hub of the Ao tribe with traditional villages like Longkhum and Ungma.",
+      },
+      {
+        title: "Mon District",
+        description:
+          "Home to the Konyak tribe, known for their tattooed warrior traditions and wooden longhouses.",
+      },
+      {
+        title: "Pfutsero",
+        description:
+          "The highest and coldest town in Nagaland, famous for cherry blossoms and mountain views.",
+      },
+    ],
+    food: [
+      {
+        title: "Smoked Pork with Bamboo Shoot",
+        description: "A signature dish combining smoked meat and tangy bamboo.",
+      },
+      {
+        title: "Axone (Fermented Soybean)",
+        description:
+          "A pungent and flavorful ingredient used in stews and chutneys.",
+      },
+      {
+        title: "Galho",
+        description:
+          "A simple porridge-like dish made with rice, vegetables, and meat.",
+      },
+      {
+        title: "Dry River Fish Chutney",
+        description: "A spicy paste made from dried fish, chilies, and herbs.",
+      },
+      {
+        title: "Zutho & Thutse",
+        description:
+          "Traditional fermented rice beers consumed during celebrations.",
+      },
+      {
+        title: "Anishi",
+        description: "Dried yam leaves used in pork curry by the Ao tribe.",
+      },
+    ],
+    culture: [
+      {
+        title: "16+ Major Tribes",
+        description:
+          "Including Ao, Angami, Konyak, Lotha, Sumi, and Chakhesang, each with their own language, dress, and customs.",
+      },
+      {
+        title: "Morungs (Bachelor Dormitories)",
+        description:
+          "Traditional tribal community learning centers for young boys.",
+      },
+      {
+        title: "Tattoo Culture",
+        description:
+          "Especially among Konyak warriors, tattoos signify valor and achievements.",
+      },
+      {
+        title: "Log Drums & Longhouses",
+        description:
+          "Found in traditional villages, used for communication and ceremony.",
+      },
+      {
+        title: "Traditional Attire",
+        description:
+          "Colorful shawls, bead necklaces, and feathered headgear vary by tribe and status.",
+      },
+    ],
+    festivals: [
+      {
+        title: "Hornbill Festival",
+        description:
+          "Held in December, this \u201cFestival of Festivals\u201d unites all tribes for dance, crafts, food, and heritage displays.",
+      },
+      {
+        title: "Moatsu Festival (Ao Tribe)",
+        description:
+          "A post-sowing celebration with song, dance, and village sports.",
+      },
+      {
+        title: "Sekrenyi (Angami Tribe)",
+        description: "A purification and renewal festival.",
+      },
+      {
+        title: "Aoleang (Konyak Tribe)",
+        description: "Celebrates the new year and warrior pride.",
+      },
+      {
+        title: "Tuluni (Sumi Tribe)",
+        description:
+          "Mid-year festival for community bonding and rice beer feasts.",
+      },
+    ],
+    nature: [
+      {
+        title: "Dzukou Valley",
+        description:
+          "Known for Dzukou lilies, rolling meadows, and crystal-clear streams.",
+      },
+      {
+        title: "Japfu Peak",
+        description:
+          "Offers views of Nagaland\u2019s landscapes and rhododendron blooms.",
+      },
+      {
+        title: "Ntangki National Park",
+        description:
+          "Dense forest home to hoolock gibbons, hornbills, and leopards.",
+      },
+      {
+        title: "Mount Saramati",
+        description: "Nagaland\u2019s highest peak near the Myanmar border.",
+      },
+      {
+        title: "Fakim Wildlife Sanctuary",
+        description: "A biodiversity-rich forest with rare flora and fauna.",
+      },
+      {
+        title: "Shilloi Lake",
+        description:
+          "A picturesque, foot-shaped lake in Phek district surrounded by folklore.",
+      },
+    ],
+    people: [
+      {
+        title: "A. Z. Phizo",
+        description:
+          "A prominent figure in Naga nationalism and political history.",
+      },
+      {
+        title: "T. Ao",
+        description:
+          "The first captain of the Indian Olympic football team, from Nagaland.",
+      },
+      {
+        title: "Rattle Snake Legend (Ao Tribe)",
+        description:
+          "Folk tale explaining the origin of tattoos and tribal totems.",
+      },
+      {
+        title: "Legend of Shilloi Lake",
+        description:
+          "Believed to be the dwelling of a divine child, locals consider it sacred.",
+      },
+      {
+        title: "Konyak Warrior Tales",
+        description:
+          "Stories of headhunting and bravery passed through oral traditions.",
+      },
+    ],
+    crafts: [
+      {
+        title: "Wood Carving & Bamboo Craft",
+        description: "Masks, totems, tools, and baskets intricately crafted.",
+      },
+      {
+        title: "Bead Jewelry",
+        description:
+          "Tribal beadwork varies by tribe and reflects rank or role.",
+      },
+      {
+        title: "Weaving & Shawls",
+        description:
+          "Each tribe has signature patterns; Angami and Ao shawls are especially prominent.",
+      },
+      {
+        title: "Blacksmithing & Metalwork",
+        description: "Weaponry and tools crafted traditionally in villages.",
+      },
+      {
+        title: "Pottery & Ceramics",
+        description: "Practiced mainly in Peren and other central districts.",
+      },
+    ],
+    trivia: [
+      {
+        title:
+          "India\u2019s Only State with Official Recognition for Tribal Village Governance",
+        description:
+          "Community-based administration is constitutionally respected.",
+      },
+      {
+        title: "Most Linguistically Diverse State",
+        description: "Over 35 languages and dialects spoken.",
+      },
+      {
+        title: "Nagaland Has No Railway Station in Its Capital (Kohima)",
+        description: "The nearest is in Dimapur.",
+      },
+      {
+        title: "Tattooed Head-Hunters of Mon",
+        description:
+          "Konyak men were once feared warriors, now cultural icons.",
+      },
+      {
+        title: "Christian Majority State",
+        description: "Over 85% of the population is Christian, mostly Baptist.",
+      },
+    ],
+  },
+  miniMap: {
+    pins: [
+      {
+        title: "Kohima",
+        description: "Capital, war cemetery, Hornbill venue",
+      },
+      {
+        title: "Kisama",
+        description: "Heritage village for Hornbill Festival",
+      },
+      {
+        title: "Dzukou Valley",
+        description: "Trekking and nature",
+      },
+      {
+        title: "Mon",
+        description: "Konyak traditions and longhouses",
+      },
+      {
+        title: "Mokokchung",
+        description: "Cultural Ao stronghold",
+      },
+      {
+        title: "Pfutsero",
+        description: "Coldest town, cherry blossoms",
+      },
+      {
+        title: "Shilloi Lake",
+        description: "Scenic sacred lake",
+      },
+      {
+        title: "Ntangki National Park",
+        description: "Forest and wildlife",
+      },
+    ],
+  },
+};

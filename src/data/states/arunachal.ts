@@ -1,4 +1,4 @@
-import type { StateData } from '../types';
+import type { StateData } from "../types";
 
 export const arunachal: StateData = {
   id: "IN-AR",
@@ -9,79 +9,229 @@ export const arunachal: StateData = {
       {
         title: "Tawang Monastery",
         description:
-          "One of the largest Buddhist monasteries in India, perched at 10,000 ft with breathtaking views and spiritual serenity."
+          "One of the largest Buddhist monasteries in India, perched at 10,000 ft with breathtaking views and spiritual serenity.",
       },
       {
         title: "Ziro Valley",
         description:
-          "A tranquil, lush valley known for rice fields, pine forests, and the Apatani tribal culture."
+          "A tranquil, lush valley known for rice fields, pine forests, and the Apatani tribal culture.",
       },
       {
         title: "Sela Pass",
         description:
-          "A high-altitude mountain pass with snow-covered peaks and the pristine Sela Lake."
+          "A high-altitude mountain pass with snow-covered peaks and the pristine Sela Lake.",
       },
       {
         title: "Bomdila",
         description:
-          "Offers panoramic Himalayan views, Buddhist monasteries, and apple orchards."
+          "Offers panoramic Himalayan views, Buddhist monasteries, and apple orchards.",
       },
       {
         title: "Namdapha National Park",
         description:
-          "A biodiversity hotspot where four big cats coexist: tiger, leopard, clouded leopard, and snow leopard."
-      }
+          "A biodiversity hotspot and the only park in India where four big cats coexist: tiger, leopard, clouded leopard, and snow leopard.",
+      },
     ],
     food: [
-      { title: "Thukpa", description: "Noodle soup made with vegetables and meat." },
-      { title: "Apong", description: "Traditional rice beer brewed by various tribes." },
-      { title: "Pika Pila", description: "Bamboo shoot and pork fat pickle by Apatani tribe." },
-      { title: "Lukter", description: "Dry meat with spicy chili flakes." },
-      { title: "Momoloco", description: "Steamed dumplings with meat or vegetables." }
+      {
+        title: "Thukpa",
+        description:
+          "A noodle soup made with vegetables and meat, popular in Tibetan-influenced areas.",
+      },
+      {
+        title: "Apong",
+        description:
+          "A traditional rice beer brewed by various tribes, often served during celebrations.",
+      },
+      {
+        title: "Pika Pila",
+        description:
+          "A tangy pickle made from bamboo shoot and pork fat, typically prepared by the Apatani tribe.",
+      },
+      {
+        title: "Lukter",
+        description:
+          "Dry meat served with spicy chili flakes; a fiery favorite.",
+      },
+      {
+        title: "Momoloco (Tribal Dumplings)",
+        description:
+          "Steamed dumplings filled with meat or vegetables, often paired with chili sauce.",
+      },
     ],
     culture: [
-      { title: "Tribal Diversity", description: "26 tribes and 100+ sub-tribes, each with unique customs." },
-      { title: "Handwoven Attire", description: "Bright handloom clothes with feathers and beads." },
-      { title: "Dance & Music", description: "Ponung, Aji Lamu, and War Dances in festivals." },
-      { title: "Tattoo Traditions", description: "Apatani women with facial tattoos and nose plugs." },
-      { title: "Animist Beliefs", description: "Worship of Donyi-Polo (Sun-Moon) alongside Buddhism." }
+      {
+        title: "Tribal Diversity",
+        description:
+          "Home to 26 major tribes and over 100 sub-tribes, each with unique customs, dialects, and clothing.",
+      },
+      {
+        title: "Handwoven Traditional Attire",
+        description:
+          "Bright and intricate handloom clothing, often with beadwork and feathers.",
+      },
+      {
+        title: "Dance & Music",
+        description:
+          "Traditional dances like Ponung, Aji Lamu, and War Dance performed during festivals.",
+      },
+      {
+        title: "Tattoo Traditions",
+        description:
+          "Especially among the older Apatani women, facial tattoos and nose plugs symbolize cultural identity.",
+      },
+      {
+        title: "Animist Beliefs",
+        description:
+          "Many tribes follow Donyi-Polo (Sun-Moon) worship, alongside Buddhism and Christianity.",
+      },
     ],
     festivals: [
-      { title: "Losar", description: "Tibetan New Year with Buddhist rituals and celebrations." },
-      { title: "Solung", description: "Adi tribe's agricultural festival." },
-      { title: "Nyokum", description: "Nyishi tribe’s nature-harmony rituals." },
-      { title: "Ziro Festival of Music", description: "Contemporary indie & tribal fusion festival." },
-      { title: "Reh Festival", description: "Idu Mishmi tribe’s spiritual festival for Nanyi Inyitaya." }
+      {
+        title: "Losar",
+        description:
+          "Tibetan New Year celebrated with traditional songs, dance, and Buddhist rituals.",
+      },
+      {
+        title: "Solung",
+        description:
+          "An agricultural festival of the Adi tribe, invoking deities for prosperity.",
+      },
+      {
+        title: "Nyokum",
+        description:
+          "Celebrated by the Nyishi tribe to seek harmony and blessings from nature spirits.",
+      },
+      {
+        title: "Ziro Festival of Music",
+        description:
+          "A popular contemporary music festival held in Ziro Valley featuring indie and tribal fusion artists.",
+      },
+      {
+        title: "Reh Festival",
+        description:
+          "Celebrated by the Idu Mishmi tribe, dedicated to their deity Nanyi Inyitaya.",
+      },
     ],
     nature: [
-      { title: "Eastern Himalayan Landscapes", description: "Snow peaks, lush valleys, and thick forests." },
-      { title: "Dibang & Lohit Valleys", description: "Stunning rivers with rich biodiversity." },
-      { title: "Pakke Tiger Reserve", description: "Known for hornbills and tiger conservation." },
-      { title: "Mehao Wildlife Sanctuary", description: "Rare orchids, deer, and leopards." },
-      { title: "Eagle’s Nest Sanctuary", description: "Birdwatcher's paradise with 450+ species." }
+      {
+        title: "Eastern Himalayan Landscapes",
+        description: "Snow-capped peaks, lush valleys, and thick forests.",
+      },
+      {
+        title: "Dibang and Lohit Valleys",
+        description:
+          "Stunning riverine ecosystems with incredible biodiversity.",
+      },
+      {
+        title: "Pakke Tiger Reserve",
+        description: "Known for hornbills and tiger conservation.",
+      },
+      {
+        title: "Mehao Wildlife Sanctuary",
+        description: "A dense forest home to rare orchids, deer, and leopards.",
+      },
+      {
+        title: "Eagle\u2019s Nest Wildlife Sanctuary",
+        description:
+          "A birdwatcher\u2019s paradise with over 450 avian species.",
+      },
+    ],
+    people: [
+      {
+        title: "Tapi Mra",
+        description: "First person from Arunachal to scale Mount Everest.",
+      },
+      {
+        title: "Talom Rukbo",
+        description:
+          "A spiritual and cultural leader, known as the father of Donyi-Polo revivalism.",
+      },
+      {
+        title: "Pema Khandu",
+        description:
+          "Current Chief Minister of Arunachal Pradesh, promoting tribal unity and development.",
+      },
+      {
+        title: "Legend of Tani and Donyi-Polo",
+        description:
+          "Foundational myth of many tribes, where Tani people are descendants of the Sun and Moon.",
+      },
     ],
     crafts: [
-      { title: "Cane & Bamboo Products", description: "Handcrafted furniture, baskets, and hats." },
-      { title: "Handloom Weaving", description: "Tribal patterns with natural dyes and beadwork." },
-      { title: "Wood Carving & Masks", description: "Used in rituals to depict spirits or deities." },
-      { title: "Beadwork Jewelry", description: "Festive jewelry symbolizing tribe or status." }
+      {
+        title: "Cane and Bamboo Products",
+        description:
+          "Furniture, baskets, hats, and mats intricately crafted by tribal artisans.",
+      },
+      {
+        title: "Handloom Weaving",
+        description:
+          "Each tribe has distinct weaving styles, often using natural dyes and geometric patterns.",
+      },
+      {
+        title: "Wood Carving and Masks",
+        description:
+          "Used in rituals and festivals; often depict spirits or deities.",
+      },
+      {
+        title: "Beadwork Jewelry",
+        description:
+          "Worn by women during festivals, each pattern symbolic of status or tribe.",
+      },
     ],
     trivia: [
-      { title: "Sunrise State", description: "First Indian state to see the sunrise." },
-      { title: "Orchid Capital", description: "Home to 600+ orchid species." },
-      { title: "Zero to Zenith", description: "Elevation from near sea level to 22,500 ft." },
-      { title: "Name Meaning", description: "Arunachal means 'Land of the Dawn-Lit Mountains'." },
-      { title: "Traditions > Roads", description: "Few roadways, but rich cultural continuity." }
-    ]
+      {
+        title: "Easternmost State",
+        description:
+          "Arunachal is the first state in India to see the sunrise.",
+      },
+      {
+        title: "Name Meaning",
+        description: '"Land of the Dawn-Lit Mountains"',
+      },
+      {
+        title: "Orchid Capital",
+        description: "Home to over 600 species of orchids.",
+      },
+      {
+        title: "Zero to Zenith",
+        description:
+          "Elevation ranges from near sea level to over 22,500 ft within one state.",
+      },
+      {
+        title: "Fewest Roadways, Richest Traditions",
+        description:
+          "Despite limited infrastructure, the state is a cultural powerhouse.",
+      },
+    ],
   },
   miniMap: {
     pins: [
-      { title: "Tawang", description: "Scenic hill town and monastery." },
-      { title: "Ziro Valley", description: "Home of the Apatani tribe." },
-      { title: "Bomdila", description: "Himalayan views and apple orchards." },
-      { title: "Namdapha", description: "Unique wildlife in dense forest." },
-      { title: "Roing", description: "Town at the edge of tribal diversity." },
-      { title: "Itanagar", description: "Capital of Arunachal Pradesh." }
-    ]
-  }
+      {
+        title: "Tawang",
+        description: "Buddhist monastery and scenic Himalayan setting",
+      },
+      {
+        title: "Ziro Valley",
+        description: "Home of Apatani culture and music festivals",
+      },
+      {
+        title: "Itanagar",
+        description: "Capital city with museums and monasteries",
+      },
+      {
+        title: "Bomdila",
+        description: "Himalayan town with views and monasteries",
+      },
+      {
+        title: "Namdapha",
+        description: "Rainforest biodiversity and big cats",
+      },
+      {
+        title: "Roing",
+        description: "Gateway to Lower Dibang Valley and heritage sites",
+      },
+    ],
+  },
 };

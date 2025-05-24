@@ -5,6 +5,7 @@ export type CategoryKey =
   | "festivals"
   | "nature"
   | "crafts"
+  | "people"
   | "trivia"; 
 
 export interface StateInfoItem {
