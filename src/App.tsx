@@ -1,17 +1,17 @@
 import { useState } from "react";
 import IndiaMap from "./components/IndiaMap";
 import StateModal from "./components/StateModal";
+import { statesMap } from "./data/states";
 
 function App() {
   const [selectedStateId, setSelectedStateId] = useState<string | null>(null);
-  const [selectedStateTitle, setSelectedStateTitle] = useState<string | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const handleStateClick = (id: string, title: string) => {
+  
+  const handleStateClick = (id: string) => {
     setSelectedStateId(id);
-    setSelectedStateTitle(title);
     setIsModalOpen(true);
   };
+  const selectedStateData = selectedStateId ? statesMap[selectedStateId] : null;
 
   return (
     <div className="bg-gray-100 p-6 overflow-x-hidden">
@@ -20,10 +20,15 @@ function App() {
       </h1>
 
       <div className="w-full max-w-3xl mx-auto h-[85vh] overflow-hidden">
-        <IndiaMap onStateClick={(id, title) => handleStateClick(id, title)} />
+        <IndiaMap onStateClick={(id) => handleStateClick(id)} />
       </div>
-
-      <StateModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+      {selectedStateData && (
+        <StateModal
+          isOpen={isModalOpen}
+          onClose={() => setIsModalOpen(false)}
+          state={selectedStateData}
+        />
+      )}
     </div>
   );
 }

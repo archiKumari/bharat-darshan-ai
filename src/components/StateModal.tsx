@@ -1,13 +1,15 @@
 import { useEffect } from "react";
-import { arunachal } from "../data/states/arunachal";
+import type { StateData } from "../data/types";
 import placeholder from "../assets/placeholder.png";
+// import { arunachal } from "../data/states/arunachal";
 
 interface StateModalProps {
   isOpen: boolean;
   onClose: () => void;
+  state: StateData;
 }
 
-export default function StateModal({ isOpen, onClose }: StateModalProps) {
+export default function StateModal({ isOpen, onClose, state }: StateModalProps) {
   useEffect(() => {
     if (isOpen) document.body.style.overflow = "hidden";
     return () => {
@@ -17,7 +19,7 @@ export default function StateModal({ isOpen, onClose }: StateModalProps) {
 
   if (!isOpen) return null;
 
-  const state = arunachal;
+  // const state = arunachal;
 
   return (
     <div className="fixed inset-0 bg-white z-50 overflow-y-scroll">
