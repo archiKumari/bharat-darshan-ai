@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import type { StateData } from "../data/types";
 import placeholder from "../assets/placeholder.png";
 import TouristPlacesDisplay from "../components/categoryDisplays/TouristPlacesDisplay";
+import FoodDisplay from "./categoryDisplays/FoodDisplay";
+import type { FoodItem } from "../data/types";
 
 interface StateModalProps {
   isOpen: boolean;
@@ -46,7 +48,7 @@ export default function StateModal({
         </div>
       </section>
 
-      <section className="p-6 space-y-12">
+      <section className=" space-y-12">
         {Object.entries(state.categories).map(([key, items]) => {
           if (key === "touristPlaces") {
             return (
@@ -56,12 +58,20 @@ export default function StateModal({
             );
           }
 
+          if (key === "food") {
+            return (
+              <div key={key}>
+                <FoodDisplay foodItems={items as FoodItem[]} />
+              </div>
+            );
+          }
+
           return (
-            <div key={key} className="space-y-4">
+            <div key={key} /*className="space-y-4"*/>
               <h3 className="text-xl font-bold capitalize text-indigo-800">
                 {key.replace(/([A-Z])/g, " $1")}
               </h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3" /*gap-4"*/>
                 {items.map((item, idx) => (
                   <div
                     key={idx}
