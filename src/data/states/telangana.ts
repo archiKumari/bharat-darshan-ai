@@ -44,33 +44,158 @@ export const telangana: StateData = {
     ],
     food: [
       {
-        title: "Hyderabadi Biryani",
+        title: "Sajja Roti",
         description:
-          "Aromatic rice dish cooked with marinated meat, saffron, and spices, world-famous for its unique dum style.",
+          "Pearl millet flatbread served with spicy chutneys or dal.",
+        subtype: "main",
       },
       {
-        title: "Haleem",
+        title: "Sarva Pindi",
         description:
-          "A slow-cooked wheat and meat porridge, especially popular during Ramadan.",
+          "A spicy pancake made from rice flour, chana dal, sesame, and green chili.",
+        subtype: "main",
       },
       {
-        title: "Sakinalu",
+        title: "Ulavacharu (Horsegram Rasam – Veg Version)",
         description:
-          "A crispy rice flour snack shaped in spirals, made during Sankranti.",
+          "Thick, tangy broth made from horsegram and tamarind, served with rice.",
+        subtype: "main",
       },
       {
-        title: "Kodi Kura & Mutton Dalcha",
-        description: "Traditional spicy meat curries eaten with rice or roti.",
+        title: "Pappu (Palakura or Gongura)",
+        description:
+          "Dal cooked with spinach or sour sorrel leaves, tempered with mustard and garlic.",
+        subtype: "main",
       },
       {
-        title: "Jonna Rotte & Sarva Pindi",
+        title: "Tomato Pappu",
         description:
-          "Millet-based breads and savory pancakes unique to the region.",
+          "A staple thick dal with tomatoes, green chilies, and coriander.",
+        subtype: "main",
       },
       {
-        title: "Qubani ka Meetha & Double ka Meetha",
+        title: "Kandi Kura",
         description:
-          "Royal sweets made from dried apricots and bread pudding respectively.",
+          "Dry toor dal fry with spinach or brinjal, served with rice.",
+        subtype: "main",
+      },
+      {
+        title: "Dosakaya Pappu",
+        description:
+          "Yellow cucumber cooked with toor dal, green chili, and mustard tempering.",
+        subtype: "main",
+      },
+      {
+        title: "Gummadikaya Pulusu",
+        description:
+          "Pumpkin cooked in tamarind-jaggery gravy with chili and curry leaves.",
+        subtype: "main",
+      },
+      {
+        title: "Annam with Ghee & Podi",
+        description: "Hot rice with ghee and dry podi (spiced powders).",
+        subtype: "main",
+      },
+      {
+        title: "Makka Garelu",
+        description:
+          "Cornmeal fritters deep-fried and served with pickles or dal.",
+        subtype: "main",
+      },
+      {
+        title: "Gongura Pachadi",
+        description:
+          "Sour sorrel leaf chutney ground with garlic, chilies, and sesame.",
+        subtype: "condiment",
+      },
+      {
+        title: "Tomato Pachadi",
+        description: "Spicy tomato chutney with a hint of tamarind and garlic.",
+        subtype: "condiment",
+      },
+      {
+        title: "Allam Pachadi",
+        description:
+          "Sweet-sour ginger chutney, often eaten with breakfast dishes.",
+        subtype: "condiment",
+      },
+      {
+        title: "Verusenaga Podi",
+        description: "Roasted peanut powder mixed with garlic and chilies.",
+        subtype: "condiment",
+      },
+      {
+        title: "Nuvvula Karam",
+        description:
+          "Sesame chili powder with garlic, eaten with rice and ghee.",
+        subtype: "condiment",
+      },
+      {
+        title: "Vankaya Vepudu (Dry)",
+        description: "Spiced dry brinjal stir-fry.",
+        subtype: "condiment",
+      },
+      {
+        title: "Mamidikaya Pulihora Mix",
+        description: "Raw mango chutney-style pickle with mustard and hing.",
+        subtype: "condiment",
+      },
+      {
+        title: "Bendakaya Fry",
+        description: "Dry okra sautéed with red chili and coriander.",
+        subtype: "condiment",
+      },
+      {
+        title: "Kakarakaya Chips",
+        description: "Bitter gourd rings deep-fried until crisp.",
+        subtype: "condiment",
+      },
+      {
+        title: "Pappula Podi",
+        description: "Roasted gram flour with dry coconut and spices.",
+        subtype: "condiment",
+      },
+      {
+        title: "Ambali (Ragi-based)",
+        description:
+          "Traditional cooling drink made with finger millet and buttermilk.",
+        subtype: "drink",
+      },
+      {
+        title: "Jeera Charu",
+        description: "Digestive cumin drink served warm.",
+        subtype: "drink",
+      },
+      {
+        title: "Panakam",
+        description: "Sweet drink with jaggery, pepper, and cardamom.",
+        subtype: "drink",
+      },
+      {
+        title: "Pachi Pulusu (Diluted Tamarind Rasam)",
+        description:
+          "Cold tamarind broth with onions, green chili, and coriander.",
+        subtype: "drink",
+      },
+      {
+        title: "Ariselu",
+        description: "Sticky jaggery rice discs with sesame.",
+        subtype: "dessert",
+      },
+      {
+        title: "Sajja Laddu",
+        description: "Pearl millet laddus with jaggery.",
+        subtype: "dessert",
+      },
+      {
+        title: "Paramannam",
+        description: "Jaggery or sugar sweet rice pudding.",
+        subtype: "dessert",
+      },
+      {
+        title: "Rava Kesari",
+        description: "Popular semolina dessert.",
+        subtype: "dessert",
       },
     ],
     culture: [

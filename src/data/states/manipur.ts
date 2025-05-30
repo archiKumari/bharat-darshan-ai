@@ -38,34 +38,154 @@ export const manipur: StateData = {
     ],
     food: [
       {
-        title: "Eromba",
+        title: "Chamthong (Vegetable Stew)",
         description:
-          "A spicy dish made with boiled vegetables and fermented fish (ngari), mashed together with chilies.",
+          "Clear soup of seasonal vegetables with ginger, onions, and herbs.",
+        subtype: "main",
       },
       {
-        title: "Chamthong (Kangshoi)",
+        title: "Kangsoi (Manipuri Stew)",
         description:
-          "A simple and healthy vegetable stew with ginger, garlic, and herbs.",
+          "Light, boiled dish with vegetables and fermented mustard or bamboo shoots.",
+        subtype: "main",
       },
       {
-        title: "Singju",
+        title: "Ooti",
         description:
-          "A tangy, spicy salad made from seasonal vegetables and herbs.",
+          "A thick, comforting preparation of soaked green peas and rice with a hint of soda and ginger.",
+        subtype: "main",
       },
       {
-        title: "Ooti & Chak-hao",
-        description:
-          "A rice dish with green peas or dal, often eaten with black/purple sticky rice pudding.",
+        title: "Aloo Kangmet",
+        description: "Mashed boiled potatoes with mustard oil and green chili.",
+        subtype: "main",
       },
       {
-        title: "Ngari",
+        title: "Yongchak Singju",
         description:
-          "Fermented fish used in many Manipuri dishes, rich in umami.",
+          "A spicy salad made with stink beans, cabbage, and fermented chili.",
+        subtype: "main",
       },
       {
-        title: "Chak-hao Kheer",
+        title: "Chak-hao Amubi (Black Rice Pulao)",
+        description: "Aromatic black rice cooked with spices and coconut.",
+        subtype: "main",
+      },
+      {
+        title: "Tan Ngang",
         description:
-          "A dessert made from black rice, coconut milk, and jaggery.",
+          "Manipuri-style flatbread made with flour and salt, pan-roasted.",
+        subtype: "main",
+      },
+      {
+        title: "Kelli Chana (Spicy Black Chickpeas)",
+        description: "Dry sautéed black chana with chili and local herbs.",
+        subtype: "main",
+      },
+      {
+        title: "Morok Metpa Veg Version",
+        description:
+          "Spicy chili paste served over cooked greens or steamed rice.",
+        subtype: "main",
+      },
+      {
+        title: "Maroi Napaakpi Thongba",
+        description:
+          "Onion garlic curry (vegetarian form) made with local greens and herbs.",
+        subtype: "main",
+      },
+      {
+        title: "Eromba (Vegetarian)",
+        description:
+          "Boiled vegetables mashed with chili and fermented bamboo shoot.",
+        subtype: "condiment",
+      },
+      {
+        title: "Singju (Cabbage Version)",
+        description: "Spiced salad of cabbage, lotus stem, herbs, and chili.",
+        subtype: "condiment",
+      },
+      {
+        title: "Ngari-less Chili Paste (Morok Metpa)",
+        description:
+          "Made with charred chili, salt, and mustard oil (veg version).",
+        subtype: "condiment",
+      },
+      {
+        title: "Yongchak Chutney",
+        description: "Stink bean relish with ginger, chili, and herbs.",
+        subtype: "condiment",
+      },
+      {
+        title: "Boiled Bamboo Shoot Slices",
+        description: "Served with salt, mustard oil, and chili.",
+        subtype: "condiment",
+      },
+      {
+        title: "Soibum Pickle",
+        description: "Mildly spiced fermented bamboo shoots.",
+        subtype: "condiment",
+      },
+      {
+        title: "Khamen Achaaba",
+        description:
+          "Fried seasonal leaves (like pumpkin or chameleon plant) in gram flour.",
+        subtype: "condiment",
+      },
+      {
+        title: "Pancha Phaak",
+        description: "Raw mango and ginger chutney.",
+        subtype: "condiment",
+      },
+      {
+        title: "Fermented Taro Leaves Mash",
+        description: "Ground with mustard oil and green chili.",
+        subtype: "condiment",
+      },
+      {
+        title: "Kobi Kangmet",
+        description: "Spicy mashed cabbage stir-fry.",
+        subtype: "condiment",
+      },
+      {
+        title: "Lemongrass Herbal Water",
+        description: "Local aromatic herb decoction, served hot or cool.",
+        subtype: "drink",
+      },
+      {
+        title: "Chak-Hao Milk",
+        description: "Sweetened black rice and milk drink with cardamom.",
+        subtype: "drink",
+      },
+      {
+        title: "Tulsi-Ginger Brew",
+        description: "Herbal drink for digestion and warmth.",
+        subtype: "drink",
+      },
+      {
+        title: "Tamarind Water with Mint",
+        description: "Sour and cooling drink popular in summer.",
+        subtype: "drink",
+      },
+      {
+        title: "Chakhao Kheer",
+        description: "Black rice pudding.",
+        subtype: "dessert",
+      },
+      {
+        title: "Kangsubi",
+        description: "Puffed rice and jaggery mix.",
+        subtype: "dessert",
+      },
+      {
+        title: "Ghee Chakhao",
+        description: "Black rice with jaggery.",
+        subtype: "dessert",
+      },
+      {
+        title: "Banana Fritters",
+        description: "Fried banana-rice snacks.",
+        subtype: "dessert",
       },
     ],
     culture: [

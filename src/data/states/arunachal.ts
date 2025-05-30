@@ -32,31 +32,162 @@ export const arunachal: StateData = {
           "A biodiversity hotspot and the only park in India where four big cats coexist: tiger, leopard, clouded leopard, and snow leopard.",
       },
     ],
+
     food: [
       {
-        title: "Thukpa",
+        title: "Thukpa (Veg)",
         description:
-          "A noodle soup made with vegetables and meat, popular in Tibetan-influenced areas.",
+          "A hearty noodle soup with seasonal vegetables and light spices.",
+        subtype: "main",
       },
       {
-        title: "Apong",
+        title: "Aalu Pitika (Tribal Style)",
         description:
-          "A traditional rice beer brewed by various tribes, often served during celebrations.",
+          "Mashed boiled potatoes with mustard oil, green chilies, and herbs.",
+        subtype: "main",
       },
       {
-        title: "Pika Pila",
+        title: "Millet Pulao",
         description:
-          "A tangy pickle made from bamboo shoot and pork fat, typically prepared by the Apatani tribe.",
+          "Cooked millets with carrots, beans, and bamboo shoot essence.",
+        subtype: "main",
       },
       {
-        title: "Lukter",
+        title: "Chura Sabzi",
         description:
-          "Dry meat served with spicy chili flakes; a fiery favorite.",
+          "Cooked fermented cheese (vegetarian chhurpi) with spinach or mustard greens.",
+        subtype: "main",
       },
       {
-        title: "Momoloco (Tribal Dumplings)",
+        title: "Roti with Chutney",
         description:
-          "Steamed dumplings filled with meat or vegetables, often paired with chili sauce.",
+          "Hand-flattened wheat rotis served with fire-roasted chutneys.",
+        subtype: "main",
+      },
+      {
+        title: "Tungtap Mixed Curry",
+        description:
+          "Cooked lentils with charred fermented green bamboo shoots.",
+        subtype: "main",
+      },
+      {
+        title: "Bamboo Shoot Curry",
+        description:
+          "Tender bamboo shoots stewed with potatoes and green chilies.",
+        subtype: "main",
+      },
+      {
+        title: "Sikkim-style Phagshapa (Veg)",
+        description:
+          "Reimagined as a dish with radish, turnips, and fermented spinach.",
+        subtype: "main",
+      },
+      {
+        title: "Ema Datshi Inspired Curry",
+        description:
+          "Local cheese stew made with chilies, replaced with paneer and capsicum.",
+        subtype: "main",
+      },
+      {
+        title: "Red Rice with Smoked Veggies",
+        description: "Arunachali red rice paired with smoked roots and greens.",
+        subtype: "main",
+      },
+
+      {
+        title: "Fermented Bamboo Chutney",
+        description: "Tangy and slightly pungent paste made from local bamboo.",
+        subtype: "condiment",
+      },
+      {
+        title: "Green Chili-Tomato Chutney",
+        description: "Fire-roasted and hand-ground with salt and garlic.",
+        subtype: "condiment",
+      },
+      {
+        title: "Akhuni-Inspired Spice Powder",
+        description:
+          "Mild fermented soybean mix without meat, paired with hot rice.",
+        subtype: "condiment",
+      },
+      {
+        title: "Pickled Radish",
+        description:
+          "Sliced radish fermented in mustard, salt, and red chilies.",
+        subtype: "condiment",
+      },
+      {
+        title: "Yak Cheese Crumbles (Chhurpi – Vegetarian)",
+        description: "Eaten as side nibbles or grated on rice.",
+        subtype: "condiment",
+      },
+      {
+        title: "Fermented Lettuce Salad",
+        description: "With lime, mustard oil, and green herbs.",
+        subtype: "condiment",
+      },
+      {
+        title: "Sesame-Salt Paste",
+        description:
+          "Made with ground roasted sesame and chili, eaten with sticky rice.",
+        subtype: "condiment",
+      },
+      {
+        title: "Boiled Pumpkin with Herbs",
+        description: "Mashed and tossed with coriander and ginger.",
+        subtype: "condiment",
+      },
+      {
+        title: "Fried Puffed Rice Snack (Popo)",
+        description: "A crunchy bite, served like dry farsan.",
+        subtype: "condiment",
+      },
+      {
+        title: "Boiled Wild Greens with Lemon",
+        description: "Foraged herbs cooked lightly and squeezed with citrus.",
+        subtype: "condiment",
+      },
+
+      {
+        title: "Apong (Sweet Fermented Rice Drink – Non-Alcoholic version)",
+        description: "Naturally fermented and mildly sweet.",
+        subtype: "drink",
+      },
+      {
+        title: "Tamul Herbal Brew",
+        description: "Betel leaf decoction with ginger and jaggery.",
+        subtype: "drink",
+      },
+      {
+        title: "Chhang (Millet-based non-alcoholic version)",
+        description: "Light porridge drink served lukewarm.",
+        subtype: "drink",
+      },
+      {
+        title: "Citrus Honey Water",
+        description: "Infused with Arunachal oranges and wild honey.",
+        subtype: "drink",
+      },
+
+      {
+        title: "Khapse",
+        description: "Fried flour biscuits made during festivals.",
+        subtype: "dessert",
+      },
+      {
+        title: "Rice Pudding",
+        description: "Sticky rice with jaggery and coconut.",
+        subtype: "dessert",
+      },
+      {
+        title: "Apong Payas",
+        description: "Tribal fermented rice kheer.",
+        subtype: "dessert",
+      },
+      {
+        title: "Tapioca Laddu",
+        description: "Laddus with tapioca pearls and jaggery.",
+        subtype: "dessert",
       },
     ],
     culture: [

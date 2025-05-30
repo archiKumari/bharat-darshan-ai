@@ -39,31 +39,146 @@ export const nagaland: StateData = {
     ],
     food: [
       {
-        title: "Smoked Pork with Bamboo Shoot",
-        description: "A signature dish combining smoked meat and tangy bamboo.",
-      },
-      {
-        title: "Axone (Fermented Soybean)",
+        title: "Axone Veg Stew",
         description:
-          "A pungent and flavorful ingredient used in stews and chutneys.",
+          "Fermented soybean curry made with vegetables like yam, colocasia, and beans.",
+        subtype: "main",
       },
       {
-        title: "Galho",
+        title: "Galho (Veg Version)",
         description:
-          "A simple porridge-like dish made with rice, vegetables, and meat.",
+          "A comforting porridge made from rice, vegetables, and local herbs.",
+        subtype: "main",
       },
       {
-        title: "Dry River Fish Chutney",
-        description: "A spicy paste made from dried fish, chilies, and herbs.",
+        title: "Pumpkin Leaf Curry",
+        description: "Lightly stewed pumpkin leaves with ginger and sesame.",
+        subtype: "main",
       },
       {
-        title: "Zutho & Thutse",
-        description:
-          "Traditional fermented rice beers consumed during celebrations.",
+        title: "Colocasia Curry (Arbi Curry)",
+        description: "Taro roots cooked with mustard and Naga spices.",
+        subtype: "main",
       },
       {
-        title: "Anishi",
-        description: "Dried yam leaves used in pork curry by the Ao tribe.",
+        title: "Sticky Rice (Zutho Style)",
+        description: "Served with plain boiled greens and chutneys.",
+        subtype: "main",
+      },
+      {
+        title: "Boiled Squash Curry",
+        description: "Mildly spiced and slow-cooked with sesame paste.",
+        subtype: "main",
+      },
+      {
+        title: "Yongchak Bharta",
+        description: "Mashed stink beans with roasted chili, tomato, and salt.",
+        subtype: "main",
+      },
+      {
+        title: "Veg Bamboo Shoot Curry",
+        description: "Tangy and aromatic stew made with seasonal vegetables.",
+        subtype: "main",
+      },
+      {
+        title: "Red Naga Rice with Veg Gravy",
+        description: "Nutty flavored rice served with light veg gravies.",
+        subtype: "main",
+      },
+      {
+        title: "Fiddlehead Fern Stir-fry",
+        description: "Tender fern fronds cooked with garlic and salt.",
+        subtype: "main",
+      },
+      {
+        title: "Axone Chutney",
+        description: "Fermented soybeans mashed with chili, garlic, and salt.",
+        subtype: "condiment",
+      },
+      {
+        title: "Roasted Green Chili Dip",
+        description: "Crushed green chilies with raw garlic and lemon.",
+        subtype: "condiment",
+      },
+      {
+        title: "Bamboo Shoot Pickle",
+        description: "Fermented shoots with mustard seeds and chili oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Tomato-Chili Chutney",
+        description: "Ground roasted tomato and green chili mash.",
+        subtype: "condiment",
+      },
+      {
+        title: "Taro Stem Chutney",
+        description: "Lightly blanched and pounded with mustard oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Pumpkin Flower Pakora",
+        description: "Crispy fried blossoms coated in rice flour.",
+        subtype: "condiment",
+      },
+      {
+        title: "Sun-dried Vegetable Chips",
+        description: "Seasonal roots, sliced and fried or roasted.",
+        subtype: "condiment",
+      },
+      {
+        title: "Sesame Salt Mix",
+        description: "Crushed roasted sesame with rock salt and chili.",
+        subtype: "condiment",
+      },
+      {
+        title: "Raw Banana Mash",
+        description: "Boiled and mashed with ginger and salt.",
+        subtype: "condiment",
+      },
+      {
+        title: "Sichuan Pepper Leaf Dip",
+        description: "Crushed leaves with tangy lime and chili.",
+        subtype: "condiment",
+      },
+      {
+        title: "Zutho (Non-alcoholic version)",
+        description: "Rice water lightly fermented and flavored with herbs.",
+        subtype: "drink",
+      },
+      {
+        title: "Naga Herbal Tea",
+        description: "Made from local wild herbs, lemon, and ginger.",
+        subtype: "drink",
+      },
+      {
+        title: "Roselle Juice (Sour Leaf Juice)",
+        description: "Sweetened or salted based on tradition.",
+        subtype: "drink",
+      },
+      {
+        title: "Basil-Tulsi Infused Water",
+        description: "Served warm or cool with jaggery and pepper.",
+        subtype: "drink",
+      },
+      {
+        title: "Sticky Rice with Jaggery",
+        description: "Sweetened local sticky rice with coconut garnish.",
+        subtype: "dessert",
+      },
+      {
+        title: "Pumpkin Pudding",
+        description: "Mashed pumpkin dessert flavored with cardamom.",
+        subtype: "dessert",
+      },
+      {
+        title: "Sweet Tapioca Cake",
+        description: "Steamed tapioca with sugar and coconut.",
+        subtype: "dessert",
+      },
+      {
+        title: "Sticky Millet Balls",
+        description: "Rolled millet sweetened with jaggery.",
+        subtype: "dessert",
       },
     ],
     culture: [

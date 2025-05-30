@@ -43,33 +43,157 @@ export const jammukashmir: StateData = {
     ],
     food: [
       {
-        title: "Rogan Josh",
+        title: "Nadru Yakhni",
         description:
-          "A signature mutton curry with deep red color from Kashmiri chilies.",
+          "Lotus stem cooked in spiced yogurt gravy with fennel and dry mint.",
+        subtype: "main",
       },
       {
-        title: "Dum Aloo & Chaman",
-        description: "Spicy potato curry and paneer in turmeric-infused gravy.",
+        title: "Rajma Gogji",
+        description:
+          "Kidney beans cooked with turnips in a thin Kashmiri-style gravy.",
+        subtype: "main",
       },
       {
-        title: "Gushtaba",
+        title: "Dum Aloo (Kashmiri Style)",
         description:
-          "Mutton meatballs cooked in a rich yogurt-based gravy, served in feasts.",
+          "Baby potatoes cooked in curd-based gravy with fennel and dry ginger.",
+        subtype: "main",
       },
       {
-        title: "Kashmiri Pulao",
+        title: "Haak Saag",
         description:
-          "Aromatic rice dish garnished with dry fruits, saffron, and spices.",
+          "Kashmiri collard greens simmered in mustard oil and green chili.",
+        subtype: "main",
       },
       {
-        title: "Noon Chai (Pink Tea)",
+        title: "Chok Wangun",
         description:
-          "A salty pink tea with baking soda and milk, enjoyed with local bread.",
+          "Tangy tamarind-infused eggplant curry with Kashmiri red chili.",
+        subtype: "main",
       },
       {
-        title: "Kehwa",
+        title: "Ruwangan Chaman",
         description:
-          "Saffron-flavored green tea served with almonds and warmth.",
+          "Paneer cubes in tangy tomato-based gravy with a hint of asafoetida.",
+        subtype: "main",
+      },
+      {
+        title: "Modur Pulao",
+        description:
+          "Sweet saffron rice with dry fruits and a touch of ghee (served as festive main).",
+        subtype: "main",
+      },
+      {
+        title: "Rista Curry (Vegetarian version)",
+        description:
+          "Lentil balls in rich red gravy made with Kashmiri spices.",
+        subtype: "main",
+      },
+      {
+        title: "Kashmiri Baingan",
+        description:
+          "Small brinjals cooked in yogurt and fennel-flavored sauce.",
+        subtype: "main",
+      },
+      {
+        title: "Saag with Makai Roti",
+        description: "Boiled greens served with maize flour flatbread.",
+        subtype: "main",
+      },
+      {
+        title: "Radish Chutney (Mooli Chaman)",
+        description: "Grated radish with curd, mint, and spices.",
+        subtype: "condiment",
+      },
+      {
+        title: "Walnut Chutney (Doon Chetin)",
+        description: "Crushed walnut paste with yogurt and green chili.",
+        subtype: "condiment",
+      },
+      {
+        title: "Tamarind-Lotus Stem Pickle",
+        description: "Sliced nadru in tamarind and mustard oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Chukh",
+        description: "Spicy dry chili-garlic paste with mustard oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Kashmiri Mango Pickle",
+        description: "Mildly spiced and often sweet-sour.",
+        subtype: "condiment",
+      },
+      {
+        title: "Turnip Fries",
+        description:
+          "Pan-fried turnip slices seasoned with turmeric and ajwain.",
+        subtype: "condiment",
+      },
+      {
+        title: "Beetroot Raita",
+        description: "Yogurt mixed with grated beet and cumin.",
+        subtype: "condiment",
+      },
+      {
+        title: "Boiled Rajma Salad",
+        description: "Lightly tossed kidney beans with onion and lemon.",
+        subtype: "condiment",
+      },
+      {
+        title: "Sun-Dried Vegetable Chips",
+        description: "Brinjal, turnip, and bottle gourd slices.",
+        subtype: "condiment",
+      },
+      {
+        title: "Dry Apricot Chutney",
+        description: "Made with soaked apricots, mustard, and green chili.",
+        subtype: "condiment",
+      },
+      {
+        title: "Kahwa",
+        description:
+          "Traditional saffron-almond green tea with cinnamon and cardamom.",
+        subtype: "drink",
+      },
+      {
+        title: "Noon Chai (Salt Tea)",
+        description:
+          "Light pink tea with salt and baking soda (vegetarian, dairy-based).",
+        subtype: "drink",
+      },
+      {
+        title: "Dry Fruit Milk",
+        description:
+          "Warm milk blended with crushed almonds, walnuts, and saffron.",
+        subtype: "drink",
+      },
+      {
+        title: "Mint Buttermilk",
+        description: "Yogurt-based drink with mint, coriander, and rock salt.",
+        subtype: "drink",
+      },
+      {
+        title: "Modur Pulav",
+        description: "Sweet saffron rice with ghee and nuts.",
+        subtype: "dessert",
+      },
+      {
+        title: "Phirni",
+        description: "Rice pudding flavored with saffron and rose.",
+        subtype: "dessert",
+      },
+      {
+        title: "Apple Halwa",
+        description: "Cooked grated apple dessert with ghee.",
+        subtype: "dessert",
+      },
+      {
+        title: "Kesar Milk",
+        description: "Saffron and almond-flavored sweet milk.",
+        subtype: "dessert",
       },
     ],
     culture: [

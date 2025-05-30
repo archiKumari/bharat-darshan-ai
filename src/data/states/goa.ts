@@ -39,34 +39,157 @@ export const goa: StateData = {
     ],
     food: [
       {
-        title: "Prawn Balch\u00e3o",
+        title: "Alsande Tonak",
         description:
-          "A spicy Goan prawn pickle prepared with vinegar and ground spices.",
+          "A rich curry made from Goan black-eyed peas with coconut and spices.",
+        subtype: "main",
       },
       {
-        title: "Pork Vindaloo",
+        title: "Bhaaji (Mixed Vegetable Bhaji)",
         description:
-          "A tangy, spicy curry made with vinegar-marinated pork and garlic.",
+          "Lightly spiced seasonal vegetables often eaten with poee or rice.",
+        subtype: "main",
       },
       {
-        title: "Xacuti",
+        title: "Moong Ussal",
         description:
-          "Rich chicken or lamb curry made with coconut and poppy seeds.",
+          "Sprouted green gram sautéed with coconut, curry leaves, and mustard seeds.",
+        subtype: "main",
       },
       {
-        title: "Goan Fish Curry Rice",
+        title: "Khatkhate",
         description:
-          "Staple meal with tangy coconut-based curry and steamed rice.",
+          "A mixed vegetable stew with coconut, jaggery, tamarind, and spice.",
+        subtype: "main",
       },
       {
-        title: "Bebinca",
+        title: "Sanna",
         description:
-          "A layered dessert made with coconut milk, eggs, and ghee \u2013 often served during Christmas.",
+          "Steamed rice cakes, mildly sweet, often served with gravies.",
+        subtype: "main",
       },
       {
-        title: "Feni",
+        title: "Ukde Xitt",
         description:
-          "A traditional spirit made from either cashew apples or coconut sap.",
+          "Parboiled Goan red rice, soft and nutrient-rich, eaten daily.",
+        subtype: "main",
+      },
+      {
+        title: "Tondak Bhaji",
+        description:
+          "Made with cashew nuts or legumes and spicy coconut masala.",
+        subtype: "main",
+      },
+      {
+        title: "Patoleo",
+        description:
+          "Turmeric leaf-steamed rice rolls filled with coconut and jaggery (served as sweet main).",
+        subtype: "main",
+      },
+      {
+        title: "Batata Bhaji",
+        description:
+          "Stir-fried potatoes with mustard, curry leaves, and green chilies.",
+        subtype: "main",
+      },
+      {
+        title: "Rawa Idli (Goan Style)",
+        description:
+          "Semolina steamed cakes infused with curry leaves and mustard seeds.",
+        subtype: "main",
+      },
+      {
+        title: "Tendli Pickle",
+        description: "Pickled ivy gourd in mustard-oil brine.",
+        subtype: "condiment",
+      },
+      {
+        title: "Sol Kadhi (Thick)",
+        description:
+          "Coconut and kokum mix used as side, thickened as a dipping sauce.",
+        subtype: "condiment",
+      },
+      {
+        title: "Coconut Chutney (Green)",
+        description: "Made with grated coconut, coriander, and lime.",
+        subtype: "condiment",
+      },
+      {
+        title: "Kokum Chutney",
+        description: "Tangy-sweet condiment with chili, garlic, and sugar.",
+        subtype: "condiment",
+      },
+      {
+        title: "Banana Flower Stir-fry",
+        description:
+          "Finely chopped and sautéed with mustard and grated coconut.",
+        subtype: "condiment",
+      },
+      {
+        title: "Rava Fry Veggies",
+        description: "Ladyfinger or brinjal shallow-fried with semolina crust.",
+        subtype: "condiment",
+      },
+      {
+        title: "Masoor Usli",
+        description: "Light dry lentil salad with mustard and coconut.",
+        subtype: "condiment",
+      },
+      {
+        title: "Vegetable Pickle (Raw Papaya)",
+        description: "Sweet-sour pickle often served with sannas.",
+        subtype: "condiment",
+      },
+      {
+        title: "Cashew Bharta",
+        description: "Mashed roasted cashews mixed with mild Goan spices.",
+        subtype: "condiment",
+      },
+      {
+        title: "Ambade Chutney",
+        description:
+          "Wild mango (hog plum) ground with mustard and green chili.",
+        subtype: "condiment",
+      },
+      {
+        title: "Sol Kadhi (Thin, Drinkable)",
+        description: "A cooling kokum and coconut milk digestive.",
+        subtype: "drink",
+      },
+      {
+        title: "Nimbu Pani with Cumin",
+        description: "Lemonade with a Goan twist of roasted jeera.",
+        subtype: "drink",
+      },
+      {
+        title: "Tender Coconut Water with Mint",
+        description: "Naturally sweet and locally abundant.",
+        subtype: "drink",
+      },
+      {
+        title: "Kokum Sherbet",
+        description: "Sweet-tangy summer drink with black salt and sugar.",
+        subtype: "drink",
+      },
+      {
+        title: "Patoleo",
+        description: "Rice and jaggery stuffed in turmeric leaves.",
+        subtype: "dessert",
+      },
+      {
+        title: "Godshe",
+        description: "Kheer-like dessert made from rice or vermicelli.",
+        subtype: "dessert",
+      },
+      {
+        title: "Alle Belle",
+        description: "Coconut-jaggery stuffed sweet crepes.",
+        subtype: "dessert",
+      },
+      {
+        title: "Dodol",
+        description: "Coconut milk and rice flour fudge.",
+        subtype: "dessert",
       },
     ],
     culture: [

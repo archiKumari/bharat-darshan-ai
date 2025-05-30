@@ -44,32 +44,156 @@ export const tripura: StateData = {
     ],
     food: [
       {
-        title: "Mui Borok",
+        title: "Mui Borok (Veg version)",
         description:
-          "Traditional cuisine heavily based on fish and fermented bamboo shoot.",
+          "Lightly spiced vegetables like raw papaya, pumpkin, and beans simmered with fermented bamboo shoot.",
+        subtype: "main",
       },
       {
-        title: "Berma",
+        title: "Gudok (Vegetarian)",
         description:
-          "Fermented dried fish, a staple flavoring ingredient with strong umami taste.",
+          "A medley of boiled vegetables with fermented ingredients and chilies.",
+        subtype: "main",
       },
       {
-        title: "Mosdeng",
-        description: "Roasted chili chutney mixed with dry fish and herbs.",
-      },
-      {
-        title: "Gudok",
+        title: "Bhangui",
         description:
-          "A semi-dry stew made with vegetables and fermented bamboo shoot.",
+          "Fragrant rice cooked with ghee, herbs, and bay leaves, traditionally wrapped in banana leaves.",
+        subtype: "main",
       },
       {
-        title: "Chuak",
+        title: "Kosoi Bwtwi (Veg)",
         description:
-          "A traditional rice beer used during festivals and rituals.",
+          "French beans or green vegetables sautéed with fermented bamboo and mustard oil.",
+        subtype: "main",
       },
       {
-        title: "Wahan Mosdeng",
-        description: "Pork salad with roasted spices and red chili flakes.",
+        title: "Chauk",
+        description:
+          "Simple rice porridge served with side vegetables or lentils.",
+        subtype: "main",
+      },
+      {
+        title: "Muitru",
+        description:
+          "Rice cakes made from sticky rice flour and jaggery (can be served as a mildly sweet main dish).",
+        subtype: "main",
+      },
+      {
+        title: "Mixed Vegetable Stew",
+        description:
+          "Boiled and lightly seasoned seasonal vegetables with ginger and local herbs.",
+        subtype: "main",
+      },
+      {
+        title: "Kharang (Red Rice)",
+        description:
+          "Nutty red rice variety served with boiled or fried veggies.",
+        subtype: "main",
+      },
+      {
+        title: "Raw Banana Curry",
+        description: "Lightly spiced dish with mustard seeds and curry leaves.",
+        subtype: "main",
+      },
+      {
+        title: "Pumpkin Leaf and Flower Stir-fry",
+        description:
+          "Tender leaves and blossoms sautéed with sesame and mustard oil.",
+        subtype: "main",
+      },
+      {
+        title: "Mosdeng Serma (Veg version)",
+        description:
+          "Roasted tomato and chili chutney with coriander and mustard oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Amlakhi Chutney",
+        description: "Gooseberry mash mixed with mustard oil and green chili.",
+        subtype: "condiment",
+      },
+      {
+        title: "Bamboo Shoot Pickle",
+        description:
+          "Fermented bamboo shoots spiced with chili, garlic, and mustard.",
+        subtype: "condiment",
+      },
+      {
+        title: "Raw Papaya Mash",
+        description: "Boiled papaya mashed with salt and mustard oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Fried Lentil Fritters (Borok Pakoda)",
+        description: "Small moong or chana dal fritters.",
+        subtype: "condiment",
+      },
+      {
+        title: "Boiled Yam with Mustard Oil",
+        description: "Cubed yam served warm with salt and chilies.",
+        subtype: "condiment",
+      },
+      {
+        title: "Til Pora Paste",
+        description: "Roasted sesame seeds ground into a nutty side dip.",
+        subtype: "condiment",
+      },
+      {
+        title: "Green Chili Paste with Raw Garlic",
+        description: "Simple and sharp chutney often paired with rice.",
+        subtype: "condiment",
+      },
+      {
+        title: "Dry Radish Chutney",
+        description: "Sun-dried radish crushed with lime, chili, and herbs.",
+        subtype: "condiment",
+      },
+      {
+        title: "Stir-fried Jungle Greens",
+        description:
+          "Foraged mountain greens lightly sautéed with turmeric and ginger.",
+        subtype: "condiment",
+      },
+      {
+        title: "Tamul Herbal Tea",
+        description: "Infused betel leaf decoction with ginger and lemon.",
+        subtype: "drink",
+      },
+      {
+        title: "Amla Juice with Honey",
+        description: "Cooling and rich in vitamin C.",
+        subtype: "drink",
+      },
+      {
+        title: "Fermented Rice Water (Chauk Pani)",
+        description: "Mildly fermented rice starch water with a pinch of salt.",
+        subtype: "drink",
+      },
+      {
+        title: "Lemongrass & Basil Drink",
+        description: "Aromatic blend served hot or chilled.",
+        subtype: "drink",
+      },
+      {
+        title: "Mui Borok (Sweet Variant)",
+        description: "Sticky rice with jaggery and coconut.",
+        subtype: "dessert",
+      },
+      {
+        title: "Gur Chana",
+        description: "Crumbled paneer sweetened with jaggery.",
+        subtype: "dessert",
+      },
+      {
+        title: "Narikel Pitha",
+        description: "Coconut-jaggery stuffed rice dumplings.",
+        subtype: "dessert",
+      },
+      {
+        title: "Sticky Rice with Banana & Honey",
+        description: "Warm, sweet local rice dessert.",
+        subtype: "dessert",
       },
     ],
     culture: [

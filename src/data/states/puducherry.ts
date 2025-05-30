@@ -44,32 +44,146 @@ export const puducherry: StateData = {
     ],
     food: [
       {
-        title: "Kari Dosai",
+        title: "Pongal",
+        description: "Soft rice-lentil dish tempered with ghee and spices.",
+        subtype: "main",
+      },
+      {
+        title: "Vegetable Kurma",
+        description: "Rich coconut-based mixed vegetable curry.",
+        subtype: "main",
+      },
+      {
+        title: "Avial",
         description:
-          "A spicy meat dosa unique to Puducherry\u2019s Tamil population.",
+          "Thick curry made with vegetables and coconut-yogurt base.",
+        subtype: "main",
       },
       {
-        title: "French Baguettes & Pastries",
+        title: "Lemon Rice",
         description:
-          "Influenced by colonial heritage, widely available in cafes.",
+          "Tangy, turmeric-flavored rice with mustard and curry leaves.",
+        subtype: "main",
       },
       {
-        title: "Prawn Curry (Creole Style)",
-        description:
-          "Coconut milk-based curry with a French-Tamil blend of spices.",
+        title: "Sambar",
+        description: "Lentil and tamarind stew with vegetables.",
+        subtype: "main",
       },
       {
-        title: "Tamarind Rice & Lemon Rice",
-        description: "Classic South Indian dishes eaten daily by locals.",
+        title: "Thayir Sadam",
+        description: "Curd rice with mustard and green chilies.",
+        subtype: "main",
       },
       {
-        title: "Meen Kuzhambu",
-        description:
-          "Tangy fish curry cooked in earthen pots with tamarind and spices.",
+        title: "Dosai",
+        description: "Classic fermented rice-lentil crepes.",
+        subtype: "main",
       },
       {
-        title: "Cr\u00eapes & Quiches",
-        description: "Popular in Franco-Tamil households and bakeries.",
+        title: "Vatha Kuzhambu",
+        description: "Spicy tamarind curry with sun-dried berries.",
+        subtype: "main",
+      },
+      {
+        title: "Vegetable Stew",
+        description: "Coconut-milk based French-influenced stew.",
+        subtype: "main",
+      },
+      {
+        title: "Kootu",
+        description: "Lentil-cooked vegetables with mild spices.",
+        subtype: "main",
+      },
+      {
+        title: "Coconut Chutney",
+        description: "Silky white chutney with ginger and green chilies.",
+        subtype: "condiment",
+      },
+      {
+        title: "Ginger Pickle",
+        description: "Tangy and spicy, served in tiny portions.",
+        subtype: "condiment",
+      },
+      {
+        title: "French Tomato Relish",
+        description: "Tomato chutney with mustard, curry leaves, and onions.",
+        subtype: "condiment",
+      },
+      {
+        title: "Carrot Pachadi",
+        description: "Carrot in curd with mustard tempering.",
+        subtype: "condiment",
+      },
+      {
+        title: "Lemon Pickle",
+        description: "Oil-free spicy and tangy lemon preserve.",
+        subtype: "condiment",
+      },
+      {
+        title: "Cabbage Poriyal",
+        description: "Stir-fried shredded cabbage with coconut.",
+        subtype: "condiment",
+      },
+      {
+        title: "Raita",
+        description: "Onion or cucumber in yogurt with curry leaves.",
+        subtype: "condiment",
+      },
+      {
+        title: "Tamarind Rice Mix",
+        description: "Thick tamarind paste mixed with cooked rice.",
+        subtype: "condiment",
+      },
+      {
+        title: "Ash Gourd Fry",
+        description: "Crispy spiced slices of ash gourd.",
+        subtype: "condiment",
+      },
+      {
+        title: "French Beans Thoran",
+        description: "Light stir-fry with coconut and mustard seeds.",
+        subtype: "condiment",
+      },
+      {
+        title: "Spiced Buttermilk",
+        description: "Light and cooling with curry leaves and cumin.",
+        subtype: "drink",
+      },
+      {
+        title: "Rose Milk",
+        description: "Milk flavored with rose syrup and a hint of cardamom.",
+        subtype: "drink",
+      },
+      {
+        title: "Tender Coconut Water",
+        description: "Refreshing natural drink.",
+        subtype: "drink",
+      },
+      {
+        title: "Banana Sharbat",
+        description: "Banana and jaggery drink chilled with milk.",
+        subtype: "drink",
+      },
+      {
+        title: "Rava Kesari",
+        description: "Orange-hued semolina sweet with saffron.",
+        subtype: "dessert",
+      },
+      {
+        title: "Payasam",
+        description: "Vermicelli kheer with coconut milk and jaggery.",
+        subtype: "dessert",
+      },
+      {
+        title: "Coconut Tart",
+        description: "French-style baked tart with sweetened coconut filling.",
+        subtype: "dessert",
+      },
+      {
+        title: "Paal Kozhukattai",
+        description: "Rice flour balls in sweet milk flavored with cardamom.",
+        subtype: "dessert",
       },
     ],
     culture: [

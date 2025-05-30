@@ -44,33 +44,153 @@ export const mizoram: StateData = {
     ],
     food: [
       {
-        title: "Bai",
+        title: "Bai (Vegetarian Version",
         description:
-          "A healthy dish made with boiled vegetables, bamboo shoot, and pork, seasoned with local herbs.",
-      },
-      {
-        title: "Sawhchiar",
-        description:
-          "Rice cooked with meat (pork or chicken), similar to a porridge or pulao.",
-      },
-      {
-        title: "Misa Mach Poora",
-        description:
-          "Grilled prawns with mustard and chili \u2013 a delicacy among Mizos.",
-      },
-      {
-        title: "Arsa Buhchiar",
-        description:
-          "Chicken cooked with sticky rice and herbs, often served during festivals.",
+          "Light vegetable stew made with boiled greens, local herbs, and fermented bamboo shoot.",
+        subtype: "main",
       },
       {
         title: "Chhum Han",
-        description: "Steamed vegetables served as a side dish with rice.",
+        description:
+          "A medley of steamed seasonal vegetables served with local salt and mustard oil.",
+        subtype: "main",
       },
       {
-        title: "Zu (Rice Beer)",
+        title: "Mizo-style Dal",
         description:
-          "Traditionally brewed and consumed during community events and celebrations.",
+          "Yellow lentils tempered with garlic, ginger, and green chilies.",
+        subtype: "main",
+      },
+      {
+        title: "Chawhan",
+        description: "Fragrant rice cooked with mild spices and vegetables.",
+        subtype: "main",
+      },
+      {
+        title: "Koat Pitha (Savory version)",
+        description:
+          "Deep-fried banana and rice flour fritters without sweetness.",
+        subtype: "main",
+      },
+      {
+        title: "Aloo Chutney Curry",
+        description:
+          "Mashed or cubed potatoes with green chili and coriander seasoning.",
+        subtype: "main",
+      },
+      {
+        title: "Sticky Rice (Sticky Red/White)",
+        description: "Served with chutneys and boiled greens.",
+        subtype: "main",
+      },
+      {
+        title: "Boiled Colocasia Root",
+        description: "Served sliced, with salt and a drizzle of mustard oil.",
+        subtype: "main",
+      },
+      {
+        title: "Zawngtah Thiap",
+        description:
+          "Pumpkin leaf and mustard green stir-fry with garlic and sesame.",
+        subtype: "main",
+      },
+      {
+        title: "Maianh Bai",
+        description:
+          "Mellow dish of fermented mustard leaves cooked with rice powder and green chilies.",
+        subtype: "main",
+      },
+      {
+        title: "Hmui Sen (Green Chili Chutney)",
+        description:
+          "Mashed green chilies with garlic, ginger, and local lemon.",
+        subtype: "condiment",
+      },
+      {
+        title: "Bamboo Shoot Pickle",
+        description: "Fermented bamboo shoots in chili-mustard oil blend.",
+        subtype: "condiment",
+      },
+      {
+        title: "Roasted Tomato Chutney",
+        description: "Ground roasted tomatoes with salt and herbs.",
+        subtype: "condiment",
+      },
+      {
+        title: "Boiled Pumpkin Mash",
+        description:
+          "Seasoned with mustard oil, chopped chilies, and coriander.",
+        subtype: "condiment",
+      },
+      {
+        title: "Raw Papaya Salad",
+        description: "Grated and mixed with chili, lime, and sesame.",
+        subtype: "condiment",
+      },
+      {
+        title: "Local Herb Mash",
+        description: "Crushed jungle herbs with green chili and rock salt.",
+        subtype: "condiment",
+      },
+      {
+        title: "Fried Pumpkin Leaves",
+        description: "Served crisp and salty as an appetizer.",
+        subtype: "condiment",
+      },
+      {
+        title: "Soybean Mash (Veg Tungrymbai variant)",
+        description: "Fermented soy paste sautéed with ginger and herbs.",
+        subtype: "condiment",
+      },
+      {
+        title: "Chili Salt Dip",
+        description: "Served with tubers and cucumbers.",
+        subtype: "condiment",
+      },
+      {
+        title: "Black Sesame Paste",
+        description: "Earthy and nutty, eaten with sticky rice.",
+        subtype: "condiment",
+      },
+      {
+        title: "Lemongrass Brew",
+        description: "Simple herbal tea brewed with local lemongrass.",
+        subtype: "drink",
+      },
+      {
+        title: "Pineapple Juice with Rock Salt",
+        description: "Chilled seasonal fruit drink.",
+        subtype: "drink",
+      },
+      {
+        title: "Tamarind-Ginger Drink",
+        description: "Sweet-tangy tonic for digestion.",
+        subtype: "drink",
+      },
+      {
+        title: "Herbal Decoction (Chingthra Juice)",
+        description: "Made with traditional Mizo herbs, served warm.",
+        subtype: "drink",
+      },
+      {
+        title: "Koat Pitha",
+        description: "Banana and jaggery fritters.",
+        subtype: "dessert",
+      },
+      {
+        title: "Chhangban",
+        description: "Sticky rice cake with coconut.",
+        subtype: "dessert",
+      },
+      {
+        title: "Rice Balls",
+        description: "Sweet sticky rice dumplings.",
+        subtype: "dessert",
+      },
+      {
+        title: "Sweet Tungrymbai",
+        description: "Sweetened fermented soybean.",
+        subtype: "dessert",
       },
     ],
     culture: [

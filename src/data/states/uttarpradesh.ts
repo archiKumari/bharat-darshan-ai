@@ -43,31 +43,157 @@ export const uttarpradesh: StateData = {
     ],
     food: [
       {
-        title: "Tunde Kabab & Galouti Kabab",
+        title: "Aloo Tamatar ki Sabzi",
         description:
-          "Melt-in-mouth minced meat delicacies from Lucknow\u2019s royal kitchens.",
+          "Classic potato curry with tomatoes and cumin, often served with poori.",
+        subtype: "main",
       },
       {
-        title: "Aloo Puri & Kachori",
+        title: "Kachori-Sabzi",
         description:
-          "Spiced potato curry with fried breads, a beloved breakfast across the state.",
+          "Crispy lentil-stuffed kachoris paired with spicy potato gravy.",
+        subtype: "main",
       },
       {
-        title: "Bedmi Poori with Dubki Wale Aloo",
-        description: "A Banarasi specialty eaten during festivals.",
-      },
-      {
-        title: "Banarasi Paan",
-        description: "Betel leaf delicacy symbolizing hospitality.",
-      },
-      {
-        title: "Peda & Balushahi",
-        description: "Signature sweets from Mathura and Eastern UP.",
-      },
-      {
-        title: "Nimish",
+        title: "Tehri",
         description:
-          "Delicate winter sweet made of milk froth, saffron, and sugar.",
+          "Fragrant rice cooked with seasonal vegetables and mild spices.",
+        subtype: "main",
+      },
+      {
+        title: "Baingan Bharta",
+        description:
+          "Fire-roasted mashed brinjal with garlic, mustard oil, and green chilies.",
+        subtype: "main",
+      },
+      {
+        title: "Arbi Masala",
+        description:
+          "Taro root sautéed with carom seeds, amchur, and turmeric.",
+        subtype: "main",
+      },
+      {
+        title: "Chana Dal Tadka",
+        description:
+          "Thick Bengal gram dal with garlic and red chili tempering.",
+        subtype: "main",
+      },
+      {
+        title: "Bedmi Poori",
+        description:
+          "Urad dal stuffed deep-fried flatbreads, paired with rasedar aloo.",
+        subtype: "main",
+      },
+      {
+        title: "Kaddu ki Sabzi",
+        description:
+          "Sweet-sour pumpkin dish tempered with fenugreek and mustard seeds.",
+        subtype: "main",
+      },
+      {
+        title: "Mathura ke Dubki Wale Aloo",
+        description: "Thin potato curry with black pepper and asafoetida.",
+        subtype: "main",
+      },
+      {
+        title: "Matar ka Nimona",
+        description:
+          "A rustic green pea curry cooked with potatoes and ginger.",
+        subtype: "main",
+      },
+      {
+        title: "Hari Dhaniya Chutney",
+        description:
+          "Fresh coriander-mint chutney with lemon juice and green chilies.",
+        subtype: "condiment",
+      },
+      {
+        title: "Imli Chutney",
+        description: "Tamarind-jaggery chutney with roasted cumin.",
+        subtype: "condiment",
+      },
+      {
+        title: "Aam Ka Achaar",
+        description: "Spicy raw mango pickle with mustard oil and saunf.",
+        subtype: "condiment",
+      },
+      {
+        title: "Lehsun Chutney",
+        description: "Fiery garlic-chili paste with mustard oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Raita (Boondi or Lauki)",
+        description: "Yogurt-based side dish spiced with black salt and cumin.",
+        subtype: "condiment",
+      },
+      {
+        title: "Onion Salad with Lemon",
+        description:
+          "Sliced raw onions served with lemon, salt, and chili powder.",
+        subtype: "condiment",
+      },
+      {
+        title: "Bhindi Fry",
+        description: "Okra sautéed till crisp with onions and amchur.",
+        subtype: "condiment",
+      },
+      {
+        title: "Moong Dal Pakodi",
+        description: "Lightly spiced dal fritters, crisp and fluffy.",
+        subtype: "condiment",
+      },
+      {
+        title: "Ginger-Chili Pickle",
+        description:
+          "Fresh julienned ginger and chilies preserved in lemon juice.",
+        subtype: "condiment",
+      },
+      {
+        title: "Papad (Roasted or Fried)",
+        description: "A crunchy companion with every meal.",
+        subtype: "condiment",
+      },
+      {
+        title: "Thandai",
+        description:
+          "Milk-based drink with almonds, fennel, rose petals, and saffron.",
+        subtype: "drink",
+      },
+      {
+        title: "Bel Sharbat",
+        description: "Wood apple drink sweetened with jaggery.",
+        subtype: "drink",
+      },
+      {
+        title: "Kacha Aam Panna",
+        description: "Raw mango cooler with black salt and mint.",
+        subtype: "drink",
+      },
+      {
+        title: "Masala Chaas",
+        description: "Spiced buttermilk with roasted cumin and coriander.",
+        subtype: "drink",
+      },
+      {
+        title: "Gujiya",
+        description: "Deep-fried dumplings filled with khoya and dry fruits.",
+        subtype: "dessert",
+      },
+      {
+        title: "Peda",
+        description: "Cardamom-flavored milk sweet from Mathura.",
+        subtype: "dessert",
+      },
+      {
+        title: "Balushahi",
+        description: "Flaky syrup-dipped dessert.",
+        subtype: "dessert",
+      },
+      {
+        title: "Malai Ladoo",
+        description: "Creamy laddus made with condensed milk.",
+        subtype: "dessert",
       },
     ],
     culture: [

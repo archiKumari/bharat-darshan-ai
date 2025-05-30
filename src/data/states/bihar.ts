@@ -41,31 +41,151 @@ export const bihar: StateData = {
       {
         title: "Litti Chokha",
         description:
-          "Signature dish made of wheat dough stuffed with roasted gram flour (sattu), served with mashed potato or eggplant.",
+          "Roasted wheat balls stuffed with spiced sattu, served with mashed potato, brinjal, and tomato mix.",
+        subtype: "main",
+      },
+      {
+        title: "Kadhi Badi",
+        description:
+          "Tangy yogurt-based curry with soft besan dumplings, served with rice.",
+        subtype: "main",
+      },
+      {
+        title: "Aloo Kachaloo Chaat",
+        description:
+          "Boiled potatoes tossed with tamarind, spices, and fresh coriander.",
+        subtype: "main",
+      },
+      {
+        title: "Parwal Aloo Bhujia",
+        description:
+          "Stir-fried pointed gourd and potatoes with cumin and turmeric.",
+        subtype: "main",
+      },
+      {
+        title: "Besan Ki Sabzi",
+        description: "Soft gram flour cakes simmered in tomato-spiced gravy.",
+        subtype: "main",
       },
       {
         title: "Sattu Paratha",
         description:
-          "Flatbread stuffed with roasted gram flour mix, paired with pickle or chutney.",
+          "Flatbread stuffed with roasted gram flour, green chili, and mustard oil.",
+        subtype: "main",
       },
       {
-        title: "Khaja",
+        title: "Aloo Bharta",
+        description: "Mashed potatoes with mustard oil, garlic, and onions.",
+        subtype: "main",
+      },
+      {
+        title: "Jhiri Jhiri Lauki Bhujia",
+        description: "Finely shredded bottle gourd sautéed with green chilies.",
+        subtype: "main",
+      },
+      {
+        title: "Baingan Bharta (Smoked Brinjal Mash)",
+        description: "Roasted eggplant mashed with garlic, onions, and spices.",
+        subtype: "main",
+      },
+      {
+        title: "Chana Ghugni (Dry Bengal Gram Curry)",
+        description: "Spicy and savory, eaten with roti or puffed rice.",
+        subtype: "main",
+      },
+      {
+        title: "Tomato Chutney (Khatta Meetha)",
+        description: "Cooked with jaggery, chilies, and panch phoron spices.",
+        subtype: "condiment",
+      },
+      {
+        title: "Sattu Chutney",
         description:
-          "A layered, crunchy sweet dipped in sugar syrup; famous from Silao.",
+          "Dry mix of roasted gram flour with salt, chili, and lemon.",
+        subtype: "condiment",
+      },
+      {
+        title: "Bajka",
+        description:
+          "Assorted fritters made from brinjal, potato, and bottle gourd slices.",
+        subtype: "condiment",
+      },
+      {
+        title: "Raw Mango Pickle (Ambua)",
+        description: "Spicy and mustard-oil-based pickle with fenugreek.",
+        subtype: "condiment",
+      },
+      {
+        title: "Panch Phoron Tadka Dahi",
+        description: "Curd seasoned with five-spice mix and mustard oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Green Chili & Garlic Chutney",
+        description: "Sharp and pungent condiment with rock salt.",
+        subtype: "condiment",
+      },
+      {
+        title: "Tilkut",
+        description:
+          "Crushed sesame with jaggery shaped into discs or balls (dry sweet).",
+        subtype: "condiment",
+      },
+      {
+        title: "Chana Sattu Balls (Lahsun flavored)",
+        description: "Eaten as raw balls or powdered side.",
+        subtype: "condiment",
+      },
+      {
+        title: "Boiled Seasonal Greens (Saag)",
+        description: "Lightly salted and dressed with mustard oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Papad",
+        description:
+          "Roasted or fried lentil crisps, seasoned with black pepper.",
+        subtype: "condiment",
+      },
+      {
+        title: "Sattu Sharbat (Sweet or Salted)",
+        description: "Cooling summer drink made from roasted gram flour.",
+        subtype: "drink",
+      },
+      {
+        title: "Bel Sharbat",
+        description: "Wood apple drink, cooling and good for digestion.",
+        subtype: "drink",
+      },
+      {
+        title: "Aam Panna",
+        description: "Made from raw mangoes, cumin, and mint.",
+        subtype: "drink",
+      },
+      {
+        title: "Mattha (Spiced Buttermilk)",
+        description: "Made with roasted cumin, ginger, and rock salt.",
+        subtype: "drink",
       },
       {
         title: "Thekua",
-        description:
-          "A deep-fried jaggery and wheat cookie, especially during Chhath Puja.",
+        description: "Deep-fried wheat and jaggery cookies.",
+        subtype: "dessert",
       },
       {
-        title: "Dal Pitha",
-        description: "Rice flour dumplings filled with spiced lentils.",
+        title: "Khaja",
+        description: "Layered sugar-dipped pastry.",
+        subtype: "dessert",
       },
       {
-        title: "Bihari Kebab",
-        description:
-          "Spiced and tender meat skewers, influenced by Mughlai cuisine.",
+        title: "Malpua",
+        description: "Banana or flour pancakes soaked in syrup.",
+        subtype: "dessert",
+      },
+      {
+        title: "Makhane ki Kheer",
+        description: "Milk pudding with puffed lotus seeds.",
+        subtype: "dessert",
       },
     ],
     culture: [

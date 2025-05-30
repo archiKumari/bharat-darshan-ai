@@ -20,10 +20,28 @@ export interface StateMiniMap {
   image?: string;
 }
 
+export type FoodSubtype = "main" | "dessert" | "drink" | "condiment";
+
+export interface FoodItem {
+  title: string;
+  description: string;
+  image?: string;
+  subtype: FoodSubtype;
+}
+
 export interface StateData {
   id: string;
   name: string;
   capital?: string;
-  categories: Record<CategoryKey, StateInfoItem[]>;
   miniMap: StateMiniMap;
+  categories: {
+  touristPlaces: StateInfoItem[];
+  culture: StateInfoItem[];
+  festivals: StateInfoItem[];
+  nature: StateInfoItem[];
+  crafts: StateInfoItem[];
+  people: StateInfoItem[];
+  trivia: StateInfoItem[];
+  food: FoodItem[];
+};
 }

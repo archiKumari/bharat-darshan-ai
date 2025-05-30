@@ -44,33 +44,155 @@ export const himachal: StateData = {
     ],
     food: [
       {
-        title: "Siddu",
-        description:
-          "A steamed wheat bun stuffed with spicy lentil or dry fruit paste, served with ghee.",
-      },
-      {
         title: "Chana Madra",
         description:
-          "A yogurt-based chickpea curry flavored with cinnamon and cardamom.",
+          "A rich yogurt-based curry made with chickpeas, often part of Dham (traditional feast).",
+        subtype: "main",
       },
       {
-        title: "Dham",
+        title: "Sepu Vadi",
         description:
-          "A festive meal served on leaves, including rice, dal, madra, kadi, and chutneys \u2013 often made by Brahmin chefs.",
+          "Sun-dried lentil dumplings cooked in a spinach and yogurt gravy.",
+        subtype: "main",
+      },
+      {
+        title: "Auriya Kadoo",
+        description:
+          "Tangy pumpkin curry flavored with mustard seeds and amchur.",
+        subtype: "main",
+      },
+      {
+        title: "Rajma Chawal",
+        description: "Kidney beans slow-cooked in masala and served over rice.",
+        subtype: "main",
       },
       {
         title: "Babru",
-        description: "A Himachali version of kachori stuffed with black gram.",
+        description:
+          "Himachali version of stuffed kachori, typically filled with black gram paste.",
+        subtype: "main",
       },
       {
-        title: "Tudkiya Bhat",
-        description:
-          "A spiced rice dish cooked with lentils, yogurt, and vegetables.",
+        title: "Tudkiya Bhath",
+        description: "Spiced pulao cooked with lentils, curd, and vegetables.",
+        subtype: "main",
       },
       {
-        title: "Chilra",
+        title: "Bhey (Lotus Stem Curry)",
         description:
-          "Savory pancakes made from buckwheat or wheat flour, served with ghee and chutney.",
+          "Thinly sliced lotus stems cooked with onions, ginger, and spices.",
+        subtype: "main",
+      },
+      {
+        title: "Pahadi Aloo Palda",
+        description:
+          "Potatoes simmered in a thick yogurt gravy with local spices.",
+        subtype: "main",
+      },
+      {
+        title: "Siddu",
+        description:
+          "Steamed wheat buns filled with green peas or lentils, served with ghee.",
+        subtype: "main",
+      },
+      {
+        title: "Chana Dal Pulao",
+        description: "Rice cooked with Bengal gram, bay leaf, and cumin.",
+        subtype: "main",
+      },
+      {
+        title: "Lingri ki Achaar (Fiddlehead Fern Pickle)",
+        description: "Wild fern pickled with mustard oil and red chili.",
+        subtype: "condiment",
+      },
+      {
+        title: "Tomato Chutney",
+        description: "Made with local tomatoes, garlic, and jaggery.",
+        subtype: "condiment",
+      },
+      {
+        title: "Mint Chutney (Pudina)",
+        description:
+          "Pounded mint, green chilies, and curd for a cooling side.",
+        subtype: "condiment",
+      },
+      {
+        title: "Tamarind-Onion Chutney",
+        description: "Spicy-sweet chutney served during Dham feasts.",
+        subtype: "condiment",
+      },
+      {
+        title: "Raita (Cucumber or Boondi)",
+        description:
+          "Spiced yogurt dip with either grated cucumber or crisp boondi.",
+        subtype: "condiment",
+      },
+      {
+        title: "Bhaturu with Butter",
+        description: "Fermented wheat bread eaten with ghee as a side.",
+        subtype: "condiment",
+      },
+      {
+        title: "Bhindi Fry (Himachali style)",
+        description: "Dry okra sautéed with ajwain and onions.",
+        subtype: "condiment",
+      },
+      {
+        title: "Chukh",
+        description:
+          "A fiery Himachali chili-garlic paste preserved in mustard oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Boiled Pahadi Greens (Saag)",
+        description: "Lightly salted and dressed with local ghee.",
+        subtype: "condiment",
+      },
+      {
+        title: "Channe ka Katta",
+        description:
+          "Crushed dry roasted chickpeas served as a crunchy protein-rich side.",
+        subtype: "condiment",
+      },
+      {
+        title: "Chhaas (Spiced Buttermilk)",
+        description: "Cooling drink with roasted cumin and mint.",
+        subtype: "drink",
+      },
+      {
+        title: "Kesar Kahwa",
+        description: "Saffron- and almond-infused herbal tea from the hills.",
+        subtype: "drink",
+      },
+      {
+        title: "Lemon-Honey-Ginger Water",
+        description: "Local herbal remedy for digestion and warmth.",
+        subtype: "drink",
+      },
+      {
+        title: "Ber (Indian Plum) Juice",
+        description: "Sweet-sour drink made from foraged seasonal berries.",
+        subtype: "drink",
+      },
+      {
+        title: "Mittha",
+        description: "Sweetened rice with dry fruits.",
+        subtype: "dessert",
+      },
+      {
+        title: "Meetha Siddu",
+        description: "Steamed dumplings with jaggery stuffing.",
+        subtype: "dessert",
+      },
+      {
+        title: "Babru",
+        description: "Fried flatbreads with sweet filling.",
+        subtype: "dessert",
+      },
+      {
+        title: "Chha Gosht (Sweet Paneer Variant)",
+        description: "Paneer cooked in sweet saffron milk.",
+        subtype: "dessert",
       },
     ],
     culture: [

@@ -44,33 +44,157 @@ export const delhi: StateData = {
     ],
     food: [
       {
+        title: "Rajma Chawal",
+        description:
+          "Red kidney beans simmered in tomato gravy, served with steamed rice.",
+        subtype: "main",
+      },
+      {
         title: "Chole Bhature",
         description:
-          "Spicy chickpeas with fluffy deep-fried bread, a Delhi breakfast staple.",
+          "Spiced chickpeas served with puffed, deep-fried flour bread.",
+        subtype: "main",
       },
       {
-        title: "Paranthas (Chandni Chowk)",
+        title: "Paneer Butter Masala",
         description:
-          "Stuffed flatbreads served with pickles and curd at the famous Paranthe Wali Gali.",
+          "Soft paneer cubes in rich tomato-cashew gravy with cream and butter.",
+        subtype: "main",
       },
       {
-        title: "Butter Chicken",
+        title: "Aloo Matar",
+        description: "Green peas and potatoes in spiced tomato-onion curry.",
+        subtype: "main",
+      },
+      {
+        title: "Kadhi Pakora",
         description:
-          "Creamy and rich chicken curry born in Delhi\u2019s Moti Mahal restaurant.",
+          "Yogurt-based gram flour curry with soft pakoras (fritters).",
+        subtype: "main",
       },
       {
-        title: "Kebabs & Rolls",
+        title: "Gobhi Paratha",
         description:
-          "Mughlai kebabs, seekh rolls, and tikkas from Old Delhi to upscale food streets.",
+          "Cauliflower-stuffed flatbread, served with curd and pickle.",
+        subtype: "main",
       },
       {
-        title: "Street Chaat",
+        title: "Baingan Bharta",
         description:
-          "Golgappas, papdi chaat, aloo tikki, and Dahi Bhalla served with zesty chutneys.",
+          "Roasted brinjal mashed and cooked with garlic, onions, and mustard oil.",
+        subtype: "main",
       },
       {
-        title: "Kulfi Faluda & Daulat ki Chaat",
-        description: "Traditional sweets unique to Delhi\u2019s streets.",
+        title: "Poori-Sabzi",
+        description: "Deep-fried wheat poori with mildly spiced potato curry.",
+        subtype: "main",
+      },
+      {
+        title: "Tandoori Roti",
+        description:
+          "Traditional wheat roti made in tandoor, served with dal or paneer.",
+        subtype: "main",
+      },
+      {
+        title: "Vegetable Biryani (Delhi Style)",
+        description:
+          "Layered rice dish with saffron, vegetables, and fried onions.",
+        subtype: "main",
+      },
+      {
+        title: "Hari Dhaniya Pudina Chutney",
+        description: "Spicy and tangy green chutney with mint and coriander.",
+        subtype: "condiment",
+      },
+      {
+        title: "Imli Chutney",
+        description:
+          "Tamarind-jaggery sauce flavored with dry ginger and cumin.",
+        subtype: "condiment",
+      },
+      {
+        title: "Mooli Ka Achaar",
+        description: "Spicy radish pickle with mustard oil and chili.",
+        subtype: "condiment",
+      },
+      {
+        title: "Onion Rings with Chaat Masala",
+        description: "Classic Delhi-style side served with lemon.",
+        subtype: "condiment",
+      },
+      {
+        title: "Boondi Raita",
+        description: "Cooling curd dish with fried gram flour pearls.",
+        subtype: "condiment",
+      },
+      {
+        title: "Moong Dal Halwa (Savory version)",
+        description: "Dense lentil paste with ghee and salt (in small bites).",
+        subtype: "condiment",
+      },
+      {
+        title: "Paneer Pakora",
+        description:
+          "Cottage cheese dipped in gram flour batter and deep-fried.",
+        subtype: "condiment",
+      },
+      {
+        title: "Papad",
+        description: "Roasted or fried, served with masala sprinkle.",
+        subtype: "condiment",
+      },
+      {
+        title: "Kacha Aam Slaw",
+        description: "Raw mango slices with salt and chili powder.",
+        subtype: "condiment",
+      },
+      {
+        title: "Aloo Chaat",
+        description:
+          "Crispy potato tossed with tangy chaat masala and lime juice.",
+        subtype: "condiment",
+      },
+      {
+        title: "Sweet Lassi",
+        description:
+          "Thick and creamy, topped with saffron and crushed dry fruits.",
+        subtype: "drink",
+      },
+      {
+        title: "Nimbu Pani (Shikanji)",
+        description: "Spiced lemonade with rock salt and roasted cumin.",
+        subtype: "drink",
+      },
+      {
+        title: "Masala Chaas",
+        description: "Spiced buttermilk served chilled with mint.",
+        subtype: "drink",
+      },
+      {
+        title: "Kanji",
+        description:
+          "Fermented black carrot drink with mustard, served cold in winter.",
+        subtype: "drink",
+      },
+      {
+        title: "Gajar ka Halwa",
+        description: "Carrot dessert slow-cooked in milk and ghee.",
+        subtype: "dessert",
+      },
+      {
+        title: "Rabri Falooda",
+        description: "Layered dessert with thick milk and vermicelli.",
+        subtype: "dessert",
+      },
+      {
+        title: "Jalebi",
+        description: "Deep-fried spirals dipped in sugar syrup.",
+        subtype: "dessert",
+      },
+      {
+        title: "Paneer Ladoo",
+        description: "Soft sweets made from paneer and sugar.",
+        subtype: "dessert",
       },
     ],
     culture: [

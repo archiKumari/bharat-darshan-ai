@@ -39,33 +39,158 @@ export const gujarat: StateData = {
     ],
     food: [
       {
-        title: "Dhokla",
-        description:
-          "Soft, steamed gram flour snack garnished with mustard seeds and green chilies.",
-      },
-      {
-        title: "Thepla",
-        description:
-          "Spiced flatbread made with wheat, fenugreek, and spices \u2013 perfect travel food.",
-      },
-      {
         title: "Undhiyu",
         description:
-          "A winter mixed vegetable dish cooked upside-down in earthen pots, seasoned with masala and fenugreek.",
+          "A winter-special medley of seasonal vegetables, fenugreek dumplings, and spices, slow-cooked in clay pots.",
+        subtype: "main",
       },
       {
-        title: "Fafda & Jalebi",
-        description: "A beloved sweet-savory breakfast combo.",
-      },
-      {
-        title: "Khandvi",
+        title: "Dhokla",
         description:
-          "Rolled, seasoned gram flour delicacy with yogurt and coconut.",
+          "Soft, steamed gram flour cakes, seasoned with mustard seeds and curry leaves.",
+        subtype: "main",
       },
       {
         title: "Handvo",
         description:
-          "Baked lentil and rice cake, often garnished with sesame seeds.",
+          "Savory lentil and vegetable cake with a crusty top and soft interior.",
+        subtype: "main",
+      },
+      {
+        title: "Thepla",
+        description:
+          "Fenugreek-spiced flatbreads, served with pickle and yogurt.",
+        subtype: "main",
+      },
+      {
+        title: "Bharela Ringan",
+        description:
+          "Stuffed baby eggplants with a spicy peanut-coconut masala.",
+        subtype: "main",
+      },
+      {
+        title: "Sev Tameta Nu Shaak",
+        description: "Tangy tomato curry topped with crispy sev.",
+        subtype: "main",
+      },
+      {
+        title: "Bajra Rotla",
+        description:
+          "Rustic millet flatbreads, traditionally eaten with jaggery and ghee.",
+        subtype: "main",
+      },
+      {
+        title: "Khichdi",
+        description:
+          "Comforting moong dal and rice preparation, eaten with kadhi.",
+        subtype: "main",
+      },
+      {
+        title: "Lilva Kachori",
+        description:
+          "Stuffed kachoris with pigeon peas and spices, crisp and flaky.",
+        subtype: "main",
+      },
+      {
+        title: "Muthia Nu Shaak",
+        description:
+          "Steamed fenugreek-flour dumplings stir-fried with vegetables and tempered.",
+        subtype: "main",
+      },
+      {
+        title: "Green Chutney",
+        description: "A tangy blend of coriander, mint, and lemon juice.",
+        subtype: "condiment",
+      },
+      {
+        title: "Khatti-Mithi Kadhi",
+        description:
+          "Sweet and sour yogurt-based curry with curry leaves and cumin.",
+        subtype: "condiment",
+      },
+      {
+        title: "Chhundo",
+        description: "Sweet and tangy grated mango preserve.",
+        subtype: "condiment",
+      },
+      {
+        title: "Athana Marcha",
+        description: "Pickled green chilies stuffed with mustard and spices.",
+        subtype: "condiment",
+      },
+      {
+        title: "Papad",
+        description:
+          "Roasted or fried lentil crisps, commonly served alongside meals.",
+        subtype: "condiment",
+      },
+      {
+        title: "Farsan Mix",
+        description: "A crunchy blend of gathiya, sev, and mini bhakarwadi.",
+        subtype: "condiment",
+      },
+      {
+        title: "Kobi Sambharo",
+        description:
+          "Lightly sautéed cabbage with mustard seeds and green chilies.",
+        subtype: "condiment",
+      },
+      {
+        title: "Carrot Pickle",
+        description:
+          "Mildly spiced and oil-free pickle using seasonal carrots.",
+        subtype: "condiment",
+      },
+      {
+        title: "Singdana Chutney",
+        description: "Roasted peanut paste with garlic and lemon.",
+        subtype: "condiment",
+      },
+      {
+        title: "Dry Coconut-Garlic Masala",
+        description: "Crumbled over rice or khichdi for added punch.",
+        subtype: "condiment",
+      },
+      {
+        title: "Chaas",
+        description:
+          "Lightly spiced buttermilk with roasted cumin and coriander.",
+        subtype: "drink",
+      },
+      {
+        title: "Aam Panna",
+        description: "Raw mango cooler seasoned with black salt and mint.",
+        subtype: "drink",
+      },
+      {
+        title: "Nimbu Shikanji",
+        description: "Refreshing lemonade with a dash of cumin and rock salt.",
+        subtype: "drink",
+      },
+      {
+        title: "Tulsi-Ginger Herbal Tea",
+        description: "Warm decoction served before or after meals.",
+        subtype: "drink",
+      },
+      {
+        title: "Basundi",
+        description: "Thickened milk dessert with cardamom.",
+        subtype: "dessert",
+      },
+      {
+        title: "Shrikhand",
+        description: "Flavored strained yogurt with saffron.",
+        subtype: "dessert",
+      },
+      {
+        title: "Mohanthal",
+        description: "Roasted gram flour sweet fudge.",
+        subtype: "dessert",
+      },
+      {
+        title: "Surti Ghari",
+        description: "Mawa-filled sweet covered in ghee.",
+        subtype: "dessert",
       },
     ],
     culture: [

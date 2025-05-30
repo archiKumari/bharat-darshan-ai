@@ -44,33 +44,156 @@ export const kerala: StateData = {
     ],
     food: [
       {
-        title: "Sadya",
+        title: "Avial",
         description:
-          "A traditional vegetarian feast served on banana leaves with 20+ items including rice, sambar, avial, thoran, and payasam.",
+          "A thick mix of seasonal vegetables in coconut-yogurt gravy, flavored with curry leaves and coconut oil.",
+        subtype: "main",
       },
       {
-        title: "Appam with Stew",
+        title: "Olan",
         description:
-          "Soft rice hoppers served with coconut milk-based vegetable or meat stew.",
+          "Ash gourd and black-eyed peas simmered in coconut milk; subtle and aromatic.",
+        subtype: "main",
       },
       {
-        title: "Puttu & Kadala Curry",
+        title: "Kaalan",
         description:
-          "Steamed rice flour cylinders paired with spicy black chickpeas.",
+          "Yam and raw banana cooked in sour curd with ground coconut and spices.",
+        subtype: "main",
       },
       {
-        title: "Kerala Fish Curry",
+        title: "Thoran",
         description:
-          "Tangy, fiery curry with kokum and coconut, served in earthen pots.",
+          "Dry vegetable stir-fry with grated coconut; commonly made with cabbage, beans, or beetroot.",
+        subtype: "main",
       },
       {
-        title: "Idiyappam (String Hoppers)",
-        description: "Paired with egg curry or sweetened coconut milk.",
+        title: "Parippu Curry",
+        description:
+          "Moong dal with coconut and ghee; the first course in a traditional Sadhya.",
+        subtype: "main",
       },
       {
-        title: "Banana Chips & Sharkara Varatti",
+        title: "Kootu Curry",
         description:
-          "Crisp snacks made from raw banana slices, sweet or salty.",
+          "Yam, ash gourd, and black chana cooked in roasted coconut paste.",
+        subtype: "main",
+      },
+      {
+        title: "Mathanga Erissery",
+        description:
+          "Pumpkin curry with coconut, cumin, and green chili, topped with fried coconut.",
+        subtype: "main",
+      },
+      {
+        title: "Pachadi (Pineapple or Beetroot)",
+        description: "Sweet-sour yogurt side dish with fruits or vegetables.",
+        subtype: "main",
+      },
+      {
+        title: "Sambar (Palakkad Style)",
+        description: "Lentil stew with vegetables and roasted coconut masala.",
+        subtype: "main",
+      },
+      {
+        title: "Red Rice (Matta Choru)",
+        description: "Nutty Kerala parboiled rice, a staple of every feast.",
+        subtype: "main",
+      },
+      {
+        title: "Inji Puli",
+        description: "Tangy-sweet ginger and tamarind chutney with jaggery.",
+        subtype: "condiment",
+      },
+      {
+        title: "Naranga Achar (Lemon Pickle)",
+        description: "Spicy and tangy fermented lemon pickle.",
+        subtype: "condiment",
+      },
+      {
+        title: "Manga Curry (Raw Mango Pickle)",
+        description: "Sour mango pieces in red chili-mustard paste.",
+        subtype: "condiment",
+      },
+      {
+        title: "Kaya Varuthathu",
+        description:
+          "Thinly sliced raw banana chips, deep-fried in coconut oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Sharkara Varatti",
+        description: "Jaggery-coated banana chips with dry ginger and cumin.",
+        subtype: "condiment",
+      },
+      {
+        title: "Pappadam",
+        description: "Crispy lentil wafers, usually crushed over rice.",
+        subtype: "condiment",
+      },
+      {
+        title: "Chammandi (Coconut Chutney)",
+        description:
+          "Dry roasted coconut chutney with red chilies and tamarind.",
+        subtype: "condiment",
+      },
+      {
+        title: "Vendakka Kichadi",
+        description:
+          "Fried okra in a yogurt-coconut mix with mustard tempering.",
+        subtype: "condiment",
+      },
+      {
+        title: "Mulaku Kondattam",
+        description:
+          "Sun-dried chilies fried until crisp and served as spice bites.",
+        subtype: "condiment",
+      },
+      {
+        title: "Chena Upperi",
+        description: "Stir-fried elephant yam cubes with turmeric and coconut.",
+        subtype: "condiment",
+      },
+      {
+        title: "Sambharam",
+        description:
+          "Kerala-style buttermilk with green chili, ginger, and curry leaves.",
+        subtype: "drink",
+      },
+      {
+        title: "Nannari Sharbat",
+        description: "Cooling drink made from sarsaparilla root syrup.",
+        subtype: "drink",
+      },
+      {
+        title: "Tender Coconut Water",
+        description: "Fresh from the shell, commonly served with Sadhya.",
+        subtype: "drink",
+      },
+      {
+        title: "Jeera Water (Cumin Water)",
+        description: "Warm or cool cumin-infused digestive water.",
+        subtype: "drink",
+      },
+      {
+        title: "Palada Payasam",
+        description: "Rice flake and milk pudding.",
+        subtype: "dessert",
+      },
+      {
+        title: "Ada Pradhaman",
+        description: "Coconut milk and jaggery payasam.",
+        subtype: "dessert",
+      },
+      {
+        title: "Unniyappam",
+        description: "Sweet banana-rice fritters.",
+        subtype: "dessert",
+      },
+      {
+        title: "Elaneer Payasam",
+        description: "Tender coconut milk dessert.",
+        subtype: "dessert",
       },
     ],
     culture: [

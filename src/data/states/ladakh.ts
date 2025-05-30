@@ -44,32 +44,152 @@ export const ladakh: StateData = {
     ],
     food: [
       {
-        title: "Thukpa",
+        title: "Skyu (Veg version)",
         description:
-          "A hearty noodle soup made with vegetables or meat, perfect for cold climates.",
+          "A traditional pasta stew made with kneaded wheat dough, cooked with vegetables and barley.",
+        subtype: "main",
       },
       {
-        title: "Momos",
+        title: "Chhutagi",
         description:
-          "Steamed dumplings filled with vegetables or meat, served with spicy chutney.",
+          "Bow-tie shaped wheat pasta cooked in a rich broth with carrots, radish, and local greens.",
+        subtype: "main",
       },
       {
-        title: "Skyu",
+        title: "Khambir with Butter",
         description:
-          "A traditional Ladakhi pasta stew made with dough balls, vegetables, and meat.",
+          "Thick local bread made from whole wheat, served with butter or jam.",
+        subtype: "main",
       },
       {
-        title: "Chhurpe",
-        description: "Hardened yak milk cheese, often chewed like candy.",
+        title: "Ngampe (Roasted Barley Flour Porridge)",
+        description: "A staple dish eaten with butter tea or curd.",
+        subtype: "main",
+      },
+      {
+        title: "Tingmo",
+        description: "Soft steamed buns served with vegetable stew or dal.",
+        subtype: "main",
+      },
+      {
+        title: "Ladakhi Vegetable Curry",
+        description:
+          "Seasonal vegetables sautéed with local herbs and minimal spices.",
+        subtype: "main",
+      },
+      {
+        title: "Ladakhi Momos (Veg)",
+        description:
+          "Steamed dumplings filled with cabbage, carrots, and sometimes cheese.",
+        subtype: "main",
+      },
+      {
+        title: "Bucked-Wheat Pancakes",
+        description:
+          "Mildly salty or savory pancakes served with local greens.",
+        subtype: "main",
+      },
+      {
+        title: "Ladakhi Pulao",
+        description:
+          "Short grain rice cooked with carrots, dry fruits, and ghee.",
+        subtype: "main",
+      },
+      {
+        title: "Boiled Potato with Chutney",
+        description: "Light and comforting, a typical monastery offering.",
+        subtype: "main",
+      },
+      {
+        title: "Apricot Chutney",
+        description: "Made with local apricots, cumin, and green chili.",
+        subtype: "condiment",
+      },
+      {
+        title: "Spinach Yogurt Dip",
+        description: "Boiled greens mixed with curd and salt.",
+        subtype: "condiment",
+      },
+      {
+        title: "Wild Mint Paste",
+        description: "Pounded mint with garlic and chili, served fresh.",
+        subtype: "condiment",
+      },
+      {
+        title: "Dry Cheese Bits (Chhurpi)",
+        description: "Sun-dried yak milk cheese, served as chewy bites.",
+        subtype: "condiment",
+      },
+      {
+        title: "Carrot-Radish Salad",
+        description: "Julienned fresh vegetables with lemon and black salt.",
+        subtype: "condiment",
+      },
+      {
+        title: "Boiled Barley with Salt",
+        description: "Served as a chewy side with pickles or stew.",
+        subtype: "condiment",
+      },
+      {
+        title: "Almond-Cashew Crumbs",
+        description: "Toasted and salted, sprinkled over rice.",
+        subtype: "condiment",
+      },
+      {
+        title: "Buckwheat Chips",
+        description: "Lightly spiced and crisped flour slices.",
+        subtype: "condiment",
+      },
+      {
+        title: "Vegetable Pickle",
+        description: "Seasonal pickled greens in salt-brine or mustard.",
+        subtype: "condiment",
+      },
+      {
+        title: "Beetroot Bhurta",
+        description: "Mashed cooked beetroot with chili and mustard oil.",
+        subtype: "condiment",
       },
       {
         title: "Butter Tea (Gur Gur Chai)",
         description:
-          "A salty tea made with yak butter, essential in high altitudes.",
+          "Traditional tea with yak butter and salt (vegetarian version with cow butter if needed).",
+        subtype: "drink",
       },
       {
-        title: "Khambir",
-        description: "A thick, crusty bread eaten with butter tea or stew.",
+        title: "Apricot Juice",
+        description: "Sweet and tangy drink made from fresh or dried apricots.",
+        subtype: "drink",
+      },
+      {
+        title: "Herbal Tisane",
+        description: "Local mountain herbs brewed into a calming infusion.",
+        subtype: "drink",
+      },
+      {
+        title: "Barley Milk (Warm)",
+        description: "Ground barley simmered with milk and cardamom.",
+        subtype: "drink",
+      },
+      {
+        title: "Skyu with Jaggery",
+        description: "Dough ball stew sweetened with jaggery and nuts.",
+        subtype: "dessert",
+      },
+      {
+        title: "Apricot Jam with Khambir",
+        description: "Local apricot preserve with Ladakhi bread.",
+        subtype: "dessert",
+      },
+      {
+        title: "Paba Laddu",
+        description: "Roasted barley laddus with ghee and jaggery.",
+        subtype: "dessert",
+      },
+      {
+        title: "Butter Tea Laddu",
+        description: "Tsampa and butter rolled into energy balls.",
+        subtype: "dessert",
       },
     ],
     culture: [

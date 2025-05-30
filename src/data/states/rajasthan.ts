@@ -45,29 +45,147 @@ export const rajasthan: StateData = {
       {
         title: "Dal Baati Churma",
         description:
-          "A signature dish with baked wheat dumplings, spicy lentils, and sweetened crushed wheat.",
+          "Hard baked wheat rolls served with spicy dal and sweet wheat-jaggery churma.",
+        subtype: "main",
       },
       {
         title: "Gatte ki Sabzi",
-        description: "Besan (gram flour) dumplings in tangy yogurt curry.",
+        description: "Besan dumplings simmered in tangy yogurt curry.",
+        subtype: "main",
       },
       {
         title: "Ker Sangri",
         description:
-          "A desert vegetable stir-fry made from wild berries and beans.",
+          "Dried desert beans and berries sautéed with spices and curd.",
+        subtype: "main",
       },
       {
-        title: "Laal Maas",
-        description: "Fiery red mutton curry from the royal kitchens.",
-      },
-      {
-        title: "Bajre ki Roti & Lehsun Chutney",
-        description: "Millet flatbread with garlic paste, a rural staple.",
-      },
-      {
-        title: "Mawa Kachori & Ghewar",
+        title: "Papad Mangodi ki Sabzi",
         description:
-          "Festive sweets soaked in syrup and topped with dry fruits.",
+          "Sun-dried lentil nuggets and papad in tomato-yogurt gravy.",
+        subtype: "main",
+      },
+      {
+        title: "Sev Tamatar Sabzi",
+        description: "Tomato curry topped with crisp gram flour sev.",
+        subtype: "main",
+      },
+      {
+        title: "Aloo Pyaaz Sabzi",
+        description: "Dry potato-onion curry spiced with amchur and red chili.",
+        subtype: "main",
+      },
+      {
+        title: "Bajre ki Roti",
+        description:
+          "Rustic millet flatbread served with ghee and garlic chutney.",
+        subtype: "main",
+      },
+      {
+        title: "Missi Roti",
+        description: "Spiced wheat and besan flatbread with ajwain.",
+        subtype: "main",
+      },
+      {
+        title: "Methi Thepla",
+        description:
+          "Flatbread made from fenugreek leaves, ideal for travel or side dish.",
+        subtype: "main",
+      },
+      {
+        title: "Khichdi (Moong Dal or Bajra)",
+        description: "Mild and wholesome, often eaten with kadhi or curd.",
+        subtype: "main",
+      },
+      {
+        title: "Lasan ki Chutney",
+        description: "Fiery red garlic chutney with mustard oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Kachri Chutney",
+        description: "Tangy chutney made from wild melon native to Rajasthan.",
+        subtype: "condiment",
+      },
+      {
+        title: "Aam ka Achaar",
+        description: "Spicy mango pickle with fenugreek and mustard.",
+        subtype: "condiment",
+      },
+      {
+        title: "Ker Sangri Dry Mix",
+        description: "A dry, spiced version eaten as side or snack.",
+        subtype: "condiment",
+      },
+      {
+        title: "Masala Mirch",
+        description: "Stuffed green chilies roasted or fried.",
+        subtype: "condiment",
+      },
+      {
+        title: "Ghevar Chutney (Sweet version)",
+        description: "Served in some Marwari homes as a jaggery-coconut mix.",
+        subtype: "condiment",
+      },
+      {
+        title: "Boondi Raita",
+        description: "Yogurt mixed with spiced boondi and roasted cumin.",
+        subtype: "condiment",
+      },
+      {
+        title: "Onion Rings with Lemon",
+        description: "Served raw with salt and chili powder.",
+        subtype: "condiment",
+      },
+      {
+        title: "Sun-dried Badi Fry",
+        description: "Crisp urad dal nuggets, fried and served as a topping.",
+        subtype: "condiment",
+      },
+      {
+        title: "Papad (Bikaneri Style)",
+        description: "Thin, crisp, spicy lentil wafers.",
+        subtype: "condiment",
+      },
+      {
+        title: "Chhach (Spiced Buttermilk)",
+        description: "Cooled curd drink with cumin and asafoetida.",
+        subtype: "drink",
+      },
+      {
+        title: "Kairi Panna",
+        description: "Raw mango cooler with black salt and mint.",
+        subtype: "drink",
+      },
+      {
+        title: "Gud-Lemon Sharbat",
+        description: "Sweet and sour jaggery-lemon drink.",
+        subtype: "drink",
+      },
+      {
+        title: "Thandai (Non-festival version)",
+        description: "Milk blended with fennel, cardamom, and poppy seeds.",
+        subtype: "drink",
+      },
+      {
+        title: "Ghevar",
+        description: "Disc-shaped sweet soaked in syrup and topped with rabri.",
+        subtype: "dessert",
+      },
+      {
+        title: "Moong Dal Halwa",
+        description: "Ghee-laden lentil dessert.",
+        subtype: "dessert",
+      },
+      {
+        title: "Churma Ladoo",
+        description: "Wheat and jaggery laddus with ghee.",
+        subtype: "dessert",
+      },
+      {
+        title: "Mawa Kachori",
+        description: "Stuffed and syrup-dipped sweet kachoris.",
+        subtype: "dessert",
       },
     ],
     culture: [

@@ -44,34 +44,160 @@ export const tamilnadu: StateData = {
     ],
     food: [
       {
-        title: "Idli, Dosa, Vada",
+        title: "Sambar",
         description:
-          "Classic South Indian breakfast items served with sambar and coconut chutneys.",
+          "A lentil-based vegetable stew made with tamarind and freshly ground spices.",
+        subtype: "main",
       },
       {
-        title: "Sambar & Rasam",
+        title: "Rasam",
         description:
-          "Staple tamarind-based lentil soups rich in spices and herbs.",
+          "Thin, spicy-sour soup made with tamarind, tomato, and pepper – served over rice or as a starter.",
+        subtype: "main",
       },
       {
-        title: "Chettinad Cuisine",
+        title: "Kootu",
         description:
-          "Known for fiery and aromatic non-vegetarian curries like Chettinad chicken and pepper mutton.",
+          "Thick stew made of vegetables and lentils, flavored with coconut and cumin.",
+        subtype: "main",
       },
       {
-        title: "Pongal",
+        title: "Aviyal",
         description:
-          "A savory rice and lentil dish flavored with black pepper and ghee.",
+          "Mixed vegetables in a coconut-yogurt gravy, lightly seasoned with curry leaves and coconut oil.",
+        subtype: "main",
       },
       {
-        title: "Kootu, Poriyal & Avial",
+        title: "Poriyal (Beans or Cabbage)",
         description:
-          "Vegetable preparations often served with rice in traditional meals.",
+          "Stir-fried vegetables with mustard, chilies, and grated coconut.",
+        subtype: "main",
       },
       {
-        title: "Filter Coffee",
+        title: "Vathal Kuzhambu",
         description:
-          "Strong decoction served with frothy milk in brass tumblers.",
+          "Tamarind curry cooked with dried sundakkai (turkey berries) or vathal.",
+        subtype: "main",
+      },
+      {
+        title: "Pongal (Ven Pongal)",
+        description:
+          "A savory rice-lentil dish tempered with pepper, cumin, and ghee.",
+        subtype: "main",
+      },
+      {
+        title: "Thayir Sadam (Curd Rice)",
+        description:
+          "Cooling rice mixed with yogurt, ginger, and mustard tempering.",
+        subtype: "main",
+      },
+      {
+        title: "Arisi Upma",
+        description:
+          "Coarsely ground rice cooked with tempering, often served as a light meal.",
+        subtype: "main",
+      },
+      {
+        title: "Adai",
+        description:
+          "Protein-rich dosa made from mixed lentils and rice, served with chutneys.",
+        subtype: "main",
+      },
+      {
+        title: "Coconut Chutney",
+        description:
+          "Classic white chutney made from grated coconut and green chilies.",
+        subtype: "condiment",
+      },
+      {
+        title: "Tomato Thokku",
+        description:
+          "Spicy, tangy cooked tomato relish with mustard and asafoetida.",
+        subtype: "condiment",
+      },
+      {
+        title: "Puli Inji",
+        description: "Sweet-sour ginger and tamarind chutney with jaggery.",
+        subtype: "condiment",
+      },
+      {
+        title: "Lemon Pickle",
+        description:
+          "Sour and spicy fermented lemon preserved in gingelly oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Ellu Podi",
+        description:
+          "Dry chutney powder made with sesame seeds and spices, eaten with ghee and rice.",
+        subtype: "condiment",
+      },
+      {
+        title: "Paruppu Podi",
+        description: "Spiced dal powder served with ghee and hot rice.",
+        subtype: "condiment",
+      },
+      {
+        title: "Karuvadu Kuzhambu Paste (Veg Version)",
+        description: "Tangy tamarind chutney with shallots and garlic.",
+        subtype: "condiment",
+      },
+      {
+        title: "Fried Appalam (Papad)",
+        description: "Crunchy lentil crackers roasted or fried.",
+        subtype: "condiment",
+      },
+      {
+        title: "Kara Kuzhambu Paste (Thickened)",
+        description: "Spicy tamarind sauce used as side or mix-in.",
+        subtype: "condiment",
+      },
+      {
+        title: "Mango Thokku",
+        description:
+          "Shredded raw mango pickle cooked in oil and red chili powder.",
+        subtype: "condiment",
+      },
+      {
+        title: "Neer Mor (Spiced Buttermilk)",
+        description: "Thin buttermilk with ginger, chilies, and curry leaves.",
+        subtype: "drink",
+      },
+      {
+        title: "Panakam",
+        description: "Jaggery-based sweet drink with dry ginger and cardamom.",
+        subtype: "drink",
+      },
+      {
+        title: "Nannari Sherbet",
+        description:
+          "Cooling syrup made from sarsaparilla root, served chilled.",
+        subtype: "drink",
+      },
+      {
+        title: "Elaneer (Tender Coconut Water)",
+        description: "Direct from the shell, widely consumed in Tamil Nadu.",
+        subtype: "drink",
+      },
+      {
+        title: "Paal Payasam",
+        description: "Traditional milk and rice pudding.",
+        subtype: "dessert",
+      },
+      {
+        title: "Sakkarai Pongal",
+        description: "Jaggery-sweetened rice and dal.",
+        subtype: "dessert",
+      },
+      {
+        title: "Rava Kesari",
+        description: "Semolina halwa with saffron and cashews.",
+        subtype: "dessert",
+      },
+      {
+        title: "Kalkandu Sadam",
+        description: "Sweet rice with rock sugar and ghee.",
+        subtype: "dessert",
       },
     ],
     culture: [

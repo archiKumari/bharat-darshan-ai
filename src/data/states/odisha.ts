@@ -41,32 +41,150 @@ export const odisha: StateData = {
       {
         title: "Dalma",
         description:
-          "A healthy and flavorful mix of lentils and vegetables cooked with minimal spices.",
-      },
-      {
-        title: "Pakhala Bhata",
-        description:
-          "Fermented rice soaked in water and curd, often served with fried vegetables or fish.",
-      },
-      {
-        title: "Chhena Poda",
-        description:
-          "A baked cheese dessert made with chhena, sugar, and cardamom.",
+          "A nourishing mix of toor dal and vegetables like raw banana, pumpkin, and papaya, tempered with panch phoran.",
+        subtype: "main",
       },
       {
         title: "Santula",
         description:
-          "A boiled vegetable curry that is light and easy to digest.",
+          "Lightly boiled vegetables sautéed with mustard seeds, cumin, and minimal spices.",
+        subtype: "main",
+      },
+      {
+        title: "Besara",
+        description:
+          "Vegetables cooked in a mustard-poppy seed paste, signature Odia flavor.",
+        subtype: "main",
+      },
+      {
+        title: "Khichdi (Pakhala Version)",
+        description:
+          "Lightly soured rice with curd, salt, and sometimes tempered with curry leaves.",
+        subtype: "main",
+      },
+      {
+        title: "Chhatu Rai",
+        description: "Mushroom curry with mustard paste and raw banana.",
+        subtype: "main",
+      },
+      {
+        title: "Chakuli Pitha",
+        description: "Soft rice-lentil pancakes served with dal or chutney.",
+        subtype: "main",
       },
       {
         title: "Kanika",
         description:
-          "A sweetened rice dish with ghee, nuts, and spices, often served as temple prasad.",
+          "Sweet ghee-fried rice with cloves, cinnamon, and raisins, often offered in temples.",
+        subtype: "main",
       },
       {
-        title: "Rasabali & Khaja",
+        title: "Saga Bhaja (Saag Stir-fry)",
+        description: "Leafy greens stir-fried with garlic and mustard oil.",
+        subtype: "main",
+      },
+      {
+        title: "Kadamba Tarkari",
         description:
-          "Sweets offered at Jagannath Temple, known for their divine taste.",
+          "Mixed vegetable curry with chickpeas, served during festivals.",
+        subtype: "main",
+      },
+      {
+        title: "Aloo Potala Rasa",
+        description: "Pointed gourd and potato in a rich tomato-cashew gravy.",
+        subtype: "main",
+      },
+      {
+        title: "Dahi Baigana",
+        description: "Fried brinjal in a tempered yogurt gravy.",
+        subtype: "condiment",
+      },
+      {
+        title: "Amba Khatta",
+        description: "Sweet-sour mango chutney with jaggery and mustard seeds.",
+        subtype: "condiment",
+      },
+      {
+        title: "Pithau Bhaja",
+        description: "Pan-fried vegetables coated in a spicy rice flour paste.",
+        subtype: "condiment",
+      },
+      {
+        title: "Badi Chura",
+        description:
+          "Sun-dried lentil nuggets crushed with mustard oil, garlic, and green chili.",
+        subtype: "condiment",
+      },
+      {
+        title: "Tomato Khatta",
+        description: "Tangy tomato chutney with a hint of jaggery and spices.",
+        subtype: "condiment",
+      },
+      {
+        title: "Chhena Poda (Savory style)",
+        description: "Crumbled paneer mixed with chilies and coriander.",
+        subtype: "condiment",
+      },
+      {
+        title: "Saaga Chutney",
+        description: "Ground leafy greens with garlic and green chili.",
+        subtype: "condiment",
+      },
+      {
+        title: "Raw Banana Chips",
+        description: "Thinly sliced and fried with a hint of rock salt.",
+        subtype: "condiment",
+      },
+      {
+        title: "Pakhala Accompaniments",
+        description: "Includes raw onion, green chili, and lemon wedges.",
+        subtype: "condiment",
+      },
+      {
+        title: "Mula Bharta",
+        description: "Mashed radish with mustard oil, garlic, and chili.",
+        subtype: "condiment",
+      },
+      {
+        title: "Bela Pana",
+        description:
+          "A cooling drink made with wood apple pulp, jaggery, and cardamom.",
+        subtype: "drink",
+      },
+      {
+        title: "Torani (Pakhala Water)",
+        description: "Fermented rice water with green chilies and salt.",
+        subtype: "drink",
+      },
+      {
+        title: "Chaas (Mattha)",
+        description: "Spiced buttermilk with curry leaves and ginger.",
+        subtype: "drink",
+      },
+      {
+        title: "Lemon-Ginger Drink with Rock Salt",
+        description: "Refreshing and digestive summer drink.",
+        subtype: "drink",
+      },
+      {
+        title: "Chhena Poda",
+        description: "Baked paneer dessert caramelized on top.",
+        subtype: "dessert",
+      },
+      {
+        title: "Rasabali",
+        description: "Flattened paneer soaked in thick sweet milk.",
+        subtype: "dessert",
+      },
+      {
+        title: "Khira Gaintha",
+        description: "Rice flour balls in sweetened milk.",
+        subtype: "dessert",
+      },
+      {
+        title: "Kheeri",
+        description: "Creamy jaggery or sugar-based rice pudding.",
+        subtype: "dessert",
       },
     ],
     culture: [

@@ -39,33 +39,153 @@ export const meghalaya: StateData = {
     ],
     food: [
       {
-        title: "Jadoh",
-        description:
-          "A flavorful rice dish cooked with pork, turmeric, and local spices \u2013 a Khasi staple.",
-      },
-      {
-        title: "Dohneiiong",
-        description:
-          "Pork cooked with black sesame seeds, rich and smoky in flavor.",
-      },
-      {
-        title: "Tungrymbai",
-        description: "Fermented soybeans cooked with pork and spices.",
+        title: "Jadoh Veg Version",
+        description: "Rice cooked with vegetables, turmeric, and local herbs.",
+        subtype: "main",
       },
       {
         title: "Pumaloi",
         description:
-          "Steamed rice flour dish often served during traditional meals.",
+          "Steamed, powdered rice dish served warm with light curries or chutneys.",
+        subtype: "main",
       },
       {
-        title: "Nakham Bitchi",
+        title: "Daiñgai Jhur",
         description:
-          "A spicy soup made from fermented dry fish, popular among Garos.",
+          "Stir-fried banana flower with mustard seeds and green chilies.",
+        subtype: "main",
       },
       {
-        title: "Chuak & Kyat",
+        title: "Rongi Dal",
         description:
-          "Traditional rice beer served during tribal festivities and rituals.",
+          "Khasi-style red lentils tempered with mustard oil, onions, and garlic.",
+        subtype: "main",
+      },
+      {
+        title: "Khlieh Aloo",
+        description:
+          "Potato salad made with onions, green chilies, and lime juice.",
+        subtype: "main",
+      },
+      {
+        title: "Putharo with Dohneiiong-style Black Sesame Curry (Veg)",
+        description:
+          "Flat rice pancakes paired with vegetable curry in sesame paste.",
+        subtype: "main",
+      },
+      {
+        title: "Kharang Rice",
+        description: "Roasted red rice served with boiled veggies and pickles.",
+        subtype: "main",
+      },
+      {
+        title: "Pynskhem",
+        description: "Sticky rice balls served with bamboo shoot curry.",
+        subtype: "main",
+      },
+      {
+        title: "Tungrymbai Veg Version",
+        description:
+          "Fermented soybean paste stir-fried with ginger, garlic, and greens.",
+        subtype: "main",
+      },
+      {
+        title: "Meghalaya Style Sabji",
+        description:
+          "Mixed vegetables sautéed in mustard oil with Khasi spice blends.",
+        subtype: "main",
+      },
+      {
+        title: "Tungrymbai (Vegetarian)",
+        description: "Fermented soy mash sautéed with mustard oil and spices.",
+        subtype: "condiment",
+      },
+      {
+        title: "Bamboo Shoot Chutney",
+        description:
+          "Tangy and fermented side made with boiled bamboo shoots and chili.",
+        subtype: "condiment",
+      },
+      {
+        title: "Chopped Green Chili with Mustard Oil",
+        description: "Served raw with salt and herbs.",
+        subtype: "condiment",
+      },
+      {
+        title: "Black Sesame Chutney",
+        description:
+          "Roasted sesame ground with chili, garlic, and lemon juice.",
+        subtype: "condiment",
+      },
+      {
+        title: "Fermented Radish Chutney",
+        description: "Pounded radish with ginger, salt, and green chilies.",
+        subtype: "condiment",
+      },
+      {
+        title: "Raw Turmeric-Garlic Paste",
+        description: "Medicinal chutney with lime and mustard oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Pumpkin Leaf Fritters",
+        description: "Lightly battered and fried seasonal leaves.",
+        subtype: "condiment",
+      },
+      {
+        title: "Sweet Corn Stir-fry",
+        description: "Stir-fried with mustard seeds, garlic, and coriander.",
+        subtype: "condiment",
+      },
+      {
+        title: "Boiled Squash with Lemon",
+        description: "Dressed with herbs and served cold.",
+        subtype: "condiment",
+      },
+      {
+        title: "Sohphlang Salad",
+        description: "Crunchy seasonal tuber served raw with chili-salt dip.",
+        subtype: "condiment",
+      },
+      {
+        title: "Black Rice Herbal Tea",
+        description: "Light decoction made from Chak-Hao or black rice.",
+        subtype: "drink",
+      },
+      {
+        title: "Lemongrass and Bay Leaf Infusion",
+        description: "Traditional Khasi-style aromatic drink.",
+        subtype: "drink",
+      },
+      {
+        title: "Tamarind Juice with Ginger",
+        description: "Sweet-sour digestive drink.",
+        subtype: "drink",
+      },
+      {
+        title: "Chilled Minted Buttermilk",
+        description: "Made with curd, mint, salt, and cumin.",
+        subtype: "drink",
+      },
+      {
+        title: "Pukhlein",
+        description: "Rice flour and jaggery fritters.",
+        subtype: "dessert",
+      },
+      {
+        title: "Sweet Jadoh",
+        description: "Sweet rice with jaggery.",
+        subtype: "dessert",
+      },
+      {
+        title: "Sakin Gata",
+        description: "Steamed coconut-rice layer cake.",
+        subtype: "dessert",
+      },
+      {
+        title: "Pineapple Halwa",
+        description: "Ghee-rich pineapple dessert.",
+        subtype: "dessert",
       },
     ],
     culture: [

@@ -46,31 +46,156 @@ export const karnataka: StateData = {
       {
         title: "Bisi Bele Bath",
         description:
-          "A spicy, tangy rice-lentil dish flavored with tamarind and masalas.",
-      },
-      {
-        title: "Mysore Masala Dosa",
-        description:
-          "A crisp dosa with red chutney and potato filling, served with sambar and chutneys.",
+          "A spicy and tangy one-pot dish of rice, lentils, tamarind, and vegetables.",
+        subtype: "main",
       },
       {
         title: "Ragi Mudde",
         description:
-          "Finger millet balls served with spicy meat or sambar, staple in rural Karnataka.",
+          "Finger millet balls typically eaten with sambar or saaru.",
+        subtype: "main",
       },
       {
-        title: "Coorg Pandi Curry",
+        title: "Mysore Masala Dosa",
         description:
-          "A tangy pork curry flavored with local vinegar (kacampuli) and spices.",
+          "Crisp dosa spread with spicy chutney and filled with potato masala.",
+        subtype: "main",
       },
       {
-        title: "Neer Dosa",
+        title: "Akki Roti",
         description:
-          "Thin, soft rice crepes from coastal regions, paired with coconut chutney or curry.",
+          "Rice flour flatbread with onions, green chilies, and grated vegetables.",
+        subtype: "main",
       },
       {
-        title: "Maddur Vada & Mangalore Buns",
-        description: "Popular snacks found in tea stalls and railway stations.",
+        title: "Udupi Sambar with Rice",
+        description: "Coconut-flavored sambar served with steamed rice.",
+        subtype: "main",
+      },
+      {
+        title: "Vegetable Saagu",
+        description:
+          "Mildly spiced coconut-based vegetable curry, often served with poori or set dosa.",
+        subtype: "main",
+      },
+      {
+        title: "Kharabath",
+        description:
+          "A spicier version of upma made with vegetables and vangi bath masala.",
+        subtype: "main",
+      },
+      {
+        title: "Kadubu",
+        description:
+          "Steamed dumplings made from rice flour and stuffed with spiced dals.",
+        subtype: "main",
+      },
+      {
+        title: "Huli Avalakki",
+        description: "Tamarind-seasoned poha with peanuts and curry leaves.",
+        subtype: "main",
+      },
+      {
+        title: "Majjige Huli",
+        description:
+          "Yogurt-based curry with ash gourd or cucumber, subtly spiced.",
+        subtype: "main",
+      },
+      {
+        title: "Coconut Chutney",
+        description:
+          "Classic chutney made from fresh grated coconut, green chilies, and tempering.",
+        subtype: "condiment",
+      },
+      {
+        title: "Tomato Gojju",
+        description:
+          "Sweet-tangy tomato relish tempered with mustard and jaggery.",
+        subtype: "condiment",
+      },
+      {
+        title: "Menthe Tambuli",
+        description:
+          "A yogurt-based side made with ground fenugreek and coconut.",
+        subtype: "condiment",
+      },
+      {
+        title: "Hesarukalu Palya",
+        description: "Stir-fried green gram with coconut and curry leaves.",
+        subtype: "condiment",
+      },
+      {
+        title: "Kosambari (Moong Dal Salad)",
+        description:
+          "Light salad made with soaked moong dal, cucumber, and coconut.",
+        subtype: "condiment",
+      },
+      {
+        title: "Mixed Vegetable Pickle",
+        description: "Traditional Karnataka-style spicy pickle.",
+        subtype: "condiment",
+      },
+      {
+        title: "Chow-Chow Palya",
+        description:
+          "Stir-fry of chayote squash with mustard seeds and grated coconut.",
+        subtype: "condiment",
+      },
+      {
+        title: "Bitter Gourd Chips (Karela Fry)",
+        description: "Thinly sliced, spiced and deep-fried.",
+        subtype: "condiment",
+      },
+      {
+        title: "Curd with Tempering",
+        description:
+          "Whisked yogurt tempered with mustard, green chilies, and curry leaves.",
+        subtype: "condiment",
+      },
+      {
+        title: "Sundakkai Vatral",
+        description: "Sun-dried turkey berries fried and served with rice.",
+        subtype: "condiment",
+      },
+      {
+        title: "Majjige (Spiced Buttermilk)",
+        description: "Seasoned with ginger, green chilies, and curry leaves.",
+        subtype: "drink",
+      },
+      {
+        title: "Panaka",
+        description: "Summer drink made with jaggery, cardamom, and lemon.",
+        subtype: "drink",
+      },
+      {
+        title: "Ragi Malt (Ragi Ambli)",
+        description: "Finger millet drink with buttermilk, salt, and cumin.",
+        subtype: "drink",
+      },
+      {
+        title: "Tulsi-Ginger Kashaya",
+        description: "Herbal decoction with jaggery and black pepper.",
+        subtype: "drink",
+      },
+      {
+        title: "Mysore Pak",
+        description: "Ghee-laden gram flour sweet.",
+        subtype: "dessert",
+      },
+      {
+        title: "Obbattu",
+        description: "Stuffed sweet flatbread with dal-jaggery mix.",
+        subtype: "dessert",
+      },
+      {
+        title: "Kesari Bath",
+        description: "Semolina dessert with saffron.",
+        subtype: "dessert",
+      },
+      {
+        title: "Dharwad Peda",
+        description: "Caramelized milk sweet.",
+        subtype: "dessert",
       },
     ],
     culture: [

@@ -43,29 +43,149 @@ export const lakshadweep: StateData = {
     ],
     food: [
       {
-        title: "Tuna Curry & Coconut Rice",
-        description: "Staple island meal with spices and coconut milk.",
+        title: "Parboiled Rice with Coconut Gravy",
+        description: "Soft rice served with mildly spiced coconut curry.",
+        subtype: "main",
       },
       {
-        title: "Mas Huni",
+        title: "Breadfruit Curry",
         description:
-          "Smoked fish with onions and coconut, eaten with flatbread.",
+          "Lightly spiced coconut-based curry made with local breadfruit.",
+        subtype: "main",
       },
       {
-        title: "Breadfruit & Tapioca Dishes",
-        description: "Island-grown vegetables featured in daily meals.",
+        title: "Raw Banana Thoran",
+        description:
+          "Stir-fried raw banana with coconut, curry leaves, and mustard.",
+        subtype: "main",
       },
       {
-        title: "Fish Fry & Dry Tuna",
-        description: "Preserved seafood cooked with tamarind and chili.",
+        title: "Vegetable Stew",
+        description:
+          "Local vegetables simmered in coconut milk and curry leaves.",
+        subtype: "main",
       },
       {
-        title: "Lobster & Shellfish",
-        description: "Grilled or curried delicacies for festive occasions.",
+        title: "Sweet Potato Mash",
+        description: "Mashed sweet potatoes flavored with coconut oil.",
+        subtype: "main",
       },
       {
-        title: "Coconut-based Sweets",
-        description: "Includes kokos laddu and maashi halwa.",
+        title: "Pumpkin Moilee",
+        description:
+          "Coconut-rich pumpkin curry with green chilies and mustard seeds.",
+        subtype: "main",
+      },
+      {
+        title: "Drumstick Leaf Stir Fry",
+        description: "Nutritious stir-fry with coconut and minimal spices.",
+        subtype: "main",
+      },
+      {
+        title: "Ash Gourd Kootu",
+        description: "Ash gourd cooked with dal and coconut-spice paste.",
+        subtype: "main",
+      },
+      {
+        title: "Rice Coconut Pancakes",
+        description: "Soft rice flour pancakes made with grated coconut.",
+        subtype: "main",
+      },
+      {
+        title: "Tapioca with Coconut Chutney",
+        description: "Boiled tapioca served with spicy coconut dip.",
+        subtype: "main",
+      },
+      {
+        title: "Coconut Chutney",
+        description: "Blend of fresh coconut, green chilies, and curry leaves.",
+        subtype: "condiment",
+      },
+      {
+        title: "Banana Chips",
+        description: "Thin crispy fried banana slices.",
+        subtype: "condiment",
+      },
+      {
+        title: "Raw Mango Pickle",
+        description: "Fiery and tangy with chili-mustard paste.",
+        subtype: "condiment",
+      },
+      {
+        title: "Dry Coconut Fry",
+        description: "Coconut bits roasted with mild spices.",
+        subtype: "condiment",
+      },
+      {
+        title: "Cucumber Salad",
+        description: "Chopped cucumber with salt, lime, and coconut.",
+        subtype: "condiment",
+      },
+      {
+        title: "Papaya Thoran",
+        description: "Raw papaya sautéed with turmeric and grated coconut.",
+        subtype: "condiment",
+      },
+      {
+        title: "Carrot-Coconut Slaw",
+        description: "Fresh grated mix with mustard tempering.",
+        subtype: "condiment",
+      },
+      {
+        title: "Lime Pickle",
+        description: "Spicy preserved lime in oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Jackfruit Seed Stir Fry",
+        description: "Seasonal side made with boiled jackfruit seeds.",
+        subtype: "condiment",
+      },
+      {
+        title: "Taro Leaf Chutney",
+        description: "Ground taro leaves with coconut and tamarind.",
+        subtype: "condiment",
+      },
+      {
+        title: "Tender Coconut Water",
+        description: "Naturally cooling and refreshing drink.",
+        subtype: "drink",
+      },
+      {
+        title: "Banana Milkshake",
+        description: "Made with local ripe bananas and chilled milk.",
+        subtype: "drink",
+      },
+      {
+        title: "Palm Nectar Drink",
+        description:
+          "Chilled drink made from sweet toddy palm sap (non-fermented).",
+        subtype: "drink",
+      },
+      {
+        title: "Herbal Coconut Infusion",
+        description: "Light drink brewed with tulsi and coconut water.",
+        subtype: "drink",
+      },
+      {
+        title: "Coconut Halwa",
+        description: "Rich sweet made with coconut, ghee, and sugar.",
+        subtype: "dessert",
+      },
+      {
+        title: "Banana Payasam",
+        description: "Plantain-based kheer with jaggery and cardamom.",
+        subtype: "dessert",
+      },
+      {
+        title: "Rava Ladoo",
+        description: "Semolina laddus with roasted coconut and dry fruits.",
+        subtype: "dessert",
+      },
+      {
+        title: "Elaneer Jelly",
+        description: "Jelly made from tender coconut water and agar.",
+        subtype: "dessert",
       },
     ],
     culture: [

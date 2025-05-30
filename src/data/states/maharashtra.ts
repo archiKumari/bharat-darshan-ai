@@ -44,32 +44,158 @@ export const maharashtra: StateData = {
     ],
     food: [
       {
-        title: "Pav Bhaji & Vada Pav",
-        description: "Iconic Mumbai street foods enjoyed across the state.",
+        title: "Puran Poli",
+        description:
+          "Sweet lentil-stuffed flatbread flavored with cardamom, served with ghee.",
+        subtype: "main",
       },
       {
-        title: "Misal Pav",
+        title: "Masale Bhat",
         description:
-          "Spicy lentil curry topped with farsan, onions, and served with bread.",
+          "Spiced rice with goda masala and vegetables, often paired with papad and curd.",
+        subtype: "main",
+      },
+      {
+        title: "Amti (Toor Dal)",
+        description:
+          "Tangy and slightly sweet dal tempered with mustard, curry leaves, and jaggery.",
+        subtype: "main",
+      },
+      {
+        title: "Batata Bhaji",
+        description:
+          "Dry, turmeric-spiced potato curry with mustard and coriander.",
+        subtype: "main",
+      },
+      {
+        title: "Vangi Bhaji",
+        description: "Brinjal cooked in a spicy coconut-peanut masala.",
+        subtype: "main",
+      },
+      {
+        title: "Thalipeeth",
+        description:
+          "Multigrain flatbread made from roasted flour and vegetables, served with butter or curd.",
+        subtype: "main",
+      },
+      {
+        title: "Sabudana Khichdi",
+        description:
+          "Tapioca pearls with roasted peanuts, green chilies, and ghee (Vrat special).",
+        subtype: "main",
+      },
+      {
+        title: "Bhakri (Jowar/Bajra)",
+        description:
+          "Thick flatbread made from millet flour, served with chutney or bhaji.",
+        subtype: "main",
+      },
+      {
+        title: "Patole Bhaji (Colocasia Leaves Curry)",
+        description: "Steamed and sliced taro leaves cooked in coconut masala.",
+        subtype: "main",
+      },
+      {
+        title: "Zunka",
+        description:
+          "Dry gram flour curry with onions and green chilies, eaten with bhakri.",
+        subtype: "main",
+      },
+      {
+        title: "Thecha",
+        description:
+          "Fiery green or red chili chutney with garlic and salt, pounded by hand.",
+        subtype: "condiment",
+      },
+      {
+        title: "Kairi Chutney",
+        description:
+          "Raw mango, coconut, and green chili blended into a refreshing chutney.",
+        subtype: "condiment",
+      },
+      {
+        title: "Shengdana Chutney",
+        description: "Dry roasted peanut powder with red chili and salt.",
+        subtype: "condiment",
+      },
+      {
+        title: "Dry Coconut-Garlic Masala",
+        description: "Sprinkled over rice or used in sabzis.",
+        subtype: "condiment",
+      },
+      {
+        title: "Koshimbir (Cucumber Raita)",
+        description: "Fresh cucumber yogurt salad with tempered mustard.",
+        subtype: "condiment",
+      },
+      {
+        title: "Batatyacha Kees",
+        description:
+          "Grated spiced potatoes sautéed with curry leaves and peanuts.",
+        subtype: "condiment",
+      },
+      {
+        title: "Pickled Lemon (Limbacha Loncha)",
+        description: "Classic sour-spicy lemon pickle.",
+        subtype: "condiment",
+      },
+      {
+        title: "Tilgul (Sesame-Jaggery Mix)",
+        description: "Sweet dry mix offered during Makar Sankranti.",
+        subtype: "condiment",
+      },
+      {
+        title: "Roasted Papad",
+        description: "Typically served with amti or masale bhat.",
+        subtype: "condiment",
+      },
+      {
+        title: "Upwas Bhajis (Vrat-friendly)",
+        description:
+          "Shallow-fried sweet potato, raw banana, or colocasia slices.",
+        subtype: "condiment",
+      },
+      {
+        title: "Mattha",
+        description:
+          "Spiced buttermilk with ginger, green chili, and coriander.",
+        subtype: "drink",
+      },
+      {
+        title: "Kokum Sharbat",
+        description:
+          "Refreshing tangy drink with a hint of cumin and black salt.",
+        subtype: "drink",
+      },
+      {
+        title: "Aam Panha",
+        description: "Sweet and sour raw mango cooler with cardamom.",
+        subtype: "drink",
+      },
+      {
+        title: "Tulsi-Ginger Herbal Tea",
+        description: "Warm decoction with jaggery, black pepper, and basil.",
+        subtype: "drink",
       },
       {
         title: "Puran Poli",
-        description:
-          "Sweet flatbread stuffed with jaggery and lentils, made during festivals.",
-      },
-      {
-        title: "Bharli Vangi & Pitla Bhakri",
-        description:
-          "Spiced stuffed eggplant with gram flour curry and millet flatbread, a rural delicacy.",
+        description: "Sweet dal-stuffed flatbread.",
+        subtype: "dessert",
       },
       {
         title: "Modak",
-        description:
-          "Sweet dumplings filled with coconut and jaggery, a favorite of Lord Ganesha.",
+        description: "Coconut-jaggery dumplings.",
+        subtype: "dessert",
+      },
+      {
+        title: "Basundi",
+        description: "Saffron and cardamom milk dessert.",
+        subtype: "dessert",
       },
       {
         title: "Kharwas",
-        description: "Delicate dessert made from cow colostrum and cardamom.",
+        description: "Steamed colostrum pudding.",
+        subtype: "dessert",
       },
     ],
     culture: [

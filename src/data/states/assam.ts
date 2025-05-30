@@ -39,32 +39,156 @@ export const assam: StateData = {
     ],
     food: [
       {
-        title: "Khar",
+        title: "Khar (Raw Papaya Khar)",
         description:
-          "An alkaline curry made with raw papaya and dried banana peel, unique to Assamese cuisine.",
-      },
-      {
-        title: "Masor Tenga",
-        description:
-          "A light, tangy fish curry often cooked with tomatoes or elephant apple.",
+          "Made with raw papaya and alkaline banana peel extract; a unique Assamese starter.",
+        subtype: "main",
       },
       {
         title: "Aloo Pitika",
         description:
-          "Mashed potatoes mixed with mustard oil, green chilies, and onions \u2013 simple yet flavorful.",
+          "Mashed potatoes with mustard oil, green chili, and onions — comforting and earthy.",
+        subtype: "main",
+      },
+      {
+        title: "Lau Ghonto",
+        description:
+          "Bottle gourd curry with a light mustard seed and ginger paste base.",
+        subtype: "main",
+      },
+      {
+        title: "Boror Tenga",
+        description:
+          "Tangy curry made with lentil fritters and tomatoes in a light sour broth.",
+        subtype: "main",
+      },
+      {
+        title: "Kol Posola Bhaji",
+        description: "Stir-fried tender banana plant stem with minimal spices.",
+        subtype: "main",
+      },
+      {
+        title: "Ou Tenga Dal",
+        description:
+          "Pigeon pea dal soured with elephant apple (ou tenga), native to Assam.",
+        subtype: "main",
+      },
+      {
+        title: "Black Sesame Potato Curry",
+        description:
+          "Crushed sesame with boiled potatoes in a rustic stir-fry.",
+        subtype: "main",
+      },
+      {
+        title: "Kumura Sabji",
+        description: "Ash gourd curry with subtle spices and mustard oil.",
+        subtype: "main",
+      },
+      {
+        title: "Joha Rice with Ghee",
+        description:
+          "Fragrant short-grain rice served with dollops of desi ghee.",
+        subtype: "main",
+      },
+      {
+        title: "Vegetable Masor Tenga (Veg adaptation)",
+        description:
+          "Tomato and elephant apple curry minus fish, with mixed greens.",
+        subtype: "main",
+      },
+      {
+        title: "Bamboo Shoot Pickle",
+        description:
+          "Tangy fermented bamboo shoots with chili and mustard oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Thekera Chutney",
+        description:
+          "Made from dried Garcinia pedunculata, tangy and traditional.",
+        subtype: "condiment",
+      },
+      {
+        title: "Roselle Leaf Chutney",
+        description: "Sour leafy chutney with garlic and green chili.",
+        subtype: "condiment",
+      },
+      {
+        title: "Black Sesame & Chili Paste",
+        description: "Rustic roasted paste often eaten with rice.",
+        subtype: "condiment",
+      },
+      {
+        title: "Raw Mango Pickle (Assamese Style)",
+        description: "Spicy and mustardy summer delicacy.",
+        subtype: "condiment",
+      },
+      {
+        title: "Tita Mula Bhaji",
+        description:
+          "Stir-fried medicinal bitter herbs eaten as a palate cleanser.",
+        subtype: "condiment",
+      },
+      {
+        title: "Pumpkin Flower Fritters (Kumura Phul Bora)",
+        description: "Lightly battered and fried pumpkin blossoms.",
+        subtype: "condiment",
+      },
+      {
+        title: "Chopped Foraged Greens",
+        description: "Boiled with salt and paired with mustard oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Boiled Papaya with Garlic Tempering",
+        description: "Mild side dish from tribal households.",
+        subtype: "condiment",
+      },
+      {
+        title: "Til Pitha (Savory version)",
+        description: "Sticky rice roll filled with sesame and lightly salted.",
+        subtype: "condiment",
+      },
+      {
+        title: "Tulsi-Ginger Herbal Water",
+        description: "Warm and infused with native herbs.",
+        subtype: "drink",
+      },
+      {
+        title: "Amlokhi (Gooseberry) Juice",
+        description: "Tangy, sweet, and rich in vitamin C.",
+        subtype: "drink",
+      },
+      {
+        title: "Joha Rice Kanji",
+        description: "Light fermented rice drink, cooling and probiotic.",
+        subtype: "drink",
+      },
+      {
+        title: "Lemongrass Tea with Honey",
+        description: "Fragrant and served warm or cold.",
+        subtype: "drink",
       },
       {
         title: "Pitha",
         description:
-          "Rice cakes made during festivals like Bihu, with sweet or savory fillings.",
+          "Steamed or fried rice cakes filled with coconut or sesame.",
+        subtype: "dessert",
       },
       {
-        title: "Duck Curry (Hanhor Mangxo)",
-        description: "A rich, festive dish made with duck meat and ash gourd.",
+        title: "Narikolor Laru",
+        description: "Coconut and jaggery balls.",
+        subtype: "dessert",
       },
       {
-        title: "Laru & Til Pitha",
-        description: "Sesame and jaggery-based sweets made during Magh Bihu.",
+        title: "Payox",
+        description: "Rice pudding with Joha rice and milk.",
+        subtype: "dessert",
+      },
+      {
+        title: "Kumol Saul",
+        description: "Soft rice with cream and jaggery.",
+        subtype: "dessert",
       },
     ],
     culture: [

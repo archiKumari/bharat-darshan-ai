@@ -43,30 +43,158 @@ export const andaman: StateData = {
     ],
     food: [
       {
-        title: "Seafood Curries",
+        title: "Coconut Rice",
         description:
-          "Fresh fish, crab, lobster, and prawns in coconut gravies.",
+          "Fragrant rice cooked with grated coconut, curry leaves, and mustard seeds.",
+        subtype: "main",
       },
       {
-        title: "Fish Amritsari & Tandoori Pomfret",
-        description: "Grilled coastal dishes with northern influence.",
-      },
-      {
-        title: "Coconut Pulao & Steamed Rice",
-        description: "Staple dishes paired with spicy curries.",
-      },
-      {
-        title: "Tropical Fruits",
+        title: "Raw Banana Curry",
         description:
-          "Locally grown mangoes, bananas, pineapples, and breadfruit.",
+          "Gently spiced island-style curry made with coconut and turmeric.",
+        subtype: "main",
       },
       {
-        title: "Andamani Fish Fry",
-        description: "Marinated and shallow-fried coastal specialty.",
+        title: "Vegetable Stew (Nicobari Style)",
+        description:
+          "Local veggies cooked in thin coconut milk with ginger and herbs.",
+        subtype: "main",
       },
       {
-        title: "Nicobari Coconut Milk Stew",
-        description: "Tribal dish often cooked with pork or seafood.",
+        title: "Jackfruit Seed Curry",
+        description:
+          "Creamy curry of boiled jackfruit seeds with coconut and pepper.",
+        subtype: "main",
+      },
+      {
+        title: "Papaya Sabzi",
+        description:
+          "Raw papaya cooked with mustard seeds, chilies, and grated coconut.",
+        subtype: "main",
+      },
+      {
+        title: "Breadfruit Fry",
+        description: "Sliced and pan-fried breadfruit with turmeric and salt.",
+        subtype: "main",
+      },
+      {
+        title: "Colocasia Curry",
+        description:
+          "Taro root cooked with coconut, curry leaves, and local masala.",
+        subtype: "main",
+      },
+      {
+        title: "Yam Masala",
+        description: "Chunky yam curry with coriander and a touch of tamarind.",
+        subtype: "main",
+      },
+      {
+        title: "Vegetable Pulao with Island Spices",
+        description:
+          "Lightly spiced rice with carrots, beans, and curry leaves.",
+        subtype: "main",
+      },
+      {
+        title: "Kadalai Sundal",
+        description:
+          "Stir-fried black chickpeas with mustard seeds, curry leaves, and coconut.",
+        subtype: "main",
+      },
+      {
+        title: "Coconut Chutney",
+        description:
+          "Island-style chutney with green chilies, tamarind, and ginger.",
+        subtype: "condiment",
+      },
+      {
+        title: "Mango Pickle",
+        description:
+          "Fiery, mustard-oil-based raw mango pickle, commonly homemade.",
+        subtype: "condiment",
+      },
+      {
+        title: "Banana Flower Thoran",
+        description:
+          "Finely chopped flowers stir-fried with coconut and green chilies.",
+        subtype: "condiment",
+      },
+      {
+        title: "Guava Chutney",
+        description:
+          "Sweet-spicy chutney made with local guava and green chili.",
+        subtype: "condiment",
+      },
+      {
+        title: "Raw Turmeric Salad",
+        description:
+          "Sliced raw turmeric root with salt, lime, and mustard oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Pumpkin Leaf Fry",
+        description: "Tender leaves sautéed with garlic and turmeric.",
+        subtype: "condiment",
+      },
+      {
+        title: "Boiled Tapioca with Coconut Dip",
+        description: "Commonly served as side or breakfast.",
+        subtype: "condiment",
+      },
+      {
+        title: "Breadfruit Chips",
+        description: "Crispy shallow-fried chips, lightly salted.",
+        subtype: "condiment",
+      },
+      {
+        title: "Raw Mango and Onion Slaw",
+        description: "Sour mango slices with onion, chili, and salt.",
+        subtype: "condiment",
+      },
+      {
+        title: "Pickled Bamboo Shoots",
+        description: "Mildly fermented and spiced.",
+        subtype: "condiment",
+      },
+      {
+        title: "Tender Coconut Water",
+        description: "Served fresh, a natural island staple.",
+        subtype: "drink",
+      },
+      {
+        title: "Amla Juice with Mint",
+        description: "Cooling and rich in antioxidants.",
+        subtype: "drink",
+      },
+      {
+        title: "Lemongrass Herbal Drink",
+        description: "Traditional local decoction with mild sweetener.",
+        subtype: "drink",
+      },
+      {
+        title: "Tamarind Sherbet",
+        description:
+          "Sweet-tangy chilled drink with roasted cumin and black salt.",
+        subtype: "drink",
+      },
+      {
+        title: "Coconut Ladoo",
+        description: "Made with grated coconut and condensed milk.",
+        subtype: "dessert",
+      },
+      {
+        title: "Banana Halwa",
+        description: "Ghee-rich halwa with mashed bananas.",
+        subtype: "dessert",
+      },
+      {
+        title: "Sooji Halwa",
+        description: "Semolina pudding with cardamom and ghee.",
+        subtype: "dessert",
+      },
+      {
+        title: "Coconut Barfi",
+        description: "Firm coconut squares made with sugar and milk.",
+        subtype: "dessert",
       },
     ],
     culture: [

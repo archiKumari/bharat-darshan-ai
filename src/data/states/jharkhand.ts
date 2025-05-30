@@ -39,32 +39,153 @@ export const jharkhand: StateData = {
     ],
     food: [
       {
+        title: "Chana Samosa Curry",
+        description:
+          "Samosas dipped in spicy black chickpea curry, a local favorite.",
+        subtype: "main",
+      },
+      {
+        title: "Dhuskas",
+        description:
+          "Deep-fried fermented rice-lentil pancakes, soft inside and crisp outside.",
+        subtype: "main",
+      },
+      {
+        title: "Chhilka Roti",
+        description:
+          "Rice and urad dal flatbread, pan-cooked and served with sabzi.",
+        subtype: "main",
+      },
+      {
+        title: "Litti-Chokha (Jharkhand style)",
+        description:
+          "Roasted sattu-filled wheat balls served with mashed potato, brinjal, and tomato.",
+        subtype: "main",
+      },
+      {
+        title: "Koinar Saag",
+        description:
+          "Tender leaves of Koinar (Bauhinia) stir-fried with mustard seeds.",
+        subtype: "main",
+      },
+      {
+        title: "Sawa Ke Chawal (Barnyard Millet Pulao)",
+        description: "Cooked with peanuts, ginger, and mild spices.",
+        subtype: "main",
+      },
+      {
+        title: "Jhingni Aloo Bhujia",
+        description: "Stir-fry of ridge gourd and potatoes, lightly spiced.",
+        subtype: "main",
+      },
+      {
+        title: "Khatta-Meetha Kaddu",
+        description:
+          "Sweet and sour pumpkin curry with jaggery and mustard seeds.",
+        subtype: "main",
+      },
+      {
+        title: "Bari-Kadhi",
+        description: "Moong dal fritters in a tangy curd-based curry.",
+        subtype: "main",
+      },
+      {
+        title: "Pakhala Bhata (Light Fermented Rice)",
+        description: "Slightly sour rice dish eaten with curd or chutney.",
+        subtype: "main",
+      },
+      {
+        title: "Tomato-Chilli Chutney",
+        description: "Spicy raw chutney ground on stone with mustard oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Bamboo Shoot Pickle",
+        description: "Fermented and spiced bamboo shoots preserved in oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Raw Mango-Garlic Chutney",
+        description: "Ground raw mango with garlic and red chili.",
+        subtype: "condiment",
+      },
+      {
+        title: "Saag with Mustard Oil",
+        description:
+          "Lightly boiled saag (palak or bathua), seasoned with mustard oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Sattu Chutney",
+        description: "Roasted gram flour with chili, lemon, and coriander.",
+        subtype: "condiment",
+      },
+      {
+        title: "Lauki Bharta",
+        description:
+          "Mashed bottle gourd sautéed with onions and mustard seeds.",
+        subtype: "condiment",
+      },
+      {
+        title: "Gheeya Leaf Fritters",
+        description: "Pumpkin leaf dipped in gram flour batter and fried.",
+        subtype: "condiment",
+      },
+      {
+        title: "Bharta (Roasted Brinjal)",
+        description: "Mashed brinjal with onions, mustard oil, and chili.",
+        subtype: "condiment",
+      },
+      {
+        title: "Badi (Sun-dried lentil dumplings)",
+        description: "Fried and added as a crunchy side.",
+        subtype: "condiment",
+      },
+      {
+        title: "Kaccha Papita Bhujia",
+        description: "Raw papaya stir-fry with turmeric and ajwain.",
+        subtype: "condiment",
+      },
+      {
+        title: "Mahua Flower Herbal Drink (Non-alcoholic)",
+        description: "Brewed as a warm digestif with herbs and spices.",
+        subtype: "drink",
+      },
+      {
+        title: "Rice Kanji",
+        description:
+          "Mildly fermented rice water drink, cooling and probiotic.",
+        subtype: "drink",
+      },
+      {
+        title: "Bael (Wood Apple) Sherbet",
+        description: "Sweet and digestive summer beverage.",
+        subtype: "drink",
+      },
+      {
+        title: "Jeera Pani",
+        description: "Cumin-infused drink with rock salt and lemon.",
+        subtype: "drink",
+      },
+      {
         title: "Thekua",
-        description:
-          "A jaggery and wheat flour sweet, especially made during Chhath Puja.",
+        description: "Fried jaggery-sweetened wheat treats.",
+        subtype: "dessert",
       },
       {
-        title: "Handia",
-        description:
-          "A fermented rice beer traditionally consumed by tribal communities.",
+        title: "Malpua",
+        description: "Sweet syrup-soaked pancakes.",
+        subtype: "dessert",
       },
       {
-        title: "Chilka Roti",
-        description: "A rice flour pancake eaten with chutney or vegetables.",
+        title: "Rasiya",
+        description: "Sweetened jaggery rice pudding.",
+        subtype: "dessert",
       },
       {
-        title: "Dhooska",
-        description:
-          "Fried rice and lentil pancakes, served with spicy potato curry.",
-      },
-      {
-        title: "Pitha",
-        description:
-          "Steamed rice flour dumplings with sweet or savory fillings.",
-      },
-      {
-        title: "Sanai saag and bamboo shoot curry",
-        description: "Wild greens and shoots, integral to tribal meals.",
+        title: "Anarsa",
+        description: "Sesame-coated rice flour fritters.",
+        subtype: "dessert",
       },
     ],
     culture: [

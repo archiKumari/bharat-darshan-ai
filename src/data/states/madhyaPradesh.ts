@@ -44,33 +44,158 @@ export const madhyaPradesh: StateData = {
     ],
     food: [
       {
-        title: "Poha & Jalebi",
-        description:
-          "A classic MP breakfast with flattened rice flavored with mustard seeds and green chilies, paired with sweet jalebis.",
-      },
-      {
         title: "Dal Bafla",
         description:
-          "A baked wheat ball soaked in ghee, served with spicy dal and chutney.",
+          "Baked wheat dough balls soaked in ghee, served with spicy toor dal.",
+        subtype: "main",
       },
       {
-        title: "Seekh Kebab & Bhopali Gosht Korma",
+        title: "Poha",
         description:
-          "Rich Mughlai-style meat dishes influenced by Nawabi cuisine.",
-      },
-      {
-        title: "Bhutte ka Kees",
-        description:
-          "Grated corn cooked with spices and milk, a Malwa specialty.",
+          "Flattened rice cooked with turmeric, mustard seeds, onions, and topped with sev and lemon.",
+        subtype: "main",
       },
       {
         title: "Sabudana Khichdi",
         description:
-          "A light dish made during fasting, using tapioca pearls and peanuts.",
+          "Tapioca pearls cooked with peanuts and green chili, popular during fasts.",
+        subtype: "main",
+      },
+      {
+        title: "Aloo Bharta (MP Style)",
+        description:
+          "Mashed potatoes with mustard oil, coriander, and green chili.",
+        subtype: "main",
+      },
+      {
+        title: "Chana Dal Ki Kachori",
+        description:
+          "Crispy deep-fried pastry stuffed with spiced Bengal gram.",
+        subtype: "main",
+      },
+      {
+        title: "Baigan Bharta",
+        description:
+          "Roasted brinjal mash mixed with garlic, onions, and mustard oil.",
+        subtype: "main",
+      },
+      {
+        title: "Palak Poori",
+        description:
+          "Deep-fried spinach-infused wheat flatbreads served with aloo curry.",
+        subtype: "main",
+      },
+      {
+        title: "Besan Gatta Curry",
+        description:
+          "Gram flour dumplings simmered in yogurt gravy, Rajasthani-influenced.",
+        subtype: "main",
+      },
+      {
+        title: "Methi Pulao",
+        description:
+          "Fragrant rice cooked with fenugreek leaves and mild spices.",
+        subtype: "main",
+      },
+      {
+        title: "Moong Dal Dhokla",
+        description:
+          "Steamed savory cakes made from moong dal batter, tempered with mustard seeds.",
+        subtype: "main",
+      },
+      {
+        title: "Lahsun Chutney",
+        description: "Fiery garlic chutney made with red chilies and salt.",
+        subtype: "condiment",
+      },
+      {
+        title: "Kaccha Aam Ki Launji",
+        description: "Sweet-sour raw mango chutney with jaggery and cumin.",
+        subtype: "condiment",
+      },
+      {
+        title: "Kachumber Salad",
+        description:
+          "Chopped cucumber, tomato, and onion seasoned with lemon and rock salt.",
+        subtype: "condiment",
+      },
+      {
+        title: "Til Chutney",
+        description: "Roasted sesame seed powder with salt and chili.",
+        subtype: "condiment",
+      },
+      {
+        title: "Mango Pickle",
+        description: "Spicy mustard oil-based pickle, often homemade.",
+        subtype: "condiment",
+      },
+      {
+        title: "Amla Chutney",
+        description:
+          "Tangy chutney made with Indian gooseberry, jaggery, and green chili.",
+        subtype: "condiment",
+      },
+      {
+        title: "Chana Sattu Mix",
+        description:
+          "Roasted gram flour served as a dry mix with onions and lemon.",
+        subtype: "condiment",
+      },
+      {
+        title: "Crispy Papad",
+        description: "Roasted or fried urad dal wafers.",
+        subtype: "condiment",
+      },
+      {
+        title: "Chana Dal Tikki",
+        description: "Mini shallow-fried lentil patties, served as a side.",
+        subtype: "condiment",
+      },
+      {
+        title: "Boiled Seasonal Greens",
+        description: "Lightly salted and tossed in mustard oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Shikanji",
+        description: "Classic lemon drink with black salt and cumin.",
+        subtype: "drink",
+      },
+      {
+        title: "Bel Sharbat",
+        description: "Wood apple cooler with jaggery and cardamom.",
+        subtype: "drink",
+      },
+      {
+        title: "Sattu Sharbat (Salted)",
+        description:
+          "Savory gram flour drink with mint, cumin, and black salt.",
+        subtype: "drink",
+      },
+      {
+        title: "Jeera-Ajwain Water",
+        description: "Warm digestive drink with roasted cumin and carom seeds.",
+        subtype: "drink",
       },
       {
         title: "Mawa Bati",
-        description: "Deep-fried sweet dumplings filled with dry fruits.",
+        description: "Mawa-stuffed balls soaked in syrup.",
+        subtype: "dessert",
+      },
+      {
+        title: "Khoya Jalebi",
+        description: "Rich jalebis made from mawa.",
+        subtype: "dessert",
+      },
+      {
+        title: "Shakkar Para",
+        description: "Sugar-coated flour snacks.",
+        subtype: "dessert",
+      },
+      {
+        title: "Badam Katli",
+        description: "Almond barfi.",
+        subtype: "dessert",
       },
     ],
     culture: [

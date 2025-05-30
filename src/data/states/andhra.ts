@@ -39,34 +39,169 @@ export const andhra: StateData = {
     ],
     food: [
       {
-        title: "Pulihora",
+        title: "Pesarattu",
         description:
-          "Tamarind rice dish seasoned with mustard seeds, curry leaves, and chilies.",
+          "A green gram dosa, crisp and protein-rich, often stuffed with onions or upma.",
+        subtype: "main",
       },
       {
-        title: "Andhra Chicken Curry",
+        title: "Pulihora (Tamarind Rice)",
         description:
-          "Spicy, flavorful chicken dish with generous use of red chili and garam masala.",
+          "A tangy rice preparation with mustard seeds, curry leaves, and peanuts.",
+        subtype: "main",
       },
+      {
+        title: "Gutti Vankaya Kura",
+        description:
+          "Baby eggplants cooked in a rich peanut-sesame-spice masala.",
+        subtype: "main",
+      },
+      {
+        title: "Perugu Annam",
+        description:
+          "Cooked rice mixed with curd and tempered with mustard seeds and ginger.",
+        subtype: "main",
+      },
+      {
+        title: "Dondakaya Fry",
+        description:
+          "Crisp ivy gourd stir-fried with spices and grated coconut.",
+        subtype: "main",
+      },
+      {
+        title: "Aratikaya Koora",
+        description: "Raw banana curry with mustard seeds and curry leaves.",
+        subtype: "main",
+      },
+      {
+        title: "Beerakaya Pappu",
+        description: "Ridge gourd cooked with toor dal and green chilies.",
+        subtype: "main",
+      },
+      {
+        title: "Bendakaya Pulusu",
+        description: "Ladyfinger (okra) in tangy tamarind gravy.",
+        subtype: "main",
+      },
+      {
+        title: "Aava Pettina Kura",
+        description:
+          "Mustard-flavored vegetable curry, a signature Andhra style.",
+        subtype: "main",
+      },
+      {
+        title: "Dosakaya Pappu",
+        description:
+          "Yellow cucumber cooked with toor dal and green chili, a comforting combo with rice.",
+        subtype: "main",
+      },
+
       {
         title: "Gongura Pachadi",
         description:
-          "Tangy chutney made from sorrel leaves, a signature Andhra delicacy.",
+          "A signature chutney made from sour sorrel leaves and spices.",
+        subtype: "condiment",
       },
+      {
+        title: "Allam Pachadi",
+        description:
+          "Ginger chutney, tangy and spicy, typically served with pesarattu or idli.",
+        subtype: "condiment",
+      },
+      {
+        title: "Mango Pickle (Avakaya)",
+        description:
+          "A fiery, oil-rich raw mango pickle seasoned with mustard and chili powder.",
+        subtype: "condiment",
+      },
+      {
+        title: "Nuvvula Podi",
+        description: "Sesame seed spice powder eaten with ghee and rice.",
+        subtype: "condiment",
+      },
+      {
+        title: "Kobbari Pachadi",
+        description:
+          "Coconut chutney with a tempering of mustard seeds and curry leaves.",
+        subtype: "condiment",
+      },
+      {
+        title: "Tomato Pachadi",
+        description:
+          "A spicy tomato relish, often paired with steamed rice or dosa.",
+        subtype: "condiment",
+      },
+      {
+        title: "Peanut Chutney",
+        description:
+          "Roasted peanuts ground with chilies, garlic, and tamarind.",
+        subtype: "condiment",
+      },
+      {
+        title: "Ghee & Gongura Podi Mix",
+        description: "Dry sorrel leaf powder mixed with rice and ghee.",
+        subtype: "condiment",
+      },
+      {
+        title: "Sun-dried Vadiyalu (Fryums)",
+        description:
+          "Made from urad dal and rice flour, deep-fried until crisp.",
+        subtype: "condiment",
+      },
+      {
+        title: "Curry Leaf Powder (Karivepaku Podi)",
+        description: "Dry chutney powder rich in iron and flavor.",
+        subtype: "condiment",
+      },
+
+      {
+        title: "Panakam",
+        description: "A jaggery-based summer drink with cardamom and pepper.",
+        subtype: "drink",
+      },
+      {
+        title: "Majjiga (Buttermilk)",
+        description:
+          "Seasoned curd drink with ginger, green chili, and curry leaves.",
+        subtype: "drink",
+      },
+      {
+        title: "Ragi Ambali",
+        description:
+          "A cooling finger millet drink made with curd and spiced with green chilies and onions.",
+        subtype: "drink",
+      },
+      {
+        title: "Bellam Neer More",
+        description:
+          "A lightly sweetened tamarind or jaggery drink with cumin.",
+        subtype: "drink",
+      },
+
+      // 🍮 Desserts
       {
         title: "Pootharekulu",
         description:
-          "A unique paper-thin sweet made with rice starch, sugar/jaggery, and ghee.",
+          "Delicate dessert made by wrapping jaggery and ghee in ultra-thin rice starch sheets.",
+        subtype: "dessert",
       },
       {
-        title: "Ulava Charu",
+        title: "Bobbatlu (Puran Poli)",
         description:
-          "A thick, rich horse gram soup often served with rice or cream.",
+          "Sweet flatbread stuffed with a jaggery and chana dal mixture, flavored with cardamom and ghee.",
+        subtype: "dessert",
       },
       {
-        title: "Kodi Vepudu",
+        title: "Ariselu",
         description:
-          "Dry-fried spicy chicken pieces, a popular side dish or starter.",
+          "Deep-fried rice flour discs sweetened with jaggery and sesame seeds.",
+        subtype: "dessert",
+      },
+      {
+        title: "Rava Kesari",
+        description:
+          "Semolina dessert cooked with ghee, saffron, and dry fruits.",
+        subtype: "dessert",
       },
     ],
     culture: [

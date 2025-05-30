@@ -44,33 +44,154 @@ export const sikkim: StateData = {
     ],
     food: [
       {
-        title: "Phagshapa",
+        title: "Phagshapa (Vegetarian Style)",
         description:
-          "A pork dish cooked with radish, chilies, and no oil \u2013 both tangy and healthy.",
+          "Spicy radish and spinach stew in place of meat, with chilies and fermented bamboo shoots.",
+        subtype: "main",
       },
       {
-        title: "Gundruk & Sinki Soup",
+        title: "Thukpa (Veg)",
         description:
-          "Fermented leafy greens and radish root dishes popular in homes.",
+          "Noodle soup with seasonal vegetables, ginger, garlic, and Sikkimese spices.",
+        subtype: "main",
       },
       {
-        title: "Momo",
+        title: "Sael Roti",
         description:
-          "Steamed dumplings stuffed with meat or vegetables, served with spicy chutney.",
+          "Deep-fried ring-shaped rice bread, crisp outside and soft inside.",
+        subtype: "main",
       },
       {
-        title: "Thukpa",
+        title: "Gya Thuk",
         description:
-          "A noodle soup with vegetables or meat, hearty and warming in cold weather.",
+          "A rich soup with hand-pulled noodles, vegetables, and Himalayan herbs.",
+        subtype: "main",
       },
       {
-        title: "Sha Phaley",
-        description: "Fried bread stuffed with seasoned meat or cabbage.",
+        title: "Sel Roti Tarkari",
+        description: "Fried rice loops served with mildly spiced potato curry.",
+        subtype: "main",
       },
       {
-        title: "Chhurpi",
+        title: "Kinema Curry (Vegetarian adaptation)",
         description:
-          "Fermented yak cheese used in soups or eaten as a chewy snack.",
+          "Fermented soybean dish cooked with onions, garlic, and potatoes.",
+        subtype: "main",
+      },
+      {
+        title: "Tingmo (Steamed Bread)",
+        description: "Soft Tibetan-style buns served with dal or curry.",
+        subtype: "main",
+      },
+      {
+        title: "Buckwheat Pancakes",
+        description:
+          "Savory local pancakes topped with sautéed greens and cheese.",
+        subtype: "main",
+      },
+      {
+        title: "Makai Ko Roti",
+        description: "Cornmeal flatbread served with butter and saag.",
+        subtype: "main",
+      },
+      {
+        title: "Vegetable Momos",
+        description:
+          "Steamed dumplings filled with cabbage, carrots, and tofu.",
+        subtype: "main",
+      },
+      {
+        title: "Aloo Dum (Sikkimese Style)",
+        description: "Spicy dry potato curry with tomato and green chili.",
+        subtype: "condiment",
+      },
+      {
+        title: "Dalle Khursani Pickle",
+        description: "Pickled Sikkimese cherry peppers in mustard oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Tomato Achar",
+        description:
+          "Roasted tomato chutney with sesame and timur (Sichuan pepper).",
+        subtype: "condiment",
+      },
+      {
+        title: "Fermented Bamboo Shoot Chutney",
+        description: "Tangy and aromatic, paired with rice.",
+        subtype: "condiment",
+      },
+      {
+        title: "Chhurpi Chutney",
+        description: "A mash of fermented cheese with green chili and onion.",
+        subtype: "condiment",
+      },
+      {
+        title: "Boiled Mustard Greens with Garlic",
+        description: "Simple and aromatic side.",
+        subtype: "condiment",
+      },
+      {
+        title: "Saag Bhujuri",
+        description: "Stir-fried greens with sesame and turmeric.",
+        subtype: "condiment",
+      },
+      {
+        title: "Rayo Ko Saag",
+        description: "Mustard leaf preparation with ginger and mustard oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Dry Fruit-Coconut Sprinkle",
+        description: "Often added to sel roti as a sweet counterpoint.",
+        subtype: "condiment",
+      },
+      {
+        title: "Steamed Veggies with Salt & Chili Dip",
+        description: "Traditional mountain-style side.",
+        subtype: "condiment",
+      },
+      {
+        title: "Butter Tea (Veg version)",
+        description:
+          "Made with salted tea, butter, and milk; warming and rich.",
+        subtype: "drink",
+      },
+      {
+        title: "Lemongrass Herbal Tea",
+        description: "Infusion made with native grass and honey.",
+        subtype: "drink",
+      },
+      {
+        title: "Kinema Soup (Diluted, Non-fermented version)",
+        description: "A probiotic drink alternative with turmeric and ginger.",
+        subtype: "drink",
+      },
+      {
+        title: "Buckwheat Drink",
+        description:
+          "A toasty beverage made from roasted buckwheat flour and water.",
+        subtype: "drink",
+      },
+      {
+        title: "Sel Roti",
+        description: "Sweet fermented rice rings.",
+        subtype: "dessert",
+      },
+      {
+        title: "Khapse",
+        description: "Crisp flour biscuits made during festivals.",
+        subtype: "dessert",
+      },
+      {
+        title: "Chhurpi with Honey",
+        description: "Local cheese paired with honey.",
+        subtype: "dessert",
+      },
+      {
+        title: "Sweet Phagshapa",
+        description: "Sticky rice with jaggery and fruits.",
+        subtype: "dessert",
       },
     ],
     culture: [

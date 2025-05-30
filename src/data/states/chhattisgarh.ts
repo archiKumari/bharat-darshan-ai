@@ -38,33 +38,152 @@ export const chhattisgarh: StateData = {
     ],
     food: [
       {
-        title: "Chana Samosa & Faraa",
-        description:
-          "Rice-based dumplings similar to momos, often served with chutney.",
+        title: "Chana Samosa Curry",
+        description: "Samosas soaked in a tangy kala chana gravy, served hot.",
+        subtype: "main",
       },
       {
-        title: "Chousela Roti",
+        title: "Faraa (Rice Dumplings)",
         description:
-          "Deep-fried rice flour bread, often eaten with spicy curries.",
+          "Steamed rice flour dumplings, lightly spiced, and served with chutney.",
+        subtype: "main",
       },
       {
-        title: "Bara & Dubki Kadhi",
+        title: "Bafauri",
         description:
-          "Lentil fritters in tangy kadhi made with gram flour and yogurt.",
+          "Healthy steamed snack made from chana dal and spices, shaped into balls.",
+        subtype: "main",
+      },
+      {
+        title: "Dubki Kadhi",
+        description: "Chickpea flour dumplings in a tangy yogurt-based gravy.",
+        subtype: "main",
+      },
+      {
+        title: "Bore Baasi",
+        description:
+          "Fermented cooked rice soaked in water, traditionally eaten with chutney and onion.",
+        subtype: "main",
       },
       {
         title: "Angakar Roti",
         description:
-          "Thick rice roti cooked on a griddle and served with chutneys or curry.",
+          "Rice flour roti, slightly thick and roasted on a flat pan.",
+        subtype: "main",
       },
       {
-        title: "Thethri & Khurmi",
-        description: "Traditional snacks and sweets served during festivals.",
-      },
-      {
-        title: "Mahua Drink",
+        title: "Chusela",
         description:
-          "A locally brewed liquor made from Mahua flowers, part of tribal culture.",
+          "Deep-fried rice flour puris, crisp on the outside and soft inside.",
+        subtype: "main",
+      },
+      {
+        title: "Kodo-Kutki Pulao",
+        description: "Millets cooked with vegetables and mild spices.",
+        subtype: "main",
+      },
+      {
+        title: "Bhaji Made with Lal Bhaji or Poi Saag",
+        description: "Stir-fried leafy greens with garlic and mustard seeds.",
+        subtype: "main",
+      },
+      {
+        title: "Bilahi Bhat (Tomato Rice)",
+        description:
+          "Tangy rice dish flavored with mustard, curry leaves, and chilies.",
+        subtype: "main",
+      },
+      {
+        title: "Bilahi Chutney",
+        description:
+          "Tomato chutney tempered with mustard seeds and green chilies.",
+        subtype: "condiment",
+      },
+      {
+        title: "Til Chutney",
+        description: "Ground black sesame seed paste with salt and lemon.",
+        subtype: "condiment",
+      },
+      {
+        title: "Amchur Chutney",
+        description: "Dried mango powder with chilies and jaggery.",
+        subtype: "condiment",
+      },
+      {
+        title: "Badi (Sun-Dried Lentil Nuggets)",
+        description: "Fried and served as crunchy sides.",
+        subtype: "condiment",
+      },
+      {
+        title: "Chana Sattu Dry Mix",
+        description: "Powdered side dish with chili and lemon.",
+        subtype: "condiment",
+      },
+      {
+        title: "Tikhur Barfi (Savory version)",
+        description: "Thickened arrowroot-based bite flavored with ajwain.",
+        subtype: "condiment",
+      },
+      {
+        title: "Raw Banana Chips (Tribal style)",
+        description: "Sliced, sun-dried, and shallow-fried.",
+        subtype: "condiment",
+      },
+      {
+        title: "Roasted Jackfruit Seeds",
+        description: "Seasoned and eaten as a crunchy nibble.",
+        subtype: "condiment",
+      },
+      {
+        title: "Lal Bhaji Chokha",
+        description: "Mashed red leafy greens with mustard oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Mahua Flower Pickle",
+        description:
+          "Fermented sweet-sour delicacy made from dried mahua flowers.",
+        subtype: "condiment",
+      },
+      {
+        title: "Mattha (Spiced Buttermilk)",
+        description: "Churned curd with curry leaves, cumin, and salt.",
+        subtype: "drink",
+      },
+      {
+        title: "Bel Juice",
+        description: "Pulp of wood apple with jaggery and black salt.",
+        subtype: "drink",
+      },
+      {
+        title: "Tamarind Sherbet",
+        description: "Tangy drink flavored with roasted cumin.",
+        subtype: "drink",
+      },
+      {
+        title: "Lemongrass Herbal Drink",
+        description: "Traditional decoction served warm for digestion.",
+        subtype: "drink",
+      },
+      {
+        title: "Dehrori",
+        description: "Fried fermented dumplings in syrup.",
+        subtype: "dessert",
+      },
+      {
+        title: "Khurma",
+        description: "Deep-fried sweet flour sticks.",
+        subtype: "dessert",
+      },
+      {
+        title: "Faraa with Jaggery Dip",
+        description: "Steamed dumplings served with jaggery syrup.",
+        subtype: "dessert",
+      },
+      {
+        title: "Rakhia Bhujiya",
+        description: "Rice flour sweet with coconut.",
+        subtype: "dessert",
       },
     ],
     culture: [

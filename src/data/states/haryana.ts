@@ -39,33 +39,154 @@ export const haryana: StateData = {
     ],
     food: [
       {
-        title: "Bajre ki Roti with Lassi",
+        title: "Bajre ki Khichdi",
         description:
-          "Pearl millet flatbread served with white butter or ghee, and accompanied by refreshing lassi.",
+          "Nutritious millet and moong dal porridge, served with ghee and curd.",
+        subtype: "main",
       },
       {
-        title: "Kadhi Pakora",
+        title: "Missi Roti",
         description:
-          "A yogurt-based tangy curry with gram flour fritters, often enjoyed with steamed rice.",
-      },
-      {
-        title: "Singri ki Sabzi",
-        description:
-          "A unique dry curry made from dried beans from desert plants.",
+          "Spiced flatbread made from wheat and gram flour with carom seeds.",
+        subtype: "main",
       },
       {
         title: "Besan Masala Roti",
         description:
-          "Spiced chickpea flour roti, served with pickles and curd.",
+          "Chickpea flour-based flatbread flavored with green chilies and onions.",
+        subtype: "main",
       },
       {
-        title: "Kachri ki Sabzi",
-        description: "Made from wild cucumbers native to Haryana.",
+        title: "Aloo Rasedar",
+        description: "Thin-spiced potato curry often eaten with poori or roti.",
+        subtype: "main",
       },
       {
-        title: "Churma & Ghee",
+        title: "Ghiya Sabzi (Lauki Curry)",
+        description: "Bottle gourd cooked in a simple, light tomato gravy.",
+        subtype: "main",
+      },
+      {
+        title: "Kaddu ki Sabzi",
         description:
-          "A sweet made from crushed rotis, jaggery, and ghee, usually served with dal-baati.",
+          "Slightly sweet and tangy pumpkin dish cooked with fenugreek seeds.",
+        subtype: "main",
+      },
+      {
+        title: "Bathua Raita Rice",
+        description:
+          "Seasonal bathua leaves mixed in curd and served over rice.",
+        subtype: "main",
+      },
+      {
+        title: "Hara Dhania Cholia",
+        description: "Green chickpeas in spiced onion-tomato masala.",
+        subtype: "main",
+      },
+      {
+        title: "Bhutte Ka Pulao",
+        description:
+          "Sweet corn rice with mild masala, often served with curd.",
+        subtype: "main",
+      },
+      {
+        title: "Tilwale Aloo",
+        description:
+          "Sesame-coated baby potatoes sautéed in mustard oil and spices.",
+        subtype: "main",
+      },
+      {
+        title: "Bathua Raita",
+        description:
+          "Yogurt-based dip made with bathua leaves and roasted cumin.",
+        subtype: "condiment",
+      },
+      {
+        title: "Lehsun-Tamatar Chutney",
+        description: "Garlic and tomato chutney with chili and mustard oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Green Chutney (Hara Dhaniya)",
+        description: "Made with coriander, mint, ginger, and lemon.",
+        subtype: "condiment",
+      },
+      {
+        title: "Mooli-Achar (Radish Pickle)",
+        description: "Tangy and crunchy, fermented in mustard oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Gajar-Gobhi-Shalgam Pickle",
+        description: "Winter vegetable pickle with mustard and turmeric.",
+        subtype: "condiment",
+      },
+      {
+        title: "Roasted Papad",
+        description: "Crisp side typically served with meals.",
+        subtype: "condiment",
+      },
+      {
+        title: "Chane ka Sattu",
+        description:
+          "Dry roasted gram flour, served raw with salt and green chili.",
+        subtype: "condiment",
+      },
+      {
+        title: "Onion Salad with Mustard Oil",
+        description: "Raw onion slices with salt and mustard oil dressing.",
+        subtype: "condiment",
+      },
+      {
+        title: "Tandoori Bhindi",
+        description: "Marinated okra cooked in dry masala.",
+        subtype: "condiment",
+      },
+      {
+        title: "Chachiya Chutney",
+        description:
+          "Traditional side made with crushed raw tomato, onion, and curd.",
+        subtype: "condiment",
+      },
+      {
+        title: "Lassi (Sweet or Salted)",
+        description: "Whisked curd served chilled with or without sugar.",
+        subtype: "drink",
+      },
+      {
+        title: "Kachi Lassi",
+        description: "Buttermilk with green chili, mint, and coriander.",
+        subtype: "drink",
+      },
+      {
+        title: "Hara Dhaniya Pani",
+        description: "Coriander and lemon-infused digestive drink.",
+        subtype: "drink",
+      },
+      {
+        title: "Saunf Sherbet",
+        description: "Cooling drink made from fennel seeds and jaggery.",
+        subtype: "drink",
+      },
+      {
+        title: "Churma",
+        description: "Crushed wheat sweet with jaggery and ghee.",
+        subtype: "dessert",
+      },
+      {
+        title: "Meethe Chawal",
+        description: "Sweet rice with saffron and nuts.",
+        subtype: "dessert",
+      },
+      {
+        title: "Ghevar",
+        description: "Disc-shaped dessert soaked in syrup.",
+        subtype: "dessert",
+      },
+      {
+        title: "Besan Ladoo",
+        description: "Roasted gram flour balls with ghee.",
+        subtype: "dessert",
       },
     ],
     culture: [

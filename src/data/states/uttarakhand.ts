@@ -44,32 +44,157 @@ export const uttarakhand: StateData = {
     ],
     food: [
       {
-        title: "Aloo Ke Gutke",
-        description: "Spiced potato stir-fry with mustard seeds and red chili.",
-      },
-      {
         title: "Chainsoo",
-        description: "Roasted black gram curry, rich in protein and flavor.",
+        description:
+          "Roasted black gram dal curry from Garhwal, thick and earthy.",
+        subtype: "main",
       },
       {
         title: "Kafuli",
         description:
-          "Leafy green curry made from spinach or fenugreek, cooked in an iron pan.",
+          "A green curry made from spinach and fenugreek leaves, slow-cooked with buttermilk and rice paste.",
+        subtype: "main",
       },
       {
-        title: "Phaanu",
+        title: "Phanu",
         description:
-          "A lentil-based delicacy soaked and ground before cooking with spices.",
+          "Thick soup-like curry made from soaked and ground dals like gahat or arhar.",
+        subtype: "main",
+      },
+      {
+        title: "Aloo Ke Gutke",
+        description:
+          "Spicy, dry potato preparation tempered with jakhiya seeds and red chili.",
+        subtype: "main",
       },
       {
         title: "Jhangora Ki Kheer",
         description:
-          "A sweet pudding made from barnyard millet, milk, and dry fruits.",
+          "Barnyard millet pudding made with milk, cardamom, and dry fruits (served as a sweet main).",
+        subtype: "main",
       },
       {
-        title: "Bhang Ki Chutney",
+        title: "Mandua Ki Roti",
+        description: "Finger millet flatbread served with ghee and chutney.",
+        subtype: "main",
+      },
+      {
+        title: "Gahat (Kulath) Dal",
+        description: "Horsegram dal cooked with garlic and spices.",
+        subtype: "main",
+      },
+      {
+        title: "Dubuk (Bhabru Style)",
         description:
-          "A tangy chutney made from roasted hemp seeds, often served with meals.",
+          "Smooth dal curry made with bhatt (black soybean) or gahat.",
+        subtype: "main",
+      },
+      {
+        title: "Churdkani (Bhatt ki Dal)",
+        description:
+          "Kumaoni-style black soybean curry with mustard and spice.",
+        subtype: "main",
+      },
+      {
+        title: "Urad Dal Pakodi Curry",
+        description:
+          "Fritters made from urad dal, soaked and added to spiced curd gravy.",
+        subtype: "main",
+      },
+      {
+        title: "Bhang ki Chutney",
+        description:
+          "Hemp seed chutney with tamarind, garlic, and green chili.",
+        subtype: "condiment",
+      },
+      {
+        title: "Tamatar ki Chutney",
+        description:
+          "Roasted tomato mash with coriander, garlic, and mustard oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Mooli ka Thecha",
+        description: "Raw radish and chili pounded with salt and lemon.",
+        subtype: "condiment",
+      },
+      {
+        title: "Lemon Pickle (Nimbu ka Achaar)",
+        description: "Preserved in mustard and fenugreek seeds.",
+        subtype: "condiment",
+      },
+      {
+        title: "Jakhiya Fry",
+        description:
+          "Jakhiya (wild mustard seed) tempering poured over greens or curd.",
+        subtype: "condiment",
+      },
+      {
+        title: "Cucumber Raita",
+        description:
+          "Thick curd mixed with grated cucumber, cumin, and rock salt.",
+        subtype: "condiment",
+      },
+      {
+        title: "Til Chutney",
+        description: "Roasted sesame seed paste with green chili and garlic.",
+        subtype: "condiment",
+      },
+      {
+        title: "Papad (Garhwali Style)",
+        description: "Roasted papad seasoned with chili powder.",
+        subtype: "condiment",
+      },
+      {
+        title: "Boiled Seasonal Greens",
+        description: "Lightly salted and dressed with mustard oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Aloo-Mooli Stir Fry",
+        description: "Dry side of potatoes and radish with coriander seeds.",
+        subtype: "condiment",
+      },
+      {
+        title: "Buransh Juice",
+        description: "Rhododendron flower drink, sweet and cooling.",
+        subtype: "drink",
+      },
+      {
+        title: "Chaas (Buttermilk)",
+        description: "Spiced with rock salt, mint, and cumin.",
+        subtype: "drink",
+      },
+      {
+        title: "Madua Malt",
+        description:
+          "Warm drink made from finger millet, jaggery, and cardamom.",
+        subtype: "drink",
+      },
+      {
+        title: "Himalayan Herbal Tea",
+        description: "Brewed with tulsi, lemongrass, and ginger.",
+        subtype: "drink",
+      },
+      {
+        title: "Bal Mithai",
+        description: "Fudge coated in sugar balls.",
+        subtype: "dessert",
+      },
+      {
+        title: "Singhal",
+        description: "Spiral semolina sweet fritters.",
+        subtype: "dessert",
+      },
+      {
+        title: "Jhangora Kheer",
+        description: "Millet pudding with nuts.",
+        subtype: "dessert",
+      },
+      {
+        title: "Arsa",
+        description: "Rice flour jaggery sweet for weddings.",
+        subtype: "dessert",
       },
     ],
     culture: [

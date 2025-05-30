@@ -44,32 +44,153 @@ export const punjab: StateData = {
     ],
     food: [
       {
-        title: "Makki di Roti & Sarson da Saag",
-        description: "Cornflat bread and mustard greens, iconic winter meal.",
-      },
-      {
-        title: "Chole Bhature",
+        title: "Sarson da Saag",
         description:
-          "Spicy chickpeas with deep-fried bread, a beloved Punjabi breakfast.",
+          "Mustard greens cooked with spinach and spices, served with white butter.",
+        subtype: "main",
       },
       {
-        title: "Butter Chicken",
+        title: "Makki di Roti",
+        description: "Cornmeal flatbread, best paired with saag and jaggery.",
+        subtype: "main",
+      },
+      {
+        title: "Chole Masala",
         description:
-          "World-famous creamy tomato-based chicken dish, originating in Delhi-Punjabi kitchens.",
+          "Spicy chickpea curry cooked with amla or tea leaves for color and depth.",
+        subtype: "main",
       },
       {
-        title: "Lassi",
+        title: "Paneer Bhurji",
         description:
-          "A sweet or salted yogurt-based drink, often served chilled in tall glasses.",
+          "Crumbled cottage cheese sautéed with onions, tomatoes, and spices.",
+        subtype: "main",
       },
       {
-        title: "Tandoori Roti & Paneer Tikka",
-        description: "Clay oven-cooked breads and skewered cottage cheese.",
-      },
-      {
-        title: "Pinni & Gur Halwa",
+        title: "Aloo Gobhi",
         description:
-          "Traditional sweets made from wheat flour, jaggery, and dry fruits.",
+          "Cauliflower and potato curry with ginger and garam masala.",
+        subtype: "main",
+      },
+      {
+        title: "Rajma Masala",
+        description:
+          "Red kidney beans slow-cooked in a thick tomato-onion gravy.",
+        subtype: "main",
+      },
+      {
+        title: "Stuffed Paratha (Aloo/Methi)",
+        description: "Ghee-laced flatbreads stuffed with spiced fillings.",
+        subtype: "main",
+      },
+      {
+        title: "Baingan Bharta",
+        description:
+          "Fire-roasted eggplant mashed with garlic, green chili, and onions.",
+        subtype: "main",
+      },
+      {
+        title: "Langar Wali Dal",
+        description:
+          "Slow-simmered black lentils and split gram dal, served in gurudwaras.",
+        subtype: "main",
+      },
+      {
+        title: "Tandoori Roti",
+        description: "Charred whole wheat flatbread made in clay ovens.",
+        subtype: "main",
+      },
+      {
+        title: "Lehsun Chutney",
+        description:
+          "Bold garlic chutney made with red chilies and mustard oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Pudina Dhaniya Chutney",
+        description: "Classic green chutney with mint, coriander, and lemon.",
+        subtype: "condiment",
+      },
+      {
+        title: "Amla Achaar",
+        description: "Spicy gooseberry pickle in mustard oil.",
+        subtype: "condiment",
+      },
+      {
+        title: "Punjabi Mango Pickle",
+        description: "Large mango chunks with kalonji and fenugreek.",
+        subtype: "condiment",
+      },
+      {
+        title: "Boondi Raita",
+        description: "Spiced yogurt with soaked boondi and cumin.",
+        subtype: "condiment",
+      },
+      {
+        title: "Onion Salad with Lemon",
+        description: "Raw sliced onions with salt, chili, and lemon juice.",
+        subtype: "condiment",
+      },
+      {
+        title: "Besan Pakora",
+        description: "Gram flour fritters often served as accompaniments.",
+        subtype: "condiment",
+      },
+      {
+        title: "Tandoori Bhindi",
+        description: "Charred okra seasoned with ajwain and chili.",
+        subtype: "condiment",
+      },
+      {
+        title: "Chana Chaat (Dry)",
+        description:
+          "Spiced black chickpeas served cold with coriander and lemon.",
+        subtype: "condiment",
+      },
+      {
+        title: "Papad (Roasted or Fried)",
+        description: "Classic urad dal papad sprinkled with black pepper.",
+        subtype: "condiment",
+      },
+      {
+        title: "Lassi (Sweet)",
+        description: "Thick yogurt drink topped with malai and dry fruits.",
+        subtype: "drink",
+      },
+      {
+        title: "Masala Chaas",
+        description: "Buttermilk tempered with roasted cumin and curry leaves.",
+        subtype: "drink",
+      },
+      {
+        title: "Kacha Aam Panna",
+        description: "Raw mango drink with mint, salt, and jaggery.",
+        subtype: "drink",
+      },
+      {
+        title: "Gur-Water Sharbat",
+        description: "Warm or cool jaggery water with lemon and black salt.",
+        subtype: "drink",
+      },
+      {
+        title: "Gur ka Halwa",
+        description: "Jaggery-sweetened semolina halwa.",
+        subtype: "dessert",
+      },
+      {
+        title: "Pinni",
+        description: "Ghee-rich wheat flour and dry fruit laddus.",
+        subtype: "dessert",
+      },
+      {
+        title: "Kada Prasad",
+        description: "Temple-style wheat flour halwa.",
+        subtype: "dessert",
+      },
+      {
+        title: "Phirni",
+        description: "Ground rice milk pudding served chilled.",
+        subtype: "dessert",
       },
     ],
     culture: [

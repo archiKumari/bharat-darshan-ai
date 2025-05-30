@@ -43,29 +43,156 @@ export const westbengal: StateData = {
     ],
     food: [
       {
-        title: "Shorshe Ilish",
-        description: "Hilsa fish cooked in mustard paste, a monsoon delicacy.",
-      },
-      {
-        title: "Chingri Malai Curry",
-        description: "Prawns in a rich coconut milk gravy.",
-      },
-      {
-        title: "Luchi & Alur Dom",
-        description: "Puffy fried breads served with spicy potato curry.",
-      },
-      {
-        title: "Begun Bhaja & Aloo Posto",
+        title: "Shukto",
         description:
-          "Fried eggplant and poppy seed potato dishes served with rice.",
+          "A bittersweet Bengali medley of vegetables like bitter gourd, banana, and drumstick in a mustard-milk gravy.",
+        subtype: "main",
       },
       {
-        title: "Mishti Doi & Sandesh",
-        description: "Famous sweets made from milk and jaggery.",
+        title: "Chholar Dal",
+        description:
+          "Bengal gram cooked with coconut, ghee, and a hint of sweetness.",
+        subtype: "main",
       },
       {
-        title: "Rasgulla & Chamcham",
-        description: "Spongy syrupy sweets invented and perfected in Bengal.",
+        title: "Begun Bhaja",
+        description:
+          "Sliced brinjal shallow-fried in mustard oil with turmeric and salt.",
+        subtype: "main",
+      },
+      {
+        title: "Aloo Posto",
+        description:
+          "Potato cubes cooked with poppy seed paste, green chili, and mustard oil.",
+        subtype: "main",
+      },
+      {
+        title: "Lau Ghonto",
+        description:
+          "Bottle gourd curry with bori (sun-dried lentil dumplings).",
+        subtype: "main",
+      },
+      {
+        title: "Labra",
+        description:
+          "A thick mix of seasonal vegetables with panch phoron tempering.",
+        subtype: "main",
+      },
+      {
+        title: "Mochar Ghonto",
+        description: "Banana blossom dry curry with grated coconut and spices.",
+        subtype: "main",
+      },
+      {
+        title: "Bhat",
+        description:
+          "Steamed Gobindobhog or parboiled rice, served with ghee and salt.",
+        subtype: "main",
+      },
+      {
+        title: "Patol Bhaja",
+        description:
+          "Pointed gourd fried until crisp with a turmeric-chili coating.",
+        subtype: "main",
+      },
+      {
+        title: "Dhokar Dalna",
+        description:
+          "Fried lentil cakes in a tomato-cashew gravy, rich and festive.",
+        subtype: "main",
+      },
+      {
+        title: "Kashundi",
+        description: "Fermented mustard paste used as a pungent dip or relish.",
+        subtype: "condiment",
+      },
+      {
+        title: "Tomato Khejur Chutney",
+        description:
+          "Sweet chutney of tomato and dates, finished with dry fruits.",
+        subtype: "condiment",
+      },
+      {
+        title: "Aam Tel",
+        description: "Raw mango preserve in mustard oil and spices.",
+        subtype: "condiment",
+      },
+      {
+        title: "Gondhoraj Lebu with Salt",
+        description: "Fragrant lime wedges served with rice.",
+        subtype: "condiment",
+      },
+      {
+        title: "Bori Bhaja",
+        description: "Deep-fried lentil dumplings eaten as crisp sides.",
+        subtype: "condiment",
+      },
+      {
+        title: "Radhuni Chutney",
+        description:
+          "Pungent herb paste used in ritualistic offerings and meals.",
+        subtype: "condiment",
+      },
+      {
+        title: "Cucumber Kheera Raita",
+        description:
+          "Yogurt salad with cucumber, mustard seeds, and curry leaves.",
+        subtype: "condiment",
+      },
+      {
+        title: "Panch Phoron Aloo",
+        description: "Dry stir-fry of potatoes in Bengali five-spice mix.",
+        subtype: "condiment",
+      },
+      {
+        title: "Shorshe Paka Aam",
+        description: "Sweet-sour ripe mango chutney with mustard paste.",
+        subtype: "condiment",
+      },
+      {
+        title: "Postor Bora",
+        description: "Poppy seed fritters, lightly spiced and fried crisp.",
+        subtype: "condiment",
+      },
+      {
+        title: "Aam Pora Sharbat",
+        description: "Roasted raw mango drink with black salt and sugar.",
+        subtype: "drink",
+      },
+      {
+        title: "Ghol",
+        description: "Bengali-style spiced buttermilk with mint and cumin.",
+        subtype: "drink",
+      },
+      {
+        title: "Bel Pana",
+        description: "Sweetened wood apple drink with cardamom.",
+        subtype: "drink",
+      },
+      {
+        title: "Nimbu Pani with Gondhoraj Lebu",
+        description: "Lemonade made with aromatic Gondhoraj lime.",
+        subtype: "drink",
+      },
+      {
+        title: "Rasgulla",
+        description: "Spongy paneer balls in syrup.",
+        subtype: "dessert",
+      },
+      {
+        title: "Sandesh",
+        description: "Paneer sweet with cardamom or rose.",
+        subtype: "dessert",
+      },
+      {
+        title: "Mishti Doi",
+        description: "Sweetened yogurt in clay pots.",
+        subtype: "dessert",
+      },
+      {
+        title: "Chamcham",
+        description: "Cylindrical paneer sweets with dry fruits or cream.",
+        subtype: "dessert",
       },
     ],
     culture: [
