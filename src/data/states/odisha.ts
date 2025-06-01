@@ -186,6 +186,24 @@ export const odisha: StateData = {
         description: "Creamy jaggery or sugar-based rice pudding.",
         subtype: "dessert",
       },
+      {
+        title: "Odisha Bread Basket",
+        description:
+          "Includes Chakuli Pitha (rice-lentil pancake), Mandia Roti (ragi flatbread), Dahi Pakhala Roti, and Khali Roti (salted rice flour flatbread).",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Dalma with Rice",
+        description:
+          "Steamed rice served with Odisha’s famous dalma — a mix of lentils and vegetables cooked with cumin and ginger.",
+        subtype: "rice",
+      },
+      {
+        title: "Pakhala Bhaat (Vegetarian)",
+        description:
+          "Fermented rice soaked in water and served with curd, green chilies, and fried vegetables — a summer staple.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

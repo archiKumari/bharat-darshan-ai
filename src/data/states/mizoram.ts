@@ -192,6 +192,24 @@ export const mizoram: StateData = {
         description: "Sweetened fermented soybean.",
         subtype: "dessert",
       },
+      {
+        title: "Mizoram Bread Basket",
+        description:
+          "Includes Bamboo Shoot Roti, Bekang Roti (with fermented soy), Rice Pancakes, and Sawhchiar Roti (herbed bread variant).",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Veg Sawhchiar",
+        description:
+          "Traditional rice porridge cooked with vegetables, ginger, and local herbs — adapted as a wholesome vegetarian version.",
+        subtype: "rice",
+      },
+      {
+        title: "Bai with Millet",
+        description:
+          "A mild vegetable stew of mustard leaves, beans, and local greens served with millet instead of rice.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

@@ -197,6 +197,24 @@ export const telangana: StateData = {
         description: "Popular semolina dessert.",
         subtype: "dessert",
       },
+      {
+        title: "Telangana Bread Basket",
+        description:
+          "Includes Jonna Rotte, Sajja Rotte, Sarvapindi, and Uppudu Roti — reflecting the region’s love for millets.",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Korralu Pulav",
+        description:
+          "Foxtail millet cooked with tomatoes, carrots, green peas, and a touch of ghee — a healthy alternative to rice pulao.",
+        subtype: "rice",
+      },
+      {
+        title: "Sajja Upma",
+        description:
+          "Savory porridge made from pearl millet flour and vegetables, tempered with mustard seeds and green chilies.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

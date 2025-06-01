@@ -185,6 +185,24 @@ export const chhattisgarh: StateData = {
         description: "Rice flour sweet with coconut.",
         subtype: "dessert",
       },
+      {
+        title: "Chhattisgarh Bread Basket",
+        description:
+          "Includes Chousela Roti, Angakar Roti, Fara, and Thethari — showcasing the rustic flavors of tribal cuisine.",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Kodo Millet Bhath",
+        description:
+          "Kodo millet cooked with garlic, mustard seeds, and green vegetables — nutritious and naturally gluten-free.",
+        subtype: "rice",
+      },
+      {
+        title: "Kutki Vegetable Pilaf",
+        description:
+          "Lightly spiced kutki millet tossed with carrots, beans, and lemon juice — often eaten during fasting or detox.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

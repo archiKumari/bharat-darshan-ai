@@ -187,6 +187,24 @@ export const rajasthan: StateData = {
         description: "Stuffed and syrup-dipped sweet kachoris.",
         subtype: "dessert",
       },
+      {
+        title: "Rajasthan Bread Basket",
+        description:
+          "Includes Bajra Roti, Missi Roti, Makki Roti, and Tandoori Roti — all deeply rooted in the desert cuisine of Rajasthan.",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Bajre ka Pulao",
+        description:
+          "A traditional pearl millet pilaf cooked with local vegetables, spices, and ghee — earthy and satisfying.",
+        subtype: "rice",
+      },
+      {
+        title: "Khichdi with Moth Beans & Bajra",
+        description:
+          "Hearty millet-based khichdi using bajra and moth dal, spiced with turmeric and cumin — a rural comfort dish.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

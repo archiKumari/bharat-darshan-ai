@@ -185,6 +185,24 @@ export const puducherry: StateData = {
         description: "Rice flour balls in sweet milk flavored with cardamom.",
         subtype: "dessert",
       },
+      {
+        title: "Puducherry Bread Basket",
+        description:
+          "Includes Kal Dosai, French-inspired Pav, Ragi Roti, and Tandoori Chapati — blending Tamil and colonial influences.",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Vegetable Kara Pongal",
+        description:
+          "Savory rice and lentil porridge tempered with pepper, cumin, and ghee — a South Indian classic adapted locally.",
+        subtype: "rice",
+      },
+      {
+        title: "Creole Vegetable Rice",
+        description:
+          "Mildly spiced rice cooked with French-influenced herbs, tomato, and bay leaves — unique to Pondicherry cuisine.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

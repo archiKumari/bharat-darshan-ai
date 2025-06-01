@@ -193,6 +193,24 @@ export const sikkim: StateData = {
         description: "Sticky rice with jaggery and fruits.",
         subtype: "dessert",
       },
+      {
+        title: "Sikkim Bread Basket",
+        description:
+          "Includes Phapar ko Roti (buckwheat pancake), Sel Roti (fermented rice bread), Gyathuk Flatbread, and Tsampa Roti.",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Phagshapa Veg Rice",
+        description:
+          "Rice served with a vegetarian adaptation of the spicy radish and chili stew — minus any meat ingredients.",
+        subtype: "rice",
+      },
+      {
+        title: "Millet with Gundruk Soup",
+        description:
+          "Steamed millet served with a tangy soup made from fermented leafy greens (gundruk) and herbs.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

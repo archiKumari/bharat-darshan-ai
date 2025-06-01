@@ -192,6 +192,24 @@ export const gujarat: StateData = {
         description: "Mawa-filled sweet covered in ghee.",
         subtype: "dessert",
       },
+      {
+        title: "Gujarat Bread Basket",
+        description:
+          "A selection of Gujarati breads including Bajra Rotla, Thepla, Bhakri, and sweet Puran Poli.",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Bajra Khichdi",
+        description:
+          "Coarsely ground bajra cooked with yellow moong dal, ginger, and ghee — a rustic winter favorite.",
+        subtype: "rice",
+      },
+      {
+        title: "Kathiyawadi Millet Masala Bhaat",
+        description:
+          "A spiced mix of vegetables and barnyard millet, flavored with garlic and local masalas — served with buttermilk.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

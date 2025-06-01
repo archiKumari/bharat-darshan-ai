@@ -187,6 +187,24 @@ export const lakshadweep: StateData = {
         description: "Jelly made from tender coconut water and agar.",
         subtype: "dessert",
       },
+      {
+        title: "Lakshadweep Bread Basket",
+        description:
+          "Includes Coconut Roti, Rice Poori, Banana Flatbread, and Maida Chapati — influenced by coastal Kerala cuisine.",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Vegetable Coconut Rice",
+        description:
+          "Steamed rice tossed with grated coconut, curry leaves, mustard seeds, and green chilies — light and aromatic.",
+        subtype: "rice",
+      },
+      {
+        title: "Breadfruit Masala Rice",
+        description:
+          "Cooked rice served with spiced breadfruit cubes sautéed in coconut oil — a local favorite.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

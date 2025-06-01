@@ -197,6 +197,24 @@ export const karnataka: StateData = {
         description: "Caramelized milk sweet.",
         subtype: "dessert",
       },
+      {
+        title: "Karnataka Bread Basket",
+        description:
+          "Includes Ragi Rotti, Jolad Rotti, Akki Rotti, and Neer Dosa — staples across Karnataka’s diverse regions.",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Ragi Mudde with Vegetable Sambar",
+        description:
+          "Soft finger millet balls served with hot sambar made from vegetables and aromatic spices — a rural Karnataka classic.",
+        subtype: "rice",
+      },
+      {
+        title: "Navane Vegetable Bhaat",
+        description:
+          "Foxtail millet rice sautéed with vegetables, mustard seeds, curry leaves, and vangi bath powder.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

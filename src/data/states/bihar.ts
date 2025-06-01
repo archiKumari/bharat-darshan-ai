@@ -187,6 +187,24 @@ export const bihar: StateData = {
         description: "Milk pudding with puffed lotus seeds.",
         subtype: "dessert",
       },
+      {
+        title: "Bihar Bread Basket",
+        description:
+          "Includes Litti (roasted wheat balls), Sattu Paratha, Makuni Roti, and traditional Wheat Roti with ghee.",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Tehri",
+        description:
+          "Spiced vegetable rice cooked with turmeric and mustard oil — a simple and soulful Bihari dish.",
+        subtype: "rice",
+      },
+      {
+        title: "Chura-Ghugni Bhaat",
+        description:
+          "Flattened rice served with yellow peas curry or with rice — often eaten during Chhath and local festivals.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

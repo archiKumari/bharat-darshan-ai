@@ -187,6 +187,24 @@ export const meghalaya: StateData = {
         description: "Ghee-rich pineapple dessert.",
         subtype: "dessert",
       },
+      {
+        title: "Meghalaya Bread Basket",
+        description:
+          "Includes Putharo (steamed rice pancakes), Roti Bitchi (local wheat flatbread), Jadoh Roti (fermented rice roti), and Tungrymbai Roti (served with fermented soybean mash).",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Jadoh Veg",
+        description:
+          "A vegetarian adaptation of the traditional Khasi rice dish, made with turmeric, bay leaves, and local vegetables.",
+        subtype: "rice",
+      },
+      {
+        title: "Rymbai Millet Bowl",
+        description:
+          "Cooked millet served with boiled vegetables and fermented soybean paste — a nutritious tribal preparation.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

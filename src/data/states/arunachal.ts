@@ -189,6 +189,24 @@ export const arunachal: StateData = {
         description: "Laddus with tapioca pearls and jaggery.",
         subtype: "dessert",
       },
+      {
+        title: "Arunachal Pradesh Bread Basket",
+        description:
+          "Features Khura (pancake-style bread), Thukpa flat noodles (used as wraps), Zan (millet dough bread), and steamed millet patties.",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Thenthuk Rice",
+        description:
+          "A rice-based version of the popular noodle soup with seasonal vegetables and local herbs.",
+        subtype: "rice",
+      },
+      {
+        title: "Rice with Bamboo Shoot Curry",
+        description:
+          "Steamed rice served with tangy and fermented bamboo shoot curry — a tribal delicacy.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

@@ -195,6 +195,24 @@ export const jammukashmir: StateData = {
         description: "Saffron and almond-flavored sweet milk.",
         subtype: "dessert",
       },
+      {
+        title: "Jammu & Kashmir Bread Basket",
+        description:
+          "Includes Kashmiri Roti, Girda (tandoor bread), Bakarkhani, and Makki Roti — reflecting Dogra and Kashmiri traditions.",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Vegetable Yakhni Pulao",
+        description:
+          "Basmati rice cooked in a mild yogurt-based stock with vegetables and Kashmiri spices like fennel and dry ginger.",
+        subtype: "rice",
+      },
+      {
+        title: "Haak Rice",
+        description:
+          "Rice served with Haak — a Kashmiri dish of collard greens sautéed with mustard oil and asafoetida.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

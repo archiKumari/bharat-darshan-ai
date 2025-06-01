@@ -196,6 +196,24 @@ export const delhi: StateData = {
         description: "Soft sweets made from paneer and sugar.",
         subtype: "dessert",
       },
+      {
+        title: "Delhi Bread Basket",
+        description:
+          "Includes Tandoori Roti, Stuffed Naan, Roomali Roti, and Bedmi Puri — a diverse mix from Mughlai to street food.",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Veg Biryani (Delhi Style)",
+        description:
+          "Basmati rice cooked with saffron, fried onions, mixed vegetables, and garam masala — often served with raita.",
+        subtype: "rice",
+      },
+      {
+        title: "Paneer Tawa Pulao",
+        description:
+          "Spiced rice stir-fried on a griddle with paneer cubes, tomato, capsicum, and pav bhaji masala — a street-style favorite.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

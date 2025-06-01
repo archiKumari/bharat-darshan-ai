@@ -203,6 +203,24 @@ export const andhra: StateData = {
           "Semolina dessert cooked with ghee, saffron, and dry fruits.",
         subtype: "dessert",
       },
+      {
+        title: "Andhra Pradesh Bread Basket",
+        description:
+          "Includes Jonna Rotte (sorghum roti), Ragi Sankati (finger millet balls), Dibba Rotti (thick rice-lentil pancake), and Appalu (sweet rice-based flatbread).",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Pulihora",
+        description:
+          "Tamarind rice tempered with mustard seeds, curry leaves, and green chilies — a tangy, spiced favorite across the state.",
+        subtype: "rice",
+      },
+      {
+        title: "Gongura Pappu Annam",
+        description:
+          "Steamed rice served with a tangy lentil preparation of gongura (sorrel leaves) — a signature Andhra dish.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

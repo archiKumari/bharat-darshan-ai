@@ -194,6 +194,24 @@ export const himachal: StateData = {
         description: "Paneer cooked in sweet saffron milk.",
         subtype: "dessert",
       },
+      {
+        title: "Himachal Pradesh Bread Basket",
+        description:
+          "Includes Chana Madra Roti, Bhey Roti (lotus stem roti), Babru (stuffed wheat bread), and Siddu (fermented wheat steamed bread).",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Chana Madra with Rice",
+        description:
+          "Steamed rice served with creamy yogurt-based chickpea curry — a classic dish from Himachali Dham feasts.",
+        subtype: "rice",
+      },
+      {
+        title: "Tudkiya Bhath",
+        description:
+          "Spiced rice dish cooked with lentils, curd, and a blend of mountain herbs — a rustic and wholesome local preparation.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

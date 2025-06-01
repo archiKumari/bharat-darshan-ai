@@ -190,6 +190,24 @@ export const assam: StateData = {
         description: "Soft rice with cream and jaggery.",
         subtype: "dessert",
       },
+      {
+        title: "Assam Bread Basket",
+        description:
+          "Includes Komal Saul Pitha (soft rice bread), Til Pitha (sticky rice & sesame roll), Rice Roti, and Sunga Pitha (bamboo-cooked rice cakes).",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Masor Tenga Bhaat",
+        description:
+          "Steamed rice served with a tangy fish curry made using tomatoes and lemon — iconic in Assamese cuisine.",
+        subtype: "rice",
+      },
+      {
+        title: "Khar Rice",
+        description:
+          "A unique alkaline dish made from raw papaya and traditional khar served with rice — a culinary hallmark of Assam.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

@@ -195,6 +195,24 @@ export const kerala: StateData = {
         description: "Tender coconut milk dessert.",
         subtype: "dessert",
       },
+      {
+        title: "Kerala Bread Basket",
+        description:
+          "Includes Appam (fermented rice pancake), Idiyappam (rice noodles), Pathiri (thin rice flour bread), and Parotta (layered wheat flatbread).",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Vegetable Pulao (Kerala Style)",
+        description:
+          "Rice cooked with ghee, vegetables, whole spices, and cashews — mildly spiced and aromatic.",
+        subtype: "rice",
+      },
+      {
+        title: "Coconut Rice",
+        description:
+          "Fluffy rice stir-fried with grated coconut, curry leaves, mustard seeds, and green chilies.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

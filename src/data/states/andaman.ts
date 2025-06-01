@@ -196,6 +196,24 @@ export const andaman: StateData = {
         description: "Firm coconut squares made with sugar and milk.",
         subtype: "dessert",
       },
+      {
+        title: "Andaman Bread Basket",
+        description:
+          "Includes Coconut Roti, Banana Flour Flatbread, Rice Flour Roti, and Nariyal Puri — inspired by island traditions.",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Vegetable Pulao with Island Spices",
+        description:
+          "Rice cooked with local vegetables, mild spices, and curry leaves — a staple across the islands.",
+        subtype: "rice",
+      },
+      {
+        title: "Raw Banana Rice",
+        description:
+          "Rice sautéed with spiced raw banana cubes, mustard seeds, and coconut — a South Indian–influenced island favorite.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

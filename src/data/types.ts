@@ -20,7 +20,7 @@ export interface StateMiniMap {
   image?: string;
 }
 
-export type FoodSubtype = "main" | "dessert" | "drink" | "condiment";
+export type FoodSubtype = "main" | "dessert" | "drink" | "condiment" | "breadbasket" | "rice";
 
 export interface FoodItem {
   title: string;

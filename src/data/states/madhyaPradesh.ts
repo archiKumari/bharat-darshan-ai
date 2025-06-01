@@ -197,6 +197,24 @@ export const madhyaPradesh: StateData = {
         description: "Almond barfi.",
         subtype: "dessert",
       },
+      {
+        title: "Madhya Pradesh Bread Basket",
+        description:
+          "Includes Baati, Bhutte ki Roti, Poha Roti, and Dal Pithi — rustic and regionally cherished.",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Kodo Millet Tehri",
+        description:
+          "A vibrant one-pot dish of kodo millet and vegetables, spiced with turmeric, mustard seeds, and garam masala.",
+        subtype: "rice",
+      },
+      {
+        title: "Jowar Masala Bhaat",
+        description:
+          "Broken jowar cooked with potatoes, green peas, and masala tempering — often eaten with chutney or curd.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

@@ -194,6 +194,24 @@ export const westbengal: StateData = {
         description: "Cylindrical paneer sweets with dry fruits or cream.",
         subtype: "dessert",
       },
+      {
+        title: "West Bengal Bread Basket",
+        description:
+          "Includes Luchi (deep-fried puffed bread), Radhaballabhi (stuffed puri), Chapati, and Kochuri — usually enjoyed with alu-dum or cholar dal.",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Bhuni Khichuri",
+        description:
+          "Dry-style moong dal khichdi cooked with vegetables and whole spices — often served during pujas.",
+        subtype: "rice",
+      },
+      {
+        title: "Begun Bhaat",
+        description:
+          "Steamed rice served with mashed or fried eggplant and mustard-flavored mashed potatoes.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

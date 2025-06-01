@@ -196,6 +196,24 @@ export const uttarakhand: StateData = {
         description: "Rice flour jaggery sweet for weddings.",
         subtype: "dessert",
       },
+      {
+        title: "Uttarakhand Bread Basket",
+        description:
+          "Includes Mandua Roti, Jhangora Roti, Gahat Paratha, and Kumaoni Roti — rooted in Pahadi millet-based traditions.",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Mandua Khichdi",
+        description:
+          "Finger millet cooked with split moong dal, seasoned with turmeric and ghee — perfect for mountain winters.",
+        subtype: "rice",
+      },
+      {
+        title: "Jhangora Vegetable Pilaf",
+        description:
+          "Barnyard millet sautéed with pahadi greens, ginger, and ajwain — light, aromatic, and healthy.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

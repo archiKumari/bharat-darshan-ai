@@ -191,6 +191,24 @@ export const goa: StateData = {
         description: "Coconut milk and rice flour fudge.",
         subtype: "dessert",
       },
+      {
+        title: "Goa Bread Basket",
+        description:
+          "Includes Poee (soft whole wheat bread), Unddo (crispy-crusted bread roll), Bhakri, and Sannas (steamed rice cakes).",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Goan Pulao",
+        description:
+          "Fluffy rice cooked with mild spices, peas, and a touch of coconut — often served with curries.",
+        subtype: "rice",
+      },
+      {
+        title: "Kokum Rice",
+        description:
+          "Rice cooked with kokum extract, coconut, mustard seeds, and curry leaves — tangy and refreshing.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

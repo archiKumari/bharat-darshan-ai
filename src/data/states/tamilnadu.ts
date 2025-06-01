@@ -199,6 +199,24 @@ export const tamilnadu: StateData = {
         description: "Sweet rice with rock sugar and ghee.",
         subtype: "dessert",
       },
+      {
+        title: "Tamil Nadu Bread Basket",
+        description:
+          "Includes Kal Dosa, Ragi Roti, Adai (lentil pancake), and Parotta — diverse in texture and flavor.",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Lemon Rice",
+        description:
+          "Fluffy rice tempered with mustard seeds, curry leaves, chilies, and a generous squeeze of lemon.",
+        subtype: "rice",
+      },
+      {
+        title: "Vegetable Biryani (Tamil Style)",
+        description:
+          "Layered spiced rice cooked with vegetables, mint, and Tamil Nadu-style masala — served with curd.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

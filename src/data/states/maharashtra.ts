@@ -197,6 +197,24 @@ export const maharashtra: StateData = {
         description: "Steamed colostrum pudding.",
         subtype: "dessert",
       },
+      {
+        title: "Maharashtra Bread Basket",
+        description:
+          "Includes Jowar Bhakri, Bajra Bhakri, Thalipeeth (multigrain pancake), and Puran Poli — perfect for rural and festive meals.",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Jowar Masala Khichdi",
+        description:
+          "Broken sorghum cooked with seasonal vegetables and goda masala — warming and hearty.",
+        subtype: "rice",
+      },
+      {
+        title: "Bajrichi Khichdi",
+        description:
+          "A humble millet preparation made with bajra, mung dal, garlic, and turmeric — served with curd or pickle.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

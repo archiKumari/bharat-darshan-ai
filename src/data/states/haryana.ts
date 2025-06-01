@@ -188,6 +188,24 @@ export const haryana: StateData = {
         description: "Roasted gram flour balls with ghee.",
         subtype: "dessert",
       },
+      {
+        title: "Haryana Bread Basket",
+        description:
+          "Includes Bajra Roti, Besan Masala Roti, Tandoori Roti, and Missi Roti — hearty and rustic breads of the region.",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Jeera Rice",
+        description:
+          "Fragrant basmati rice tempered with cumin seeds and ghee — often paired with kadhi or dal.",
+        subtype: "rice",
+      },
+      {
+        title: "Hara Lehsun Pulao",
+        description:
+          "A seasonal garlic-green pulao made with fresh spring garlic, mild spices, and ghee.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

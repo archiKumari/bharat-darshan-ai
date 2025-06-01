@@ -191,6 +191,24 @@ export const ladakh: StateData = {
         description: "Tsampa and butter rolled into energy balls.",
         subtype: "dessert",
       },
+      {
+        title: "Ladakh Bread Basket",
+        description:
+          "Includes Ngamphe Pancake, Khambir, Skyu Roti (whole wheat pasta-style), and Tingmo (steamed wheat bun).",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Tsampa Barley Bowl",
+        description:
+          "Roasted barley flour kneaded into a dough and eaten with butter tea or mixed vegetable broth — a Ladakhi staple.",
+        subtype: "rice",
+      },
+      {
+        title: "Skyu (Vegetarian Version)",
+        description:
+          "Wheat flour dough cooked with vegetables and water to form a hearty stew — eaten hot in cold weather.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

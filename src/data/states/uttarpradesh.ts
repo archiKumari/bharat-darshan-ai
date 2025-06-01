@@ -195,6 +195,24 @@ export const uttarpradesh: StateData = {
         description: "Creamy laddus made with condensed milk.",
         subtype: "dessert",
       },
+      {
+        title: "Uttar Pradesh Bread Basket",
+        description:
+          "Includes Tandoori Roti, Kachori, Bedmi Puri, and Stuffed Paratha — perfect with spicy sabzis and curd.",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Tahri",
+        description:
+          "Spiced yellow rice cooked with potatoes, carrots, peas, and mustard oil — a hearty UP favorite.",
+        subtype: "rice",
+      },
+      {
+        title: "Jeera Rice",
+        description:
+          "Basmati rice tempered with cumin seeds and ghee — served with UP-style kadhi or dal.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

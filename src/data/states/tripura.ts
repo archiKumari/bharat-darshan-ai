@@ -195,6 +195,24 @@ export const tripura: StateData = {
         description: "Warm, sweet local rice dessert.",
         subtype: "dessert",
       },
+      {
+        title: "Tripura Bread Basket",
+        description:
+          "Includes Mui Borok Roti, Bamboo Rice Bread, Berma-less Chakwi Flatbread, and steamed rice cakes.",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Mui Chakwi Veg Rice",
+        description:
+          "Rice prepared with seasonal vegetables, green chilies, and bamboo shoots — minus fermented fish (berma).",
+        subtype: "rice",
+      },
+      {
+        title: "Millet with Mosdeng Veg",
+        description:
+          "Simple cooked millet served with a fiery roasted tomato and herb chutney — vegetarian and tribal.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

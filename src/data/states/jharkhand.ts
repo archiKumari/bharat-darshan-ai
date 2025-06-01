@@ -187,6 +187,24 @@ export const jharkhand: StateData = {
         description: "Sesame-coated rice flour fritters.",
         subtype: "dessert",
       },
+      {
+        title: "Jharkhand Bread Basket",
+        description:
+          "Includes Dhuska, Arsa Roti, Thekua, and Ragi Roti — drawn from tribal and festive Jharkhandi traditions.",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Kodo Millet Pulao",
+        description:
+          "Tribal-style pulao made from kodo millet, cooked with mustard oil, local vegetables, and turmeric.",
+        subtype: "rice",
+      },
+      {
+        title: "Kutki Bhath",
+        description:
+          "Kutki millet cooked in a one-pot method with roasted spices and ridge gourd — simple and earthy.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

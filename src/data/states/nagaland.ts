@@ -180,6 +180,24 @@ export const nagaland: StateData = {
         description: "Rolled millet sweetened with jaggery.",
         subtype: "dessert",
       },
+      {
+        title: "Nagaland Bread Basket",
+        description:
+          "Includes Galho Roti (rice dough roti), Millet Flatbread, Tapioca Flour Roti, and Naga Bamboo Pancake.",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Veg Galho",
+        description:
+          "Soft rice porridge cooked with mustard leaves, garlic, and seasonal vegetables — a staple in Naga homes.",
+        subtype: "rice",
+      },
+      {
+        title: "Millet with Axone Veg Curry",
+        description:
+          "Cooked millet served with fermented soybean-based vegetable curry, spiced lightly with chili and ginger.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

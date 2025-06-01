@@ -192,6 +192,24 @@ export const punjab: StateData = {
         description: "Ground rice milk pudding served chilled.",
         subtype: "dessert",
       },
+      {
+        title: "Punjab Bread Basket",
+        description:
+          "Includes Makki di Roti, Missi Roti, Tandoori Roti, and Amritsari Kulcha — all served with dollops of white butter.",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Jeera Rice",
+        description:
+          "Basmati rice tempered with cumin seeds, ghee, and coriander — often served with dal makhani or kadhi.",
+        subtype: "rice",
+      },
+      {
+        title: "Peas Pulao",
+        description:
+          "Light and fragrant rice preparation with green peas, cumin, and whole spices — often paired with Punjabi curries.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

@@ -191,6 +191,24 @@ export const chandigarh: StateData = {
         description: "Creamy rice or vermicelli pudding with nuts.",
         subtype: "dessert",
       },
+      {
+        title: "Chandigarh Bread Basket",
+        description:
+          "Includes Tandoori Roti, Stuffed Paratha, Missi Roti, and Kulcha — reflecting rich Punjabi culinary influence.",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Jeera Pulao",
+        description:
+          "Basmati rice tempered with cumin seeds and ghee — often served with creamy dal makhani or kadhi.",
+        subtype: "rice",
+      },
+      {
+        title: "Vegetable Biryani (North Indian Style)",
+        description:
+          "Layered rice with spiced vegetables, saffron, and whole spices — a festive main course.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {

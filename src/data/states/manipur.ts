@@ -187,6 +187,24 @@ export const manipur: StateData = {
         description: "Fried banana-rice snacks.",
         subtype: "dessert",
       },
+      {
+        title: "Manipur Bread Basket",
+        description:
+          "Includes Tan Ngang (local fermented bread), Chak Hao Chapati (black rice flatbread), Nga Atoiba Pitha (spiced rice pancake), and Kabok Roti.",
+        subtype: "breadbasket",
+      },
+      {
+        title: "Chamthong Rice",
+        description:
+          "Plain rice served with Chamthong — a vegetable stew seasoned with ginger, mustard oil, and local herbs.",
+        subtype: "rice",
+      },
+      {
+        title: "Kangsoi Millet Bowl",
+        description:
+          "Savory hotpot-style dish where cooked millet is served with seasonal vegetables and fermented soybean broth.",
+        subtype: "rice",
+      },
     ],
     culture: [
       {
