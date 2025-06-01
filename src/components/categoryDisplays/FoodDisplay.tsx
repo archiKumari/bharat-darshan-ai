@@ -1,115 +1,234 @@
 import React from "react";
-import type { FoodItem } from "../../data/types";
 import placeholderImage from "../../assets/Category placeholders/food1.png";
-import table from "../../assets/food background.png";
+import type { FoodItem } from "../../data/types";
+import Tooltip from "../Tooltip";
 
 interface Props {
   foodItems: FoodItem[];
 }
 
+const getCircularPosition = (index: number, total: number, radius: number) => {
+  const angle = (2 * Math.PI * index) / total;
+  const x = radius * Math.cos(angle);
+  const y = radius * Math.sin(angle);
+  return {
+    left: `calc(50% + ${x}px)`,
+    top: `calc(50% + ${y}px)`,
+    transform: "translate(-50%, -50%)",
+  };
+};
+
+const getArcPosition = (
+  index: number,
+  total: number,
+  position: "top" | "bottom"
+) => {
+  const arcAngle = (2 * Math.PI) / 3;
+  const centerAngle = position === "top" ? -Math.PI / 2 : Math.PI / 2;
+  const startAngle = centerAngle - arcAngle / 2;
+  const angleStep = arcAngle / (total - 1);
+  const angle = startAngle + index * angleStep;
+
+  const radius = 220;
+  const x = radius * Math.cos(angle);
+  const y = radius * Math.sin(angle);
+
+  return {
+    left: `calc(50% + ${x}px)`,
+    top: `calc(50% + ${y}px)`,
+    transform: "translate(-50%, -50%)",
+  };
+};
+
+const getSideArcPosition = (index: number, side: "left" | "right") => {
+  const baseAngle = side === "left" ? Math.PI : 0;
+  const angleOffsets = [-Math.PI / 6, -Math.PI / 18, Math.PI / 18, Math.PI / 6];
+  const angle =
+    baseAngle + (side === "left" ? angleOffsets[index] : -angleOffsets[index]);
+
+  const radius = 340;
+  const x = radius * Math.cos(angle);
+  const y = radius * Math.sin(angle);
+
+  return {
+    left: `calc(50% + ${x}px)`,
+    top: `calc(50% + ${y}px)`,
+    transform: "translate(-50%, -50%)",
+  };
+};
+
 const FoodDisplay: React.FC<Props> = ({ foodItems }) => {
-  const mains = foodItems.filter((item) => item.subtype === "main");
-  const condiments = foodItems.filter((item) => item.subtype === "condiment");
-  const drinks = foodItems.filter((item) => item.subtype === "drink");
-  const desserts = foodItems.filter((item) => item.subtype === "dessert");
+  const breadBasket = foodItems.find((i) => i.subtype === "breadbasket");
+  const condiments = foodItems.filter((i) => i.subtype === "condiment");
+  const mainDishes = foodItems.filter((i) => i.subtype === "main");
+  const mainsTop = mainDishes.slice(0, 5);
+  const mainsBottom = mainDishes.slice(5, 10);
+
+  const riceDishes = foodItems.filter((i) => i.subtype === "rice");
+  const riceLeft = riceDishes[0];
+  const riceRight = riceDishes[1];
+  const desserts = foodItems.filter((i) => i.subtype === "dessert");
+  const drinks = foodItems.filter((i) => i.subtype === "drink");
 
   return (
-    <div
-      className="relative w-full h-screen bg-no-repeat bg-center bg-cover overflow-hidden"
-      style={{ backgroundImage: `url(${table})` }}
-    >
-      {/* Main Dishes – Top Edge */}
-      <div className="absolute top-10 left-1/2 transform -translate-x-1/2 w-4/5 flex justify-between mt-4 ">
-        {mains.slice(0, 5).map((item, idx) => (
-          <DishCard key={idx} item={item} tooltipPosition="bottom" />
-        ))}
-      </div>
-
-      {/* Main Dishes – Bottom Edge */}
-      <div className="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-4/5 flex justify-between mb-4">
-        {mains.slice(5, 10).map((item, idx) => (
-          <DishCard key={idx} item={item} tooltipPosition="top" />
-        ))}
-      </div>
-
-      {/* Desserts – Right Edge */}
-      <div className="absolute top-20 bottom-20 right-0 w-28 flex flex-col justify-between items-center">
-        {desserts.slice(0, 4).map((item, idx) => (
-          <DishCard key={idx} item={item} tooltipPosition="left" />
-        ))}
-      </div>
-
-      {/* Drinks – Left Edge */}
-      <div className="absolute top-20 bottom-20 left-0 w-28 flex flex-col justify-between items-center">
-        {drinks.slice(0, 4).map((item, idx) => (
-          <DishCard key={idx} item={item} tooltipPosition="right" />
-        ))}
-      </div>
-
-      {/* Condiments – Staggered Center Grid */}
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 space-y-6">
-        {/* Top row: 5 items evenly spaced */}
-        <div className="flex justify-center gap-8">
-          {condiments.slice(0, 5).map((item, idx) => (
-            <DishCard key={idx} item={item} small tooltipPosition="top" />
-          ))}
+    <div className="relative w-full h-screen bg-stone-100 overflow-visible">
+      {breadBasket && (
+        <div
+          className="absolute"
+          style={{
+            top: "50%",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
+          }}
+        >
+          <div className="relative ">
+            <Tooltip
+              content={
+                <div>
+                  <div className="font-semibold">{breadBasket.title}</div>
+                  <div className="text-xs text-gray-600">
+                    {breadBasket.description}
+                  </div>
+                </div>
+              }
+              position="top"
+            >
+              <img
+                src={breadBasket?.image || placeholderImage}
+                alt={breadBasket?.title || "Bread Basket"}
+                className="w-32 h-32 rounded-full"
+              />
+            </Tooltip>
+          </div>
         </div>
-        {/* Bottom row: 4 items offset to align between top row items */}
-        <div className="flex justify-center gap-8 pl-10">
-          {condiments.slice(5, 10).map((item, idx) => (
-            <DishCard key={idx} item={item} small tooltipPosition="bottom" />
-          ))}
+      )}
+
+      {condiments.map((item, i) => (
+        <div
+          key={i}
+          className="absolute"
+          style={getCircularPosition(i, condiments.length, 110)}
+        >
+          <div className="relative ">
+            <Tooltip
+              content={
+                <div>
+                  <div className="font-semibold">{item.title}</div>
+                  <div className="text-xs text-gray-600">
+                    {item.description}
+                  </div>
+                </div>
+              }
+              position="top"
+            >
+              <img
+                src={placeholderImage}
+                alt={item.title}
+                className="w-14 h-14 rounded-full"
+              />
+            </Tooltip>
+          </div>
         </div>
-      </div>
+      ))}
+
+      {[riceLeft, riceRight].map((item, i) =>
+        item ? (
+          <div
+            key={`rice-${i}`}
+            className="absolute"
+            style={{
+              top: "50%",
+              left: i === 0 ? "calc(50% - 220px)" : "calc(50% + 220px)",
+              transform: "translate(-50%, -50%)",
+            }}
+          >
+            <div className="relative ">
+              <Tooltip
+                content={
+                  <div>
+                    <div className="font-semibold">{item.title}</div>
+                    <div className="text-xs text-gray-600">
+                      {item.description}
+                    </div>
+                  </div>
+                }
+                position="top"
+              >
+                <img
+                  src={item.image || placeholderImage}
+                  alt={item.title}
+                  className="w-28 h-24 rounded-full"
+                />
+              </Tooltip>
+            </div>
+          </div>
+        ) : null
+      )}
+
+      {[...mainsTop, ...mainsBottom].map((item, i) => (
+        <div
+          key={`main-${i}`}
+          className="absolute"
+          style={getArcPosition(i % 5, 5, i < 5 ? "top" : "bottom")}
+        >
+          <div className="relative ">
+            <Tooltip
+              content={
+                <div>
+                  <div className="font-semibold">{item.title}</div>
+                  <div className="text-xs text-gray-600">
+                    {item.description}
+                  </div>
+                </div>
+              }
+              position="top"
+            >
+              <img
+                src={placeholderImage}
+                alt={item.title}
+                className="w-20 h-20 rounded-full"
+              />
+            </Tooltip>
+          </div>
+        </div>
+      ))}
+
+      {[
+        ...drinks.slice(0, 2),
+        ...desserts.slice(0, 2),
+        drinks[1],
+        drinks[2],
+        ...desserts.slice(2, 4),
+        drinks[3],
+      ].map((item, i) => (
+        <div
+          key={`side-${i}`}
+          className="absolute"
+          style={getSideArcPosition(i % 4, i < 4 ? "left" : "right")}
+        >
+          <div className="relative ">
+            <Tooltip
+              content={
+                <div>
+                  <div className="font-semibold">{item?.title}</div>
+                  <div className="text-xs text-gray-600">
+                    {item?.description}
+                  </div>
+                </div>
+              }
+              position="top"
+            >
+              <img
+                src={item?.image || placeholderImage}
+                alt={item?.title || "item"}
+                className="w-16 h-16 rounded-md"
+              />
+            </Tooltip>
+          </div>
+        </div>
+      ))}
     </div>
   );
 };
-
-const DishCard: React.FC<{
-  item: FoodItem;
-  small?: boolean;
-  tooltipPosition?: "top" | "bottom" | "left" | "right";
-}> = ({ item, small, tooltipPosition = "top" }) => (
-  <div
-    className={`flex flex-col items-center transition-transform hover:-translate-y-2 hover:scale-105 relative group ${
-      small ? "w-16" : "w-24"
-    }`}
-  >
-    <img
-      src={item.image || placeholderImage}
-      alt={item.title}
-      className="rounded-full"
-    />
-    <div
-      className={`
-    absolute z-20 w-56 px-4 py-2 bg-white text-gray-800 text-sm shadow-lg rounded-lg
-    opacity-0 group-hover:opacity-100 transition-all duration-200
-    ${
-      tooltipPosition === "top"
-        ? "bottom-full mb-3 left-1/2 -translate-x-1/2"
-        : ""
-    }
-    ${
-      tooltipPosition === "bottom"
-        ? "top-full mt-3 left-1/2 -translate-x-1/2"
-        : ""
-    }
-    ${
-      tooltipPosition === "left"
-        ? "right-full mr-3 top-1/2 -translate-y-1/2"
-        : ""
-    }
-    ${
-      tooltipPosition === "right"
-        ? "left-full ml-3 top-1/2 -translate-y-1/2"
-        : ""
-    }
-  `}
-    >
-      <div className="font-semibold text-center">{item.title}</div>
-      <div className="mt-1 text-xs text-center italic">{item.description}</div>
-    </div>
-  </div>
-);
 
 export default FoodDisplay;
