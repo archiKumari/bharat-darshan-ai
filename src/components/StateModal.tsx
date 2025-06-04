@@ -4,6 +4,7 @@ import placeholder from "../assets/placeholder.png";
 import TouristPlacesDisplay from "../components/categoryDisplays/TouristPlacesDisplay";
 import FoodDisplay from "./categoryDisplays/FoodDisplay";
 import type { FoodItem } from "../data/types";
+import CultureDisplay from "./categoryDisplays/CultureDisplay";
 
 interface StateModalProps {
   isOpen: boolean;
@@ -13,7 +14,6 @@ interface StateModalProps {
 
 export default function StateModal({
   isOpen,
-  onClose,
   state,
 }: StateModalProps) {
   useEffect(() => {
@@ -28,18 +28,7 @@ export default function StateModal({
   // const state = arunachal;
 
   return (
-    <div className="fixed inset-0 bg-white z-50 overflow-y-scroll">
-      <div className="sticky top-0 bg-white border-b p-2 flex justify-between items-center shadow-md z-50">
-        <h2 className="text-xl font-semibold text-indigo-700">
-          Explore {state.name}
-        </h2>
-        <button
-          onClick={onClose}
-          className="text-sm text-gray-500 hover:text-red-500"
-        >
-          ✕ Close
-        </button>
-      </div>
+    <div className="fixed inset-0 bg-white z-50 scrollbar-hide overflow-y-scroll">
       <section className="p-6 border-b">
         <h3 className="text-lg font-semibold mb-2">Mini Map</h3>
         <div className="w-full h-64 bg-gray-100 rounded flex items-center justify-center">
@@ -62,6 +51,14 @@ export default function StateModal({
             return (
               <div key={key}>
                 <FoodDisplay foodItems={items as FoodItem[]} />
+              </div>
+            );
+          }
+
+          if (key === "culture") {
+            return (
+              <div key={key}>
+                <CultureDisplay culture={items} />
               </div>
             );
           }
