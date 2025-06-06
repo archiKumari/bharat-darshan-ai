@@ -5,6 +5,7 @@ import TouristPlacesDisplay from "../components/categoryDisplays/TouristPlacesDi
 import FoodDisplay from "./categoryDisplays/FoodDisplay";
 import type { FoodItem } from "../data/types";
 import CultureDisplay from "./categoryDisplays/CultureDisplay";
+import FestivalDisplay from "./categoryDisplays/FestivalDisplay";
 
 interface StateModalProps {
   isOpen: boolean;
@@ -59,6 +60,14 @@ export default function StateModal({
             return (
               <div key={key}>
                 <CultureDisplay culture={items} />
+              </div>
+            );
+          }
+
+          if (key === "festivals") {
+            return (
+              <div key={key}>
+                <FestivalDisplay festivals={items}/>
               </div>
             );
           }
