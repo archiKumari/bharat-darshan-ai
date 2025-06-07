@@ -18,7 +18,7 @@ const FestivalDisplay: React.FC<Props> = ({ festivals }) => {
   return (
     <div className="w-full h-screen bg-festival-radial flex flex-col justify-between">
       {/* Lantern Strip */}
-      <div className="w-full overflow-x-auto scrollbar-hide flex-1 flex items-center">
+      <div className="w-full overflow-x-auto overflow-y-hidden scrollbar-hide flex-1 flex items-center">
         <div className="flex gap-x-12 px-6 justify-center w-full">
           {festivals.map((festival, index) => {
             const isEven = index % 2 === 0;
