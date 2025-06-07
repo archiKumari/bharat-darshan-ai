@@ -5,6 +5,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'festival-radial': 'radial-gradient(circle at center, #1f2937 0%, #000000 80%)',
+        'nature': "url('/src/assets/natureBackground.png')",
+        'parchment': "url('/src/assets/parchment.png')"
       },
     },
   },

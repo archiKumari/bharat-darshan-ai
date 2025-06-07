@@ -6,6 +6,7 @@ import FoodDisplay from "./categoryDisplays/FoodDisplay";
 import type { FoodItem } from "../data/types";
 import CultureDisplay from "./categoryDisplays/CultureDisplay";
 import FestivalDisplay from "./categoryDisplays/FestivalDisplay";
+import NatureDisplay from "./categoryDisplays/NatureDisplay";
 
 interface StateModalProps {
   isOpen: boolean;
@@ -68,6 +69,14 @@ export default function StateModal({
             return (
               <div key={key}>
                 <FestivalDisplay festivals={items}/>
+              </div>
+            );
+          }
+
+          if (key === "nature") {
+            return (
+              <div key={key}>
+                <NatureDisplay items={items}/>
               </div>
             );
           }
