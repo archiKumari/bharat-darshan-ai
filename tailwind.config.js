@@ -8,6 +8,10 @@ module.exports = {
         'nature': "url('/src/assets/natureBackground.png')",
         'parchment': "url('/src/assets/parchment.png')"
       },
+      fontFamily: {
+        'eaglelake': ['Eagle Lake', 'serif'],
+        'quintessential': ['Quintessential','serif'],
+      },
     },
   },
   plugins: [require("tailwind-scrollbar-hide")],

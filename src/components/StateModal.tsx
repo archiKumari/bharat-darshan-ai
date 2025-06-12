@@ -7,6 +7,7 @@ import type { FoodItem } from "../data/types";
 import CultureDisplay from "./categoryDisplays/CultureDisplay";
 import FestivalDisplay from "./categoryDisplays/FestivalDisplay";
 import NatureDisplay from "./categoryDisplays/NatureDisplay";
+import LocalLegendsDisplay from "./categoryDisplays/LocalLegendsDisplay";
 
 interface StateModalProps {
   isOpen: boolean;
@@ -77,6 +78,14 @@ export default function StateModal({
             return (
               <div key={key}>
                 <NatureDisplay items={items}/>
+              </div>
+            );
+          }
+
+          if (key === "people") {
+            return (
+              <div key={key}>
+                <LocalLegendsDisplay people={items}/>
               </div>
             );
           }
