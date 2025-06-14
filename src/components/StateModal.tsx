@@ -8,6 +8,7 @@ import CultureDisplay from "./categoryDisplays/CultureDisplay";
 import FestivalDisplay from "./categoryDisplays/FestivalDisplay";
 import NatureDisplay from "./categoryDisplays/NatureDisplay";
 import LocalLegendsDisplay from "./categoryDisplays/LocalLegendsDisplay";
+import ArtAndCraftsDisplay from "./categoryDisplays/Art&CraftsDisplay";
 
 interface StateModalProps {
   isOpen: boolean;
@@ -86,6 +87,14 @@ export default function StateModal({
             return (
               <div key={key}>
                 <LocalLegendsDisplay people={items}/>
+              </div>
+            );
+          }
+
+          if (key === "crafts") {
+            return (
+              <div key={key}>
+                <ArtAndCraftsDisplay crafts={items}/>
               </div>
             );
           }

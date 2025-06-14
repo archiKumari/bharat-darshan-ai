@@ -344,6 +344,21 @@ export const gujarat: StateData = {
         description:
           "Worn by Rabari and Ahir women, often passed down as heirlooms.",
       },
+      {
+        title: "Patola Sarees (Patan)",
+        description:
+          "Double ikat silk sarees, known for their geometric precision and vivid dyes.",
+      },
+      {
+        title: "Rogan Art (Nirona)",
+        description:
+          "Oil-based textile painting, kept alive by a single family for generations.",
+      },
+      {
+        title: "Kutchi Embroidery",
+        description:
+          "Rich mirror and thread work on garments, bags, and wall hangings.",
+      },
     ],
     trivia: [
       {
