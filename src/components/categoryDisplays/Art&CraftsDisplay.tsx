@@ -39,11 +39,11 @@ const ArtAndCraftsDisplay: React.FC<ArtAndCraftsDisplayProps> = ({ crafts }) => 
     >
       <div className="relative grid grid-cols-5 grid-rows-5 gap-3 h-full z-10">
         <div className="col-start-4 col-span-2 row-start-1 row-span-2">
-          <div className="h-full flex items-center justify-center rounded-md shadow-md">
+          <div className="h-full p-2 flex items-center justify-center rounded-md shadow-md">
             <img
               src={titleImage}
               alt="Traditional Arts & Handicrafts"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-fill"
             />
           </div>
         </div>
