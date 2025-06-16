@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import type { StateData } from "../data/types";
-import placeholder from "../assets/placeholder.png";
 import TouristPlacesDisplay from "../components/categoryDisplays/TouristPlacesDisplay";
 import FoodDisplay from "./categoryDisplays/FoodDisplay";
 import type { FoodItem } from "../data/types";
@@ -9,6 +8,8 @@ import FestivalDisplay from "./categoryDisplays/FestivalDisplay";
 import NatureDisplay from "./categoryDisplays/NatureDisplay";
 import LocalLegendsDisplay from "./categoryDisplays/LocalLegendsDisplay";
 import ArtAndCraftsDisplay from "./categoryDisplays/Art&CraftsDisplay";
+import TriviaBubbles from "./TriviaBubbles";
+import type { TriviaFact } from "./TriviaBubbles";
 
 interface StateModalProps {
   isOpen: boolean;
@@ -16,10 +17,7 @@ interface StateModalProps {
   state: StateData;
 }
 
-export default function StateModal({
-  isOpen,
-  state,
-}: StateModalProps) {
+export default function StateModal({ isOpen, state }: StateModalProps) {
   useEffect(() => {
     if (isOpen) document.body.style.overflow = "hidden";
     return () => {
@@ -29,7 +27,13 @@ export default function StateModal({
 
   if (!isOpen) return null;
 
-  // const state = arunachal;
+  const triviaFacts: TriviaFact[] = (state.categories.trivia || []).map(
+    (t, idx) => ({
+      id: String(idx),
+      shortLabel: t.title,
+      fullFact: t.description,
+    })
+  );
 
   return (
     <div className="fixed inset-0 bg-white z-50 scrollbar-hide overflow-y-scroll">
@@ -41,97 +45,68 @@ export default function StateModal({
         </div>
       </section>
 
-      <section className=" space-y-12">
-        {Object.entries(state.categories).map(([key, items]) => {
-          if (key === "touristPlaces") {
-            return (
-              <div key={key}>
-                <TouristPlacesDisplay places={items} />
-              </div>
-            );
-          }
+      <div className="relative">
+        <TriviaBubbles facts={triviaFacts} />
+        <section className=" space-y-12">
+          {Object.entries(state.categories).map(([key, items]) => {
+            if (key === "touristPlaces") {
+              return (
+                <div key={key}>
+                  <TouristPlacesDisplay places={items} />
+                </div>
+              );
+            }
 
-          if (key === "food") {
-            return (
-              <div key={key}>
-                <FoodDisplay foodItems={items as FoodItem[]} />
-              </div>
-            );
-          }
+            if (key === "food") {
+              return (
+                <div key={key}>
+                  <FoodDisplay foodItems={items as FoodItem[]} />
+                </div>
+              );
+            }
 
-          if (key === "culture") {
-            return (
-              <div key={key}>
-                <CultureDisplay culture={items} />
-              </div>
-            );
-          }
+            if (key === "culture") {
+              return (
+                <div key={key}>
+                  <CultureDisplay culture={items} />
+                </div>
+              );
+            }
 
-          if (key === "festivals") {
-            return (
-              <div key={key}>
-                <FestivalDisplay festivals={items}/>
-              </div>
-            );
-          }
+            if (key === "festivals") {
+              return (
+                <div key={key}>
+                  <FestivalDisplay festivals={items} />
+                </div>
+              );
+            }
 
-          if (key === "nature") {
-            return (
-              <div key={key}>
-                <NatureDisplay items={items}/>
-              </div>
-            );
-          }
+            if (key === "nature") {
+              return (
+                <div key={key}>
+                  <NatureDisplay items={items} />
+                </div>
+              );
+            }
 
-          if (key === "people") {
-            return (
-              <div key={key}>
-                <LocalLegendsDisplay people={items}/>
-              </div>
-            );
-          }
+            if (key === "people") {
+              return (
+                <div key={key}>
+                  <LocalLegendsDisplay people={items} />
+                </div>
+              );
+            }
 
-          if (key === "crafts") {
-            return (
-              <div key={key}>
-                <ArtAndCraftsDisplay crafts={items}/>
-              </div>
-            );
-          }
-
-          return (
-            <div key={key} /*className="space-y-4"*/>
-              <h3 className="text-xl font-bold capitalize text-indigo-800">
-                {key.replace(/([A-Z])/g, " $1")}
-              </h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3" /*gap-4"*/>
-                {items.map((item, idx) => (
-                  <div
-                    key={idx}
-                    className="bg-white border rounded shadow hover:shadow-md transition overflow-hidden"
-                  >
-                    <div className="relative h-48">
-                      <img
-                        src={placeholder}
-                        alt={item.title}
-                        className="w-full h-full object-cover"
-                      />
-                      <span className="absolute bottom-2 left-2 px-3 py-1 text-white text-sm rounded backdrop-blur-sm bg-white/20 border border-white/30 shadow-sm">
-                        {item.title}
-                      </span>
-                    </div>
-                    <div className="p-4">
-                      <p className="text-sm text-gray-700">
-                        {item.description}
-                      </p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          );
-        })}
-      </section>
+            if (key === "crafts") {
+              return (
+                <div key={key}>
+                  <ArtAndCraftsDisplay crafts={items} />
+                </div>
+              );
+            }
+          })}
+        </section>
+      </div>
     </div>
   );
 }
