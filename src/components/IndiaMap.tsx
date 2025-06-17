@@ -1,11 +1,11 @@
 import { useState } from "react";
-
-import IndiaSVG from "../assets/india.svg?react";
+import IndiaSVG from "../assets/in.svg?react";
 import HoverPreview from "./HoverPreview";
 
 type Props = {
   onStateClick: (stateId: string, title: string) => void;
 };
+
 export default function IndiaMap({ onStateClick }: Props) {
   const [hoverInfo, setHoverInfo] = useState<{
     visible: boolean;
@@ -14,47 +14,54 @@ export default function IndiaMap({ onStateClick }: Props) {
     name: string;
   }>({ visible: false, x: 0, y: 0, name: "" });
 
-  const handleMouseMove = (e: React.MouseEvent) => {
-    const target = e.target as SVGElement;
-    const hoveredPath = target.closest("path");
-    const title = hoveredPath?.getAttribute("title");
-
-    if (title) {
-      setHoverInfo({
-        visible: true,
-        x: e.clientX,
-        y: e.clientY,
-        name: title,
-      });
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+    const path = (e.target as Element).closest("path");
+    if (!path) {
+      setHoverInfo({ visible: false, x: 0, y: 0, name: "" });
+      return;
     }
+
+    const label = path.getAttribute("title");
+    if (!label) {
+      setHoverInfo({ visible: false, x: 0, y: 0, name: "" });
+      return;
+    }
+
+    setHoverInfo({
+      visible: true,
+      x: e.clientX,
+      y: e.clientY,
+      name: label,
+    });
   };
 
-  const handleMouseLeave = () => {
+  const handleMouseLeave = (
+  ) => {
     setHoverInfo({ visible: false, x: 0, y: 0, name: "" });
   };
-  const handleClick = (event: React.MouseEvent<SVGSVGElement, MouseEvent>) => {
-    const target = event.target as SVGElement;
-    const clickedPath = target.closest("path");
 
-    if (clickedPath) {
-      const stateId = clickedPath.id;
-      const stateTitle = clickedPath.getAttribute("title") || stateId;
+  const handleClick = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+    const path = (e.target as Element).closest("path");
+    if (!path) return;
+    const stateId = path.id;
+    const title = path.getAttribute("title") || stateId;
+    console.log("path",path);
+    console.log(stateId,title);
 
-      if (stateId.startsWith("IN-")) {
-        onStateClick(stateId, stateTitle);
-      }
+
+    if (stateId.startsWith("IN")) {
+      onStateClick(stateId, title);
     }
   };
 
   return (
-    <div className="w-full h-full relative">
-      <IndiaSVG
-        className="w-full h-full object-contain"
-        onClick={handleClick}
-        onMouseMove={handleMouseMove}
-        onMouseLeave={handleMouseLeave}
-      />
-
+    <div
+      className="w-full h-full relative"
+      onMouseMove={handleMouseMove}
+      onMouseLeave={handleMouseLeave}
+      onClick={handleClick}
+    >
+      <IndiaSVG className="w-full h-full object-contain" />
       <HoverPreview
         visible={hoverInfo.visible}
         x={hoverInfo.x}
