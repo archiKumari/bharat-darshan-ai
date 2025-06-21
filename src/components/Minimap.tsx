@@ -1,30 +1,33 @@
+// src/components/Minimap.tsx
 import React from "react";
+import stateMapIndex from "../assets/state maps";
 
 export interface MinimapProps {
-  stateCode: string;
-  width?: string;
-  height?: string;
+  stateCode: string; // e.g. "IN-AN"
 }
 
-const VIEW_BOX = "0 0 611.86 695.70";
+const Minimap: React.FC<MinimapProps> = ({ stateCode }) => {
+  const key = stateCode.replace(/-/g, "");
+  const Svg = stateMapIndex[key];
+  if (!Svg) {
+    return (
+      <div className="w-full h-full flex items-center justify-center bg-gray-100">
+        Map not found
+      </div>
+    );
+  }
 
-const Minimap: React.FC<MinimapProps> = ({
-  stateCode,
-  width = "500px",
-  height = "500px",
-}) => {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox={VIEW_BOX}
-      width={width}
-      height={height}
-      className="flex justify-center items-center"
-      role="img"
-      aria-label={`Minimap of state ${stateCode}`}
-    >
-      <use href={`#${stateCode}`} fill="teal" stroke="black" strokeWidth={1} />
-    </svg>
+    <div className="w-full h-full flex justify-center items-center">
+      <Svg
+        className="w-full h-full pt-4"
+        style={{
+          stroke: "#63330c", 
+          fill: "#8B4513", 
+          strokeWidth: 1,
+        }}
+      />
+    </div>
   );
 };
 

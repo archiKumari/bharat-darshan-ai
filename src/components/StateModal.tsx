@@ -10,7 +10,7 @@ import LocalLegendsDisplay from "./categoryDisplays/LocalLegendsDisplay";
 import ArtAndCraftsDisplay from "./categoryDisplays/Art&CraftsDisplay";
 import TriviaBubbles from "./TriviaBubbles";
 import type { TriviaFact } from "./TriviaBubbles";
-import Minimap from "./Minimap";
+import StateIntro from "./StateIntro";
 
 interface StateModalProps {
   isOpen: boolean;
@@ -27,7 +27,6 @@ export default function StateModal({ isOpen, state }: StateModalProps) {
   }, [isOpen]);
 
   if (!isOpen) return null;
-  console.log("State prop in state modal", state);
 
   const triviaFacts: TriviaFact[] = (state.categories.trivia || []).map(
     (t, idx) => ({
@@ -39,11 +38,8 @@ export default function StateModal({ isOpen, state }: StateModalProps) {
 
   return (
     <div className="fixed inset-0 bg-white z-50 scrollbar-hide overflow-y-scroll">
-      <section className="p-6 border-b">
-        <h3 className="text-lg font-semibold mb-2">Mini Map</h3>
-        <div className="w-full h-64 bg-gray-100 rounded flex items-center justify-center">
-          <Minimap stateCode={state.id} />
-        </div>
+      <section>
+        <StateIntro stateId={state.id} />
       </section>
 
       <div className="relative">
