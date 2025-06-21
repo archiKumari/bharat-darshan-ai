@@ -2,7 +2,7 @@ import { useState } from "react";
 import IndiaMap from "./components/IndiaMap";
 import StateModal from "./components/StateModal";
 import { statesMap } from "./data/states";
-// import StateSprite  from "./assets/indiaStates.svg?react";
+import StateSvg from './assets/indiaStates.svg?react';
 
 function App() {
   const [selectedStateId, setSelectedStateId] = useState<string | null>(null);
@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      {/* <StateSprite style={{ display: "none" }} /> */}
+      < StateSvg style={{ display: "none" }} />
       <div className="bg-gray-100 p-6 overflow-x-hidden">
         <h1 className="text-3xl font-bold text-center text-indigo-600 mb-4">
           Bharat Darshan AI
