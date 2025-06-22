@@ -44,7 +44,7 @@ export default function StateModal({ isOpen, state }: StateModalProps) {
 
       <div className="relative">
         <TriviaBubbles facts={triviaFacts} />
-        <section className=" space-y-12">
+        <section>
           {Object.entries(state.categories).map(([key, items]) => {
             if (key === "touristPlaces") {
               return (
