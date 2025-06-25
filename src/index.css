@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Flavors&family=Quintessential&family=Rubik+Doodle+Shadow&family=Trade+Winds&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -17,3 +16,20 @@
   font-style: normal;
 }
 
+.rubik-doodle-shadow-regular {
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.flavors-regular {
+  font-family: "Flavors", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.trade-winds-regular {
+  font-family: "Trade Winds", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}

@@ -1,8 +1,8 @@
-import { useState, useEffect } from "react";
-import { ChevronLeft, ChevronRight } from "lucide-react";
 import placeholder from "../../assets/Category placeholders/touristPlace.png";
+import tapeImg from "../../assets/torn paper.png";
+import background from "../../assets/tourist background.png";
 
-interface TouristPlace {
+export interface TouristPlace {
   title: string;
   description: string;
   imageUrl?: string;
@@ -10,82 +10,56 @@ interface TouristPlace {
   tagline?: string;
 }
 
-interface TouristPlacesDisplayProps {
+export interface TouristPlacesDisplayProps {
   places: TouristPlace[];
 }
 
 export default function TouristPlacesDisplay({
   places,
 }: TouristPlacesDisplayProps) {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  const nextSlide = () => {
-    setCurrentIndex((prev) => (prev + 1) % places.length);
-  };
-
-  const prevSlide = () => {
-    setCurrentIndex((prev) => (prev - 1 + places.length) % places.length);
-  };
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      nextSlide();
-    }, 8000);
-    return () => clearInterval(interval);
-  }, [places.length]);
-
-  const place = places[currentIndex];
+  const rotationAngles = ["4deg", "-5deg", "2deg", "-8deg", "-5deg"];
 
   return (
-    <div className="relative w-full h-screen overflow-hidden">
-      <div
-        className="absolute inset-0 bg-cover bg-center transition-all duration-1000"
-        style={{
-          backgroundImage: `url(${place.imageUrl || placeholder})`,
-        }}
-      ></div>
+    <div
+      className="w-full h-screen p-6"
+      style={{
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${background})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      <h2 className="trade-winds-regular text-8xl text-center text-yellow-600">
+        Tourist Places
+      </h2>
+      <div className=" h-4/5 overflow-x-auto scrollbar-hide mt-4">
+        <div className="flex flex-wrap justify-center items-center h-full gap-3">
+          {places.map((place, idx) => (
+            <div
+              key={idx}
+              className="relative m-3 bg-[rgba(255,233,215,0.8)] p-2 shadow-lg rounded-sm transform transition-transform duration-300 hover:scale-105"
+              style={{
+                transform: `rotate(${
+                  rotationAngles[idx % rotationAngles.length]
+                })`,
+              }}
+            >
+              <img
+                src={tapeImg}
+                alt="tape"
+                className="absolute top-0 left-1/2 w-16 h-8 -translate-x-1/2 -translate-y-1/2 pointer-events-none opacity-95"
+              />
 
-      <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 p-4 rounded-md shadow-lg max-w-md">
-        <div className="bg-white/20 backdrop-blur-md p-4 rounded-md max-w-md text-center">
-          <h2 className="text-3xl font-bold text-white mb-2 drop-shadow">
-            {place.title}
-          </h2>
-          {place.tagline && (
-            <p className="text-lg text-white/80 italic mb-1 drop-shadow">
-              {place.tagline}
-            </p>
-          )}
-          {place.location && (
-            <p className="text-sm text-white/70 mb-2 drop-shadow">
-              📍 {place.location}
-            </p>
-          )}
-          <p className="text-white/90 drop-shadow">{place.description}</p>
+              <img
+                src={place.imageUrl || placeholder}
+                alt={place.title}
+                className="w-60 h-36 object-cover rounded-sm brightness-90"
+              />
+              <h3 className="mt-2 text-center font-semibold text-yellow-800">
+                {place.title}
+              </h3>
+            </div>
+          ))}
         </div>
-      </div>
-
-      <button
-        className="absolute top-1/2 left-4 -translate-y-1/2 text-white hover:text-indigo-400 z-10"
-        onClick={prevSlide}
-      >
-        <ChevronLeft size={36} />
-      </button>
-      <button
-        className="absolute top-1/2 right-4 -translate-y-1/2 text-white hover:text-indigo-400 z-10"
-        onClick={nextSlide}
-      >
-        <ChevronRight size={36} />
-      </button>
-
-      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
-        {places.map((_, index) => (
-          <div
-            key={index}
-            className={`w-3 h-3 rounded-full transition-all duration-300 ${
-              index === currentIndex ? "bg-white" : "bg-white/40"
-            }`}
-          ></div>
-        ))}
       </div>
     </div>
   );
