@@ -1,8 +1,8 @@
 import React from "react";
 import placeholder from "../../assets/Category placeholders/nature.png";
-import leafPattern from "../../assets/leaves.png";
 import titleImage from "../../assets/natureTitle.png";
 import parchment from "../../assets/parchment.png";
+import background from "../../assets/nature.png"
 
 export interface NatureItem {
   image?: string;
@@ -14,18 +14,6 @@ interface NatureLayoutProps {
   items: NatureItem[];
 }
 
-const TitleWithLeaves: React.FC = () => (
-  <h2
-    className="
-      text-6xl md:text-8xl font-sans font-bold bg-repeat text-center
-      bg-clip-text text-transparent drop-shadow-md
-    "
-    style={{ backgroundImage: `url(${leafPattern})` }}
-  >
-    Nature
-  </h2>
-);
-
 // Vertical offsets for hill-wave effect
 const verticalOffsets = ["0px", "4rem", "2rem", "0px", "3rem"];
 // Rotation angles for fan-out effect
@@ -33,9 +21,16 @@ const rotationAngles = ["-3deg", "2deg", "-1deg", "3deg", "-2deg"];
 
 const NatureDisplay: React.FC<NatureLayoutProps> = ({ items }) => {
   return (
-    <div className="relative bg-nature bg-cover bg-center bg-no-repeat bg-black bg-opacity-5 bg-blend-darken min-h-screen">
+    <div
+      className="relative min-h-screen"
+      style={{
+        backgroundImage: `linear-gradient(rgba(217,217,146,0.3), rgba(217,217,146,0.3)), url(${background})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       {/* Title (static) */}
-      <div className="flex justify-center pt-2 pb-2">
+      <div className="flex justify-center">
         <img
           src={titleImage}
           alt="Nature"
@@ -45,7 +40,7 @@ const NatureDisplay: React.FC<NatureLayoutProps> = ({ items }) => {
 
       {/* Horizontal scroll container for cards only */}
       <div className="overflow-x-auto overflow-y-hidden scrollbar-hide w-full">
-        <div className="inline-flex items-start space-x-[-1rem] py-4 px-6">
+        <div className="inline-flex items-start space-x-[-1rem] py-4 px-4">
           {items.map((item, idx) => {
             const topOffset = verticalOffsets[idx % verticalOffsets.length];
             const rotation = rotationAngles[idx % rotationAngles.length];
@@ -72,7 +67,7 @@ const NatureDisplay: React.FC<NatureLayoutProps> = ({ items }) => {
                   <img
                     src={item.image || placeholder}
                     alt={item.title}
-                    className="w-full h-60 object-cover rounded-t-2xl"
+                    className="w-full h-60 object-cover rounded-t-2xl brightness-150"
                   />
                   <div className="p-4">
                     <h3 className="text-center font-serif text-xl text-gray-800">
