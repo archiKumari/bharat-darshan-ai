@@ -28,7 +28,7 @@ export default function TouristPlacesDisplay({
         backgroundPosition: "center",
       }}
     >
-      <h2 className="trade-winds-regular text-8xl text-center text-yellow-600">
+      <h2 className="trade-winds-regular text-8xl text-center text-yellow-500">
         Tourist Places
       </h2>
       <div className=" h-4/5 overflow-x-auto scrollbar-hide mt-4">
@@ -36,7 +36,7 @@ export default function TouristPlacesDisplay({
           {places.map((place, idx) => (
             <div
               key={idx}
-              className="relative m-3 bg-[rgba(255,233,215,0.8)] p-2 shadow-lg rounded-sm transform transition-transform duration-300 hover:scale-105"
+              className="relative m-3 bg-yellow-50 p-3 shadow-lg rounded-sm transform transition-transform duration-300 hover:scale-105 flex flex-col items-center"
               style={{
                 transform: `rotate(${
                   rotationAngles[idx % rotationAngles.length]
@@ -46,7 +46,7 @@ export default function TouristPlacesDisplay({
               <img
                 src={tapeImg}
                 alt="tape"
-                className="absolute top-0 left-1/2 w-16 h-8 -translate-x-1/2 -translate-y-1/2 pointer-events-none opacity-95"
+                className="absolute top-0 left-1/2 w-16 h-8 -translate-x-1/2 -translate-y-1/2 pointer-events-none opacity-90"
               />
 
               <img
@@ -54,7 +54,7 @@ export default function TouristPlacesDisplay({
                 alt={place.title}
                 className="w-60 h-36 object-cover rounded-sm brightness-90"
               />
-              <h3 className="mt-2 text-center font-semibold text-yellow-800">
+              <h3 className="mt-2 text-lg text-center trade-winds-regular font-semibold text-yellow-700">
                 {place.title}
               </h3>
             </div>
