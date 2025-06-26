@@ -6,11 +6,12 @@ export type CategoryKey =
   | "nature"
   | "crafts"
   | "people"
-  | "trivia"; 
+  | "trivia";
 
 export interface StateInfoItem {
   title: string;
   description: string;
+  longDescription?: string;
   image?: string;
   coordinates?: [number, number];
 }
@@ -20,11 +21,18 @@ export interface StateMiniMap {
   image?: string;
 }
 
-export type FoodSubtype = "main" | "dessert" | "drink" | "condiment" | "breadbasket" | "rice";
+export type FoodSubtype =
+  | "main"
+  | "dessert"
+  | "drink"
+  | "condiment"
+  | "breadbasket"
+  | "rice";
 
 export interface FoodItem {
   title: string;
   description: string;
+  longDescription?: string;
   image?: string;
   subtype: FoodSubtype;
 }
@@ -35,13 +43,13 @@ export interface StateData {
   capital?: string;
   miniMap: StateMiniMap;
   categories: {
-  touristPlaces: StateInfoItem[];
-  culture: StateInfoItem[];
-  festivals: StateInfoItem[];
-  nature: StateInfoItem[];
-  crafts: StateInfoItem[];
-  people: StateInfoItem[];
-  trivia: StateInfoItem[];
-  food: FoodItem[];
-};
+    touristPlaces: StateInfoItem[];
+    culture: StateInfoItem[];
+    festivals: StateInfoItem[];
+    nature: StateInfoItem[];
+    crafts: StateInfoItem[];
+    people: StateInfoItem[];
+    trivia: StateInfoItem[];
+    food: FoodItem[];
+  };
 }
