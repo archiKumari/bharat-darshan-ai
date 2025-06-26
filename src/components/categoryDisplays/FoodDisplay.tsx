@@ -1,7 +1,8 @@
 import React from "react";
-import placeholderImage from "../../assets/Category placeholders/food1.png";
+import placeholderImage from "../../assets/Category placeholders/food.png";
 import type { FoodItem } from "../../data/types";
 import Tooltip from "../Tooltip";
+import background from "../../assets/food background.png";
 
 interface Props {
   foodItems: FoodItem[];
@@ -29,7 +30,7 @@ const getArcPosition = (
   const angleStep = arcAngle / (total - 1);
   const angle = startAngle + index * angleStep;
 
-  const radius = 220;
+  const radius = 240;
   const x = radius * Math.cos(angle);
   const y = radius * Math.sin(angle);
 
@@ -46,7 +47,7 @@ const getSideArcPosition = (index: number, side: "left" | "right") => {
   const angle =
     baseAngle + (side === "left" ? angleOffsets[index] : -angleOffsets[index]);
 
-  const radius = 340;
+  const radius = 360;
   const x = radius * Math.cos(angle);
   const y = radius * Math.sin(angle);
 
@@ -71,7 +72,18 @@ const FoodDisplay: React.FC<Props> = ({ foodItems }) => {
   const drinks = foodItems.filter((i) => i.subtype === "drink");
 
   return (
-    <div className="relative w-full h-screen bg-stone-100 overflow-visible">
+    <div
+      className="relative w-full h-screen overflow-visible"
+      style={{
+        backgroundImage: `radial-gradient(circle at center, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url(${background})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-yellow-200 text-[25rem] font-bold opacity-20 pointer-events-none">
+        FOOD
+      </div>
+
       {breadBasket && (
         <div
           className="absolute"
@@ -96,7 +108,7 @@ const FoodDisplay: React.FC<Props> = ({ foodItems }) => {
               <img
                 src={breadBasket?.image || placeholderImage}
                 alt={breadBasket?.title || "Bread Basket"}
-                className="w-32 h-32 rounded-full"
+                className="w-36 h-36 rounded-full shadow-[-5px_10px_10px_rgba(0,0,0,0.8)]"
               />
             </Tooltip>
           </div>
@@ -107,7 +119,7 @@ const FoodDisplay: React.FC<Props> = ({ foodItems }) => {
         <div
           key={i}
           className="absolute"
-          style={getCircularPosition(i, condiments.length, 110)}
+          style={getCircularPosition(i, condiments.length, 130)}
         >
           <div className="relative ">
             <Tooltip
@@ -124,7 +136,7 @@ const FoodDisplay: React.FC<Props> = ({ foodItems }) => {
               <img
                 src={placeholderImage}
                 alt={item.title}
-                className="w-14 h-14 rounded-full"
+                className="w-14 h-14 rounded-full shadow-[-5px_10px_10px_rgba(0,0,0,0.8)]"
               />
             </Tooltip>
           </div>
@@ -138,7 +150,7 @@ const FoodDisplay: React.FC<Props> = ({ foodItems }) => {
             className="absolute"
             style={{
               top: "50%",
-              left: i === 0 ? "calc(50% - 220px)" : "calc(50% + 220px)",
+              left: i === 0 ? "calc(50% - 240px)" : "calc(50% + 240px)",
               transform: "translate(-50%, -50%)",
             }}
           >
@@ -157,7 +169,7 @@ const FoodDisplay: React.FC<Props> = ({ foodItems }) => {
                 <img
                   src={item.image || placeholderImage}
                   alt={item.title}
-                  className="w-28 h-24 rounded-full"
+                  className="w-32 h-24 rounded-full shadow-[-5px_10px_10px_rgba(0,0,0,0.8)]"
                 />
               </Tooltip>
             </div>
@@ -186,7 +198,7 @@ const FoodDisplay: React.FC<Props> = ({ foodItems }) => {
               <img
                 src={placeholderImage}
                 alt={item.title}
-                className="w-20 h-20 rounded-full"
+                className="w-24 h-24 rounded-full shadow-[-5px_10px_10px_rgba(0,0,0,0.8)]"
               />
             </Tooltip>
           </div>
@@ -221,7 +233,7 @@ const FoodDisplay: React.FC<Props> = ({ foodItems }) => {
               <img
                 src={item?.image || placeholderImage}
                 alt={item?.title || "item"}
-                className="w-16 h-16 rounded-md"
+                className="w-20 h-20 rounded-full shadow-[-5px_10px_10px_rgba(0,0,0,0.8)]"
               />
             </Tooltip>
           </div>
