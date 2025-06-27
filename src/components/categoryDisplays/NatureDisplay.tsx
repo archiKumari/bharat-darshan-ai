@@ -2,7 +2,7 @@ import React from "react";
 import placeholder from "../../assets/Category placeholders/nature.png";
 import titleImage from "../../assets/natureTitle.png";
 import parchment from "../../assets/parchment.png";
-import background from "../../assets/nature.png"
+import background from "../../assets/nature.png";
 
 export interface NatureItem {
   image?: string;
@@ -14,9 +14,7 @@ interface NatureLayoutProps {
   items: NatureItem[];
 }
 
-// Vertical offsets for hill-wave effect
 const verticalOffsets = ["0px", "4rem", "2rem", "0px", "3rem"];
-// Rotation angles for fan-out effect
 const rotationAngles = ["-3deg", "2deg", "-1deg", "3deg", "-2deg"];
 
 const NatureDisplay: React.FC<NatureLayoutProps> = ({ items }) => {
@@ -29,7 +27,6 @@ const NatureDisplay: React.FC<NatureLayoutProps> = ({ items }) => {
         backgroundPosition: "center",
       }}
     >
-      {/* Title (static) */}
       <div className="flex justify-center">
         <img
           src={titleImage}
@@ -38,9 +35,8 @@ const NatureDisplay: React.FC<NatureLayoutProps> = ({ items }) => {
         />
       </div>
 
-      {/* Horizontal scroll container for cards only */}
       <div className="overflow-x-auto overflow-y-hidden scrollbar-hide w-full">
-        <div className="inline-flex items-start space-x-[-1rem] py-4 px-4">
+        <div className="inline-flex items-start space-x-[-1rem] py-2 px-4">
           {items.map((item, idx) => {
             const topOffset = verticalOffsets[idx % verticalOffsets.length];
             const rotation = rotationAngles[idx % rotationAngles.length];
@@ -55,9 +51,8 @@ const NatureDisplay: React.FC<NatureLayoutProps> = ({ items }) => {
                   zIndex,
                 }}
               >
-                {/* Card with parchment texture and overlay */}
                 <div
-                  className="rounded-2xl shadow-lg overflow-hidden border border-gray-300"
+                  className="rounded-2xl shadow-lg overflow-hidden border border-gray-400"
                   style={{
                     backgroundImage: `linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url(${parchment})`,
                     backgroundSize: "cover",
