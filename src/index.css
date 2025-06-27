@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Flavors&family=Quintessential&family=Rubik+Doodle+Shadow&family=Trade+Winds&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Flavors&family=Quintessential&family=Rubik+Doodle+Shadow&family=Trade+Winds&family=Yatra+One&family=Mystery+Quest&family=Tagesschrift&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -30,6 +30,24 @@
 
 .trade-winds-regular {
   font-family: "Trade Winds", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tagesschrift-regular {
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mystery-quest-regular {
+  font-family: "Mystery Quest", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.yatra-one-regular {
+  font-family: "Yatra One", system-ui;
   font-weight: 400;
   font-style: normal;
 }
