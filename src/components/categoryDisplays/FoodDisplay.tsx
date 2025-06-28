@@ -75,12 +75,12 @@ const FoodDisplay: React.FC<Props> = ({ foodItems }) => {
     <div
       className="relative w-full h-screen overflow-visible"
       style={{
-        backgroundImage: `radial-gradient(circle at center, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url(${background})`,
+        backgroundImage: `radial-gradient(circle at top, rgba(0,0,0,0.2),rgba(0,0,0,0.4), rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url(${background})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-yellow-200 text-[25rem] font-bold opacity-20 pointer-events-none">
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-yellow-300 text-[25rem] font-bold opacity-20 pointer-events-none">
         FOOD
       </div>
 
@@ -108,7 +108,7 @@ const FoodDisplay: React.FC<Props> = ({ foodItems }) => {
               <img
                 src={breadBasket?.image || placeholderImage}
                 alt={breadBasket?.title || "Bread Basket"}
-                className="w-36 h-36 rounded-full shadow-[-5px_10px_10px_rgba(0,0,0,0.8)]"
+                className="w-36 h-36 rounded-full shadow-[-12px_20px_15px_rgba(0,0,0,0.9)] brightness-90"
               />
             </Tooltip>
           </div>
@@ -136,7 +136,7 @@ const FoodDisplay: React.FC<Props> = ({ foodItems }) => {
               <img
                 src={placeholderImage}
                 alt={item.title}
-                className="w-14 h-14 rounded-full shadow-[-5px_10px_10px_rgba(0,0,0,0.8)]"
+                className="w-14 h-14 rounded-full shadow-[-12px_20px_15px_rgba(0,0,0,0.9)] brightness-90"
               />
             </Tooltip>
           </div>
@@ -169,7 +169,7 @@ const FoodDisplay: React.FC<Props> = ({ foodItems }) => {
                 <img
                   src={item.image || placeholderImage}
                   alt={item.title}
-                  className="w-32 h-24 rounded-full shadow-[-5px_10px_10px_rgba(0,0,0,0.8)]"
+                  className="w-32 h-24 rounded-full shadow-[-12px_20px_15px_rgba(0,0,0,0.9)] brightness-90"
                 />
               </Tooltip>
             </div>
@@ -177,33 +177,35 @@ const FoodDisplay: React.FC<Props> = ({ foodItems }) => {
         ) : null
       )}
 
-      {[...mainsTop, ...mainsBottom].map((item, i) => (
-        <div
-          key={`main-${i}`}
-          className="absolute"
-          style={getArcPosition(i % 5, 5, i < 5 ? "top" : "bottom")}
-        >
-          <div className="relative ">
-            <Tooltip
-              content={
-                <div>
-                  <div className="font-semibold">{item.title}</div>
-                  <div className="text-xs text-gray-600">
-                    {item.description}
+      {[...mainsTop, ...mainsBottom].map((item, i) => {
+        return (
+          <div
+            key={`main-${i}`}
+            className="absolute"
+            style={getArcPosition(i % 5, 5, i < 5 ? "top" : "bottom")}
+          >
+            <div className="relative">
+              <Tooltip
+                content={
+                  <div>
+                    <div className="font-semibold">{item.title}</div>
+                    <div className="text-xs text-gray-600">
+                      {item.description}
+                    </div>
                   </div>
-                </div>
-              }
-              position="top"
-            >
-              <img
-                src={placeholderImage}
-                alt={item.title}
-                className="w-24 h-24 rounded-full shadow-[-5px_10px_10px_rgba(0,0,0,0.8)]"
-              />
-            </Tooltip>
+                }
+                position={i < 5 ? "bottom" : "top"}
+              >
+                <img
+                  src={placeholderImage}
+                  alt={item.title}
+                  className="w-24 h-24 rounded-full shadow-[-12px_20px_15px_rgba(0,0,0,0.9)] brightness-90"
+                />
+              </Tooltip>
+            </div>
           </div>
-        </div>
-      ))}
+        );
+      })}
 
       {[
         ...drinks.slice(0, 2),
@@ -212,33 +214,36 @@ const FoodDisplay: React.FC<Props> = ({ foodItems }) => {
         drinks[2],
         ...desserts.slice(2, 4),
         drinks[3],
-      ].map((item, i) => (
-        <div
-          key={`side-${i}`}
-          className="absolute"
-          style={getSideArcPosition(i % 4, i < 4 ? "left" : "right")}
-        >
-          <div className="relative ">
-            <Tooltip
-              content={
-                <div>
-                  <div className="font-semibold">{item?.title}</div>
-                  <div className="text-xs text-gray-600">
-                    {item?.description}
+      ].map((item, i) => {
+        const isLeft = i < 4;
+        return (
+          <div
+            key={`side-${i}`}
+            className="absolute"
+            style={getSideArcPosition(i % 4, isLeft ? "left" : "right")}
+          >
+            <div className="relative">
+              <Tooltip
+                content={
+                  <div>
+                    <div className="font-semibold">{item?.title}</div>
+                    <div className="text-xs text-gray-600">
+                      {item?.description}
+                    </div>
                   </div>
-                </div>
-              }
-              position="top"
-            >
-              <img
-                src={item?.image || placeholderImage}
-                alt={item?.title || "item"}
-                className="w-20 h-20 rounded-full shadow-[-5px_10px_10px_rgba(0,0,0,0.8)]"
-              />
-            </Tooltip>
+                }
+                position={isLeft ? "right" : "left"}
+              >
+                <img
+                  src={item?.image || placeholderImage}
+                  alt={item?.title || "item"}
+                  className="w-20 h-20 rounded-full shadow-[-10px_20px_15px_rgba(0,0,0,0.8)] brightness-90"
+                />
+              </Tooltip>
+            </div>
           </div>
-        </div>
-      ))}
+        );
+      })}
     </div>
   );
 };
