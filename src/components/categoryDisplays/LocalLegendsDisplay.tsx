@@ -38,14 +38,14 @@ const LocalLegendsDisplay: React.FC<LocalLegendsDisplayProps> = ({
         />
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center">
+      <div className="flex gap-5">
         {people.map((legend, idx) => (
           <div key={idx} className="flex flex-col items-center">
             <div className="relative">
               <img
                 src={lampImage}
                 alt="Vintage lamp"
-                className="absolute -top-12 left-1/2 transform -translate-x-1/2 w-16 sm:w-20 md:w-24 lg:w-28 z-20 opacity-80"
+                className="absolute -top-12 left-1/2 transform -translate-x-1/2 w-16 sm:w-20 md:w-24 lg:w-28 z-20 opacity-80 "
               />
               <div
                 className="absolute -top-6 left-1/2 transform -translate-x-1/2 w-24 sm:w-32 md:w-40 lg:w-52 h-28 filter drop-shadow-[0_0_1rem_rgba(210,180,140,0.6)] pointer-events-none z-10"
@@ -58,7 +58,7 @@ const LocalLegendsDisplay: React.FC<LocalLegendsDisplayProps> = ({
               <img
                 src={legend.imageUrl || placeholderImage}
                 alt={`${legend.title} portrait`}
-                className="relative z-0 w-24 sm:w-32 md:w-40 lg:w-48 rounded-lg shadow-[0_8px_24px_rgba(0,0,0,0.6)] filter brightness-90 object-contain"
+                className="relative z-0 w-24 sm:w-32 md:w-40 lg:w-48 rounded-lg shadow-[0_15px_20px_rgba(0,0,0,0.7)] filter brightness-90 object-contain"
               />
               <div
                 className="absolute inset-0 pointer-events-none z-0"
