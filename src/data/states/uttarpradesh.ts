@@ -4,6 +4,7 @@ export const uttarpradesh: StateData = {
   id: "IN-UP",
   name: "Uttar Pradesh",
   capital: "Lucknow",
+  stateIntro:"Spread across the fertile plains shaped by the Ganga and Yamuna, Uttar Pradesh is a land where spirituality, scholarship, and society have evolved together over thousands of years. It is the sacred homeland of Shri Ram and Shri Krishna, where cities such as Ayodhya, Mathura, and Vrindavan continue to breathe devotion into daily life. Yet this vast region is equally shaped by its traditions of learning, classical arts, intricate crafts, and a cuisine refined through generations. In timeless Varanasi, spirituality flows seamlessly alongside music, literature, and living ritual. Vast and populous yet deeply contemplative, Uttar Pradesh invites you to experience India at its most rooted, reverent, and alive.",
   categories: {
     touristPlaces: [
       {

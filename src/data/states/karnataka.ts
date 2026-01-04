@@ -4,6 +4,7 @@ export const karnataka: StateData = {
   id: "IN-KA",
   name: "Karnataka",
   capital: "Bengaluru",
+  stateIntro: "Spanning a landscape that flows from misty hills and dense forests to sunlit plateaus and a long western coastline, Karnataka is a state of striking variety and quiet depth. Ancient centers of learning, stone-built legacies, and living traditions give it a strong cultural foundation, while today its cities and towns pulse with creativity, technology, and everyday enterprise. From the calm rhythms of rural life and coffee-scented highlands to vibrant urban streets and cultural hubs, Karnataka moves comfortably between reflection and momentum. It invites you to experience a place where many worlds coexist—rooted in history, shaped by nature, and confidently engaged with the present.",
   categories: {
     touristPlaces: [
       {

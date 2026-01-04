@@ -4,6 +4,7 @@ export const westbengal: StateData = {
   id: "IN-WB",
   name: "West Bengal",
   capital: "Kolkata",
+  stateIntro: "Stretching from the misty Himalayan foothills to the wide delta where rivers meet the sea, West Bengal is a land shaped by movement, thought, and creative expression. Its landscapes shift from tea gardens and hill towns to fertile plains and tidal waterways, carrying a culture known for its depth, sensitivity, and intellectual energy. While its past lives on through literature, art, and long-standing traditions, the state today thrives in lively cities, cultural festivals, and everyday conversations that value ideas as much as action. From quiet river ghats and rural landscapes to vibrant streets and artistic hubs, West Bengal invites you to experience a place where emotion, intellect, and life flow together with quiet intensity.",
   categories: {
     touristPlaces: [
       {

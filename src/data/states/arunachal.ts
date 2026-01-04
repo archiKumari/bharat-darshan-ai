@@ -4,6 +4,7 @@ export const arunachal: StateData = {
   id: "IN-AR",
   name: "Arunachal Pradesh",
   capital: "Itanagar",
+  stateIntro: "Stretching across India’s far northeastern edge, Arunachal Pradesh is a land where mountains rise steeply into cloud-filled skies and forests unfold in quiet abundance. Rivers descend from high ranges into deep valleys, shaping landscapes that feel vast, remote, and richly alive. While its many indigenous communities carry traditions rooted in nature and seasonal rhythms, present-day Arunachal Pradesh lives through small towns, evolving connectivity, and a growing sense of shared identity. From mist-laced mornings and forest trails to riverside settlements and open horizons, Arunachal Pradesh invites you to experience a place where scale inspires humility and everyday life moves gently within an expansive natural world.",
   categories: {
     touristPlaces: [
       {

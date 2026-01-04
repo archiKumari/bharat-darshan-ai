@@ -4,6 +4,7 @@ export const puducherry: StateData = {
   id: "IN-PY",
   name: "Puducherry",
   capital: "Puducherry",
+  stateIntro: "Set along the southeastern coast where the sea meets quiet streets and tree-lined boulevards, Puducherry is a place where calm shapes everyday life. Its coastal setting and thoughtfully planned quarters create a rhythm that feels unhurried, reflective, and open to influence. While traces of its layered past appear in architecture, language, and lifestyle, present-day Puducherry lives through peaceful communities, creative spaces, and a strong culture of learning and introspection. From seaside promenades and cafés to tranquil neighborhoods and cultural centers, Puducherry invites you to experience a place where simplicity, reflection, and lived harmony come together with gentle ease.",
   categories: {
     touristPlaces: [
       {

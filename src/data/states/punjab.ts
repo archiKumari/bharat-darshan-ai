@@ -4,6 +4,7 @@ export const punjab: StateData = {
   id: "IN-PB",
   name: "Punjab",
   capital: "Chandigarh",
+  stateIntro:"Bathed in open skies and endless fields that sway with the seasons, Punjab is a land where life is lived out loud—with confidence, generosity, and an unshakable sense of joy. Its plains, shaped by five life-giving rivers, have long sustained a culture rooted in courage and community, inspired by the teachings of Guru Nanak. Today, cities like Amritsar and Ludhiana hum with movement—where early mornings begin with prayer, days unfold in busy streets and farmlands, and evenings rise to the rhythm of music and laughter. From its open-hearted hospitality to its bold flavors and festive spirit, Punjab invites you to experience a place that is grounded, spirited, and unmistakably alive.",
   categories: {
     touristPlaces: [
       {

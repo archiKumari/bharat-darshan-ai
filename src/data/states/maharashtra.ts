@@ -4,6 +4,7 @@ export const maharashtra: StateData = {
   id: "IN-MH",
   name: "Maharashtra",
   capital: "Mumbai",
+  stateIntro: "Spreading from the Arabian Sea coastline into rolling plateaus and forested hills, Maharashtra is a state of remarkable scale and momentum. Here, ancient cave sanctuaries and hill forts coexist with some of India’s most dynamic cities, creating a landscape shaped as much by history as by ambition. While its past speaks through enduring traditions, saints, and regional cultures, present-day Maharashtra moves to a fast, confident rhythm—driven by creativity, industry, and everyday enterprise. From coastal breezes and fertile farmlands to vibrant streets and cultural hubs, Maharashtra invites you to experience a place where energy flows freely and many worlds meet, without losing their distinct character.",
   categories: {
     touristPlaces: [
       {

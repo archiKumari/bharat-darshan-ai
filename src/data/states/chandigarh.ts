@@ -4,6 +4,7 @@ export const chandigarh: StateData = {
   id: "IN-CH",
   name: "Chandigarh",
   capital: "Chandigarh",
+  stateIntro: "Set at the foothills of the Shivalik range, Chandigarh is a city shaped by clarity, order, and open space. Wide avenues, green belts, and carefully planned sectors give it a rhythm that feels balanced and deliberate, setting it apart from the chaos of many urban centers. While its origins lie in a modern vision of design and governance, present-day Chandigarh lives through vibrant neighborhoods, educational institutions, and an active public life woven into parks and promenades. From tree-lined streets and calm mornings to lively cafés and cultural spaces, Chandigarh invites you to experience a city where structure supports ease, and everyday life unfolds with quiet confidence.",
   categories: {
     touristPlaces: [
       {

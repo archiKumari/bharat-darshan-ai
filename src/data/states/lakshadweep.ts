@@ -4,6 +4,7 @@ export const lakshadweep: StateData = {
   id: "IN-LD",
   name: "Lakshadweep",
   capital: "Kavaratti",
+  stateIntro: "Floating in the vast blue of the Arabian Sea, Lakshadweep is a chain of coral islands where land and water exist in delicate balance. Shallow lagoons, white sands, and reef-lined shores shape a landscape that feels intimate, luminous, and closely held by the sea. Life here is guided by tides, community bonds, and a deep respect for the natural environment, creating a rhythm that is calm yet purposeful. From quiet island mornings and fishing harbors to clear waters and open skies, Lakshadweep invites you to experience a place where simplicity is shaped by nature, and distance brings a rare sense of clarity and calm.",
   categories: {
     touristPlaces: [
       {

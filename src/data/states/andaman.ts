@@ -4,6 +4,7 @@ export const andaman: StateData = {
   id: "IN-AN",
   name: "Andaman and Nicobar Islands",
   capital: "Port Blair",
+  stateIntro: "Scattered across the eastern edge of the Indian Ocean, the Andaman & Nicobar Islands are a world shaped by water, forest, and quiet isolation. Turquoise seas, coral reefs, and dense tropical jungles define a landscape where nature feels close and commanding. While the islands carry layers of history and indigenous heritage, life here today moves at a gentle, self-contained pace—guided by the sea, community, and conservation. From secluded beaches and mangrove creeks to small towns and open horizons, the Andaman & Nicobar Islands invite you to step into a place where distance brings clarity, and everyday life flows in rhythm with the natural world.",
   categories: {
     touristPlaces: [
       {

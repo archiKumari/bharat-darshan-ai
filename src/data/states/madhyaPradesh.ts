@@ -4,6 +4,7 @@ export const madhyaPradesh: StateData = {
   id: "IN-MP",
   name: "Madhya Pradesh",
   capital: "Bhopal",
+  stateIntro: "Resting at the very heart of India, Madhya Pradesh is a land where forests, rivers, and stone-built legacies quietly converge. Vast plateaus and dense woodlands shape a landscape rich in wildlife and natural calm, while ancient temples, rock shelters, and historic towns speak of a civilization deeply rooted in time. Today, the state unfolds through growing cities, living tribal cultures, and a strong connection to its natural surroundings. From tiger-filled reserves and winding riverbanks to heritage towns and everyday rural life, Madhya Pradesh offers a grounded, unhurried experience—inviting you to explore India’s core not as a crossroads, but as a place of depth, continuity, and quiet strength.",
   categories: {
     touristPlaces: [
       {

@@ -4,6 +4,7 @@ export const telangana: StateData = {
   id: "IN-TG",
   name: "Telangana",
   capital: "Hyderabad",
+  stateIntro: "Rising from rocky plateaus and fertile river valleys, Telangana is a land where deep-rooted heritage meets a bold, forward-looking spirit. Ancient irrigation systems, temples, and fortresses speak of a region shaped by resilience and ingenuity, while its present-day identity is defined by fast-growing cities, innovation, and cultural confidence. At its heart, Hyderabad blends historic quarters with modern skylines, reflecting the state’s ease in carrying multiple eras at once. From lakes and forests to vibrant streets and living traditions, Telangana invites you to experience a place that is self-assured, dynamic, and firmly grounded in its own voice.",
   categories: {
     touristPlaces: [
       {

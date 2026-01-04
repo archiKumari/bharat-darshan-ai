@@ -4,6 +4,7 @@ export const manipur: StateData = {
   id: "IN-MN",
   name: "Manipur",
   capital: "Imphal",
+  stateIntro: "Nestled within rolling hills and a fertile central valley, Manipur is a land where grace, rhythm, and resilience come together in quiet harmony. Encircled by forested highlands and shaped by lakes and rivers, its landscape supports a way of life deeply connected to movement—of water, of seasons, and of people. While its traditions draw strength from classical arts, indigenous customs, and community bonds, present-day Manipur lives through vibrant local life, creative expression, and a strong sense of identity. From serene mornings by Loktak Lake to lively markets and cultural gatherings, Manipur invites you to experience a place where beauty is subtle, culture is lived, and balance remains at the core of everyday life.",
   categories: {
     touristPlaces: [
       {

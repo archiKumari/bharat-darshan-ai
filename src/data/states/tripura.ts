@@ -4,6 +4,7 @@ export const tripura: StateData = {
   id: "IN-TR",
   name: "Tripura",
   capital: "Agartala",
+  stateIntro: "Tucked amid forested hills and fertile plains, Tripura is a land where quiet landscapes hold layers of history and living tradition. Rivers wind through green valleys, linking villages and towns that remain closely connected to the land and to one another. While ancient temples and indigenous customs reflect its deep cultural roots, present-day Tripura moves forward through growing urban centers, education, and a renewed engagement with its artistic heritage. From serene hill stretches and rural life to bustling markets and cultural spaces, Tripura invites you to experience a state where simplicity carries meaning, and everyday life unfolds with gentle continuity.",
   categories: {
     touristPlaces: [
       {

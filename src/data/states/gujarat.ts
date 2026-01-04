@@ -4,6 +4,7 @@ export const gujarat: StateData = {
   id: "IN-GJ",
   name: "Gujarat",
   capital: "Gandhinagar",
+  stateIntro: "Perched on India’s western edge along the Arabian Sea, Gujarat is a land of striking contrasts—where ancient desert salt flats meet bustling industrial ports, and time-honored traditions blend seamlessly with modern enterprise. As the birthplace of Mahatma Gandhi, it carries a profound historical legacy, yet its cities—Ahmedabad, Vadodara and Surat—throb with contemporary energy. From the snow-white expanse of the Rann of Kutch to the lush woodlands of Gir, Gujarat invites you to explore its rich tapestry of landscapes, cultures and flavors.",
   categories: {
     touristPlaces: [
       {

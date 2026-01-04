@@ -4,6 +4,7 @@ export const odisha: StateData = {
   id: "IN-OR",
   name: "Odisha",
   capital: "Bhubaneswar",
+  stateIntro: "Shaped by a long eastern coastline, winding rivers, and forested highlands, Odisha is a land where nature and devotion move in quiet harmony. Ancient temples and sacred towns give the region a strong spiritual presence, while its villages and communities remain closely tied to seasonal rhythms, crafts, and the sea. Today, Odisha lives through growing cities, resilient coastal life, and cultural traditions that continue to evolve without losing their essence. From sunlit beaches and lush interiors to temple towns and lively local markets, Odisha offers a grounded, reflective experience—inviting you to explore a state where continuity feels calm, and life flows with steady grace.",
   categories: {
     touristPlaces: [
       {

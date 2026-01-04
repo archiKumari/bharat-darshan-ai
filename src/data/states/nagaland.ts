@@ -4,6 +4,7 @@ export const nagaland: StateData = {
   id: "IN-NL",
   name: "Nagaland",
   capital: "Kohima",
+  stateIntro: "Rising into rugged hills and forested ridges along India’s northeastern edge, Nagaland is a land where identity is shaped by community, landscape, and strong tradition. Mountain villages, winding roads, and dense greenery create a setting that feels both remote and deeply connected within. While its many tribes preserve distinct customs, languages, and art forms, present-day Nagaland lives through a vibrant youth culture, music, and growing towns that reflect a confident sense of self. From misty hilltops and village paths to lively festivals and shared gatherings, Nagaland invites you to experience a place where heritage is lived with pride and everyday life carries a bold, expressive spirit.",
   categories: {
     touristPlaces: [
       {

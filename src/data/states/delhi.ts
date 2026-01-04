@@ -4,6 +4,7 @@ export const delhi: StateData = {
   id: "IN-DL",
   name: "Delhi",
   capital: "New Delhi",
+  stateIntro: "Resting along the banks of the Yamuna and spreading outward into a vast urban expanse, Delhi is a city where layers of time unfold side by side. Ancient paths, historic quarters, and enduring traditions coexist with fast-moving streets, modern neighborhoods, and a constant hum of activity. While its past is etched into monuments, old markets, and living memories, present-day Delhi thrives as a center of governance, culture, education, and everyday ambition. From quiet early mornings in heritage lanes to vibrant evenings filled with conversation and movement, Delhi invites you to experience a place where history does not stand apart, but moves actively within the pulse of contemporary life.",
   categories: {
     touristPlaces: [
       {

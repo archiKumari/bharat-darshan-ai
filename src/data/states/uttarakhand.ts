@@ -4,6 +4,7 @@ export const uttarakhand: StateData = {
   id: "IN-UT",
   name: "Uttarakhand",
   capital: "Dehradun",
+  stateIntro: "Carved by rushing rivers and framed by the high Himalayas, Uttarakhand is a land where nature and spirituality rise together. Sacred waters descend from glaciers into forested valleys, nourishing towns and traditions that have long drawn seekers, pilgrims, and wanderers alike. While ancient shrines and mountain paths reflect its deep spiritual roots, the state today lives through vibrant hill communities, growing towns, and a strong bond with its landscapes. From mist-covered mornings and terraced fields to clear nights under star-filled skies, Uttarakhand invites you into a way of life shaped by altitude, balance, and quiet strength—where the mountains are not just seen, but deeply felt.",
   categories: {
     touristPlaces: [
       {

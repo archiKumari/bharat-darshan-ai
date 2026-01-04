@@ -4,6 +4,7 @@ export const andhra: StateData = {
   id: "IN-AP",
   name: "Andhra Pradesh",
   capital: "Amaravati",
+  stateIntro: "Stretching along India’s southeastern coast and rising inland across fertile deltas and rocky hills, Andhra Pradesh is a land shaped by rivers, resilience, and a strong sense of continuity. Here, coastal plains fed by the Krishna and Godavari nurture agriculture and trade, while temple towns and historic centers reflect a deep cultural grounding. Today, the state moves with quiet confidence—through growing cities, thriving ports, and communities that balance tradition with modern aspiration. From sunlit shores and riverbanks to bustling towns and living arts, Andhra Pradesh invites you to experience a place where heritage flows naturally into the present, and progress feels rooted rather than rushed.",
   categories: {
     touristPlaces: [
       {

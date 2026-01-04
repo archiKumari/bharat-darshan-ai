@@ -4,6 +4,7 @@ export const kerala: StateData = {
   id: "IN-KL",
   name: "Kerala",
   capital: "Thiruvananthapuram",
+  stateIntro: "Lined by the Arabian Sea and wrapped in lush hills and backwaters, Kerala is a land where water, greenery, and daily life flow closely together. Coconut-lined shores, winding canals, and mist-covered highlands shape a landscape that feels both abundant and intimate. While its traditions draw from ancient knowledge, wellness practices, and layered cultural influences, present-day Kerala is equally defined by high literacy, strong community life, and a thoughtful pace of living. From quiet village mornings and spice-scented kitchens to lively towns and cultural gatherings, Kerala invites you to experience a state where balance is not an idea, but a way of life.",
   categories: {
     touristPlaces: [
       {

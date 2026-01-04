@@ -4,6 +4,7 @@ export const jharkhand: StateData = {
   id: "IN-JH",
   name: "Jharkhand",
   capital: "Ranchi",
+  stateIntro: "Carved from ancient forests and rolling plateaus, Jharkhand is a land where the earth itself seems alive with memory and movement. Rivers wind through rocky terrain and sal forests, shaping a landscape rich in minerals, wildlife, and enduring tribal traditions. While its cultural roots are deeply tied to indigenous communities, music, and seasonal rituals, the state today is also defined by growing cities, industrial centers, and a youthful population finding its voice. From cascading waterfalls and forest clearings to bustling towns and local celebrations, Jharkhand offers a raw, grounded experience—inviting you to discover a place where nature, culture, and everyday resilience remain closely connected.",
   categories: {
     touristPlaces: [
       {

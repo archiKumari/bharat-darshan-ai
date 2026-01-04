@@ -4,6 +4,7 @@ export const goa: StateData = {
   id: "IN-GA",
   name: "Goa",
   capital: "Panaji",
+  stateIntro: "Set along India’s western shoreline where the land meets the Arabian Sea, Goa is a place where openness defines both landscape and spirit. Palm-fringed beaches, winding rivers, and sun-warmed villages shape a setting that feels relaxed yet deeply rooted. While traces of its layered past linger in architecture, faith, and local traditions, present-day Goa lives through its easy rhythms, creative communities, and a strong connection to the sea. From quiet inland hamlets and spice-scented kitchens to lively streets and coastal sunsets, Goa offers a way of life that feels unhurried and expressive—inviting you to experience a state where freedom, culture, and everyday joy flow naturally together.",
   categories: {
     touristPlaces: [
       {

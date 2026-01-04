@@ -4,6 +4,7 @@ export const tamilnadu: StateData = {
   id: "IN-TN",
   name: "Tamil Nadu",
   capital: "Chennai",
+  stateIntro: "Framed by a long southeastern coastline and anchored by ancient cities and fertile plains, Tamil Nadu is a land where continuity runs deep and expression takes many forms. Here, centuries-old temples, classical arts, and a living language shape a cultural identity that feels both disciplined and expansive. While its past is carried through stone, ritual, and literature, the state today moves with confidence—through thriving cities, active industries, and a society deeply engaged with education and innovation. From temple towns and coastal stretches to bustling streets and cultural centers, Tamil Nadu invites you to experience a place where tradition is not preserved in silence, but lived with pride and purpose.",
   categories: {
     touristPlaces: [
       {

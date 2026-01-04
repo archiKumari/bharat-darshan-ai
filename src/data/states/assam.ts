@@ -4,6 +4,7 @@ export const assam: StateData = {
   id: "IN-AS",
   name: "Assam",
   capital: "Dispur",
+  stateIntro: "Set within broad river valleys and lush green plains, Assam is a land where water shapes both landscape and life. The Brahmaputra flows wide and steady through the state, nourishing fields, forests, and a culture closely tied to seasonal rhythms. While ancient traditions, temples, and folklore give Assam a deep cultural grounding, the present day unfolds through tea gardens, growing towns, and a vibrant mix of communities. From misty mornings along riverbanks to lively markets and festivals, Assam invites you to experience a place where nature feels generous, culture feels alive, and everyday life moves in quiet harmony with the land.",
   categories: {
     touristPlaces: [
       {

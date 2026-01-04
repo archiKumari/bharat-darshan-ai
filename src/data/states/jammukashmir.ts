@@ -4,6 +4,7 @@ export const jammukashmir: StateData = {
   id: "IN-JK",
   name: "Jammu & Kashmir",
   capital: "Srinagar (Summer), Jammu (Winter)",
+  stateIntro: "Framed by soaring mountains, deep valleys, and winding rivers, Jammu & Kashmir is a land where nature shapes both scenery and sensibility. Snow-fed streams, alpine meadows, and orchard-filled plains create a landscape that feels expansive yet intimate, changing character with every season. While its past is woven with stories of faith, craftsmanship, and regional traditions, the region today lives through resilient communities, evolving towns, and a renewed focus on everyday life amid striking surroundings. From quiet lakesides and mountain roads to bustling local markets and cultural gatherings, Jammu & Kashmir invites you to experience a place where beauty is powerful, and life moves in close conversation with the land.",
   categories: {
     touristPlaces: [
       {

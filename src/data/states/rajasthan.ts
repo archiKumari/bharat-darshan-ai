@@ -4,6 +4,7 @@ export const rajasthan: StateData = {
   id: "IN-RJ",
   name: "Rajasthan",
   capital: "Jaipur",
+  stateIntro:"Unfolding across vast deserts, rocky hills, and fortified cities, Rajasthan is a land where history feels etched into the landscape itself. Here, sunlit sands meet towering forts, and age-old traditions continue to shape everyday life with color and pride. While its past is reflected in palaces, stepwells, and desert towns, the state today thrives through bustling cities, vibrant markets, and a culture that celebrates resilience and artistry. From camel trails and golden sunsets to music-filled evenings and lively streets, Rajasthan offers an experience both grand and grounded—inviting you to step into a world where stories still live in stone, song, and spirit.",
   categories: {
     touristPlaces: [
       {

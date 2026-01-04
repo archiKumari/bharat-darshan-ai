@@ -4,6 +4,7 @@ export const himachal: StateData = {
   id: "IN-HP",
   name: "Himachal Pradesh",
   capital: "Shimla",
+  stateIntro: "Rising from the northern plains into a sweep of forested hills and snow-lined peaks, Himachal Pradesh is a land where mountains shape both landscape and temperament. Here, rivers carve deep valleys, cedar forests hush the air, and villages cling gently to slopes, carrying traditions shaped by altitude and season. While ancient temples and pilgrimage routes anchor its spiritual past, the state today is equally defined by quiet hill towns, winding roads, and a pace of life attuned to nature rather than noise. From apple orchards and alpine meadows to lively local markets and growing cultural centers, Himachal Pradesh offers a rare blend of calm and character—inviting you to slow down, look outward, and breathe a little deeper.",
   categories: {
     touristPlaces: [
       {

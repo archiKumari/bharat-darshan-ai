@@ -4,6 +4,7 @@ export const bihar: StateData = {
   id: "IN-BR",
   name: "Bihar",
   capital: "Patna",
+  stateIntro: "Spread across the fertile plains shaped by the Ganga and its tributaries, Bihar is a land where some of India’s earliest ideas took form and continue to influence everyday life. Ancient centers of learning, spiritual inquiry, and statecraft give the region a deep civilizational grounding, while its villages and towns remain closely tied to the rhythms of agriculture and river life. Today, Bihar is defined as much by its growing cities, youthful energy, and cultural revival as by its historical depth. From riverbanks and fields to bustling streets and local traditions, Bihar invites you to experience a state where continuity and change move forward side by side.",
   categories: {
     touristPlaces: [
       {

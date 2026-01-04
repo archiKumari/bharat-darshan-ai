@@ -4,6 +4,7 @@ export const ladakh: StateData = {
   id: "IN-LA",
   name: "Ladakh",
   capital: "Leh",
+  stateIntro: "Rising high above the plains into a stark world of mountains and open sky, Ladakh is a land where scale and silence shape perception. Vast plateaus, deep valleys, and rugged passes create a landscape that feels elemental, stripped to its essentials. While ancient monasteries and trade routes speak of its historical depth, present-day Ladakh lives through resilient communities, mindful traditions, and a way of life finely tuned to altitude and climate. From wind-swept valleys and high-altitude lakes to quiet settlements and clear, star-filled nights, Ladakh invites you to experience a place where space feels expansive, time slows, and clarity emerges naturally.",
   categories: {
     touristPlaces: [
       {

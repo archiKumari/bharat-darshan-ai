@@ -4,6 +4,7 @@ export const mizoram: StateData = {
   id: "IN-MZ",
   name: "Mizoram",
   capital: "Aizawl",
+  stateIntro: "Climbing through rolling hills and deep green valleys, Mizoram is a land where elevation shapes both landscape and outlook. Forested ridges, winding roads, and cloud-draped towns create a setting that feels close-knit yet expansive. While strong community traditions and indigenous customs form its cultural backbone, present-day Mizoram lives through orderly towns, a youthful population, and a deep sense of social cohesion. From quiet hillside mornings and village life to lively gatherings and shared celebrations, Mizoram invites you to experience a place where harmony, discipline, and respect for nature guide the rhythm of everyday life.",
   categories: {
     touristPlaces: [
       {

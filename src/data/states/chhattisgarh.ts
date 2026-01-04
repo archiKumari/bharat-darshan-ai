@@ -4,6 +4,7 @@ export const chhattisgarh: StateData = {
   id: "IN-CT",
   name: "Chhattisgarh",
   capital: "Raipur",
+  stateIntro: "Shaped by dense forests, flowing rivers, and ancient tribal heartlands, Chhattisgarh is a land where nature and community remain closely intertwined. Here, forested landscapes stretch wide, sheltering waterfalls, wildlife, and traditions that have endured through lived practice rather than written record. While its past echoes through folk art, rituals, and sacred groves, present-day Chhattisgarh moves forward through growing towns, regional crafts, and a renewed connection to its cultural roots. From quiet villages and forest paths to lively local markets and festivals, Chhattisgarh invites you to experience a state where simplicity carries depth and everyday life remains closely tied to the land.",
   categories: {
     touristPlaces: [
       {

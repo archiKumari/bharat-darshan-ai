@@ -4,6 +4,7 @@ export const meghalaya: StateData = {
   id: "IN-ML",
   name: "Meghalaya",
   capital: "Shillong",
+  stateIntro: "Rising into mist-covered hills and rain-soaked valleys, Meghalaya is a land where clouds drift low and nature feels constantly in motion. Forested slopes, cascading waterfalls, and winding paths shape a landscape known for its freshness and quiet drama. While indigenous traditions and community life form the backbone of its cultural identity, present-day Meghalaya thrives through close-knit towns, music, and a deep respect for the natural world. From rain-washed mornings and living root bridges to lively streets and shared gatherings, Meghalaya invites you to experience a place where the earth feels alive, and life unfolds gently in step with its surroundings.",
   categories: {
     touristPlaces: [
       {

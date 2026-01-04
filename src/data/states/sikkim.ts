@@ -4,6 +4,7 @@ export const sikkim: StateData = {
   id: "IN-SK",
   name: "Sikkim",
   capital: "Gangtok",
+  stateIntro: "Tucked into the eastern Himalayas, Sikkim is a land where mountains, forests, and quiet settlements create a sense of rare balance. Snow-fed rivers, terraced hillsides, and alpine valleys shape a landscape that feels intimate despite its dramatic scale. While monasteries and long-held traditions reflect its cultural depth, present-day Sikkim is equally defined by careful development, environmental awareness, and close-knit communities. From peaceful hill towns and mountain paths to lively local markets and open skies, Sikkim invites you to experience a place where harmony with nature is not an ideal, but a lived reality woven into everyday life.",
   categories: {
     touristPlaces: [
       {

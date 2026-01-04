@@ -4,6 +4,7 @@ export const haryana: StateData = {
   id: "IN-HR",
   name: "Haryana",
   capital: "Chandigarh",
+  stateIntro:"Stretching across fertile plains between the rivers and the capital’s edge, Haryana is a land where tradition stands firm beside rapid change. Its fields and villages carry an agrarian legacy shaped by discipline, strength, and deep-rooted customs, while its towns and cities hum with modern industry and expanding skylines. Ancient sites and epic associations lend the state historical depth, yet today Haryana is equally defined by its growing urban centers, manufacturing hubs, and youthful energy. From quiet countryside mornings to fast-paced city life, Haryana presents a confident blend of the old and the new—inviting you to discover a state that moves forward without losing its grounding.",
   categories: {
     touristPlaces: [
       {
