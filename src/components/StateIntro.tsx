@@ -10,29 +10,27 @@ export interface StateDescription {
 export interface StateIntroProps {
   stateId: string;
   title: string;
-  stateDescription?: StateDescription;
+  stateIntro: string;
 }
 
-const placeholder: StateDescription = {
-  description:
-    "Perched on India’s western edge along the Arabian Sea, Gujarat is a land of striking contrasts—where ancient desert salt flats meet bustling industrial ports, and time-honored traditions blend seamlessly with modern enterprise. As the birthplace of Mahatma Gandhi, it carries a profound historical legacy, yet its cities—Ahmedabad, Vadodara and Surat—throb with contemporary energy. From the snow-white expanse of the Rann of Kutch to the lush woodlands of Gir, Gujarat invites you to explore its rich tapestry of landscapes, cultures and flavors.",
-  highlights: [
-    "Statue of Unity",
-    "UNESCO World Heritage Sites",
-    "Sacred Seaside Cities",
-    "Economic Dynamo",
-    "Culinary Extravaganza",
-    "Wild & White Wonders",
-  ],
-};
+const HIGHLIGHTS = [
+  "Places to Explore",
+  "Local Food & Cuisine",
+  "Culture & Heritage",
+  "Festivals & Traditions",
+  "Nature & Wildlife",
+  "Famous Personalities",
+  "Arts & Handicrafts",
+];
 
 const StateIntro: React.FC<StateIntroProps> = ({
   stateId,
   title,
-  stateDescription,
+  stateIntro,
 }) => {
   const stateTitle = title;
-  const { description, highlights } = stateDescription || placeholder;
+  const description = stateIntro;
+  const highlights = HIGHLIGHTS;
 
   return (
     <div
@@ -44,9 +42,7 @@ const StateIntro: React.FC<StateIntroProps> = ({
       }}
     >
       <div className="h-full w-full p-2 border-4 border-dashed border-[#75420f] pointer-events-none ">
-        {/* Content wrapper with white background */}
         <div className="relative flex flex-col md:flex-row">
-          {/* Left column: title, description, highlights */}
           <div className="md:w-1/2 p-6">
             <h1 className="eagle-lake-regular text-5xl text-[#63330c] leading-tight mb-5">
               {stateTitle}

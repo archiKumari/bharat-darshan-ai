@@ -39,7 +39,11 @@ export default function StateModal({ isOpen, state }: StateModalProps) {
   return (
     <div className="fixed inset-0 bg-white z-50 scrollbar-hide overflow-y-scroll">
       <section>
-        <StateIntro stateId={state.id} title={state.name}/>
+        <StateIntro
+          stateId={state.id}
+          title={state.name}
+          stateIntro={state.stateIntro}
+        />
       </section>
 
       <div className="relative">

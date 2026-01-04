@@ -41,6 +41,7 @@ export interface StateData {
   id: string;
   name: string;
   capital?: string;
+  stateIntro: string;
   miniMap: StateMiniMap;
   categories: {
     touristPlaces: StateInfoItem[];
