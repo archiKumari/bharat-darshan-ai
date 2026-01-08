@@ -4,7 +4,8 @@ export const mizoram: StateData = {
   id: "IN-MZ",
   name: "Mizoram",
   capital: "Aizawl",
-  stateIntro: "Climbing through rolling hills and deep green valleys, Mizoram is a land where elevation shapes both landscape and outlook. Forested ridges, winding roads, and cloud-draped towns create a setting that feels close-knit yet expansive. While strong community traditions and indigenous customs form its cultural backbone, present-day Mizoram lives through orderly towns, a youthful population, and a deep sense of social cohesion. From quiet hillside mornings and village life to lively gatherings and shared celebrations, Mizoram invites you to experience a place where harmony, discipline, and respect for nature guide the rhythm of everyday life.",
+  stateIntro:
+    "Climbing through rolling hills and deep green valleys, Mizoram is a land where elevation shapes both landscape and outlook. Forested ridges, winding roads, and cloud-draped towns create a setting that feels close-knit yet expansive. While strong community traditions and indigenous customs form its cultural backbone, present-day Mizoram lives through orderly towns, a youthful population, and a deep sense of social cohesion. From quiet hillside mornings and village life to lively gatherings and shared celebrations, Mizoram invites you to experience a place where harmony, discipline, and respect for nature guide the rhythm of everyday life.",
   categories: {
     touristPlaces: [
       {
@@ -319,28 +320,44 @@ export const mizoram: StateData = {
     ],
     crafts: [
       {
-        title: "Puan Weaving",
+        title: "Bamboo & Cane Craft",
         description:
-          "Intricate shawls and wraparounds woven on backstrap looms with geometric motifs.",
+          "Baskets, furniture, and everyday utility items crafted from bamboo and cane using traditional techniques.",
       },
       {
-        title: "Cane & Bamboo Crafts",
+        title: "Puan Weaving",
         description:
-          "Household items, baskets, hats, and furniture made with fine craftsmanship.",
+          "Handwoven traditional textiles known as puan, featuring bold stripes and patterns worn during festivals.",
       },
       {
         title: "Wood Carving",
-        description: "Used in home d\u00e9cor and ritual masks.",
+        description:
+          "Carved household items, musical instruments, and decorative pieces inspired by nature and folklore.",
       },
       {
-        title: "Bead Jewelry",
+        title: "Thlanrawkpa Handloom",
         description:
-          "Worn during festivals and dances, featuring vibrant patterns.",
+          "Traditional handloom fabrics woven with distinctive Mizo motifs and natural color palettes.",
       },
       {
-        title: "Black Clay Pottery",
+        title: "Traditional Shawls",
         description:
-          "Traditionally used by the Mara tribe in southern Mizoram.",
+          "Colorful shawls woven to represent community identity and cultural pride.",
+      },
+      {
+        title: "Bead & Shell Jewelry",
+        description:
+          "Handcrafted ornaments made using beads and shells, worn during cultural celebrations.",
+      },
+      {
+        title: "Pottery",
+        description:
+          "Simple earthenware pots and utensils shaped by hand for everyday use.",
+      },
+      {
+        title: "Fiber Craft",
+        description:
+          "Utility items like mats and bags woven from natural plant fibers.",
       },
     ],
     trivia: [

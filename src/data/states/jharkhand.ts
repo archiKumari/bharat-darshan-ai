@@ -4,7 +4,8 @@ export const jharkhand: StateData = {
   id: "IN-JH",
   name: "Jharkhand",
   capital: "Ranchi",
-  stateIntro: "Carved from ancient forests and rolling plateaus, Jharkhand is a land where the earth itself seems alive with memory and movement. Rivers wind through rocky terrain and sal forests, shaping a landscape rich in minerals, wildlife, and enduring tribal traditions. While its cultural roots are deeply tied to indigenous communities, music, and seasonal rituals, the state today is also defined by growing cities, industrial centers, and a youthful population finding its voice. From cascading waterfalls and forest clearings to bustling towns and local celebrations, Jharkhand offers a raw, grounded experience—inviting you to discover a place where nature, culture, and everyday resilience remain closely connected.",
+  stateIntro:
+    "Carved from ancient forests and rolling plateaus, Jharkhand is a land where the earth itself seems alive with memory and movement. Rivers wind through rocky terrain and sal forests, shaping a landscape rich in minerals, wildlife, and enduring tribal traditions. While its cultural roots are deeply tied to indigenous communities, music, and seasonal rituals, the state today is also defined by growing cities, industrial centers, and a youthful population finding its voice. From cascading waterfalls and forest clearings to bustling towns and local celebrations, Jharkhand offers a raw, grounded experience—inviting you to discover a place where nature, culture, and everyday resilience remain closely connected.",
   categories: {
     touristPlaces: [
       {
@@ -314,28 +315,44 @@ export const jharkhand: StateData = {
     ],
     crafts: [
       {
-        title: "Sohrai & Khovar Paintings",
+        title: "Sohrai Painting",
         description:
-          "Ritualistic and geometric wall art styles done using natural colors and brushes made of twigs.",
+          "Wall paintings created by tribal women using natural earth colors, depicting animals, plants, and village life.",
       },
       {
-        title: "Dokra Art",
+        title: "Khovar Painting",
         description:
-          "Metal casting using lost-wax technique, often depicting tribal life and animals.",
+          "Ritual mural art traditionally made during weddings, featuring symbolic geometric and floral patterns.",
       },
       {
-        title: "Wood Carving & Bamboo Crafts",
+        title: "Dokra Metal Craft",
         description:
-          "Everyday tools, baskets, masks, and toys made with bamboo and wood.",
+          "Ancient lost-wax metal casting used to create figurines, lamps, and ritual objects with tribal motifs.",
       },
       {
-        title: "Stone Art (Piprajharan, Chaibasa)",
-        description: "Crafting sculptures, utensils, and religious icons.",
+        title: "Bamboo & Cane Craft",
+        description:
+          "Baskets, fish traps, and household items woven from bamboo and cane using traditional methods.",
       },
       {
-        title: "Terracotta",
+        title: "Wood Carving",
         description:
-          "Used for diyas, animal figures, and rural decorative items.",
+          "Masks, doors, and decorative items carved with tribal symbols and nature-inspired designs.",
+      },
+      {
+        title: "Stone Carving",
+        description:
+          "Hand-carved stone idols and utensils reflecting indigenous craftsmanship.",
+      },
+      {
+        title: "Tribal Jewelry",
+        description:
+          "Ornaments made from beads, silver, and natural materials, worn during festivals and ceremonies.",
+      },
+      {
+        title: "Lac Craft",
+        description:
+          "Colorful bangles and decorative items made from natural lac resin.",
       },
     ],
     trivia: [

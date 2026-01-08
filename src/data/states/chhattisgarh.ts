@@ -4,7 +4,8 @@ export const chhattisgarh: StateData = {
   id: "IN-CT",
   name: "Chhattisgarh",
   capital: "Raipur",
-  stateIntro: "Shaped by dense forests, flowing rivers, and ancient tribal heartlands, Chhattisgarh is a land where nature and community remain closely intertwined. Here, forested landscapes stretch wide, sheltering waterfalls, wildlife, and traditions that have endured through lived practice rather than written record. While its past echoes through folk art, rituals, and sacred groves, present-day Chhattisgarh moves forward through growing towns, regional crafts, and a renewed connection to its cultural roots. From quiet villages and forest paths to lively local markets and festivals, Chhattisgarh invites you to experience a state where simplicity carries depth and everyday life remains closely tied to the land.",
+  stateIntro:
+    "Shaped by dense forests, flowing rivers, and ancient tribal heartlands, Chhattisgarh is a land where nature and community remain closely intertwined. Here, forested landscapes stretch wide, sheltering waterfalls, wildlife, and traditions that have endured through lived practice rather than written record. While its past echoes through folk art, rituals, and sacred groves, present-day Chhattisgarh moves forward through growing towns, regional crafts, and a renewed connection to its cultural roots. From quiet villages and forest paths to lively local markets and festivals, Chhattisgarh invites you to experience a state where simplicity carries depth and everyday life remains closely tied to the land.",
   categories: {
     touristPlaces: [
       {
@@ -313,28 +314,44 @@ export const chhattisgarh: StateData = {
     ],
     crafts: [
       {
-        title: "Dhokra Art",
+        title: "Bell Metal (Dhokra) Craft",
         description:
-          "Non-ferrous metal casting using the lost-wax technique, globally recognized for its rustic charm.",
+          "Ancient metal casting technique used to create figurines, lamps, and ritual objects with tribal motifs.",
       },
       {
-        title: "Terracotta Crafts",
+        title: "Kosa Silk Weaving",
         description:
-          "Intricate clay figurines and pots made in Kondagaon and Raigarh regions.",
+          "Handwoven silk textiles made from Kosa cocoons, known for their natural gold sheen.",
       },
       {
-        title: "Wrought Iron Work",
+        title: "Wrought Iron Craft",
         description:
-          "Handcrafted iron items depicting tribal life and animals, used in home d\u00e9cor.",
+          "Decorative and functional items crafted from iron, inspired by rural life and tribal symbols.",
       },
       {
-        title: "Bamboo and Cane Art",
-        description: "Used for baskets, lamps, and decorative items.",
+        title: "Bamboo & Cane Craft",
+        description:
+          "Everyday items like baskets, fish traps, and mats made from locally available bamboo and cane.",
       },
       {
-        title: "Tumba Art",
+        title: "Terracotta Craft",
         description:
-          "Tribal painting on dried gourds or pumpkins, unique to Bastar.",
+          "Handmade clay figurines, pottery, and ritual objects reflecting folk beliefs and village traditions.",
+      },
+      {
+        title: "Wood Carving",
+        description:
+          "Masks, doors, and household items carved with tribal patterns and natural themes.",
+      },
+      {
+        title: "Tribal Jewelry",
+        description:
+          "Ornaments made from beads, silver, and metal, worn during festivals and ceremonies.",
+      },
+      {
+        title: "Tumba Craft",
+        description:
+          "Musical instruments and decorative items made from dried gourds, used in folk music.",
       },
     ],
     trivia: [

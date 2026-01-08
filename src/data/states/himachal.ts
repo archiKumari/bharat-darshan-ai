@@ -4,7 +4,8 @@ export const himachal: StateData = {
   id: "IN-HP",
   name: "Himachal Pradesh",
   capital: "Shimla",
-  stateIntro: "Rising from the northern plains into a sweep of forested hills and snow-lined peaks, Himachal Pradesh is a land where mountains shape both landscape and temperament. Here, rivers carve deep valleys, cedar forests hush the air, and villages cling gently to slopes, carrying traditions shaped by altitude and season. While ancient temples and pilgrimage routes anchor its spiritual past, the state today is equally defined by quiet hill towns, winding roads, and a pace of life attuned to nature rather than noise. From apple orchards and alpine meadows to lively local markets and growing cultural centers, Himachal Pradesh offers a rare blend of calm and character—inviting you to slow down, look outward, and breathe a little deeper.",
+  stateIntro:
+    "Rising from the northern plains into a sweep of forested hills and snow-lined peaks, Himachal Pradesh is a land where mountains shape both landscape and temperament. Here, rivers carve deep valleys, cedar forests hush the air, and villages cling gently to slopes, carrying traditions shaped by altitude and season. While ancient temples and pilgrimage routes anchor its spiritual past, the state today is equally defined by quiet hill towns, winding roads, and a pace of life attuned to nature rather than noise. From apple orchards and alpine meadows to lively local markets and growing cultural centers, Himachal Pradesh offers a rare blend of calm and character—inviting you to slow down, look outward, and breathe a little deeper.",
   categories: {
     touristPlaces: [
       {
@@ -323,25 +324,44 @@ export const himachal: StateData = {
     ],
     crafts: [
       {
-        title: "Pahari Miniature Paintings",
+        title: "Pahari Painting",
         description:
-          "Delicate artworks depicting Hindu deities, mythology, and court scenes.",
+          "Miniature paintings known for delicate lines and natural colors, often depicting themes of love, nature, and devotion.",
       },
       {
         title: "Kullu & Kinnauri Shawls",
-        description: "Known for their warm wool and symbolic geometric motifs.",
+        description:
+          "Handwoven woolen shawls featuring bold geometric borders and traditional motifs.",
       },
       {
-        title: "Chamba Rumals",
-        description: "Hand-embroidered square cloths with mythological scenes.",
+        title: "Chamba Rumal",
+        description:
+          "Embroidered handkerchiefs stitched with fine silk threads, illustrating mythological and folk scenes.",
       },
       {
-        title: "Wood & Stone Carvings",
-        description: "Seen in temples and traditional homes.",
+        title: "Wood Carving",
+        description:
+          "Intricately carved temple doors, balconies, and household items made from deodar wood.",
       },
       {
-        title: "Metal Craft & Bells",
-        description: "Used in temples and folk instruments.",
+        title: "Metal Craft",
+        description:
+          "Brass and copper utensils, idols, and ritual objects crafted using traditional techniques.",
+      },
+      {
+        title: "Woolen Carpets & Rugs",
+        description:
+          "Handmade floor coverings woven from sheep wool, suited to the cold mountain climate.",
+      },
+      {
+        title: "Basketry",
+        description:
+          "Utility baskets and storage items woven from locally available grass and bamboo.",
+      },
+      {
+        title: "Stone Carving",
+        description:
+          "Sculptural work seen in temples and village architecture, reflecting regional artistic styles.",
       },
     ],
     trivia: [

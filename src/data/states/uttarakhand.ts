@@ -4,7 +4,8 @@ export const uttarakhand: StateData = {
   id: "IN-UT",
   name: "Uttarakhand",
   capital: "Dehradun",
-  stateIntro: "Carved by rushing rivers and framed by the high Himalayas, Uttarakhand is a land where nature and spirituality rise together. Sacred waters descend from glaciers into forested valleys, nourishing towns and traditions that have long drawn seekers, pilgrims, and wanderers alike. While ancient shrines and mountain paths reflect its deep spiritual roots, the state today lives through vibrant hill communities, growing towns, and a strong bond with its landscapes. From mist-covered mornings and terraced fields to clear nights under star-filled skies, Uttarakhand invites you into a way of life shaped by altitude, balance, and quiet strength—where the mountains are not just seen, but deeply felt.",
+  stateIntro:
+    "Carved by rushing rivers and framed by the high Himalayas, Uttarakhand is a land where nature and spirituality rise together. Sacred waters descend from glaciers into forested valleys, nourishing towns and traditions that have long drawn seekers, pilgrims, and wanderers alike. While ancient shrines and mountain paths reflect its deep spiritual roots, the state today lives through vibrant hill communities, growing towns, and a strong bond with its landscapes. From mist-covered mornings and terraced fields to clear nights under star-filled skies, Uttarakhand invites you into a way of life shaped by altitude, balance, and quiet strength—where the mountains are not just seen, but deeply felt.",
   categories: {
     touristPlaces: [
       {
@@ -322,26 +323,44 @@ export const uttarakhand: StateData = {
     ],
     crafts: [
       {
-        title: "Ringaal & Bamboo Craft",
-        description: "Used to make baskets, mats, and daily utility items.",
-      },
-      {
-        title: "Wool Weaving & Pithoragarh Shawls",
-        description: "Handwoven woolen products with traditional motifs.",
-      },
-      {
-        title: "Wood Carving & Copper Art",
-        description:
-          "Found in temples and utensils, especially in Almora and Ranikhet.",
-      },
-      {
         title: "Aipan Art",
         description:
-          "Ritualistic floor and wall designs drawn with rice paste by Kumaoni women.",
+          "Traditional ritual floor and wall art drawn with rice paste, featuring geometric and symbolic motifs.",
       },
       {
-        title: "Stone & Metal Bells",
-        description: "Found in temples and used in rituals.",
+        title: "Ringaal Bamboo Craft",
+        description:
+          "Baskets, mats, and household items made from ringaal bamboo native to the Himalayan region.",
+      },
+      {
+        title: "Woolen Weaving",
+        description:
+          "Handwoven shawls, blankets, and carpets crafted from sheep wool for mountain climates.",
+      },
+      {
+        title: "Wood Carving",
+        description:
+          "Intricate carvings seen on temple doors, windows, and household objects using local wood.",
+      },
+      {
+        title: "Metal Craft",
+        description:
+          "Brass and copper utensils, lamps, and ritual items made using traditional techniques.",
+      },
+      {
+        title: "Stone Carving",
+        description:
+          "Sculptural work inspired by temple architecture and regional religious traditions.",
+      },
+      {
+        title: "Handmade Candles",
+        description:
+          "Decorative and scented candles crafted by local artisans, often sold in hill towns.",
+      },
+      {
+        title: "Herbal & Fiber Craft",
+        description:
+          "Eco-friendly products made from natural fibers and local herbs, reflecting sustainable practices.",
       },
     ],
     trivia: [

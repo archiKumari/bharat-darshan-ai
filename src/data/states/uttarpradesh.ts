@@ -4,7 +4,8 @@ export const uttarpradesh: StateData = {
   id: "IN-UP",
   name: "Uttar Pradesh",
   capital: "Lucknow",
-  stateIntro:"Spread across the fertile plains shaped by the Ganga and Yamuna, Uttar Pradesh is a land where spirituality, scholarship, and society have evolved together over thousands of years. It is the sacred homeland of Shri Ram and Shri Krishna, where cities such as Ayodhya, Mathura, and Vrindavan continue to breathe devotion into daily life. Yet this vast region is equally shaped by its traditions of learning, classical arts, intricate crafts, and a cuisine refined through generations. In timeless Varanasi, spirituality flows seamlessly alongside music, literature, and living ritual. Vast and populous yet deeply contemplative, Uttar Pradesh invites you to experience India at its most rooted, reverent, and alive.",
+  stateIntro:
+    "Spread across the fertile plains shaped by the Ganga and Yamuna, Uttar Pradesh is a land where spirituality, scholarship, and society have evolved together over thousands of years. It is the sacred homeland of Shri Ram and Shri Krishna, where cities such as Ayodhya, Mathura, and Vrindavan continue to breathe devotion into daily life. Yet this vast region is equally shaped by its traditions of learning, classical arts, intricate crafts, and a cuisine refined through generations. In timeless Varanasi, spirituality flows seamlessly alongside music, literature, and living ritual. Vast and populous yet deeply contemplative, Uttar Pradesh invites you to experience India at its most rooted, reverent, and alive.",
   categories: {
     touristPlaces: [
       {
@@ -318,27 +319,44 @@ export const uttarpradesh: StateData = {
     ],
     crafts: [
       {
-        title: "Chikankari Embroidery (Lucknow)",
+        title: "Chikankari Embroidery",
         description:
-          "Delicate hand embroidery on fine fabrics, globally renowned.",
+          "Delicate hand embroidery from Lucknow, known for fine white thread work on muslin and cotton fabrics.",
       },
       {
-        title: "Zardozi & Metal Crafts (Rampur & Moradabad)",
-        description: "Royal threadwork and engraved brassware.",
-      },
-      {
-        title: "Banarasi Sarees",
+        title: "Banarasi Silk Weaving",
         description:
-          "Luxurious silk sarees woven with gold and silver threads.",
+          "Luxurious silk sarees woven with gold and silver zari, featuring intricate floral and Mughal-inspired motifs.",
       },
       {
-        title: "Terracotta Art (Gorakhpur)",
-        description: "Bright red animal figurines and decorative pieces.",
-      },
-      {
-        title: "Stone Inlay (Agra)",
+        title: "Brassware (Moradabad)",
         description:
-          "Pietra dura work seen in the Taj Mahal and other monuments.",
+          "Decorative and utility items made from brass, often engraved or inlaid with intricate designs.",
+      },
+      {
+        title: "Terracotta Craft",
+        description:
+          "Clay figurines, pots, and ritual objects shaped by hand in villages and temple towns.",
+      },
+      {
+        title: "Glass Bangles (Firozabad)",
+        description:
+          "Colorful bangles made from blown and molded glass, worn widely during festivals and weddings.",
+      },
+      {
+        title: "Wood Carving",
+        description:
+          "Carved furniture, panels, and decorative items reflecting floral and geometric patterns.",
+      },
+      {
+        title: "Zardozi Embroidery",
+        description:
+          "Rich embroidery using metallic threads, beads, and sequins on garments and furnishings.",
+      },
+      {
+        title: "Stone Inlay & Carving",
+        description:
+          "Decorative stone work seen in tabletops and architectural elements, inspired by classical designs.",
       },
     ],
     trivia: [

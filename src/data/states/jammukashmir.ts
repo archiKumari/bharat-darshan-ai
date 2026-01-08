@@ -4,7 +4,8 @@ export const jammukashmir: StateData = {
   id: "IN-JK",
   name: "Jammu & Kashmir",
   capital: "Srinagar (Summer), Jammu (Winter)",
-  stateIntro: "Framed by soaring mountains, deep valleys, and winding rivers, Jammu & Kashmir is a land where nature shapes both scenery and sensibility. Snow-fed streams, alpine meadows, and orchard-filled plains create a landscape that feels expansive yet intimate, changing character with every season. While its past is woven with stories of faith, craftsmanship, and regional traditions, the region today lives through resilient communities, evolving towns, and a renewed focus on everyday life amid striking surroundings. From quiet lakesides and mountain roads to bustling local markets and cultural gatherings, Jammu & Kashmir invites you to experience a place where beauty is powerful, and life moves in close conversation with the land.",
+  stateIntro:
+    "Framed by soaring mountains, deep valleys, and winding rivers, Jammu & Kashmir is a land where nature shapes both scenery and sensibility. Snow-fed streams, alpine meadows, and orchard-filled plains create a landscape that feels expansive yet intimate, changing character with every season. While its past is woven with stories of faith, craftsmanship, and regional traditions, the region today lives through resilient communities, evolving towns, and a renewed focus on everyday life amid striking surroundings. From quiet lakesides and mountain roads to bustling local markets and cultural gatherings, Jammu & Kashmir invites you to experience a place where beauty is powerful, and life moves in close conversation with the land.",
   categories: {
     touristPlaces: [
       {
@@ -316,29 +317,44 @@ export const jammukashmir: StateData = {
     ],
     crafts: [
       {
-        title: "Pashmina Shawls",
+        title: "Kashmiri Pashmina Weaving",
         description:
-          "Made from the fine wool of Himalayan goats, handwoven in Srinagar.",
+          "Fine handwoven shawls made from soft Changthangi goat wool, prized for warmth and delicacy.",
       },
       {
-        title: "Kashmiri Carpets",
+        title: "Papier-Mâché Craft",
         description:
-          "Luxurious, hand-knotted rugs with Persian-inspired designs.",
-      },
-      {
-        title: "Papier-m\u00e2ch\u00e9 Items",
-        description:
-          "Decorative boxes and ornaments painted with gold and floral motifs.",
+          "Decorative boxes, vases, and ornaments made from paper pulp and hand-painted with floral motifs.",
       },
       {
         title: "Walnut Wood Carving",
         description:
-          "Exquisite furniture and d\u00e9cor from Anantnag and Srinagar.",
+          "Intricately carved furniture and decorative items crafted from locally sourced walnut wood.",
       },
       {
-        title: "Basohli Paintings (Jammu)",
+        title: "Kani Shawl Weaving",
         description:
-          "Vibrant miniatures known for expressive faces and bold colors.",
+          "Highly detailed shawls woven using small wooden bobbins (kanis) to create complex patterns.",
+      },
+      {
+        title: "Sozni Embroidery",
+        description:
+          "Fine needle embroidery done on shawls and garments using silk threads in subtle designs.",
+      },
+      {
+        title: "Carpet Weaving",
+        description:
+          "Hand-knotted wool and silk carpets known for rich colors and Persian-inspired patterns.",
+      },
+      {
+        title: "Copperware",
+        description:
+          "Utensils and decorative items made from copper, often engraved with traditional designs.",
+      },
+      {
+        title: "Chain Stitch Embroidery",
+        description:
+          "Bold embroidered patterns created using hook needles, commonly seen on rugs and furnishings.",
       },
     ],
     trivia: [

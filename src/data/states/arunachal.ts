@@ -4,7 +4,8 @@ export const arunachal: StateData = {
   id: "IN-AR",
   name: "Arunachal Pradesh",
   capital: "Itanagar",
-  stateIntro: "Stretching across India’s far northeastern edge, Arunachal Pradesh is a land where mountains rise steeply into cloud-filled skies and forests unfold in quiet abundance. Rivers descend from high ranges into deep valleys, shaping landscapes that feel vast, remote, and richly alive. While its many indigenous communities carry traditions rooted in nature and seasonal rhythms, present-day Arunachal Pradesh lives through small towns, evolving connectivity, and a growing sense of shared identity. From mist-laced mornings and forest trails to riverside settlements and open horizons, Arunachal Pradesh invites you to experience a place where scale inspires humility and everyday life moves gently within an expansive natural world.",
+  stateIntro:
+    "Stretching across India’s far northeastern edge, Arunachal Pradesh is a land where mountains rise steeply into cloud-filled skies and forests unfold in quiet abundance. Rivers descend from high ranges into deep valleys, shaping landscapes that feel vast, remote, and richly alive. While its many indigenous communities carry traditions rooted in nature and seasonal rhythms, present-day Arunachal Pradesh lives through small towns, evolving connectivity, and a growing sense of shared identity. From mist-laced mornings and forest trails to riverside settlements and open horizons, Arunachal Pradesh invites you to experience a place where scale inspires humility and everyday life moves gently within an expansive natural world.",
   categories: {
     touristPlaces: [
       {
@@ -310,24 +311,44 @@ export const arunachal: StateData = {
     ],
     crafts: [
       {
-        title: "Cane and Bamboo Products",
+        title: "Bamboo & Cane Craft",
         description:
-          "Furniture, baskets, hats, and mats intricately crafted by tribal artisans.",
+          "Everyday and decorative items like baskets, hats, and utensils made from locally sourced bamboo and cane.",
       },
       {
-        title: "Handloom Weaving",
+        title: "Tribal Handloom Weaving",
         description:
-          "Each tribe has distinct weaving styles, often using natural dyes and geometric patterns.",
+          "Colorful shawls and garments woven with geometric patterns unique to different tribes.",
       },
       {
-        title: "Wood Carving and Masks",
+        title: "Monpa Carpet Weaving",
         description:
-          "Used in rituals and festivals; often depict spirits or deities.",
+          "Thick woolen carpets woven by the Monpa community, often used in monasteries and homes.",
       },
       {
-        title: "Beadwork Jewelry",
+        title: "Wood Carving",
         description:
-          "Worn by women during festivals, each pattern symbolic of status or tribe.",
+          "Masks, figurines, and ritual objects carved from wood, reflecting tribal beliefs and folklore.",
+      },
+      {
+        title: "Thangka Painting",
+        description:
+          "Traditional Buddhist scroll paintings depicting deities and spiritual themes.",
+      },
+      {
+        title: "Bead & Shell Jewelry",
+        description:
+          "Handcrafted ornaments made using beads, shells, and semi-precious stones.",
+      },
+      {
+        title: "Traditional Masks",
+        description:
+          "Colorful ceremonial masks used in tribal dances and religious festivals.",
+      },
+      {
+        title: "Yak Hair Crafts",
+        description:
+          "Ropes, bags, and textiles made from yak hair in high-altitude regions.",
       },
     ],
     trivia: [

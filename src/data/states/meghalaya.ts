@@ -4,7 +4,8 @@ export const meghalaya: StateData = {
   id: "IN-ML",
   name: "Meghalaya",
   capital: "Shillong",
-  stateIntro: "Rising into mist-covered hills and rain-soaked valleys, Meghalaya is a land where clouds drift low and nature feels constantly in motion. Forested slopes, cascading waterfalls, and winding paths shape a landscape known for its freshness and quiet drama. While indigenous traditions and community life form the backbone of its cultural identity, present-day Meghalaya thrives through close-knit towns, music, and a deep respect for the natural world. From rain-washed mornings and living root bridges to lively streets and shared gatherings, Meghalaya invites you to experience a place where the earth feels alive, and life unfolds gently in step with its surroundings.",
+  stateIntro:
+    "Rising into mist-covered hills and rain-soaked valleys, Meghalaya is a land where clouds drift low and nature feels constantly in motion. Forested slopes, cascading waterfalls, and winding paths shape a landscape known for its freshness and quiet drama. While indigenous traditions and community life form the backbone of its cultural identity, present-day Meghalaya thrives through close-knit towns, music, and a deep respect for the natural world. From rain-washed mornings and living root bridges to lively streets and shared gatherings, Meghalaya invites you to experience a place where the earth feels alive, and life unfolds gently in step with its surroundings.",
   categories: {
     touristPlaces: [
       {
@@ -311,26 +312,44 @@ export const meghalaya: StateData = {
     ],
     crafts: [
       {
-        title: "Bamboo & Cane Work",
+        title: "Cane & Bamboo Craft",
         description:
-          "Baskets, mats, rain shields (knup), and fishing traps handcrafted with skill.",
+          "Baskets, stools, mats, and household items crafted from bamboo and cane using traditional Khasi and Garo techniques.",
       },
       {
-        title: "Weaving (Garo & Jaintia)",
+        title: "Eri Silk Weaving",
         description:
-          "Intricate shawls and garments with geometric tribal patterns.",
+          "Handwoven textiles made from Eri silk, valued for softness, warmth, and eco-friendly production.",
       },
       {
-        title: "Bead Jewelry & Headgear",
-        description: "Brightly colored, worn during festivals and rituals.",
+        title: "Wood Carving",
+        description:
+          "Carved panels, doors, and decorative items inspired by nature and tribal symbolism.",
       },
       {
-        title: "Wood Carving & Traditional Drums",
-        description: "Used in dances, ceremonies, and storytelling.",
+        title: "Traditional Shawl Weaving",
+        description:
+          "Colorful shawls woven with geometric patterns, worn during festivals and cultural events.",
       },
       {
-        title: "Black Pottery (Jaintia Hills)",
-        description: "Unique, unglazed pottery made from natural clay and ash.",
+        title: "Bead Jewelry",
+        description:
+          "Handcrafted necklaces and ornaments made using beads and natural materials.",
+      },
+      {
+        title: "Pottery",
+        description:
+          "Handmade earthen pots and utensils shaped using traditional village methods.",
+      },
+      {
+        title: "Metal Craft",
+        description:
+          "Simple utility and decorative items made from brass and other metals.",
+      },
+      {
+        title: "Leaf & Fiber Craft",
+        description:
+          "Eco-friendly items like mats, baskets, and wraps made from local leaves and plant fibers.",
       },
     ],
     trivia: [

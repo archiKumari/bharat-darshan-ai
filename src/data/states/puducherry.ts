@@ -4,7 +4,8 @@ export const puducherry: StateData = {
   id: "IN-PY",
   name: "Puducherry",
   capital: "Puducherry",
-  stateIntro: "Set along the southeastern coast where the sea meets quiet streets and tree-lined boulevards, Puducherry is a place where calm shapes everyday life. Its coastal setting and thoughtfully planned quarters create a rhythm that feels unhurried, reflective, and open to influence. While traces of its layered past appear in architecture, language, and lifestyle, present-day Puducherry lives through peaceful communities, creative spaces, and a strong culture of learning and introspection. From seaside promenades and cafés to tranquil neighborhoods and cultural centers, Puducherry invites you to experience a place where simplicity, reflection, and lived harmony come together with gentle ease.",
+  stateIntro:
+    "Set along the southeastern coast where the sea meets quiet streets and tree-lined boulevards, Puducherry is a place where calm shapes everyday life. Its coastal setting and thoughtfully planned quarters create a rhythm that feels unhurried, reflective, and open to influence. While traces of its layered past appear in architecture, language, and lifestyle, present-day Puducherry lives through peaceful communities, creative spaces, and a strong culture of learning and introspection. From seaside promenades and cafés to tranquil neighborhoods and cultural centers, Puducherry invites you to experience a place where simplicity, reflection, and lived harmony come together with gentle ease.",
   categories: {
     touristPlaces: [
       {
@@ -306,29 +307,44 @@ export const puducherry: StateData = {
     ],
     crafts: [
       {
-        title: "Handmade Pottery (Auroville)",
+        title: "Handmade Paper Craft",
         description:
-          "Artistic terracotta and ceramic work by community potters.",
+          "Artisanal paper products used for stationery, books, and decorative items, made using traditional methods.",
       },
       {
-        title: "Wood Carving & Furniture",
+        title: "Terracotta Craft",
         description:
-          "French-style colonial furniture made from teak and rosewood.",
+          "Hand-shaped clay pots, figurines, and lamps used for daily life and rituals.",
       },
       {
-        title: "Cotton & Linen Fabrics",
+        title: "Coconut Shell Craft",
         description:
-          "Natural dye garments and woven materials sold in boutique stores.",
+          "Utility and decorative items like bowls, lamps, and ornaments carved from coconut shells.",
       },
       {
-        title: "Leather Goods & Aromatics",
+        title: "Leather Craft",
         description:
-          "Auroville\u2019s handmade incense, perfumes, and essential oils.",
+          "Handcrafted leather bags, wallets, and accessories made by local artisans.",
       },
       {
-        title: "Pondicherry Paintings",
+        title: "Auroville Handmade Crafts",
         description:
-          "Vibrant spiritual and abstract art influenced by Ashram teachings.",
+          "Eco-friendly crafts including candles, incense, ceramics, and home décor made in Auroville communities.",
+      },
+      {
+        title: "Wood Carving",
+        description:
+          "Decorative panels and small sculptures carved from wood with simple, elegant designs.",
+      },
+      {
+        title: "Textile Block Printing",
+        description:
+          "Hand-printed fabrics using wooden blocks, featuring floral and geometric patterns.",
+      },
+      {
+        title: "Shell Craft",
+        description:
+          "Decorative items and jewelry made from sea shells collected along the coastline.",
       },
     ],
     trivia: [

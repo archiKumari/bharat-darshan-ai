@@ -4,7 +4,8 @@ export const lakshadweep: StateData = {
   id: "IN-LD",
   name: "Lakshadweep",
   capital: "Kavaratti",
-  stateIntro: "Floating in the vast blue of the Arabian Sea, Lakshadweep is a chain of coral islands where land and water exist in delicate balance. Shallow lagoons, white sands, and reef-lined shores shape a landscape that feels intimate, luminous, and closely held by the sea. Life here is guided by tides, community bonds, and a deep respect for the natural environment, creating a rhythm that is calm yet purposeful. From quiet island mornings and fishing harbors to clear waters and open skies, Lakshadweep invites you to experience a place where simplicity is shaped by nature, and distance brings a rare sense of clarity and calm.",
+  stateIntro:
+    "Floating in the vast blue of the Arabian Sea, Lakshadweep is a chain of coral islands where land and water exist in delicate balance. Shallow lagoons, white sands, and reef-lined shores shape a landscape that feels intimate, luminous, and closely held by the sea. Life here is guided by tides, community bonds, and a deep respect for the natural environment, creating a rhythm that is calm yet purposeful. From quiet island mornings and fishing harbors to clear waters and open skies, Lakshadweep invites you to experience a place where simplicity is shaped by nature, and distance brings a rare sense of clarity and calm.",
   categories: {
     touristPlaces: [
       {
@@ -301,24 +302,44 @@ export const lakshadweep: StateData = {
     ],
     crafts: [
       {
-        title: "Coconut Crafts",
-        description: "Toys and tools carved from coconut shells.",
+        title: "Coir Craft",
+        description:
+          "Ropes, mats, and household items made from coconut fiber, reflecting the islands’ coastal lifestyle.",
       },
       {
-        title: "Coir Ropes & Mats",
-        description: "Made from husks for domestic use and trade.",
+        title: "Coconut Shell Craft",
+        description:
+          "Bowls, ladles, and decorative items carved from polished coconut shells.",
+      },
+      {
+        title: "Mat Weaving",
+        description:
+          "Floor mats and sleeping mats woven from palm leaves and natural fibers.",
+      },
+      {
+        title: "Boat Model Craft",
+        description:
+          "Miniature wooden models of traditional fishing boats crafted by local artisans.",
       },
       {
         title: "Shell Jewelry",
-        description: "Polished shell necklaces and bracelets.",
+        description:
+          "Necklaces, earrings, and ornaments made using sea shells and coral-inspired designs.",
       },
       {
-        title: "Wooden Canoes",
-        description: "Used for inter-island transport and fishing.",
+        title: "Palm Leaf Handicrafts",
+        description:
+          "Baskets, fans, and utility items woven from dried palm leaves.",
       },
       {
-        title: "Lava Costumes & Drums",
-        description: "Cultural items used in Minicoy\u2019s dance rituals.",
+        title: "Wood Carving",
+        description:
+          "Simple carved household tools and decorative pieces made from local wood.",
+      },
+      {
+        title: "Traditional Fishing Gear Craft",
+        description:
+          "Handcrafted nets, traps, and tools used in traditional island fishing practices.",
       },
     ],
     trivia: [

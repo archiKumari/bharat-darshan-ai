@@ -4,7 +4,8 @@ export const sikkim: StateData = {
   id: "IN-SK",
   name: "Sikkim",
   capital: "Gangtok",
-  stateIntro: "Tucked into the eastern Himalayas, Sikkim is a land where mountains, forests, and quiet settlements create a sense of rare balance. Snow-fed rivers, terraced hillsides, and alpine valleys shape a landscape that feels intimate despite its dramatic scale. While monasteries and long-held traditions reflect its cultural depth, present-day Sikkim is equally defined by careful development, environmental awareness, and close-knit communities. From peaceful hill towns and mountain paths to lively local markets and open skies, Sikkim invites you to experience a place where harmony with nature is not an ideal, but a lived reality woven into everyday life.",
+  stateIntro:
+    "Tucked into the eastern Himalayas, Sikkim is a land where mountains, forests, and quiet settlements create a sense of rare balance. Snow-fed rivers, terraced hillsides, and alpine valleys shape a landscape that feels intimate despite its dramatic scale. While monasteries and long-held traditions reflect its cultural depth, present-day Sikkim is equally defined by careful development, environmental awareness, and close-knit communities. From peaceful hill towns and mountain paths to lively local markets and open skies, Sikkim invites you to experience a place where harmony with nature is not an ideal, but a lived reality woven into everyday life.",
   categories: {
     touristPlaces: [
       {
@@ -324,25 +325,42 @@ export const sikkim: StateData = {
       {
         title: "Thangka Painting",
         description:
-          "Tibetan Buddhist scroll paintings depicting deities and mandalas.",
+          "Traditional Buddhist scroll paintings depicting deities, mandalas, and spiritual narratives using mineral pigments.",
+      },
+      {
+        title: "Carpet Weaving",
+        description:
+          "Handwoven woolen carpets with geometric and floral patterns, commonly used in monasteries and homes.",
       },
       {
         title: "Wood Carving",
         description:
-          "Used in monasteries and home d\u00e9cor, including dragon and floral motifs.",
+          "Carved ritual objects, masks, and household items inspired by Buddhist symbols and nature.",
       },
       {
-        title: "Wool & Silk Weaving",
+        title: "Handloom Weaving",
         description:
-          "Traditional shawls, rugs, and garments made on handlooms.",
+          "Traditional textiles and shawls woven with simple patterns suited to the mountain climate.",
       },
       {
-        title: "Paper Making (Rongpa Tradition)",
-        description: "Eco-friendly handmade paper from natural fibers.",
+        title: "Thanka Frame Craft",
+        description:
+          "Ornamental wooden frames crafted specifically for Thangka paintings and religious art.",
       },
       {
-        title: "Metal Crafts & Masks",
-        description: "Used in religious rituals and Cham dances.",
+        title: "Metal Craft",
+        description:
+          "Prayer wheels, lamps, and ritual items made from brass and copper using traditional methods.",
+      },
+      {
+        title: "Traditional Jewelry",
+        description:
+          "Ornaments made from silver and semi-precious stones, worn during festivals and ceremonies.",
+      },
+      {
+        title: "Bamboo & Cane Craft",
+        description:
+          "Utility baskets, containers, and mats woven from bamboo and cane.",
       },
     ],
     trivia: [

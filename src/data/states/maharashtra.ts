@@ -4,7 +4,8 @@ export const maharashtra: StateData = {
   id: "IN-MH",
   name: "Maharashtra",
   capital: "Mumbai",
-  stateIntro: "Spreading from the Arabian Sea coastline into rolling plateaus and forested hills, Maharashtra is a state of remarkable scale and momentum. Here, ancient cave sanctuaries and hill forts coexist with some of India’s most dynamic cities, creating a landscape shaped as much by history as by ambition. While its past speaks through enduring traditions, saints, and regional cultures, present-day Maharashtra moves to a fast, confident rhythm—driven by creativity, industry, and everyday enterprise. From coastal breezes and fertile farmlands to vibrant streets and cultural hubs, Maharashtra invites you to experience a place where energy flows freely and many worlds meet, without losing their distinct character.",
+  stateIntro:
+    "Spreading from the Arabian Sea coastline into rolling plateaus and forested hills, Maharashtra is a state of remarkable scale and momentum. Here, ancient cave sanctuaries and hill forts coexist with some of India’s most dynamic cities, creating a landscape shaped as much by history as by ambition. While its past speaks through enduring traditions, saints, and regional cultures, present-day Maharashtra moves to a fast, confident rhythm—driven by creativity, industry, and everyday enterprise. From coastal breezes and fertile farmlands to vibrant streets and cultural hubs, Maharashtra invites you to experience a place where energy flows freely and many worlds meet, without losing their distinct character.",
   categories: {
     touristPlaces: [
       {
@@ -334,27 +335,42 @@ export const maharashtra: StateData = {
       {
         title: "Warli Painting",
         description:
-          "Tribal art using white motifs on mud walls depicting daily life and nature.",
+          "Tribal wall art using simple geometric shapes to depict daily life, nature, and community rituals.",
       },
       {
         title: "Paithani Sarees",
         description:
-          "Luxurious silk sarees from Paithan with gold-threaded borders and peacock designs.",
+          "Luxurious handwoven silk sarees known for rich colors and intricate peacock and floral motifs.",
       },
       {
         title: "Kolhapuri Chappals",
         description:
-          "Handcrafted leather footwear known for comfort and durability.",
+          "Handcrafted leather footwear known for durability, comfort, and traditional designs.",
       },
       {
-        title: "Bidriware (Aurangabad)",
+        title: "Sawantwadi Lacquerware",
         description:
-          "Metal inlay craft originally from Bidar, also practiced in parts of Maharashtra.",
+          "Wooden toys and decorative items crafted using lacquer and natural pigments.",
       },
       {
-        title: "Mashru & Himroo Weaving",
+        title: "Bidriware",
         description:
-          "Ornate fabric weaving styles from Aurangabad blending silk and cotton.",
+          "Metal handicrafts with silver inlay on blackened alloy surfaces, featuring geometric patterns.",
+      },
+      {
+        title: "Himroo Weaving",
+        description:
+          "Handwoven fabric combining silk and cotton, inspired by Persian motifs and patterns.",
+      },
+      {
+        title: "Copper & Brass Craft",
+        description:
+          "Utensils, lamps, and ritual objects made using traditional metalworking techniques.",
+      },
+      {
+        title: "Coconut Fiber Craft",
+        description:
+          "Ropes, mats, and utility items made from coconut coir, common in coastal regions.",
       },
     ],
     trivia: [

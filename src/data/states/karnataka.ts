@@ -4,7 +4,8 @@ export const karnataka: StateData = {
   id: "IN-KA",
   name: "Karnataka",
   capital: "Bengaluru",
-  stateIntro: "Spanning a landscape that flows from misty hills and dense forests to sunlit plateaus and a long western coastline, Karnataka is a state of striking variety and quiet depth. Ancient centers of learning, stone-built legacies, and living traditions give it a strong cultural foundation, while today its cities and towns pulse with creativity, technology, and everyday enterprise. From the calm rhythms of rural life and coffee-scented highlands to vibrant urban streets and cultural hubs, Karnataka moves comfortably between reflection and momentum. It invites you to experience a place where many worlds coexist—rooted in history, shaped by nature, and confidently engaged with the present.",
+  stateIntro:
+    "Spanning a landscape that flows from misty hills and dense forests to sunlit plateaus and a long western coastline, Karnataka is a state of striking variety and quiet depth. Ancient centers of learning, stone-built legacies, and living traditions give it a strong cultural foundation, while today its cities and towns pulse with creativity, technology, and everyday enterprise. From the calm rhythms of rural life and coffee-scented highlands to vibrant urban streets and cultural hubs, Karnataka moves comfortably between reflection and momentum. It invites you to experience a place where many worlds coexist—rooted in history, shaped by nature, and confidently engaged with the present.",
   categories: {
     touristPlaces: [
       {
@@ -323,27 +324,44 @@ export const karnataka: StateData = {
     ],
     crafts: [
       {
-        title: "Mysore Paintings",
+        title: "Mysore Silk Weaving",
         description:
-          "Intricate religious artwork made with gold leaf on wooden boards.",
+          "Luxurious silk sarees woven with fine silk and gold zari, known for rich colors and durability.",
       },
       {
-        title: "Sandalwood Carving",
+        title: "Bidriware",
         description:
-          "Decorative pieces made from aromatic wood in Mysore and Shimoga.",
+          "Metal handicrafts with silver inlay on blackened alloy surfaces, featuring floral and geometric motifs.",
+      },
+      {
+        title: "Channapatna Toys",
+        description:
+          "Brightly colored wooden toys made using natural lacquer, crafted from soft hale wood.",
       },
       {
         title: "Ilkal Sarees",
         description:
-          "Traditional cotton-silk blend sarees from northern Karnataka.",
+          "Traditional handwoven sarees recognized by distinctive borders and sturdy cotton-silk blends.",
       },
       {
-        title: "Bidriware (Bidar)",
-        description: "Metal craft with silver inlay on blackened alloy.",
+        title: "Kasuti Embroidery",
+        description:
+          "Fine hand embroidery with intricate patterns inspired by temples, chariots, and daily life.",
       },
       {
-        title: "Channapatna Toys",
-        description: "Bright lacquered wooden toys made with natural dyes.",
+        title: "Rosewood & Sandalwood Carving",
+        description:
+          "Intricately carved figurines, panels, and furniture made from rosewood and sandalwood.",
+      },
+      {
+        title: "Lambani (Banjara) Embroidery",
+        description:
+          "Colorful embroidery with mirrors, coins, and bold stitches used on garments and accessories.",
+      },
+      {
+        title: "Stone Sculpture",
+        description:
+          "Detailed stone carvings influenced by temple architecture and classical sculpture traditions.",
       },
     ],
     trivia: [

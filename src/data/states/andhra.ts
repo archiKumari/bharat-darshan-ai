@@ -4,7 +4,8 @@ export const andhra: StateData = {
   id: "IN-AP",
   name: "Andhra Pradesh",
   capital: "Amaravati",
-  stateIntro: "Stretching along India’s southeastern coast and rising inland across fertile deltas and rocky hills, Andhra Pradesh is a land shaped by rivers, resilience, and a strong sense of continuity. Here, coastal plains fed by the Krishna and Godavari nurture agriculture and trade, while temple towns and historic centers reflect a deep cultural grounding. Today, the state moves with quiet confidence—through growing cities, thriving ports, and communities that balance tradition with modern aspiration. From sunlit shores and riverbanks to bustling towns and living arts, Andhra Pradesh invites you to experience a place where heritage flows naturally into the present, and progress feels rooted rather than rushed.",
+  stateIntro:
+    "Stretching along India’s southeastern coast and rising inland across fertile deltas and rocky hills, Andhra Pradesh is a land shaped by rivers, resilience, and a strong sense of continuity. Here, coastal plains fed by the Krishna and Godavari nurture agriculture and trade, while temple towns and historic centers reflect a deep cultural grounding. Today, the state moves with quiet confidence—through growing cities, thriving ports, and communities that balance tradition with modern aspiration. From sunlit shores and riverbanks to bustling towns and living arts, Andhra Pradesh invites you to experience a place where heritage flows naturally into the present, and progress feels rooted rather than rushed.",
   categories: {
     touristPlaces: [
       {
@@ -329,25 +330,42 @@ export const andhra: StateData = {
       {
         title: "Kalamkari Art",
         description:
-          "Hand-painted or block-printed textile art using natural dyes, often with mythological themes.",
+          "Hand-painted or block-printed textile art using natural dyes, depicting mythological scenes and intricate floral patterns.",
       },
       {
         title: "Etikoppaka Toys",
         description:
-          "Lacquered wooden toys made from softwood and natural colors.",
+          "Traditional wooden toys crafted from Ankudu wood and colored using natural lacquer.",
+      },
+      {
+        title: "Uppada Jamdani Sarees",
+        description:
+          "Lightweight handwoven sarees known for their fine Jamdani technique and elegant motifs.",
+      },
+      {
+        title: "Mangalagiri Handloom",
+        description:
+          "Cotton fabrics and sarees with simple borders and durable textures, woven using traditional looms.",
       },
       {
         title: "Bidriware",
-        description: "Intricate silver inlay work on metal artifacts.",
-      },
-      {
-        title: "Nirmal Paintings",
-        description: "Elegant gold-painted artwork on wood and paper.",
-      },
-      {
-        title: "Uppada and Pochampally Sarees",
         description:
-          "Handwoven silk and cotton sarees with geometric and floral designs.",
+          "Metal handicrafts featuring silver inlay on dark alloy surfaces, known for geometric and floral designs.",
+      },
+      {
+        title: "Kondapalli Toys",
+        description:
+          "Brightly painted wooden toys depicting rural life, mythology, and folk scenes.",
+      },
+      {
+        title: "Leather Puppetry",
+        description:
+          "Traditional shadow puppets made from treated leather, used in folk storytelling performances.",
+      },
+      {
+        title: "Stone Carving",
+        description:
+          "Intricate stone sculptures inspired by temple architecture and religious symbolism.",
       },
     ],
     trivia: [

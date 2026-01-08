@@ -4,7 +4,8 @@ export const goa: StateData = {
   id: "IN-GA",
   name: "Goa",
   capital: "Panaji",
-  stateIntro: "Set along India’s western shoreline where the land meets the Arabian Sea, Goa is a place where openness defines both landscape and spirit. Palm-fringed beaches, winding rivers, and sun-warmed villages shape a setting that feels relaxed yet deeply rooted. While traces of its layered past linger in architecture, faith, and local traditions, present-day Goa lives through its easy rhythms, creative communities, and a strong connection to the sea. From quiet inland hamlets and spice-scented kitchens to lively streets and coastal sunsets, Goa offers a way of life that feels unhurried and expressive—inviting you to experience a state where freedom, culture, and everyday joy flow naturally together.",
+  stateIntro:
+    "Set along India’s western shoreline where the land meets the Arabian Sea, Goa is a place where openness defines both landscape and spirit. Palm-fringed beaches, winding rivers, and sun-warmed villages shape a setting that feels relaxed yet deeply rooted. While traces of its layered past linger in architecture, faith, and local traditions, present-day Goa lives through its easy rhythms, creative communities, and a strong connection to the sea. From quiet inland hamlets and spice-scented kitchens to lively streets and coastal sunsets, Goa offers a way of life that feels unhurried and expressive—inviting you to experience a state where freedom, culture, and everyday joy flow naturally together.",
   categories: {
     touristPlaces: [
       {
@@ -320,28 +321,44 @@ export const goa: StateData = {
     ],
     crafts: [
       {
-        title: "Azulejos Tiles",
+        title: "Azulejos Tile Art",
         description:
-          "Hand-painted Portuguese-style ceramic tiles featuring Goan scenes and motifs.",
+          "Hand-painted ceramic tiles used in homes and public spaces, featuring floral and narrative motifs.",
       },
       {
-        title: "Coconut Craft",
+        title: "Coconut Shell Craft",
         description:
-          "Carved coconut shells transformed into lamps, bowls, and decor.",
+          "Decorative and utility items like bowls, lamps, and jewelry made from polished coconut shells.",
       },
       {
-        title: "Shell Art & Marine Crafts",
-        description: "Souvenirs made from seashells, corals, and driftwood.",
+        title: "Kunbi Weaving",
+        description:
+          "Traditional handwoven textiles with simple stripes and checks, worn by the Kunbi community.",
       },
       {
-        title: "Brass & Silver Filigree Work",
+        title: "Brass & Metal Craft",
         description:
-          "Traditional ornamental craft used in jewelry and temple d\u00e9cor.",
+          "Church lamps, utensils, and decorative items crafted from brass using traditional methods.",
       },
       {
-        title: "Terracotta Pottery & Clay Idols",
+        title: "Bamboo & Cane Craft",
         description:
-          "Molded into figures of deities, animals, and everyday objects.",
+          "Baskets, mats, and household items made from bamboo and cane, common in rural Goan homes.",
+      },
+      {
+        title: "Terracotta Pottery",
+        description:
+          "Earthen pots and figurines shaped by hand, used for cooking, storage, and rituals.",
+      },
+      {
+        title: "Sea Shell Craft",
+        description:
+          "Ornaments, souvenirs, and decorative pieces made from locally collected sea shells.",
+      },
+      {
+        title: "Handmade Paper Craft",
+        description:
+          "Artisanal paper products used for stationery, books, and decorative items.",
       },
     ],
     trivia: [

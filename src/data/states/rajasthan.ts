@@ -4,7 +4,8 @@ export const rajasthan: StateData = {
   id: "IN-RJ",
   name: "Rajasthan",
   capital: "Jaipur",
-  stateIntro:"Unfolding across vast deserts, rocky hills, and fortified cities, Rajasthan is a land where history feels etched into the landscape itself. Here, sunlit sands meet towering forts, and age-old traditions continue to shape everyday life with color and pride. While its past is reflected in palaces, stepwells, and desert towns, the state today thrives through bustling cities, vibrant markets, and a culture that celebrates resilience and artistry. From camel trails and golden sunsets to music-filled evenings and lively streets, Rajasthan offers an experience both grand and grounded—inviting you to step into a world where stories still live in stone, song, and spirit.",
+  stateIntro:
+    "Unfolding across vast deserts, rocky hills, and fortified cities, Rajasthan is a land where history feels etched into the landscape itself. Here, sunlit sands meet towering forts, and age-old traditions continue to shape everyday life with color and pride. While its past is reflected in palaces, stepwells, and desert towns, the state today thrives through bustling cities, vibrant markets, and a culture that celebrates resilience and artistry. From camel trails and golden sunsets to music-filled evenings and lively streets, Rajasthan offers an experience both grand and grounded—inviting you to step into a world where stories still live in stone, song, and spirit.",
   categories: {
     touristPlaces: [
       {
@@ -319,29 +320,44 @@ export const rajasthan: StateData = {
     ],
     crafts: [
       {
-        title: "Block Printing (Bagru & Sanganer)",
-        description: "Hand-printed textiles with natural dyes.",
-      },
-      {
-        title: "Blue Pottery (Jaipur)",
-        description: "Iconic glazed pottery in blue and white patterns.",
-      },
-      {
-        title: "Miniature Paintings (Kishangarh & Mewar)",
-        description: "Detailed artworks depicting royal life and mythology.",
-      },
-      {
-        title: "Mojaris & Leatherwork",
-        description: "Colorful handcrafted shoes and bags.",
-      },
-      {
-        title: "Jewelry & Kundan Work",
+        title: "Blue Pottery",
         description:
-          "Traditional adornments including borla, nath, and bajubandh.",
+          "Distinctive glazed pottery made using quartz powder, known for blue-and-white floral and geometric designs.",
       },
       {
-        title: "Marble Carving & Lac Bangles",
-        description: "Found in Jaipur and Udaipur.",
+        title: "Kundan & Meenakari Jewelry",
+        description:
+          "Traditional jewelry crafted with gold foil and colorful enamel work, often worn during festivals and weddings.",
+      },
+      {
+        title: "Block Printing (Bagru & Sanganer)",
+        description:
+          "Hand block-printed textiles using natural dyes, featuring floral and geometric patterns.",
+      },
+      {
+        title: "Bandhej (Tie-Dye)",
+        description:
+          "Resist-dyed fabrics with fine dot patterns, commonly used for sarees, dupattas, and turbans.",
+      },
+      {
+        title: "Leather Mojari",
+        description:
+          "Handcrafted leather footwear with curved toes, decorated with embroidery and stitching.",
+      },
+      {
+        title: "Kathputli Puppetry",
+        description:
+          "Traditional wooden string puppets used in folk storytelling and performances.",
+      },
+      {
+        title: "Stone Carving",
+        description:
+          "Intricate marble and sandstone carving seen in temples, jalis, and decorative panels.",
+      },
+      {
+        title: "Lac Bangles",
+        description:
+          "Colorful bangles made from lac resin, often embellished with stones and mirrors.",
       },
     ],
     trivia: [

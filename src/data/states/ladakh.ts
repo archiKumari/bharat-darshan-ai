@@ -4,7 +4,8 @@ export const ladakh: StateData = {
   id: "IN-LA",
   name: "Ladakh",
   capital: "Leh",
-  stateIntro: "Rising high above the plains into a stark world of mountains and open sky, Ladakh is a land where scale and silence shape perception. Vast plateaus, deep valleys, and rugged passes create a landscape that feels elemental, stripped to its essentials. While ancient monasteries and trade routes speak of its historical depth, present-day Ladakh lives through resilient communities, mindful traditions, and a way of life finely tuned to altitude and climate. From wind-swept valleys and high-altitude lakes to quiet settlements and clear, star-filled nights, Ladakh invites you to experience a place where space feels expansive, time slows, and clarity emerges naturally.",
+  stateIntro:
+    "Rising high above the plains into a stark world of mountains and open sky, Ladakh is a land where scale and silence shape perception. Vast plateaus, deep valleys, and rugged passes create a landscape that feels elemental, stripped to its essentials. While ancient monasteries and trade routes speak of its historical depth, present-day Ladakh lives through resilient communities, mindful traditions, and a way of life finely tuned to altitude and climate. From wind-swept valleys and high-altitude lakes to quiet settlements and clear, star-filled nights, Ladakh invites you to experience a place where space feels expansive, time slows, and clarity emerges naturally.",
   categories: {
     touristPlaces: [
       {
@@ -319,26 +320,44 @@ export const ladakh: StateData = {
     ],
     crafts: [
       {
-        title: "Thangka Paintings",
+        title: "Thangka Painting",
         description:
-          "Intricate scrolls depicting Buddhist deities and cosmology.",
+          "Sacred Buddhist scroll paintings depicting deities, mandalas, and spiritual narratives, made with mineral pigments.",
       },
       {
-        title: "Wood Carving & Metalwork",
-        description: "Found in monasteries and traditional furniture.",
-      },
-      {
-        title: "Pashmina Wool",
+        title: "Wood Carving",
         description:
-          "Harvested from Changthangi goats and used in premium shawls.",
+          "Carved household items and religious objects created from local wood with simple, symbolic motifs.",
       },
       {
-        title: "Hand-woven Carpets",
-        description: "Featuring dragon, snow lion, and floral motifs.",
+        title: "Metal Craft",
+        description:
+          "Ritual items, prayer wheels, and utensils crafted from brass, copper, and silver.",
       },
       {
-        title: "Ceramics & Butter Sculptures",
-        description: "Used in rituals and temple offerings.",
+        title: "Pashmina Weaving",
+        description:
+          "Fine handwoven shawls made from soft Changthangi goat wool, valued for warmth and lightness.",
+      },
+      {
+        title: "Carpet Weaving",
+        description:
+          "Woolen carpets with geometric and floral patterns, traditionally used in monasteries and homes.",
+      },
+      {
+        title: "Stone Sculpture",
+        description:
+          "Religious carvings and mani stones engraved with Buddhist symbols and mantras.",
+      },
+      {
+        title: "Jewelry Craft",
+        description:
+          "Ornaments made using turquoise, coral, and silver, worn during festivals and ceremonies.",
+      },
+      {
+        title: "Yak Wool Products",
+        description:
+          "Ropes, blankets, and garments made from yak hair, suited to the high-altitude climate.",
       },
     ],
     trivia: [

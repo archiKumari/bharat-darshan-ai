@@ -4,7 +4,8 @@ export const telangana: StateData = {
   id: "IN-TG",
   name: "Telangana",
   capital: "Hyderabad",
-  stateIntro: "Rising from rocky plateaus and fertile river valleys, Telangana is a land where deep-rooted heritage meets a bold, forward-looking spirit. Ancient irrigation systems, temples, and fortresses speak of a region shaped by resilience and ingenuity, while its present-day identity is defined by fast-growing cities, innovation, and cultural confidence. At its heart, Hyderabad blends historic quarters with modern skylines, reflecting the state’s ease in carrying multiple eras at once. From lakes and forests to vibrant streets and living traditions, Telangana invites you to experience a place that is self-assured, dynamic, and firmly grounded in its own voice.",
+  stateIntro:
+    "Rising from rocky plateaus and fertile river valleys, Telangana is a land where deep-rooted heritage meets a bold, forward-looking spirit. Ancient irrigation systems, temples, and fortresses speak of a region shaped by resilience and ingenuity, while its present-day identity is defined by fast-growing cities, innovation, and cultural confidence. At its heart, Hyderabad blends historic quarters with modern skylines, reflecting the state’s ease in carrying multiple eras at once. From lakes and forests to vibrant streets and living traditions, Telangana invites you to experience a place that is self-assured, dynamic, and firmly grounded in its own voice.",
   categories: {
     touristPlaces: [
       {
@@ -332,26 +333,42 @@ export const telangana: StateData = {
       {
         title: "Pochampally Ikat",
         description:
-          "Geometric resist-dye textile patterns globally recognized for their craftsmanship.",
-      },
-      {
-        title: "Gadwal & Narayanpet Sarees",
-        description: "Known for lightweight cotton body and silk borders.",
+          "Handwoven textiles using the Ikat resist-dye technique, known for bold geometric patterns and vibrant colors.",
       },
       {
         title: "Bidriware",
         description:
-          "Metal inlay art influenced by Persian motifs, practiced in the Hyderabad-Deccan region.",
+          "Metal handicrafts with silver inlay on blackened alloy surfaces, featuring floral and geometric designs.",
       },
       {
-        title: "Nirmal Toys & Paintings",
+        title: "Nirmal Paintings",
         description:
-          "Crafted from wood and hand-painted with mythological themes.",
+          "Traditional paintings done on wooden panels using natural colors, depicting mythological and folk themes.",
       },
       {
-        title: "Cheriyal Scroll Paintings",
+        title: "Nirmal Toys",
         description:
-          "Narrative folk art that illustrates rural tales in vibrant colors.",
+          "Brightly painted wooden toys and figurines crafted from softwood, known for smooth finishes.",
+      },
+      {
+        title: "Pembarthi Brassware",
+        description:
+          "Handcrafted brass items including plates, lamps, and ritual objects made using repoussé techniques.",
+      },
+      {
+        title: "Dokra Metal Craft",
+        description:
+          "Ancient lost-wax metal casting used to create tribal figurines and decorative objects.",
+      },
+      {
+        title: "Banjara Embroidery",
+        description:
+          "Colorful embroidery with mirrors and bold stitches used on garments and accessories.",
+      },
+      {
+        title: "Stone Carving",
+        description:
+          "Granite and sandstone carving inspired by temple architecture and regional styles.",
       },
     ],
     trivia: [

@@ -4,7 +4,8 @@ export const chandigarh: StateData = {
   id: "IN-CH",
   name: "Chandigarh",
   capital: "Chandigarh",
-  stateIntro: "Set at the foothills of the Shivalik range, Chandigarh is a city shaped by clarity, order, and open space. Wide avenues, green belts, and carefully planned sectors give it a rhythm that feels balanced and deliberate, setting it apart from the chaos of many urban centers. While its origins lie in a modern vision of design and governance, present-day Chandigarh lives through vibrant neighborhoods, educational institutions, and an active public life woven into parks and promenades. From tree-lined streets and calm mornings to lively cafés and cultural spaces, Chandigarh invites you to experience a city where structure supports ease, and everyday life unfolds with quiet confidence.",
+  stateIntro:
+    "Set at the foothills of the Shivalik range, Chandigarh is a city shaped by clarity, order, and open space. Wide avenues, green belts, and carefully planned sectors give it a rhythm that feels balanced and deliberate, setting it apart from the chaos of many urban centers. While its origins lie in a modern vision of design and governance, present-day Chandigarh lives through vibrant neighborhoods, educational institutions, and an active public life woven into parks and promenades. From tree-lined streets and calm mornings to lively cafés and cultural spaces, Chandigarh invites you to experience a city where structure supports ease, and everyday life unfolds with quiet confidence.",
   categories: {
     touristPlaces: [
       {
@@ -315,26 +316,44 @@ export const chandigarh: StateData = {
     ],
     crafts: [
       {
-        title: "Rock Art Installations",
-        description:
-          "Sculptures made from ceramics, pipes, tiles, and scrap in Rock Garden.",
-      },
-      {
         title: "Phulkari Embroidery",
-        description: "Floral threadwork available in local shops and fairs.",
-      },
-      {
-        title: "Terracotta & Pottery",
-        description: "Crafts Bazaar in Sector 10 displays regional creations.",
-      },
-      {
-        title: "Handicraft Exhibitions",
-        description: "Held at Kalagram and Shilp Haat to promote artisan work.",
-      },
-      {
-        title: "Public Art & Installations",
         description:
-          "Found across gardens, parks, and roundabouts in the city.",
+          "Traditional floral embroidery using vibrant silk threads, commonly seen on dupattas and shawls.",
+      },
+      {
+        title: "Handloom Weaving",
+        description:
+          "Cotton and wool textiles woven in simple patterns, influenced by neighboring Punjab and Haryana.",
+      },
+      {
+        title: "Terracotta Craft",
+        description:
+          "Clay pots, lamps, and decorative items made by local artisans for everyday and festive use.",
+      },
+      {
+        title: "Wood Carving",
+        description:
+          "Carved furniture and decorative panels inspired by regional motifs and modern design sensibilities.",
+      },
+      {
+        title: "Metal Craft",
+        description:
+          "Brass and copper utility items such as lamps, trays, and décor pieces crafted traditionally.",
+      },
+      {
+        title: "Leather Craft",
+        description:
+          "Handcrafted leather footwear and accessories influenced by Punjabi jutti traditions.",
+      },
+      {
+        title: "Basketry",
+        description:
+          "Baskets and storage items woven from grass and reeds for household use.",
+      },
+      {
+        title: "Modern Art & Craft",
+        description:
+          "Contemporary handmade décor, pottery, and mixed-media crafts reflecting Chandigarh’s planned urban culture.",
       },
     ],
     trivia: [

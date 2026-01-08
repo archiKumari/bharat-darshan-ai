@@ -4,7 +4,8 @@ export const delhi: StateData = {
   id: "IN-DL",
   name: "Delhi",
   capital: "New Delhi",
-  stateIntro: "Resting along the banks of the Yamuna and spreading outward into a vast urban expanse, Delhi is a city where layers of time unfold side by side. Ancient paths, historic quarters, and enduring traditions coexist with fast-moving streets, modern neighborhoods, and a constant hum of activity. While its past is etched into monuments, old markets, and living memories, present-day Delhi thrives as a center of governance, culture, education, and everyday ambition. From quiet early mornings in heritage lanes to vibrant evenings filled with conversation and movement, Delhi invites you to experience a place where history does not stand apart, but moves actively within the pulse of contemporary life.",
+  stateIntro:
+    "Resting along the banks of the Yamuna and spreading outward into a vast urban expanse, Delhi is a city where layers of time unfold side by side. Ancient paths, historic quarters, and enduring traditions coexist with fast-moving streets, modern neighborhoods, and a constant hum of activity. While its past is etched into monuments, old markets, and living memories, present-day Delhi thrives as a center of governance, culture, education, and everyday ambition. From quiet early mornings in heritage lanes to vibrant evenings filled with conversation and movement, Delhi invites you to experience a place where history does not stand apart, but moves actively within the pulse of contemporary life.",
   categories: {
     touristPlaces: [
       {
@@ -322,26 +323,44 @@ export const delhi: StateData = {
     ],
     crafts: [
       {
-        title: "Zardozi & Embroidery",
+        title: "Zardozi Embroidery",
         description:
-          "Mughal-style gold thread embroidery used in sherwanis and bridal attire.",
+          "Rich embroidery using metallic threads, beads, and sequins on garments and furnishings.",
       },
       {
-        title: "Blue Pottery & Marble Work",
+        title: "Blue Pottery",
         description:
-          "Art pieces influenced by nearby Rajasthan and Agra artisans.",
+          "Glazed ceramic ware featuring blue-and-white floral and geometric designs.",
       },
       {
-        title: "Miniature Paintings & Calligraphy",
-        description: "Preserved in museums and private collections.",
+        title: "Meenakari Work",
+        description:
+          "Colorful enamel work applied to metal jewelry and decorative items.",
       },
       {
-        title: "Kite Making & Pottery",
-        description: "Traditional crafts practiced in Old Delhi.",
+        title: "Paper Mâché Craft",
+        description:
+          "Decorative boxes, trays, and ornaments made from layered paper pulp and hand-painted.",
       },
       {
-        title: "Paper M\u00e2ch\u00e9 & Wooden Toys",
-        description: "Sold in festivals and haats.",
+        title: "Metal Engraving",
+        description:
+          "Engraved brass and copper items such as trays, lamps, and décor pieces.",
+      },
+      {
+        title: "Handloom Weaving",
+        description:
+          "Woven cotton and silk textiles produced by artisan clusters within the city.",
+      },
+      {
+        title: "Stone Carving",
+        description:
+          "Carved stone décor and architectural elements inspired by classical motifs.",
+      },
+      {
+        title: "Leather Craft",
+        description:
+          "Handcrafted bags, belts, and accessories made using traditional leatherworking skills.",
       },
     ],
     trivia: [

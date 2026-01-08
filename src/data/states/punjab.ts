@@ -4,7 +4,8 @@ export const punjab: StateData = {
   id: "IN-PB",
   name: "Punjab",
   capital: "Chandigarh",
-  stateIntro:"Bathed in open skies and endless fields that sway with the seasons, Punjab is a land where life is lived out loud—with confidence, generosity, and an unshakable sense of joy. Its plains, shaped by five life-giving rivers, have long sustained a culture rooted in courage and community, inspired by the teachings of Guru Nanak. Today, cities like Amritsar and Ludhiana hum with movement—where early mornings begin with prayer, days unfold in busy streets and farmlands, and evenings rise to the rhythm of music and laughter. From its open-hearted hospitality to its bold flavors and festive spirit, Punjab invites you to experience a place that is grounded, spirited, and unmistakably alive.",
+  stateIntro:
+    "Bathed in open skies and endless fields that sway with the seasons, Punjab is a land where life is lived out loud—with confidence, generosity, and an unshakable sense of joy. Its plains, shaped by five life-giving rivers, have long sustained a culture rooted in courage and community, inspired by the teachings of Guru Nanak. Today, cities like Amritsar and Ludhiana hum with movement—where early mornings begin with prayer, days unfold in busy streets and farmlands, and evenings rise to the rhythm of music and laughter. From its open-hearted hospitality to its bold flavors and festive spirit, Punjab invites you to experience a place that is grounded, spirited, and unmistakably alive.",
   categories: {
     touristPlaces: [
       {
@@ -317,24 +318,42 @@ export const punjab: StateData = {
       {
         title: "Phulkari Embroidery",
         description:
-          "Colorful floral threadwork on dupattas and shawls, traditionally done by women.",
+          "Vibrant floral embroidery done with silk threads on shawls and dupattas, traditionally made for celebrations.",
       },
       {
         title: "Punjabi Jutti",
         description:
-          "Hand-embroidered leather footwear with mirror and thread work.",
+          "Handcrafted leather footwear decorated with embroidery and colorful stitching.",
       },
       {
-        title: "Woodwork & Inlay",
-        description: "Found in furniture, doors, and religious panels.",
+        title: "Wood Carving",
+        description:
+          "Carved doors, furniture, and decorative panels inspired by rural life and traditional motifs.",
       },
       {
-        title: "Basket Weaving & Clay Pottery",
-        description: "Rural crafts made from natural materials.",
+        title: "Durrie Weaving",
+        description:
+          "Handwoven cotton rugs and mats known for geometric patterns and everyday use.",
       },
       {
-        title: "Bangles & Glasswork (Firozpur)",
-        description: "Used in weddings and festive wear.",
+        title: "Metal Craft",
+        description:
+          "Brass and copper utensils, lamps, and ritual items crafted using traditional techniques.",
+      },
+      {
+        title: "Handloom Weaving",
+        description:
+          "Cotton and wool textiles woven in simple yet sturdy patterns for daily wear.",
+      },
+      {
+        title: "Basketry",
+        description:
+          "Baskets and storage items woven from grass and reeds for household use.",
+      },
+      {
+        title: "Traditional Musical Instruments",
+        description:
+          "Handcrafted dhols and other folk instruments used in music and celebrations.",
       },
     ],
     trivia: [

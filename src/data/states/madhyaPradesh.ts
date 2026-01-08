@@ -4,7 +4,8 @@ export const madhyaPradesh: StateData = {
   id: "IN-MP",
   name: "Madhya Pradesh",
   capital: "Bhopal",
-  stateIntro: "Resting at the very heart of India, Madhya Pradesh is a land where forests, rivers, and stone-built legacies quietly converge. Vast plateaus and dense woodlands shape a landscape rich in wildlife and natural calm, while ancient temples, rock shelters, and historic towns speak of a civilization deeply rooted in time. Today, the state unfolds through growing cities, living tribal cultures, and a strong connection to its natural surroundings. From tiger-filled reserves and winding riverbanks to heritage towns and everyday rural life, Madhya Pradesh offers a grounded, unhurried experience—inviting you to explore India’s core not as a crossroads, but as a place of depth, continuity, and quiet strength.",
+  stateIntro:
+    "Resting at the very heart of India, Madhya Pradesh is a land where forests, rivers, and stone-built legacies quietly converge. Vast plateaus and dense woodlands shape a landscape rich in wildlife and natural calm, while ancient temples, rock shelters, and historic towns speak of a civilization deeply rooted in time. Today, the state unfolds through growing cities, living tribal cultures, and a strong connection to its natural surroundings. From tiger-filled reserves and winding riverbanks to heritage towns and everyday rural life, Madhya Pradesh offers a grounded, unhurried experience—inviting you to explore India’s core not as a crossroads, but as a place of depth, continuity, and quiet strength.",
   categories: {
     touristPlaces: [
       {
@@ -331,27 +332,44 @@ export const madhyaPradesh: StateData = {
     ],
     crafts: [
       {
-        title: "Chanderi & Maheshwari Sarees",
+        title: "Gond Painting",
         description:
-          "Woven with silk and cotton, known for elegance and fine zari work.",
+          "Tribal art form using dots and lines to depict nature, animals, and folklore in vibrant colors.",
       },
       {
-        title: "Gond Art",
+        title: "Bagh Print",
         description:
-          "Tribal painting style using dots and lines to depict animals, nature, and folklore.",
+          "Hand block-printed textiles made using natural dyes, known for red and black geometric patterns.",
       },
       {
-        title: "Terracotta & Stone Carvings",
-        description: "Especially in tribal areas and temple towns.",
-      },
-      {
-        title: "Zari-Zardozi Embroidery",
-        description: "Handwork seen in bridal wear and festive garments.",
-      },
-      {
-        title: "Bamboo & Dhokra Art",
+        title: "Chanderi Weaving",
         description:
-          "Made by tribal communities for decorative and everyday use.",
+          "Fine handwoven sarees and fabrics combining silk and cotton, valued for their light texture.",
+      },
+      {
+        title: "Maheshwari Weaving",
+        description:
+          "Elegant sarees with reversible borders and distinctive striped patterns, woven on handlooms.",
+      },
+      {
+        title: "Dhokra Metal Craft",
+        description:
+          "Lost-wax metal casting used to create figurines, lamps, and ritual objects with tribal motifs.",
+      },
+      {
+        title: "Terracotta Craft",
+        description:
+          "Clay figurines, pottery, and ritual items shaped by hand in rural and tribal regions.",
+      },
+      {
+        title: "Wood Carving",
+        description:
+          "Decorative panels, masks, and furniture carved with traditional and folk-inspired designs.",
+      },
+      {
+        title: "Bamboo & Cane Craft",
+        description:
+          "Baskets, tools, and household items woven from bamboo and cane using traditional methods.",
       },
     ],
     trivia: [

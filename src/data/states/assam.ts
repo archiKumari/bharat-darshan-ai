@@ -4,7 +4,8 @@ export const assam: StateData = {
   id: "IN-AS",
   name: "Assam",
   capital: "Dispur",
-  stateIntro: "Set within broad river valleys and lush green plains, Assam is a land where water shapes both landscape and life. The Brahmaputra flows wide and steady through the state, nourishing fields, forests, and a culture closely tied to seasonal rhythms. While ancient traditions, temples, and folklore give Assam a deep cultural grounding, the present day unfolds through tea gardens, growing towns, and a vibrant mix of communities. From misty mornings along riverbanks to lively markets and festivals, Assam invites you to experience a place where nature feels generous, culture feels alive, and everyday life moves in quiet harmony with the land.",
+  stateIntro:
+    "Set within broad river valleys and lush green plains, Assam is a land where water shapes both landscape and life. The Brahmaputra flows wide and steady through the state, nourishing fields, forests, and a culture closely tied to seasonal rhythms. While ancient traditions, temples, and folklore give Assam a deep cultural grounding, the present day unfolds through tea gardens, growing towns, and a vibrant mix of communities. From misty mornings along riverbanks to lively markets and festivals, Assam invites you to experience a place where nature feels generous, culture feels alive, and everyday life moves in quiet harmony with the land.",
   categories: {
     touristPlaces: [
       {
@@ -319,27 +320,42 @@ export const assam: StateData = {
       {
         title: "Muga Silk Weaving",
         description:
-          "Exclusive golden-hued silk produced only in Assam, used in Mekhela Chadors and other garments.",
+          "Handwoven textiles made from golden Muga silk, prized for its natural sheen and durability.",
       },
       {
-        title: "Bamboo & Cane Crafts",
+        title: "Eri Silk Weaving",
         description:
-          "Widely used in making baskets, mats, and traditional tools.",
+          "Soft handloom fabric woven from Eri silk, traditionally used for shawls and garments.",
       },
       {
-        title: "Bell Metal Work",
+        title: "Jaapi (Traditional Hat)",
         description:
-          "Hajo and Sarthebari are known for making ceremonial items and utensils.",
+          "Conical bamboo hats decorated with colorful cloth and motifs, symbolizing Assamese identity.",
       },
       {
-        title: "Mask Making of Majuli",
+        title: "Cane & Bamboo Craft",
         description:
-          "Used in traditional drama (bhaona) and depicting mythological characters.",
+          "Furniture, baskets, and household items crafted from bamboo and cane using traditional techniques.",
       },
       {
-        title: "Handloom Weaving",
+        title: "Majuli Mask Making",
         description:
-          "Every household in rural Assam typically owns a loom for daily or festive wear production.",
+          "Large expressive masks made from clay, bamboo, and cloth, used in traditional theatre and performances.",
+      },
+      {
+        title: "Assamese Jewelry",
+        description:
+          "Traditional ornaments inspired by flora and fauna, often crafted in gold or silver.",
+      },
+      {
+        title: "Bell Metal Craft",
+        description:
+          "Utensils and ritual items made from bell metal, known for durability and traditional designs.",
+      },
+      {
+        title: "Wood Carving",
+        description:
+          "Decorative panels, religious objects, and household items carved from local wood.",
       },
     ],
     trivia: [

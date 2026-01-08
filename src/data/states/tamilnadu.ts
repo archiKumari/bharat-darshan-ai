@@ -4,7 +4,8 @@ export const tamilnadu: StateData = {
   id: "IN-TN",
   name: "Tamil Nadu",
   capital: "Chennai",
-  stateIntro: "Framed by a long southeastern coastline and anchored by ancient cities and fertile plains, Tamil Nadu is a land where continuity runs deep and expression takes many forms. Here, centuries-old temples, classical arts, and a living language shape a cultural identity that feels both disciplined and expansive. While its past is carried through stone, ritual, and literature, the state today moves with confidence—through thriving cities, active industries, and a society deeply engaged with education and innovation. From temple towns and coastal stretches to bustling streets and cultural centers, Tamil Nadu invites you to experience a place where tradition is not preserved in silence, but lived with pride and purpose.",
+  stateIntro:
+    "Framed by a long southeastern coastline and anchored by ancient cities and fertile plains, Tamil Nadu is a land where continuity runs deep and expression takes many forms. Here, centuries-old temples, classical arts, and a living language shape a cultural identity that feels both disciplined and expansive. While its past is carried through stone, ritual, and literature, the state today moves with confidence—through thriving cities, active industries, and a society deeply engaged with education and innovation. From temple towns and coastal stretches to bustling streets and cultural centers, Tamil Nadu invites you to experience a place where tradition is not preserved in silence, but lived with pride and purpose.",
   categories: {
     touristPlaces: [
       {
@@ -330,28 +331,44 @@ export const tamilnadu: StateData = {
     ],
     crafts: [
       {
-        title: "Tanjore Paintings",
+        title: "Tanjore Painting",
         description:
-          "Classical art with gold foil work, depicting deities and mythological scenes.",
+          "Classical panel paintings embellished with gold foil and gemstones, depicting deities and sacred themes.",
       },
       {
-        title: "Kanchipuram Silk Sarees",
-        description: "World-famous for rich zari work and intricate patterns.",
+        title: "Bronze Sculpture (Chola Style)",
+        description:
+          "Iconic metal sculptures cast using the lost-wax technique, known for balance, grace, and detail.",
       },
       {
-        title: "Bronze Statues (Swamimalai)",
+        title: "Kanchipuram Silk Weaving",
         description:
-          "Crafted using the ancient lost-wax method, especially Chola-style Natarajas.",
+          "Handwoven silk sarees celebrated for rich colors, heavy zari borders, and temple-inspired motifs.",
       },
       {
-        title: "Temple Jewelry",
+        title: "Stone Carving",
         description:
-          "Crafted in silver and gold, worn in classical dance and weddings.",
+          "Intricate granite and sandstone carvings seen in temples, pillars, and monumental architecture.",
       },
       {
-        title: "Kolam (Rangoli)",
+        title: "Palm Leaf Engraving",
         description:
-          "Symmetrical floor designs made daily with rice flour and geometric patterns.",
+          "Illustrated palm-leaf manuscripts engraved with religious texts, folk stories, and diagrams.",
+      },
+      {
+        title: "Terracotta Craft",
+        description:
+          "Clay figurines, horses, and ritual objects shaped by hand for village worship and festivals.",
+      },
+      {
+        title: "Kolam Floor Art",
+        description:
+          "Decorative geometric designs drawn with rice flour at household entrances, symbolizing prosperity.",
+      },
+      {
+        title: "Wooden Toy Making",
+        description:
+          "Handcrafted wooden toys and dolls painted in bright colors, depicting folk life and characters.",
       },
     ],
     trivia: [

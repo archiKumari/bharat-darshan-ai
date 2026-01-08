@@ -4,7 +4,8 @@ export const westbengal: StateData = {
   id: "IN-WB",
   name: "West Bengal",
   capital: "Kolkata",
-  stateIntro: "Stretching from the misty Himalayan foothills to the wide delta where rivers meet the sea, West Bengal is a land shaped by movement, thought, and creative expression. Its landscapes shift from tea gardens and hill towns to fertile plains and tidal waterways, carrying a culture known for its depth, sensitivity, and intellectual energy. While its past lives on through literature, art, and long-standing traditions, the state today thrives in lively cities, cultural festivals, and everyday conversations that value ideas as much as action. From quiet river ghats and rural landscapes to vibrant streets and artistic hubs, West Bengal invites you to experience a place where emotion, intellect, and life flow together with quiet intensity.",
+  stateIntro:
+    "Stretching from the misty Himalayan foothills to the wide delta where rivers meet the sea, West Bengal is a land shaped by movement, thought, and creative expression. Its landscapes shift from tea gardens and hill towns to fertile plains and tidal waterways, carrying a culture known for its depth, sensitivity, and intellectual energy. While its past lives on through literature, art, and long-standing traditions, the state today thrives in lively cities, cultural festivals, and everyday conversations that value ideas as much as action. From quiet river ghats and rural landscapes to vibrant streets and artistic hubs, West Bengal invites you to experience a place where emotion, intellect, and life flow together with quiet intensity.",
   categories: {
     touristPlaces: [
       {
@@ -320,25 +321,42 @@ export const westbengal: StateData = {
       {
         title: "Kantha Embroidery",
         description:
-          "Intricate threadwork on sarees and quilts done by rural women.",
+          "Traditional running-stitch embroidery used on quilts, shawls, and garments, often telling folk stories.",
       },
       {
-        title: "Terracotta Art (Bishnupur)",
-        description: "Beautiful sculpted panels on temples and pottery.",
-      },
-      {
-        title: "Shola Craft",
+        title: "Baluchari Sarees",
         description:
-          "White cork sculptures used in Durga idols and decorations.",
+          "Handwoven silk sarees known for detailed narrative motifs woven into the pallu.",
+      },
+      {
+        title: "Terracotta Craft (Bishnupur)",
+        description:
+          "Clay panels, figurines, and temple ornaments featuring intricate scenes and patterns.",
       },
       {
         title: "Dokra Metal Craft",
         description:
-          "Tribal bell metal craft from the Bengal-Jharkhand region.",
+          "Ancient lost-wax casting used to create tribal figurines and decorative objects.",
       },
       {
-        title: "Patachitra Scroll Paintings",
-        description: "Storytelling art from rural Bengal.",
+        title: "Sholapith Craft",
+        description:
+          "Delicate decorative items made from shola pith, used for idols, headgear, and ornaments.",
+      },
+      {
+        title: "Patachitra Scroll Painting",
+        description:
+          "Narrative scroll paintings accompanied by songs, depicting folk tales and mythology.",
+      },
+      {
+        title: "Clay Doll Making",
+        description:
+          "Handmade clay dolls and toys shaped and painted by artisans in rural communities.",
+      },
+      {
+        title: "Wood Carving",
+        description:
+          "Decorative panels, furniture, and masks carved with floral and folk-inspired designs.",
       },
     ],
     trivia: [

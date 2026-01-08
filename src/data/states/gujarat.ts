@@ -4,7 +4,8 @@ export const gujarat: StateData = {
   id: "IN-GJ",
   name: "Gujarat",
   capital: "Gandhinagar",
-  stateIntro: "Perched on India’s western edge along the Arabian Sea, Gujarat is a land of striking contrasts—where ancient desert salt flats meet bustling industrial ports, and time-honored traditions blend seamlessly with modern enterprise. As the birthplace of Mahatma Gandhi, it carries a profound historical legacy, yet its cities—Ahmedabad, Vadodara and Surat—throb with contemporary energy. From the snow-white expanse of the Rann of Kutch to the lush woodlands of Gir, Gujarat invites you to explore its rich tapestry of landscapes, cultures and flavors.",
+  stateIntro:
+    "Perched on India’s western edge along the Arabian Sea, Gujarat is a land of striking contrasts—where ancient desert salt flats meet bustling industrial ports, and time-honored traditions blend seamlessly with modern enterprise. As the birthplace of Mahatma Gandhi, it carries a profound historical legacy, yet its cities—Ahmedabad, Vadodara and Surat—throb with contemporary energy. From the snow-white expanse of the Rann of Kutch to the lush woodlands of Gir, Gujarat invites you to explore its rich tapestry of landscapes, cultures and flavors.",
   categories: {
     touristPlaces: [
       {
@@ -323,42 +324,42 @@ export const gujarat: StateData = {
       {
         title: "Patola Sarees (Patan)",
         description:
-          "Double ikat silk sarees, known for their geometric precision and vivid dyes.",
+          "Exquisite double-ikat silk sarees known for precise geometric patterns and vibrant natural dyes.",
+      },
+      {
+        title: "Bandhani (Tie-Dye)",
+        description:
+          "Traditional resist-dye textiles featuring tiny dot patterns on sarees, dupattas, and turbans.",
       },
       {
         title: "Rogan Art (Nirona)",
         description:
-          "Oil-based textile painting, kept alive by a single family for generations.",
+          "Oil-based textile painting created with a stylus, producing raised floral and geometric motifs.",
       },
       {
         title: "Kutchi Embroidery",
         description:
-          "Rich mirror and thread work on garments, bags, and wall hangings.",
+          "Rich mirror and thread work practiced by desert communities, used on garments and wall hangings.",
       },
       {
-        title: "Terracotta and Lacquerware",
+        title: "Wood Carving",
         description:
-          "Toys, utensils, and decorative items made in tribal villages.",
+          "Intricately carved doors, panels, and furniture reflecting temple and haveli architecture.",
+      },
+      {
+        title: "Terracotta & Clay Craft",
+        description:
+          "Handmade clay figures, pots, and ritual items crafted in rural and tribal regions.",
       },
       {
         title: "Beadwork & Silver Jewelry",
         description:
-          "Worn by Rabari and Ahir women, often passed down as heirlooms.",
+          "Ornaments crafted by Rabari and Ahir artisans, often passed down as family heirlooms.",
       },
       {
-        title: "Patola Sarees (Patan)",
+        title: "Leather Craft (Mojdi)",
         description:
-          "Double ikat silk sarees, known for their geometric precision and vivid dyes.",
-      },
-      {
-        title: "Rogan Art (Nirona)",
-        description:
-          "Oil-based textile painting, kept alive by a single family for generations.",
-      },
-      {
-        title: "Kutchi Embroidery",
-        description:
-          "Rich mirror and thread work on garments, bags, and wall hangings.",
+          "Traditional handcrafted leather footwear decorated with embroidery and mirror work.",
       },
     ],
     trivia: [

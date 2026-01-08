@@ -4,7 +4,8 @@ export const bihar: StateData = {
   id: "IN-BR",
   name: "Bihar",
   capital: "Patna",
-  stateIntro: "Spread across the fertile plains shaped by the Ganga and its tributaries, Bihar is a land where some of India’s earliest ideas took form and continue to influence everyday life. Ancient centers of learning, spiritual inquiry, and statecraft give the region a deep civilizational grounding, while its villages and towns remain closely tied to the rhythms of agriculture and river life. Today, Bihar is defined as much by its growing cities, youthful energy, and cultural revival as by its historical depth. From riverbanks and fields to bustling streets and local traditions, Bihar invites you to experience a state where continuity and change move forward side by side.",
+  stateIntro:
+    "Spread across the fertile plains shaped by the Ganga and its tributaries, Bihar is a land where some of India’s earliest ideas took form and continue to influence everyday life. Ancient centers of learning, spiritual inquiry, and statecraft give the region a deep civilizational grounding, while its villages and towns remain closely tied to the rhythms of agriculture and river life. Today, Bihar is defined as much by its growing cities, youthful energy, and cultural revival as by its historical depth. From riverbanks and fields to bustling streets and local traditions, Bihar invites you to experience a state where continuity and change move forward side by side.",
   categories: {
     touristPlaces: [
       {
@@ -319,26 +320,42 @@ export const bihar: StateData = {
       {
         title: "Madhubani Art",
         description:
-          "Done on walls or paper using twigs, matchsticks, and natural dyes; depicts gods, animals, and nature.",
+          "Traditional painting done on walls or paper using natural dyes, depicting gods, nature, and folk themes.",
       },
       {
         title: "Sikki Grass Crafts",
         description:
-          "Used to make baskets, boxes, and decorative items with golden grass.",
+          "Handmade baskets, boxes, and decorative items crafted from golden sikki grass.",
       },
       {
         title: "Lac Bangles",
-        description: "Colorful and ornate bangles often worn during festivals.",
+        description:
+          "Brightly colored bangles made from lac, commonly worn during festivals and weddings.",
       },
       {
         title: "Tikuli Art",
         description:
-          "A form of glass painting with enamel colors, traditionally seen on mirrors and plates.",
+          "Glass-based painting using enamel colors, traditionally created on mirrors and decorative plates.",
       },
       {
-        title: "Handloom Weaving",
+        title: "Bhagalpuri Silk Weaving",
         description:
-          "Bhagalpuri silk (Tussar silk) is a pride of Bihar's textile heritage.",
+          "Handloom weaving of Tussar silk, known for its natural texture and elegant finish.",
+      },
+      {
+        title: "Manjusha Art",
+        description:
+          "Folk painting style featuring bold lines and mythological stories, traditionally done on boxes and panels.",
+      },
+      {
+        title: "Wooden Toy Making",
+        description:
+          "Simple handcrafted toys made from local wood, often depicting animals and rural life.",
+      },
+      {
+        title: "Stone Pottery",
+        description:
+          "Utensils and ritual objects carved from stone, used for cooking and religious purposes.",
       },
     ],
     trivia: [

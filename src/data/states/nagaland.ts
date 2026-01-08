@@ -4,7 +4,8 @@ export const nagaland: StateData = {
   id: "IN-NL",
   name: "Nagaland",
   capital: "Kohima",
-  stateIntro: "Rising into rugged hills and forested ridges along India’s northeastern edge, Nagaland is a land where identity is shaped by community, landscape, and strong tradition. Mountain villages, winding roads, and dense greenery create a setting that feels both remote and deeply connected within. While its many tribes preserve distinct customs, languages, and art forms, present-day Nagaland lives through a vibrant youth culture, music, and growing towns that reflect a confident sense of self. From misty hilltops and village paths to lively festivals and shared gatherings, Nagaland invites you to experience a place where heritage is lived with pride and everyday life carries a bold, expressive spirit.",
+  stateIntro:
+    "Rising into rugged hills and forested ridges along India’s northeastern edge, Nagaland is a land where identity is shaped by community, landscape, and strong tradition. Mountain villages, winding roads, and dense greenery create a setting that feels both remote and deeply connected within. While its many tribes preserve distinct customs, languages, and art forms, present-day Nagaland lives through a vibrant youth culture, music, and growing towns that reflect a confident sense of self. From misty hilltops and village paths to lively festivals and shared gatherings, Nagaland invites you to experience a place where heritage is lived with pride and everyday life carries a bold, expressive spirit.",
   categories: {
     touristPlaces: [
       {
@@ -311,26 +312,44 @@ export const nagaland: StateData = {
     ],
     crafts: [
       {
-        title: "Wood Carving & Bamboo Craft",
-        description: "Masks, totems, tools, and baskets intricately crafted.",
+        title: "Naga Shawl Weaving",
+        description:
+          "Handwoven shawls with bold colors and symbolic patterns representing different tribes and social status.",
+      },
+      {
+        title: "Wood Carving",
+        description:
+          "Carved figures, masks, and household objects inspired by animals, warriors, and village life.",
+      },
+      {
+        title: "Bamboo & Cane Craft",
+        description:
+          "Baskets, mugs, mats, and storage items made from bamboo and cane for everyday use.",
       },
       {
         title: "Bead Jewelry",
         description:
-          "Tribal beadwork varies by tribe and reflects rank or role.",
+          "Necklaces and ornaments made from glass beads, seeds, and shells, worn during festivals and ceremonies.",
       },
       {
-        title: "Weaving & Shawls",
+        title: "Traditional Naga Spears & Shields",
         description:
-          "Each tribe has signature patterns; Angami and Ao shawls are especially prominent.",
+          "Decorative replicas of ceremonial weapons crafted from wood and metal with tribal motifs.",
       },
       {
-        title: "Blacksmithing & Metalwork",
-        description: "Weaponry and tools crafted traditionally in villages.",
+        title: "Basketry",
+        description:
+          "Strong, functional baskets woven in various shapes, used for farming and household work.",
       },
       {
-        title: "Pottery & Ceramics",
-        description: "Practiced mainly in Peren and other central districts.",
+        title: "Handmade Musical Instruments",
+        description:
+          "Traditional drums and instruments crafted from wood, leather, and bamboo.",
+      },
+      {
+        title: "Textile Embroidery",
+        description:
+          "Decorative stitching added to garments and accessories using traditional tribal patterns.",
       },
     ],
     trivia: [

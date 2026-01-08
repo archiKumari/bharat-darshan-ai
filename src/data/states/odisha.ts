@@ -4,7 +4,8 @@ export const odisha: StateData = {
   id: "IN-OR",
   name: "Odisha",
   capital: "Bhubaneswar",
-  stateIntro: "Shaped by a long eastern coastline, winding rivers, and forested highlands, Odisha is a land where nature and devotion move in quiet harmony. Ancient temples and sacred towns give the region a strong spiritual presence, while its villages and communities remain closely tied to seasonal rhythms, crafts, and the sea. Today, Odisha lives through growing cities, resilient coastal life, and cultural traditions that continue to evolve without losing their essence. From sunlit beaches and lush interiors to temple towns and lively local markets, Odisha offers a grounded, reflective experience—inviting you to explore a state where continuity feels calm, and life flows with steady grace.",
+  stateIntro:
+    "Shaped by a long eastern coastline, winding rivers, and forested highlands, Odisha is a land where nature and devotion move in quiet harmony. Ancient temples and sacred towns give the region a strong spiritual presence, while its villages and communities remain closely tied to seasonal rhythms, crafts, and the sea. Today, Odisha lives through growing cities, resilient coastal life, and cultural traditions that continue to evolve without losing their essence. From sunlit beaches and lush interiors to temple towns and lively local markets, Odisha offers a grounded, reflective experience—inviting you to explore a state where continuity feels calm, and life flows with steady grace.",
   categories: {
     touristPlaces: [
       {
@@ -317,26 +318,42 @@ export const odisha: StateData = {
       {
         title: "Pattachitra Painting",
         description:
-          "Intricate scroll paintings on cloth or palm leaves, often depicting Lord Jagannath and mythological scenes.",
+          "Traditional cloth-based paintings using natural colors, depicting mythological stories and temple themes.",
       },
       {
-        title: "Tarakasi (Silver Filigree)",
-        description: "Fine silver wire work, especially popular in Cuttack.",
-      },
-      {
-        title: "Pipli Appliqu\u00e9 Work",
+        title: "Applique Work (Pipili)",
         description:
-          "Colorful stitched motifs used in umbrellas, lampshades, and festival canopies.",
+          "Colorful fabric applique used for canopies, wall hangings, and decorative items, especially for temple rituals.",
+      },
+      {
+        title: "Silver Filigree (Tarakasi)",
+        description:
+          "Delicate silver wire work crafted into intricate jewelry and decorative pieces.",
       },
       {
         title: "Stone Carving",
         description:
-          "Masterful sculptures found in Konark, Bhubaneswar, and Puri.",
+          "Sculptural work inspired by temple architecture, seen in idols, panels, and decorative elements.",
       },
       {
-        title: "Horn & Lacquer Work",
+        title: "Palm Leaf Engraving",
         description:
-          "Crafts made from animal horns and polished with vibrant designs.",
+          "Engraved palm leaves featuring religious texts, folk tales, and artistic illustrations.",
+      },
+      {
+        title: "Dokra Metal Craft",
+        description:
+          "Lost-wax metal casting used to create figurines and ritual objects with tribal motifs.",
+      },
+      {
+        title: "Terracotta Craft",
+        description:
+          "Handmade clay toys, figurines, and ritual items shaped using traditional techniques.",
+      },
+      {
+        title: "Ikhat (Odisha Ikat) Weaving",
+        description:
+          "Handwoven textiles with resist-dyed yarns, known for intricate patterns and vibrant colors.",
       },
     ],
     trivia: [

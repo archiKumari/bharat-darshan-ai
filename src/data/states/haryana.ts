@@ -4,7 +4,8 @@ export const haryana: StateData = {
   id: "IN-HR",
   name: "Haryana",
   capital: "Chandigarh",
-  stateIntro:"Stretching across fertile plains between the rivers and the capital’s edge, Haryana is a land where tradition stands firm beside rapid change. Its fields and villages carry an agrarian legacy shaped by discipline, strength, and deep-rooted customs, while its towns and cities hum with modern industry and expanding skylines. Ancient sites and epic associations lend the state historical depth, yet today Haryana is equally defined by its growing urban centers, manufacturing hubs, and youthful energy. From quiet countryside mornings to fast-paced city life, Haryana presents a confident blend of the old and the new—inviting you to discover a state that moves forward without losing its grounding.",
+  stateIntro:
+    "Stretching across fertile plains between the rivers and the capital’s edge, Haryana is a land where tradition stands firm beside rapid change. Its fields and villages carry an agrarian legacy shaped by discipline, strength, and deep-rooted customs, while its towns and cities hum with modern industry and expanding skylines. Ancient sites and epic associations lend the state historical depth, yet today Haryana is equally defined by its growing urban centers, manufacturing hubs, and youthful energy. From quiet countryside mornings to fast-paced city life, Haryana presents a confident blend of the old and the new—inviting you to discover a state that moves forward without losing its grounding.",
   categories: {
     touristPlaces: [
       {
@@ -313,24 +314,42 @@ export const haryana: StateData = {
       {
         title: "Phulkari Embroidery",
         description:
-          "Colorful floral embroidery traditionally done on shawls and dupattas.",
+          "Vibrant floral embroidery done with silk threads on shawls and dupattas, symbolizing prosperity and joy.",
       },
       {
-        title: "Clay Pottery & Terracotta",
-        description: "Used for making lamps, toys, and water pots.",
-      },
-      {
-        title: "Weaving & Durries (Cotton Rugs)",
+        title: "Durrie Weaving",
         description:
-          "Made in village homes, often handwoven with geometric patterns.",
+          "Handwoven cotton rugs and mats known for geometric patterns and everyday durability.",
       },
       {
-        title: "Brass & Metal Utensils",
-        description: "Historically used for household needs and rituals.",
+        title: "Pottery & Terracotta",
+        description:
+          "Clay pots, lamps, and ritual items crafted using traditional village techniques.",
       },
       {
-        title: "Wood Carving & Basketry",
-        description: "Simple, functional crafts still found in rural homes.",
+        title: "Wood Carving",
+        description:
+          "Carved doors, furniture, and decorative panels inspired by rural and temple motifs.",
+      },
+      {
+        title: "Handloom Weaving",
+        description:
+          "Cotton and wool textiles woven in simple patterns, traditionally used for daily wear.",
+      },
+      {
+        title: "Metal Craft",
+        description:
+          "Utility items and ritual objects made from brass and iron using age-old methods.",
+      },
+      {
+        title: "Leather Footwear (Jutti)",
+        description:
+          "Traditional flat leather shoes stitched by hand, often decorated with simple embroidery.",
+      },
+      {
+        title: "Bamboo Craft",
+        description:
+          "Baskets and household items made from bamboo, commonly used in rural households.",
       },
     ],
     trivia: [

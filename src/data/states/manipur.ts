@@ -4,7 +4,8 @@ export const manipur: StateData = {
   id: "IN-MN",
   name: "Manipur",
   capital: "Imphal",
-  stateIntro: "Nestled within rolling hills and a fertile central valley, Manipur is a land where grace, rhythm, and resilience come together in quiet harmony. Encircled by forested highlands and shaped by lakes and rivers, its landscape supports a way of life deeply connected to movement—of water, of seasons, and of people. While its traditions draw strength from classical arts, indigenous customs, and community bonds, present-day Manipur lives through vibrant local life, creative expression, and a strong sense of identity. From serene mornings by Loktak Lake to lively markets and cultural gatherings, Manipur invites you to experience a place where beauty is subtle, culture is lived, and balance remains at the core of everyday life.",
+  stateIntro:
+    "Nestled within rolling hills and a fertile central valley, Manipur is a land where grace, rhythm, and resilience come together in quiet harmony. Encircled by forested highlands and shaped by lakes and rivers, its landscape supports a way of life deeply connected to movement—of water, of seasons, and of people. While its traditions draw strength from classical arts, indigenous customs, and community bonds, present-day Manipur lives through vibrant local life, creative expression, and a strong sense of identity. From serene mornings by Loktak Lake to lively markets and cultural gatherings, Manipur invites you to experience a place where beauty is subtle, culture is lived, and balance remains at the core of everyday life.",
   categories: {
     touristPlaces: [
       {
@@ -315,28 +316,44 @@ export const manipur: StateData = {
     ],
     crafts: [
       {
-        title: "Pottery (Andro & Thongjao)",
+        title: "Kauna Grass Craft",
         description:
-          "Traditional black pottery crafted without a potter\u2019s wheel.",
+          "Baskets, mats, and storage items woven from locally grown Kauna grass, known for durability and elegance.",
       },
       {
-        title: "Woven Shawls & Phaneks",
+        title: "Longpi Black Pottery",
         description:
-          "Intricate handloom garments in vibrant colors and tribal patterns.",
+          "Handmade black pottery crafted without a potter’s wheel, using serpentine stone and clay.",
+      },
+      {
+        title: "Handloom Weaving",
+        description:
+          "Traditional textiles such as phanek and shawls woven with intricate patterns and natural colors.",
+      },
+      {
+        title: "Wood Carving",
+        description:
+          "Decorative panels, masks, and ritual objects carved with motifs inspired by nature and folklore.",
       },
       {
         title: "Cane & Bamboo Craft",
         description:
-          "Baskets, mats, furniture, and decorative items made from local materials.",
+          "Utility baskets, furniture, and fishing tools made from bamboo and cane.",
       },
       {
-        title: "Jewelry Making",
+        title: "Traditional Jewelry",
         description:
-          "Unique Manipuri jewelry includes beads, silver, and tribal motifs.",
+          "Handcrafted ornaments made from beads, silver, and semi-precious stones.",
       },
       {
-        title: "Wood Carving",
-        description: "Used in temples and cultural masks for festivals.",
+        title: "Doll & Toy Making",
+        description:
+          "Handmade dolls representing local attire, dance forms, and everyday life.",
+      },
+      {
+        title: "Metal Craft",
+        description:
+          "Utensils and ceremonial objects made using traditional metalworking techniques.",
       },
     ],
     trivia: [

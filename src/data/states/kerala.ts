@@ -4,7 +4,8 @@ export const kerala: StateData = {
   id: "IN-KL",
   name: "Kerala",
   capital: "Thiruvananthapuram",
-  stateIntro: "Lined by the Arabian Sea and wrapped in lush hills and backwaters, Kerala is a land where water, greenery, and daily life flow closely together. Coconut-lined shores, winding canals, and mist-covered highlands shape a landscape that feels both abundant and intimate. While its traditions draw from ancient knowledge, wellness practices, and layered cultural influences, present-day Kerala is equally defined by high literacy, strong community life, and a thoughtful pace of living. From quiet village mornings and spice-scented kitchens to lively towns and cultural gatherings, Kerala invites you to experience a state where balance is not an idea, but a way of life.",
+  stateIntro:
+    "Lined by the Arabian Sea and wrapped in lush hills and backwaters, Kerala is a land where water, greenery, and daily life flow closely together. Coconut-lined shores, winding canals, and mist-covered highlands shape a landscape that feels both abundant and intimate. While its traditions draw from ancient knowledge, wellness practices, and layered cultural influences, present-day Kerala is equally defined by high literacy, strong community life, and a thoughtful pace of living. From quiet village mornings and spice-scented kitchens to lively towns and cultural gatherings, Kerala invites you to experience a state where balance is not an idea, but a way of life.",
   categories: {
     touristPlaces: [
       {
@@ -334,31 +335,44 @@ export const kerala: StateData = {
     ],
     crafts: [
       {
-        title: "Aranmula Kannadi",
+        title: "Kathakali Mask & Costume Craft",
         description:
-          "Handmade metal-alloy mirrors unique to Kerala, symbolizing purity and prestige.",
+          "Handcrafted masks, headgear, and accessories used in Kathakali dance, made with wood, paper, and natural pigments.",
       },
       {
-        title: "Coir Products",
-        description: "Mats, ropes, and handicrafts made from coconut fiber.",
-      },
-      {
-        title: "Ivory and Wood Carvings",
-        description: "Especially for temple art and home d\u00e9cor.",
-      },
-      {
-        title: "Mural Painting",
+        title: "Coconut Shell Craft",
         description:
-          "Detailed religious themes painted on temple walls and canvases.",
+          "Utility and decorative items like bowls, lamps, and ornaments carved from polished coconut shells.",
       },
       {
-        title: "Kasavu Sarees",
+        title: "Aranmula Metal Mirror",
         description:
-          "Off-white cotton sarees with golden borders, worn during festivals and weddings.",
+          "A unique handmade mirror cast from a special metal alloy, known for its distortion-free reflection.",
       },
       {
-        title: "Bell Metal Utensils (Uruli, Vilakku)",
-        description: "Used in temples and traditional kitchens.",
+        title: "Kasavu Weaving",
+        description:
+          "Traditional handwoven textiles with cream-colored fabric and gold borders, used in sarees and mundu.",
+      },
+      {
+        title: "Bell Metal Craft",
+        description:
+          "Utensils, lamps, and ritual objects made from bell metal using traditional casting techniques.",
+      },
+      {
+        title: "Bamboo & Reed Craft",
+        description:
+          "Baskets, mats, and household items woven from bamboo and reed, common in rural Kerala.",
+      },
+      {
+        title: "Coir Craft",
+        description:
+          "Ropes, mats, and furnishings made from coconut fiber, reflecting Kerala’s coastal economy.",
+      },
+      {
+        title: "Wood Carving",
+        description:
+          "Intricate carvings seen in temple architecture, house pillars, and decorative panels.",
       },
     ],
     trivia: [

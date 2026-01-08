@@ -4,7 +4,8 @@ export const tripura: StateData = {
   id: "IN-TR",
   name: "Tripura",
   capital: "Agartala",
-  stateIntro: "Tucked amid forested hills and fertile plains, Tripura is a land where quiet landscapes hold layers of history and living tradition. Rivers wind through green valleys, linking villages and towns that remain closely connected to the land and to one another. While ancient temples and indigenous customs reflect its deep cultural roots, present-day Tripura moves forward through growing urban centers, education, and a renewed engagement with its artistic heritage. From serene hill stretches and rural life to bustling markets and cultural spaces, Tripura invites you to experience a state where simplicity carries meaning, and everyday life unfolds with gentle continuity.",
+  stateIntro:
+    "Tucked amid forested hills and fertile plains, Tripura is a land where quiet landscapes hold layers of history and living tradition. Rivers wind through green valleys, linking villages and towns that remain closely connected to the land and to one another. While ancient temples and indigenous customs reflect its deep cultural roots, present-day Tripura moves forward through growing urban centers, education, and a renewed engagement with its artistic heritage. From serene hill stretches and rural life to bustling markets and cultural spaces, Tripura invites you to experience a state where simplicity carries meaning, and everyday life unfolds with gentle continuity.",
   categories: {
     touristPlaces: [
       {
@@ -295,25 +296,44 @@ export const tripura: StateData = {
     ],
     crafts: [
       {
+        title: "Risa Weaving",
+        description:
+          "Traditional handwoven cloth worn as a wrap or headgear, featuring symbolic tribal patterns.",
+      },
+      {
         title: "Bamboo & Cane Craft",
         description:
-          "Basketry, mats, furniture, and accessories by tribal artisans.",
+          "Baskets, furniture, and household items crafted from bamboo and cane using indigenous techniques.",
       },
       {
         title: "Handloom Weaving",
-        description: "Risa, Rignai, and shawls with tribal patterns.",
+        description:
+          "Cotton and silk textiles woven with geometric motifs, reflecting tribal and rural traditions.",
       },
       {
-        title: "Wood Carving & Clay Work",
-        description: "Idols and functional household items.",
+        title: "Terracotta Craft",
+        description:
+          "Clay figurines, ritual items, and pottery shaped by hand for daily use and festivals.",
       },
       {
-        title: "Tribal Jewelry",
-        description: "Beaded necklaces and earrings worn in rituals.",
+        title: "Wood Carving",
+        description:
+          "Masks, panels, and decorative objects carved from local wood with folk-inspired designs.",
       },
       {
-        title: "Scroll Painting",
-        description: "Art depicting deities, animals, and folk tales.",
+        title: "Traditional Jewelry",
+        description:
+          "Ornaments made from beads, silver, and natural materials, worn during cultural ceremonies.",
+      },
+      {
+        title: "Cane Furniture",
+        description:
+          "Lightweight chairs, tables, and stools woven from cane, common in Tripura homes.",
+      },
+      {
+        title: "Jute Craft",
+        description:
+          "Eco-friendly bags, mats, and decorative items made from locally sourced jute fiber.",
       },
     ],
     trivia: [
